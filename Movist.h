@@ -464,8 +464,8 @@ NSString* codecName(int codecId);
 NSString* codecDescription(int codecId);
 
 @class MainWindow;
-int runAlertPanel(MainWindow* mainWindow, NSString* title, NSString* msg,
-                  NSString* defaultButton, NSString* altButton, NSString* otherButton);
+NSModalResponse runAlertPanel(MainWindow* mainWindow, NSString* title, NSString* msg,
+                              NSString* defaultButton, NSString* altButton, NSString* otherButton);
 void runAlertPanelForOpenError(MainWindow* mainWindow, NSError* error, NSURL* url);
 
 unsigned int dragActionFromPasteboard(NSPasteboard* pboard, BOOL defaultPlay);

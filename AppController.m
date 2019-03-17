@@ -574,14 +574,14 @@ NSString* videoCodecName(int codecId);
         NSString* s = [NSString stringWithFormat:
                         NSLocalizedString(@"New version %@ is available.", nil),
                         newVersion];
-        ret = runAlertPanel(_mainWindow, s, @"",
-                            NSLocalizedString(@"Show Updates", nil),
-                            NSLocalizedString(@"Download", nil),
-                            NSLocalizedString(@"Cancel", nil));
-        if (ret == NSAlertDefaultReturn) {
+        NSModalResponse alertResponse = runAlertPanel(_mainWindow, s, @"",
+                                                      NSLocalizedString(@"Show Updates", nil),
+                                                      NSLocalizedString(@"Download", nil),
+                                                      NSLocalizedString(@"Cancel", nil));
+        if (alertResponse == NSAlertFirstButtonReturn) {
             [[NSWorkspace sharedWorkspace] openURL:homepageURL];
         }
-        else if (ret == NSAlertAlternateReturn) {
+        else if (alertResponse == NSAlertSecondButtonReturn) {
             [[NSWorkspace sharedWorkspace] openURL:downloadURL];
         }
     }

@@ -264,8 +264,8 @@ NSString* codecDescription(int codecId)
     return @"";
 }
 
-int runAlertPanel(MainWindow* mainWindow, NSString* title, NSString* msg,
-                  NSString* defaultButton, NSString* altButton, NSString* otherButton)
+NSModalResponse runAlertPanel(MainWindow* mainWindow, NSString* title, NSString* msg,
+                              NSString* defaultButton, NSString* altButton, NSString* otherButton)
 {
     BOOL alwaysOnTop = [mainWindow alwaysOnTop];
     if (alwaysOnTop) {
@@ -273,13 +273,18 @@ int runAlertPanel(MainWindow* mainWindow, NSString* title, NSString* msg,
         [mainWindow setAlwaysOnTop:FALSE];
     }
 
-    NSAlert* alert = [NSAlert alertWithMessageText:title
-                                     defaultButton:defaultButton
-                                   alternateButton:altButton
-                                       otherButton:otherButton
-                         informativeTextWithFormat:@"%@", msg];
-    int ret = [alert runModal];
-    
+    NSAlert *alert = [[NSAlert alloc] init];
+    [alert setMessageText:title];
+    [alert addButtonWithTitle:defaultButton];
+    if (altButton != nil) {
+        [alert addButtonWithTitle:altButton];
+    }
+    if (otherButton != nil) {
+        [alert addButtonWithTitle:otherButton];
+    }
+    [alert setInformativeText:[NSString stringWithFormat:@"%@", msg]];
+    NSModalResponse ret = [alert runModal];
+
     if (alwaysOnTop) {
         [mainWindow setAlwaysOnTop:TRUE];
     }
