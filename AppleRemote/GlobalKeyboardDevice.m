@@ -55,6 +55,7 @@
  mac.remotecontrols.GlobalKeyboardDevice.playhold_keycode
  */
 
+static OSStatus hotKeyEventHandler(EventHandlerCallRef inHandlerRef, EventRef inEvent, void* refCon );
 
 @implementation GlobalKeyboardDevice
 
