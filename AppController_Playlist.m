@@ -134,7 +134,7 @@
         NSData* data = [_defaults objectForKey:MPlaylistKey];
         if (data) {
             [_playlist release];
-            _playlist = [[NSKeyedUnarchiver unarchiveObjectWithData:data] retain];
+            _playlist = [[NSKeyedUnarchiver unarchivedObjectOfClass:[Playlist class] fromData:data error:nil] retain];
         }
         if (0 < [_playlist count]) {
             _lastPlayedMovieURL = [[[_playlist currentItem] movieURL] retain];
@@ -149,7 +149,7 @@
 {
     if ([_defaults boolForKey:MRememberLastPlayKey]) {
         // save last playlist, file, time & repeat-range.
-        [_defaults setObject:[NSKeyedArchiver archivedDataWithRootObject:_playlist]
+        [_defaults setObject:[NSKeyedArchiver archivedDataWithRootObject:_playlist requiringSecureCoding:NO error:nil]
                       forKey:MPlaylistKey];
         [_defaults setObject:[NSNumber numberWithFloat:_lastPlayedMovieTime]
                       forKey:MLastPlayedMovieTimeKey];

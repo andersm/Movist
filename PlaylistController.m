@@ -276,7 +276,7 @@
      toPasteboard:(NSPasteboard*)pboard
 {
     //TRACE(@"%s %@", __PRETTY_FUNCTION__, rowIndexes);
-    NSData* data = [NSKeyedArchiver archivedDataWithRootObject:rowIndexes];
+    NSData* data = [NSKeyedArchiver archivedDataWithRootObject:rowIndexes requiringSecureCoding:NO error:nil];
     [pboard declareTypes:[NSArray arrayWithObject:MPlaylistItemDataType] owner:self];
     [pboard setData:data forType:MPlaylistItemDataType];
     return TRUE;
@@ -345,7 +345,7 @@
         }
         case DRAG_ACTION_REORDER_PLAYLIST : {
             NSData* data = [pboard dataForType:MPlaylistItemDataType];
-            NSIndexSet* indexes = [NSKeyedUnarchiver unarchiveObjectWithData:data];
+            NSIndexSet* indexes = [NSKeyedUnarchiver unarchivedObjectOfClass:[NSIndexSet class] fromData:data error:nil];
             int newFirstRow = [_playlist moveItemsAtIndexes:indexes toIndex:row];
             [_tableView reloadData];
 

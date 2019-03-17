@@ -746,13 +746,13 @@ NSString* const MFontItalicAttributeName = @"MFontItalicAttributeName";
 {
     //TRACE(@"%s \"%@\"", __PRETTY_FUNCTION__, key);
     NSData* data = [self dataForKey:key];
-    return (data) ? (NSColor*)[NSUnarchiver unarchiveObjectWithData:data] : nil;
+    return (data) ? (NSColor*)[NSKeyedUnarchiver unarchivedObjectOfClass:[NSColor class] fromData:data error:nil] : nil;
 }
 
 - (void)setColor:(NSColor*)color forKey:(NSString*)key
 {
     //TRACE(@"%s %@ for \"%@\"", __PRETTY_FUNCTION__, color, key);
-    [self setObject:[NSArchiver archivedDataWithRootObject:color] forKey:key];
+    [self setObject:[NSKeyedArchiver archivedDataWithRootObject:color requiringSecureCoding:NO error:nil] forKey:key];
 }
 
 @end
