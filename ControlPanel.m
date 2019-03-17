@@ -37,7 +37,7 @@
 {
     //TRACE(@"%s", __PRETTY_FUNCTION__);
     if (self = [super initWithContentRect:contentRect
-                                styleMask:NSBorderlessWindowMask
+                                styleMask:NSWindowStyleMaskBorderless
                                   backing:bufferingType
                                     defer:deferCreation]) {
         [self initHUDWindow];

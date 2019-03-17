@@ -100,7 +100,7 @@
 {
     NSImage* bgImage = [NSImage imageNamed:@"MainLCD"];
     [bgImage drawInRect:[self bounds] fromRect:NSZeroRect
-              operation:NSCompositeSourceOver fraction:1.0];
+              operation:NSCompositingOperationSourceOver fraction:1.0];
 }
 
 @end
@@ -376,7 +376,7 @@
 - (void)setImageName:(NSString*)imageName titleColor:(NSColor*)titleColor
                                   selectedTitleColor:(NSColor*)selectedTitleColor
 {
-    if ([self controlSize] == NSRegularControlSize) {
+    if ([self controlSize] == NSControlSizeRegular) {
         _lImage         = imageNamedWithPostfix(imageName, @"SegmentedLeft");
         _lImageSelected = imageNamedWithPostfix(imageName, @"SegmentedLeftSelected");
         _mImage         = imageNamedWithPostfix(imageName, @"SegmentedMid");
@@ -385,7 +385,7 @@
         _rImageSelected = imageNamedWithPostfix(imageName, @"SegmentedRightSelected");
         _sepImage       = imageNamedWithPostfix(imageName, @"SegmentedSep");
     }
-    else if ([self controlSize] == NSSmallControlSize) {
+    else if ([self controlSize] == NSControlSizeSmall) {
         _lImage         = imageNamedWithPostfix(imageName, @"SegmentedSmallLeft");
         _lImageSelected = imageNamedWithPostfix(imageName, @"SegmentedSmallLeftSelected");
         _mImage         = imageNamedWithPostfix(imageName, @"SegmentedSmallMid");
@@ -409,9 +409,9 @@
     NSImage* lImage, *mImage, *rImage;
     if (segment == 0) {     // first segment
         switch ([self controlSize]) {
-            case NSRegularControlSize : frame.origin.x -= 11; frame.size.width += 19;   break;
-            case NSSmallControlSize   : frame.origin.x -=  8; frame.size.width += 14;   break;
-            case NSMiniControlSize    : /* not supported yet */                         break;
+            case NSControlSizeRegular : frame.origin.x -= 11; frame.size.width += 19;   break;
+            case NSControlSizeSmall   : frame.origin.x -=  8; frame.size.width += 14;   break;
+            case NSControlSizeMini    : /* not supported yet */                         break;
         }
         if ([self selectedSegment] == segment) {
             lImage = _lImageSelected; mImage = rImage = _mImageSelected;
@@ -422,9 +422,9 @@
     }
     else if (segment < [(NSSegmentedControl*)controlView segmentCount] - 1) {   // middle segments
         switch ([self controlSize]) {
-            case NSRegularControlSize : frame.origin.x -= 9; frame.size.width += 18;    break;
-            case NSSmallControlSize   : frame.origin.x -= 7; frame.size.width += 13;    break;
-            case NSMiniControlSize    : /* not supported yet */                         break;
+            case NSControlSizeRegular : frame.origin.x -= 9; frame.size.width += 18;    break;
+            case NSControlSizeSmall   : frame.origin.x -= 7; frame.size.width += 13;    break;
+            case NSControlSizeMini    : /* not supported yet */                         break;
         }
         if ([self selectedSegment] == segment) {
             lImage = _sepImage; mImage = rImage = _mImageSelected;
@@ -435,9 +435,9 @@
     }
     else {  // last segment
         switch ([self controlSize]) {
-            case NSRegularControlSize : frame.origin.x -= 9; frame.size.width += 19;    break;
-            case NSSmallControlSize   : frame.origin.x -= 7; frame.size.width += 15;    break;
-            case NSMiniControlSize    : /* not supported yet */                         break;
+            case NSControlSizeRegular : frame.origin.x -= 9; frame.size.width += 19;    break;
+            case NSControlSizeSmall   : frame.origin.x -= 7; frame.size.width += 15;    break;
+            case NSControlSizeMini    : /* not supported yet */                         break;
         }
         if ([self selectedSegment] == segment) {
             lImage = _sepImage; mImage = _mImageSelected; rImage = _rImageSelected;
@@ -451,15 +451,15 @@
 
     NSMutableParagraphStyle* paragraphStyle;
     paragraphStyle = [[[NSMutableParagraphStyle alloc] init] autorelease];
-    [paragraphStyle setAlignment:NSCenterTextAlignment];
+    [paragraphStyle setAlignment:NSTextAlignmentCenter];
     NSDictionary* attrs = [NSDictionary dictionaryWithObjectsAndKeys:
                            titleColor, NSForegroundColorAttributeName,
                            paragraphStyle, NSParagraphStyleAttributeName,
                            nil];
     switch ([self controlSize]) {
-        case NSRegularControlSize : frame.origin.y += 2; frame.size.height -= 2;    break;
-        case NSSmallControlSize   : frame.origin.y += 1; frame.size.height -= 2;    break;
-        case NSMiniControlSize    : /* not supported yet */                         break;
+        case NSControlSizeRegular : frame.origin.y += 2; frame.size.height -= 2;    break;
+        case NSControlSizeSmall   : frame.origin.y += 1; frame.size.height -= 2;    break;
+        case NSControlSizeMini    : /* not supported yet */                         break;
     }
     [[self labelForSegment:segment] drawInRect:frame withAttributes:attrs];
 }
@@ -740,7 +740,7 @@
 - (id)initWithCoder:(NSCoder*)decoder
 {
     if (self = [super initWithCoder:decoder]) {
-        float offset = ([self controlSize] == NSRegularControlSize) ? 3 : 1;
+        float offset = ([self controlSize] == NSControlSizeRegular) ? 3 : 1;
         [self setImageName:@"HUD" titleColor:HUDButtonTextColor titleOffset:offset];
     }
     return self;
@@ -750,7 +750,7 @@
 {
     [super copyAttributesFromCell:cell];
 
-    float offset = ([self controlSize] == NSRegularControlSize) ? 3 : 1;
+    float offset = ([self controlSize] == NSControlSizeRegular) ? 3 : 1;
     [self setImageName:@"HUD" titleColor:HUDButtonTextColor titleOffset:offset];
 }
 

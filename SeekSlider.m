@@ -257,7 +257,7 @@
 - (void)initToolTipWithTextColor:(NSColor*)textColor backColor:(NSColor*)backColor
 {
     NSPanel* window = [[NSPanel alloc] initWithContentRect:NSMakeRect(0, 0, 58, 14)
-                                                 styleMask:NSBorderlessWindowMask
+                                                 styleMask:NSWindowStyleMaskBorderless
                                                    backing:NSBackingStoreBuffered
                                                      defer:TRUE];
     [window setOpaque:FALSE];
@@ -269,7 +269,7 @@
     [window setLevel:[[self window] level] + 1];
 
     _toolTipTextField = [[NSTextField alloc] initWithFrame:NSZeroRect];
-    [_toolTipTextField setAlignment:NSCenterTextAlignment];
+    [_toolTipTextField setAlignment:NSTextAlignmentCenter];
     [_toolTipTextField setEditable:FALSE];
     [_toolTipTextField setSelectable:FALSE];
     [_toolTipTextField setBezeled:FALSE];
@@ -353,7 +353,7 @@
 {
     //TRACE(@"%s %.1f", __PRETTY_FUNCTION__, duration);
     [(SeekSliderCell*)[self cell] setIndexedDuration:duration];
-    [self setNeedsDisplay];
+    [self setNeedsDisplay: YES];
 }
 
 - (BOOL)repeatEnabled    { return [(SeekSliderCell*)[self cell] repeatEnabled]; }
@@ -365,28 +365,28 @@
 {
     //TRACE(@"%s %.1f ~ %.1f", __PRETTY_FUNCTION__, range.location, NSMaxRange(range));
     [(SeekSliderCell*)[self cell] setRepeatRange:range];
-    [self setNeedsDisplay];
+    [self setNeedsDisplay: YES];
 }
 
 - (void)setRepeatBeginning:(float)beginning
 {
     //TRACE(@"%s %.1f", __PRETTY_FUNCTION__, beginning);
     [(SeekSliderCell*)[self cell] setRepeatBeginning:beginning];
-    [self setNeedsDisplay];
+    [self setNeedsDisplay: YES];
 }
 
 - (void)setRepeatEnd:(float)end
 {
     //TRACE(@"%s %.1f", __PRETTY_FUNCTION__, end);
     [(SeekSliderCell*)[self cell] setRepeatEnd:end];
-    [self setNeedsDisplay];
+    [self setNeedsDisplay: YES];
 }
 
 - (void)clearRepeat
 {
     //TRACE(@"%s", __PRETTY_FUNCTION__);
     [(SeekSliderCell*)[self cell] clearRepeat];
-    [self setNeedsDisplay];
+    [self setNeedsDisplay: YES];
 }
 
 @end

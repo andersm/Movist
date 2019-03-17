@@ -168,7 +168,7 @@
 - (BOOL)isUpdateSystemVolume
 {
     if (_checkForAltVolumeChange &&
-        ([[NSApp currentEvent] modifierFlags] & NSAlternateKeyMask)) {
+        ([[NSApp currentEvent] modifierFlags] & NSEventModifierFlagOption)) {
         return ![_defaults boolForKey:MUpdateSystemVolumeKey];
     }
     return [_defaults boolForKey:MUpdateSystemVolumeKey];
@@ -200,7 +200,7 @@
 - (void)setVolume:(float)volume
 {
     //TRACE(@"%s %f %g", __PRETTY_FUNCTION__, volume, volume);
-    if ([_muteButton state] == NSOnState) {
+    if ([_muteButton state] == NSControlStateValueOn) {
         [self setMuted:FALSE];
     }
 
@@ -279,7 +279,7 @@
         muted = FALSE;
     }
 
-    int state = (muted) ? NSOnState : NSOffState;
+    int state = (muted) ? NSControlStateValueOn : NSControlStateValueOff;
     if ([_muteMenuItem state] != state) {
         [_muteMenuItem setState:state];
     }
@@ -457,7 +457,7 @@
     else {
         // insert before rotation item
         MTrack* track;
-        unsigned int mask = NSCommandKeyMask | NSShiftKeyMask;
+        unsigned int mask = NSEventModifierFlagCommand | NSEventModifierFlagShift;
         unsigned int i, count = [tracks count];
         for (i = 0; i < count; i++) {
             track = [tracks objectAtIndex:i];
@@ -553,7 +553,7 @@
 {
     //TRACE(@"%s", __PRETTY_FUNCTION__);
     _checkForAltVolumeChange = FALSE;
-    [self setMuted:([_muteMenuItem state] == NSOffState)];
+    [self setMuted:([_muteMenuItem state] == NSControlStateValueOff)];
     _checkForAltVolumeChange = TRUE;
 }
 

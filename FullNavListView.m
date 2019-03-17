@@ -148,15 +148,15 @@
             rc.origin.x = 0; rc.size.width = [lImage size].width;
             rc.origin.y = 0; rc.size.height = size.height;
             [lImage drawInRect:rc fromRect:NSZeroRect
-                     operation:NSCompositeSourceOver fraction:1.0];
+                     operation:NSCompositingOperationSourceOver fraction:1.0];
             rc.origin.x = size.width - [rImage size].width;
             rc.size.width = [rImage size].width;
             [rImage drawInRect:rc fromRect:NSZeroRect
-                     operation:NSCompositeSourceOver fraction:1.0];
+                     operation:NSCompositingOperationSourceOver fraction:1.0];
             rc.origin.x = [lImage size].width;
             rc.size.width = size.width - [lImage size].width - [rImage size].width;
             [cImage drawInRect:rc fromRect:NSZeroRect
-                     operation:NSCompositeSourceOver fraction:1.0];
+                     operation:NSCompositingOperationSourceOver fraction:1.0];
             //[[NSColor redColor] set];
             //NSFrameRect([self bounds]);
         [_bgImage unlockFocus];
@@ -173,7 +173,7 @@
 - (void)drawRect:(NSRect)rect
 {
     [_bgImage drawInRect:[self bounds] fromRect:NSZeroRect
-               operation:NSCompositePlusLighter fraction:1.0];
+               operation:NSCompositingOperationPlusLighter fraction:1.0];
 }
 
 @end

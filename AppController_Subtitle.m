@@ -521,7 +521,7 @@
     else {
         MSubtitle* subtitle;
         NSString* keyEquivalent;
-        unsigned int mask = NSCommandKeyMask | NSControlKeyMask;
+        unsigned int mask = NSEventModifierFlagCommand | NSEventModifierFlagControl;
         unsigned int i, mi, count = [_subtitles count];
         for (i = mi = 0; i < count; i++) {
             subtitle = [_subtitles objectAtIndex:i];
@@ -576,7 +576,7 @@
     INIT_SUBTITLE_POSITION_MENUITEMS
 
     #define SUBTITLE_POSITION_MENUITEM_SET_STATE(item)    \
-        [item setState:([item tag] == position) ? NSOnState : NSOffState]
+        [item setState:([item tag] == position) ? NSControlStateValueOn : NSControlStateValueOff]
 
     SUBTITLE_POSITION_MENUITEM_SET_STATE(uboxItem);
     SUBTITLE_POSITION_MENUITEM_SET_STATE(topItem);
@@ -591,7 +591,7 @@
     INIT_LETTER_BOX_HEIGHT_MENUITEMS
 
     #define LETTER_BOX_HEIGHT_MENUITEM_SET_STATE(item)    \
-        [item setState:([item tag] == height) ? NSOnState : NSOffState]
+        [item setState:([item tag] == height) ? NSControlStateValueOn : NSControlStateValueOff]
 
     int height = (_movie) ? [_movieView letterBoxHeight] : -10; // -10 for no check
     LETTER_BOX_HEIGHT_MENUITEM_SET_STATE(sameItem);

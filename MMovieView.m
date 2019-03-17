@@ -200,7 +200,7 @@
     //TRACE(@"%s \"%@\" (modifierFlags=%u)", __PRETTY_FUNCTION__,
     //      [event characters], [event modifierFlags]);
     unichar key = [[event characters] characterAtIndex:0];
-    BOOL shiftPressed = ([event modifierFlags] & NSShiftKeyMask) ? TRUE : FALSE;
+    BOOL shiftPressed = ([event modifierFlags] & NSEventModifierFlagShift) ? TRUE : FALSE;
     switch (key) {
         case ' ' :  // space: toggle play/pause
             [(AppController*)[NSApp delegate] playAction:self];

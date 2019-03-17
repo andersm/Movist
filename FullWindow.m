@@ -66,7 +66,7 @@
 - (id)initWithScreen:(NSScreen*)screen playPanel:(PlayPanel*)playPanel
 {
     //TRACE(@"%s", __PRETTY_FUNCTION__);
-    unsigned int styleMask = NSBorderlessWindowMask;
+    unsigned int styleMask = NSWindowStyleMaskBorderless;
 #if defined(AVAILABLE_MAC_OS_X_VERSION_10_5_AND_LATER)
     styleMask |= NSUnscaledWindowMask;
 #endif
@@ -78,7 +78,6 @@
                                     defer:FALSE
                                    screen:screen]) {
         [self setAutorecalculatesKeyViewLoop:TRUE];
-        [self useOptimizedDrawing:TRUE];
         [self setHasShadow:FALSE];
         [self setContentView:[[[FullView alloc] initWithFrame:NSZeroRect] autorelease]];
 

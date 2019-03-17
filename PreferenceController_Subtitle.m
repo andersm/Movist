@@ -112,7 +112,7 @@
     NSMutableDictionary* attrs = [NSMutableDictionary dictionaryWithCapacity:3];
     
     NSMutableParagraphStyle* paragraphStyle = [[NSMutableParagraphStyle alloc] init];
-    [paragraphStyle setAlignment:NSCenterTextAlignment];
+    [paragraphStyle setAlignment:NSTextAlignmentCenter];
     [attrs setObject:[paragraphStyle autorelease] forKey:NSParagraphStyleAttributeName];
     
     NSString* name = [_defaults stringForKey:MSubtitleFontNameKey];

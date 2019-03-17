@@ -64,30 +64,30 @@
 
 - (NSData*)dataWithImage:(NSImage*)image
 {
-    NSBitmapImageFileType fileType = NSTIFFFileType;
+    NSBitmapImageFileType fileType = NSBitmapImageFileTypeTIFF;
     NSMutableDictionary* properties = [NSMutableDictionary dictionary];
     if (_captureFormat == CAPTURE_FORMAT_TIFF) {
-        fileType = NSTIFFFileType;
+        fileType = NSBitmapImageFileTypeTIFF;
         //[properties setObject:??? forKey:NSImageColorSyncProfileData];
         //[properties setObject:??? forKey:NSImageCompressionMethod];
     }
     else if (_captureFormat == CAPTURE_FORMAT_JPEG) {
-        fileType = NSJPEGFileType;
+        fileType = NSBitmapImageFileTypeJPEG;
         //[properties setObject:??? forKey:NSImageColorSyncProfileData];
         //[properties setObject:[NSNumber numberWithFloat:0.9] forKey:NSImageCompressionFactor];
         //[properties setObject:??? forKey:NSImageProgressive];
     }
     else if (_captureFormat == CAPTURE_FORMAT_PNG) {
-        fileType = NSPNGFileType;
+        fileType = NSBitmapImageFileTypePNG;
         //[properties setObject:??? forKey:NSImageColorSyncProfileData];
         //[properties setObject:??? forKey:NSImageGamma];
         //[properties setObject:??? forKey:NSImageInterlaced];
     }
     else if (_captureFormat == CAPTURE_FORMAT_BMP) {
-        fileType = NSBMPFileType;
+        fileType = NSBitmapImageFileTypeBMP;
     }
     else if (_captureFormat == CAPTURE_FORMAT_GIF) {
-        fileType = NSGIFFileType;
+        fileType = NSBitmapImageFileTypeGIF;
         //[properties setObject:??? forKey:NSImageColorSyncProfileData];
         //[properties setObject:??? forKey:NSImageDitherTransparency];
         //[properties setObject:??? forKey:NSImageRGBColorTable];
@@ -131,8 +131,8 @@
 {
     NSImage* image = [self captureRect:[self rectForCapture:alternative]];
     NSPasteboard* pboard = [NSPasteboard generalPasteboard];
-    [pboard declareTypes:[NSArray arrayWithObject:NSTIFFPboardType] owner:self];
-    [pboard setData:[self dataWithImage:image] forType:NSTIFFPboardType];
+    [pboard declareTypes:[NSArray arrayWithObject:NSPasteboardTypeTIFF] owner:self];
+    [pboard setData:[self dataWithImage:image] forType:NSPasteboardTypeTIFF];
 }
 
 - (void)saveCurrentImage:(BOOL)alternative
@@ -156,8 +156,8 @@
 
 - (int)viewDragActionWithModifierFlags:(unsigned int)flags
 {
-    return (flags & NSControlKeyMask)   ? VIEW_DRAG_ACTION_MOVE_WINDOW :
-           (flags & NSAlternateKeyMask) ? VIEW_DRAG_ACTION_CAPTURE_MOVIE :
+    return (flags & NSEventModifierFlagControl)   ? VIEW_DRAG_ACTION_MOVE_WINDOW :
+           (flags & NSEventModifierFlagOption) ? VIEW_DRAG_ACTION_CAPTURE_MOVIE :
                                           _viewDragAction;
 }
 
@@ -178,7 +178,7 @@
         }
     }
     else if (action == VIEW_DRAG_ACTION_CAPTURE_MOVIE) {
-        BOOL alt = ([event modifierFlags] & NSShiftKeyMask) ? TRUE : FALSE;
+        BOOL alt = ([event modifierFlags] & NSEventModifierFlagShift) ? TRUE : FALSE;
         _captureImage = [[self captureRect:[self rectForCapture:alt]] retain];
 
 //#define _REAL_SIZE_DRAGGING

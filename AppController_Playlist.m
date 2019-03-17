@@ -194,7 +194,7 @@
     }
     if (![self playlistWindowVisible]) {
         BOOL floating = [_defaults boolForKey:MFloatingPlaylistKey];
-        if (([[NSApp currentEvent] modifierFlags] & NSShiftKeyMask)) {
+        if (([[NSApp currentEvent] modifierFlags] & NSEventModifierFlagShift)) {
             floating = !floating;
         }
         if ([self isFullScreen] || [self isDesktopBackground] || floating) {

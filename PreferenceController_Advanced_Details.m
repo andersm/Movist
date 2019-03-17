@@ -123,7 +123,7 @@
 - (NSCell*)settingCell
 {
     CategoryCell* cell = [[CategoryCell alloc] initTextCell:@""];
-    [cell setControlSize:NSSmallControlSize];
+    [cell setControlSize:NSControlSizeSmall];
     [cell setEditable:FALSE];
     return [cell autorelease];
 }
@@ -168,7 +168,7 @@
 - (NSCell*)settingCell
 {
     NSTextFieldCell* cell = [[NSTextFieldCell alloc] initTextCell:@""];
-    [cell setControlSize:NSSmallControlSize];
+    [cell setControlSize:NSControlSizeSmall];
     [cell setEditable:FALSE];
     return [cell autorelease];
 }
@@ -210,8 +210,8 @@
 - (NSCell*)valueCell
 {
     NSButtonCell* cell = [[NSButtonCell alloc] initTextCell:@""];
-    [cell setControlSize:NSSmallControlSize];
-    [cell setButtonType:NSSwitchButton];
+    [cell setControlSize:NSControlSizeSmall];
+    [cell setButtonType:NSButtonTypeSwitch];
     return [cell autorelease];
 }
 
@@ -276,7 +276,7 @@
     }
     NSTextFieldCell* cell = [[NSTextFieldCell alloc] initTextCell:@""];
     [cell setFormatter:[formatter autorelease]];
-    [cell setControlSize:NSSmallControlSize];
+    [cell setControlSize:NSControlSizeSmall];
     [cell setEditable:TRUE];
     return [cell autorelease];
 }
@@ -318,7 +318,7 @@
 - (NSCell*)valueCell
 {
     NSTextFieldCell* cell = [[NSTextFieldCell alloc] initTextCell:@""];
-    [cell setControlSize:NSSmallControlSize];
+    [cell setControlSize:NSControlSizeSmall];
     [cell setLineBreakMode:NSLineBreakByTruncatingTail];
     [cell setEditable:TRUE];
     return [cell autorelease];
@@ -376,7 +376,7 @@
 - (NSCell*)valueCell
 {
     NSPopUpButtonCell* cell = [[NSPopUpButtonCell alloc] initTextCell:@""];
-    [cell setControlSize:NSSmallControlSize];
+    [cell setControlSize:NSControlSizeSmall];
     [cell addItemsWithTitles:_titles];
     [cell setBordered:FALSE];
     return [cell autorelease];

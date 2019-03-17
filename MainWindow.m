@@ -49,7 +49,6 @@
     _alwaysOnTop = FALSE;
 
     [self setDelegate:self];
-    [self useOptimizedDrawing:TRUE];
     //[self setMovableByWindowBackground:TRUE];
     [self setAcceptsMouseMovedEvents:TRUE];
     [self setAutorecalculatesKeyViewLoop:TRUE];

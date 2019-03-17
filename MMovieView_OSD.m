@@ -49,7 +49,7 @@
     [_messageOSD setViewBounds:bounds movieRect:bounds autoSizeWidth:0];
     [_messageOSD setHPosition:OSD_HPOSITION_LEFT];
     [_messageOSD setVPosition:OSD_VPOSITION_TOP];
-    [_messageOSD setTextAlignment:NSLeftTextAlignment];
+    [_messageOSD setTextAlignment:NSTextAlignmentLeft];
     _messageHideInterval = 2.0;
 
     _errorOSD = [[MMovieOSD alloc] init];
@@ -57,7 +57,7 @@
     [_errorOSD setViewBounds:bounds movieRect:bounds autoSizeWidth:0];
     [_errorOSD setHPosition:OSD_HPOSITION_CENTER];
     [_errorOSD setVPosition:OSD_VPOSITION_CENTER];
-    [_errorOSD setTextAlignment:NSCenterTextAlignment];
+    [_errorOSD setTextAlignment:NSTextAlignmentCenter];
 
     _iconOSD = [[MMovieOSD alloc] init];
     [_iconOSD setViewBounds:bounds movieRect:bounds autoSizeWidth:0];

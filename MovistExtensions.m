@@ -31,7 +31,7 @@
 {
 	[self drawInRect:(NSRect){.origin = point, .size = self.size}
 			fromRect:NSZeroRect
-		   operation:NSCompositeSourceOver
+           operation:NSCompositingOperationSourceOver
 			fraction:1.0
 	  respectFlipped:YES
 			   hints:nil];
@@ -251,7 +251,6 @@
     [self setOpaque:FALSE];
     [self setAlphaValue:1.0];
     [self setHasShadow:FALSE];
-    [self useOptimizedDrawing:TRUE];
     [self setMovableByWindowBackground:TRUE];
 
     NSNotificationCenter* nc = [NSNotificationCenter defaultCenter];
@@ -846,12 +845,11 @@ NSString* const MFontItalicAttributeName = @"MFontItalicAttributeName";
         screenRect.origin.x = 0;
         screenRect.origin.y = 0;
         window = [[NSWindow alloc] initWithContentRect:screenRect
-                                             styleMask:NSBorderlessWindowMask
+                                             styleMask:NSWindowStyleMaskBorderless
                                                backing:NSBackingStoreBuffered
                                                  defer:FALSE screen:screen];
         [window setBackgroundColor:[NSColor blackColor]];
         [window setLevel:NSScreenSaverWindowLevel];
-        [window useOptimizedDrawing:TRUE];
         [window setHasShadow:FALSE];
         [window setOpaque:FALSE];
         [window setAlphaValue:0.0];

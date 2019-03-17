@@ -91,7 +91,7 @@
 {
     //TRACE(@"%s", __PRETTY_FUNCTION__);
     unsigned int modifierFlags = [[NSApp currentEvent] modifierFlags];
-    if (modifierFlags & NSControlKeyMask) {
+    if (modifierFlags & NSEventModifierFlagControl) {
         if ([(AppController*)[NSApp delegate] playlistWindowVisible]) {
             [(AppController*)[NSApp delegate] hidePlaylistWindow];
         }
@@ -99,7 +99,7 @@
             [(AppController*)[NSApp delegate] showPlaylistWindow];
         }
     }
-    else if (modifierFlags & NSAlternateKeyMask) {
+    else if (modifierFlags & NSEventModifierFlagOption) {
         if (_dragAction == DRAG_ACTION_PLAY_FILES) {
             _dragAction = DRAG_ACTION_ADD_FILES;
         }

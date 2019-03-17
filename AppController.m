@@ -123,7 +123,7 @@ NSString* videoCodecName(int codecId);
 	for(NSMenuItem* item in [_controlMenu itemArray]) {
         if ([item action] == @selector(rateAction:) && [item tag] == 0) {
             [item setKeyEquivalent:@"\\"];
-            [item setKeyEquivalentModifierMask:NSCommandKeyMask | NSShiftKeyMask];
+            [item setKeyEquivalentModifierMask:NSEventModifierFlagCommand | NSEventModifierFlagShift];
             break;
         }
     }
@@ -131,7 +131,7 @@ NSString* videoCodecName(int codecId);
 	for (NSMenuItem* item in [_subtitleMenu itemArray]) {
         if ([item action] == @selector(subtitleSyncAction:) && [item tag] == 0) {
             [item setKeyEquivalent:@"="];
-            [item setKeyEquivalentModifierMask:NSControlKeyMask | NSShiftKeyMask];
+            [item setKeyEquivalentModifierMask:NSEventModifierFlagControl | NSEventModifierFlagShift];
             break;
         }
     }

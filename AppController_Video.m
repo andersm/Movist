@@ -116,14 +116,14 @@
     if (_movie && ![self isFullScreen]) {
         NSEvent* event = [NSApp currentEvent];
         unsigned int flags = [event modifierFlags];
-        if (!(flags & NSCommandKeyMask)) {
-            if (flags & NSControlKeyMask) {
+        if (!(flags & NSEventModifierFlagCommand)) {
+            if (flags & NSEventModifierFlagControl) {
                 [self setFullScreenFill:FS_FILL_STRETCH];
             }
-            else if (flags & NSAlternateKeyMask) {
+            else if (flags & NSEventModifierFlagOption) {
                 [self setFullScreenFill:FS_FILL_CROP];
             }
-            else if (flags & NSShiftKeyMask) {
+            else if (flags & NSEventModifierFlagShift) {
                 [self setFullScreenFill:FS_FILL_NEVER];
             }
         }
@@ -370,7 +370,7 @@
     unsigned int i, count = [_aspectRatioMenu numberOfItems];
     for (i = 0; i < count; i++) {
         item = [_aspectRatioMenu itemAtIndex:i];
-        [item setState:(_movie) ? ([item tag] == [_movie aspectRatio]) : NSOffState];
+        [item setState:(_movie) ? ([item tag] == [_movie aspectRatio]) : NSControlStateValueOff];
     }
 }
 

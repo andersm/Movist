@@ -263,11 +263,10 @@
     // create _blackWindow
     NSRect frame = [[_mainWindow screen] frame];
     _blackWindow = [[NSWindow alloc] initWithContentRect:frame
-                                               styleMask:NSBorderlessWindowMask
+                                               styleMask:NSWindowStyleMaskBorderless
                                                  backing:NSBackingStoreBuffered
                                                    defer:FALSE
                                                   screen:[_mainWindow screen]];
-    [_blackWindow useOptimizedDrawing:TRUE];
     [_blackWindow setBackgroundColor:[NSColor blackColor]];
     [_blackWindow setHasShadow:FALSE];
     [_blackWindow setOpaque:FALSE];

@@ -350,7 +350,7 @@
     // movie volume should be set again for changed audio tracks.
     [_movie setVolume:[self isCurrentlyDigitalAudioOut] ?
                         DIGITAL_VOLUME : [_defaults floatForKey:MVolumeKey]];
-    [_movie setMuted:([_muteButton state] == NSOnState)];
+    [_movie setMuted:([_muteButton state] == NSControlStateValueOn)];
     if (!_lastPlayedMovieURL || ![_lastPlayedMovieURL isEqualTo:movieURL]) {
         [_lastPlayedMovieURL release];
         _lastPlayedMovieURL = [movieURL retain];
@@ -749,7 +749,7 @@
     [panel setCanChooseDirectories:TRUE];
     [panel setAllowsMultipleSelection:FALSE];
 	[panel setAllowedFileTypes:[MMovie fileExtensions]];
-    if (NSOKButton == [panel runModal]) {
+    if (NSModalResponseOK == [panel runModal]) {
         [self openFile:[[panel URL] path]];
     }
 
@@ -772,7 +772,7 @@
     [panel setCanChooseDirectories:FALSE];
     [panel setAllowsMultipleSelection:TRUE];
 	[panel setAllowedFileTypes:[MSubtitle fileExtensions]];
-    if (NSOKButton == [panel runModal]) {
+    if (NSModalResponseOK == [panel runModal]) {
         [self openSubtitles:[panel URLs]
                    encoding:kCFStringEncodingInvalidId];
     }
@@ -795,7 +795,7 @@
     [panel setCanChooseDirectories:FALSE];
     [panel setAllowsMultipleSelection:TRUE];
 	[panel setAllowedFileTypes:[MSubtitle fileExtensions]];
-    if (NSOKButton == [panel runModal]) {
+    if (NSModalResponseOK == [panel runModal]) {
         [self addSubtitles:[panel URLs]];
     }
 

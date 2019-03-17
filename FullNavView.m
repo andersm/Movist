@@ -46,7 +46,7 @@
 {
     NSMutableParagraphStyle* paragraphStyle;
     paragraphStyle = [[[NSMutableParagraphStyle alloc] init] autorelease];
-    [paragraphStyle setAlignment:NSCenterTextAlignment];
+    [paragraphStyle setAlignment:NSTextAlignmentCenter];
     [paragraphStyle setLineBreakMode:NSLineBreakByTruncatingTail];
 
     NSRect br = [self bounds];
@@ -73,7 +73,7 @@
         rc.origin.x = br.origin.x + (br.size.width - width) / 2;
         rc.origin.y = br.origin.y + (br.size.height - rc.size.height) / 2;
         [_icon drawInRect:rc fromRect:NSZeroRect
-                operation:NSCompositeSourceOver fraction:1.0];
+                operation:NSCompositingOperationSourceOver fraction:1.0];
 
         tr.origin.x = rc.origin.x + rc.size.width + ICON_MARGIN;
     }

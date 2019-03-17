@@ -181,7 +181,7 @@ enum {  // for _updateMask
     _strokeWidth2= [[NSNumber alloc] initWithFloat:-0.01];
     _paragraphStyle = [[NSMutableParagraphStyle alloc] init];
     [_paragraphStyle setLineBreakMode:NSLineBreakByWordWrapping];
-    [_paragraphStyle setAlignment:NSCenterTextAlignment];
+    [_paragraphStyle setAlignment:NSTextAlignmentCenter];
     _lineSpacing = 0;
 }
 
@@ -429,7 +429,7 @@ enum {  // for _updateMask
     int i, darkness = (0 < [_shadow shadowBlurRadius]) ? _shadowDarkness : 1;
     for (i = 0; i < darkness; i++) {
         [image drawInRect:rect fromRect:NSZeroRect
-                operation:NSCompositeSourceOver fraction:1.0];
+                operation:NSCompositingOperationSourceOver fraction:1.0];
     }
 
     //[[NSColor colorWithCalibratedRed:1.0 green:0.0 blue:0.0 alpha:1.0] set];

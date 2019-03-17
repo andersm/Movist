@@ -489,9 +489,9 @@
     //TRACE(@"%s %d", __PRETTY_FUNCTION__, [sender tag]);
     int tag = [sender tag];
     unsigned int flags = [[NSApp currentEvent] modifierFlags];
-    if (flags & NSAlternateKeyMask) {
-        if (flags & NSShiftKeyMask) {
-            if (flags & NSControlKeyMask) {
+    if (flags & NSEventModifierFlagOption) {
+        if (flags & NSEventModifierFlagShift) {
+            if (flags & NSEventModifierFlagControl) {
                 tag = (tag < 0) ? SEEK_TAG_PREV_SUBTITLE : SEEK_TAG_NEXT_SUBTITLE;
             }
             else {
@@ -511,7 +511,7 @@
         case SEEK_TAG_BACKWARD_STEP : [self stepBackward];      break;
         case SEEK_TAG_TIME : {
             NSEvent* event = [NSApp currentEvent];
-            if ([event type] != NSLeftMouseUp) {
+            if ([event type] != NSEventTypeLeftMouseUp) {
                 [self gotoTime:[sender floatValue]];
                 // update mouse-time tool-tip : show me the better way...
                 if ([sender isKindOfClass:[SeekSlider class]]) {
