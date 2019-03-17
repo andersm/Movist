@@ -196,7 +196,7 @@ NSString* MShowActualPathForLinkKey         = @"ShowActualPathForLink";
 	[dict setObject:[NSNumber numberWithFloat:2.0] forKey:MSubtitleShadowBlurKey];
 	[dict setObject:[NSNumber numberWithInt:5] forKey:MSubtitleShadowDarknessKey];
 	//[dict setObject:[NSNumber numberWithInt:OSD_HPOSITION_CENTER] forKey:MSubtitleHPositionKey];
-	[dict setObject:[NSNumber numberWithInt:vPosition] forKey:MSubtitleVPositionKey];
+	[dict setObject:[NSNumber numberWithInt:vPosition[0]] forKey:MSubtitleVPositionKey];
 	[dict setObject:[NSNumber numberWithFloat:DEFAULT_SUBTITLE_H_MARGIN] forKey:MSubtitleHMarginKey];
 	[dict setObject:[NSNumber numberWithFloat:DEFAULT_SUBTITLE_V_MARGIN] forKey:MSubtitleVMarginKey];
 	[dict setObject:[NSNumber numberWithFloat:DEFAULT_SUBTITLE_LINE_SPACING] forKey:MSubtitleLineSpacingKey];
