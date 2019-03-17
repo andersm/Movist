@@ -47,7 +47,7 @@
 - (void)setPlaylistItem:(PlaylistItem*)item
 {
     //TRACE(@"%s %@", __PRETTY_FUNCTION__, item);
-    [item retain], [_playlistItem release], _playlistItem = item;
+    [item retain]; [_playlistItem release]; _playlistItem = item;
 }
 
 - (id)objectValue { return _playlistItem; }

@@ -440,21 +440,21 @@ void StdIOCallback64::setFilePointer(int64_t offset, seek_mode mode)
     _level0 = _stream->FindNextID(EbmlHead::ClassInfos, 0xFFFFFFFFL);
     if (!_level0) {
         TRACE(@"No EBML Head found.");
-        delete _stream, _stream = 0;
-        delete _file, _file = 0;
+        delete _stream; _stream = 0;
+        delete _file; _file = 0;
         return FALSE;
     }
 
     // skip header
     TRACE_ELEMENT(_level0, 0, @"EBML Head");
     _level0->SkipData(*_stream, _level0->Generic().Context);
-    delete _level0, _level0 = 0;
+    delete _level0; _level0 = 0;
 
     // find first segment
     _level0 = _stream->FindNextID(KaxSegment::ClassInfos, 0xFFFFFFFFFFFFFFFFLL);
     if (!_level0) {
-        delete _stream, _stream = 0;
-        delete _file, _file = 0;
+        delete _stream; _stream = 0;
+        delete _file; _file = 0;
         return FALSE;
     }
     return TRUE;
@@ -462,10 +462,10 @@ void StdIOCallback64::setFilePointer(int64_t offset, seek_mode mode)
 
 - (void)cleanupEbmlStream
 {
-    delete _level1, _level1 = 0;
-    delete _level0, _level0 = 0;
-    delete _stream, _stream = 0;
-    delete _file, _file = 0;
+    delete _level1; _level1 = 0;
+    delete _level0; _level0 = 0;
+    delete _stream; _stream = 0;
+    delete _file; _file = 0;
 
     NSNotificationCenter* nc = [NSNotificationCenter defaultCenter];
     [nc postNotificationName:MSubtitleTrackDidLoadNotification object:self];
@@ -506,7 +506,7 @@ void StdIOCallback64::setFilePointer(int64_t offset, seek_mode mode)
         }
 
         if (_level0->IsFiniteSize() && endOfLevel0 <= _file->getFilePointer()) {
-            delete _level1, _level1 = 0;
+            delete _level1; _level1 = 0;
             [pool release];
             break;
         }
@@ -516,7 +516,7 @@ void StdIOCallback64::setFilePointer(int64_t offset, seek_mode mode)
                 [pool release];
                 break;
             }
-            delete _level1, _level1 = 0;
+            delete _level1; _level1 = 0;
             _level1 = _level2;
             [pool release];
             continue;
@@ -528,7 +528,7 @@ void StdIOCallback64::setFilePointer(int64_t offset, seek_mode mode)
             }
         }
         _level1->SkipData(*_stream, _level1->Generic().Context);
-        delete _level1, _level1 = 0;
+        delete _level1; _level1 = 0;
         _level1 = _stream->FindNextElement(_level0->Generic().Context,
                                            _upperLevel, 0xFFFFFFFFL, true);
 
@@ -548,7 +548,7 @@ void StdIOCallback64::setFilePointer(int64_t offset, seek_mode mode)
             [pool release];
             break;
         }
-        [pool release], pool = nil;
+        [pool release]; pool = nil;
     }
 
     pool = [[NSAutoreleasePool alloc] init];

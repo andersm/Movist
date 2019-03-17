@@ -100,7 +100,7 @@
 
 - (void)clearOSD
 {
-    [_subtitleOSD setSubtitleSync:0], [_subtitleOSD clearContent];
+    [_subtitleOSD setSubtitleSync:0]; [_subtitleOSD clearContent];
     [_messageOSD clearContent];
     [_errorOSD clearContent];
 }

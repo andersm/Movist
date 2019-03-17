@@ -80,7 +80,7 @@
     }
     else if (_subtitles) {
         [_movieView removeAllSubtitles];
-        [_subtitles release], _subtitles = nil;
+        [_subtitles release]; _subtitles = nil;
         [self updateSubtitleLanguageMenuItems];
     }
 }

@@ -43,7 +43,7 @@
 
 - (void)setMovieOSD:(MMovieOSD*)movieOSD
 {
-    [movieOSD retain], [_movieOSD release], _movieOSD = movieOSD;
+    [movieOSD retain]; [_movieOSD release]; _movieOSD = movieOSD;
 }
 
 - (void)setForwardRenderInterval:(float)interval  { _forwardRenderInterval = interval; }

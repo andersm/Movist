@@ -80,13 +80,13 @@
 {
     NSImage* image = [NSImage imageNamed:@"OutlineCategoryMid"];
     NSRect bgRect = cellFrame;
-    bgRect.origin.x -= 17, bgRect.size.width  += 17 + 3;
-    bgRect.origin.y -= 1,  bgRect.size.height += 2;
+    bgRect.origin.x -= 17; bgRect.size.width  += 17 + 3;
+    bgRect.origin.y -= 1;  bgRect.size.height += 2;
     [image drawInRect:bgRect];
 
     float fontSize = [NSFont smallSystemFontSize];
-    cellFrame.origin.x += 2, cellFrame.size.width  -= 2;
-    cellFrame.origin.y += 1, cellFrame.size.height -= 2;
+    cellFrame.origin.x += 2; cellFrame.size.width  -= 2;
+    cellFrame.origin.y += 1; cellFrame.size.height -= 2;
     NSDictionary* attrs = [NSDictionary dictionaryWithObjectsAndKeys:
                            [NSFont boldSystemFontOfSize:fontSize], NSFontAttributeName,
                            [NSColor grayColor], NSForegroundColorAttributeName,

@@ -345,8 +345,8 @@
     float underScan = _fullScreenUnderScan / 100.0;
     float dw = rect.size.width  * underScan;
     float dh = rect.size.height * underScan;
-    rect.origin.x += dw / 2, rect.size.width  -= dw;
-    rect.origin.y += dh / 2, rect.size.height -= dh;
+    rect.origin.x += dw / 2; rect.size.width  -= dw;
+    rect.origin.y += dh / 2; rect.size.height -= dh;
     return rect;
 }
 

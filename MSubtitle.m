@@ -84,11 +84,11 @@
 - (NSString*)extraInfo { return _extraInfo; }
 - (NSString*)trackName { return _trackName; }
 - (BOOL)isEmbedded { return _embedded; }
-- (void)setType:(NSString*)s { [s retain], [_type release], _type = s; }
-- (void)setName:(NSString*)s { [s retain], [_name release], _name = s; }
-- (void)setLanguage:(NSString*)s { [s retain], [_language release], _language = s; }
-- (void)setExtraInfo:(NSString*)s { [s retain], [_extraInfo release], _extraInfo = s; }
-- (void)setTrackName:(NSString*)s { [s retain], [_trackName release], _trackName = s; }
+- (void)setType:(NSString*)s { [s retain]; [_type release]; _type = s; }
+- (void)setName:(NSString*)s { [s retain]; [_name release]; _name = s; }
+- (void)setLanguage:(NSString*)s { [s retain]; [_language release]; _language = s; }
+- (void)setExtraInfo:(NSString*)s { [s retain]; [_extraInfo release]; _extraInfo = s; }
+- (void)setTrackName:(NSString*)s { [s retain]; [_trackName release]; _trackName = s; }
 - (void)setEmbedded:(BOOL)embedded { _embedded = embedded; }
 - (NSString*)summary
 {

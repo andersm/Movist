@@ -111,12 +111,12 @@ NSString* MSubtitleParserOptionKey_SMI_replaceNewLineWithBR = @"replaceNewLineWi
             break;
         }
         if ([_source characterAtIndex:tr.location] == '.') {
-            tr.location++, tr.length--;
+            tr.location++; tr.length--;
             NSString* class = [_source substringWithRange:tr];
             subtitle = [self addSubtitleClass:class];
         }
         else if ([_source characterAtIndex:tr.location] == '#') {
-            tr.location++, tr.length--;
+            tr.location++; tr.length--;
             subtitle = nil;
         }
         else if (subtitle) {

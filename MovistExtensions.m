@@ -353,8 +353,8 @@
         NSBezierPath* titlePath = [NSBezierPath bezierPath];
         NSRect titlebarRect = NSMakeRect(0, bgSize.height - titlebarHeight, bgSize.width, titlebarHeight);
         titlebarRect = [cv convertRect:titlebarRect fromView:nil];
-        minX = NSMinX(titlebarRect), midX = NSMidX(titlebarRect), maxX = NSMaxX(titlebarRect);
-        minY = NSMinY(titlebarRect), midY = NSMidY(titlebarRect), maxY = NSMaxY(titlebarRect);
+        minX = NSMinX(titlebarRect); midX = NSMidX(titlebarRect); maxX = NSMaxX(titlebarRect);
+        minY = NSMinY(titlebarRect); midY = NSMidY(titlebarRect); maxY = NSMaxY(titlebarRect);
 
         [titlePath setFlatness:0.01];
         [titlePath moveToPoint:NSMakePoint(minX, minY)];

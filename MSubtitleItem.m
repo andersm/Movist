@@ -117,7 +117,7 @@
     [_texLock lock];
     //TRACE(@"%s stamp=%d: [%@~%@]", __PRETTY_FUNCTION__, _texStamp,
     //      NSStringFromMovieTime(_beginTime), NSStringFromMovieTime(_endTime));
-    [_texImage release], _texImage = nil;
+    [_texImage release]; _texImage = nil;
     _texStamp = 0;
     [_texLock unlock];
 }

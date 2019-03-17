@@ -55,11 +55,11 @@
 - (NSString*)name { return _name; }
 - (NSString*)summary { return _summary; }
 - (BOOL)isVideoTrack { return _encodedSize.width != 0; }
-- (void)setImpl:(id)impl { [impl retain], [_impl release], _impl = impl; }
-- (void)setMovie:(MMovie*)movie { [movie retain], [_movie release], _movie = movie; }
+- (void)setImpl:(id)impl { [impl retain]; [_impl release]; _impl = impl; }
+- (void)setMovie:(MMovie*)movie { [movie retain]; [_movie release]; _movie = movie; }
 - (void)setCodecId:(int)codecId { _codecId = codecId; }
-- (void)setName:(NSString*)name { [name retain], [_name release], _name = name; }
-- (void)setSummary:(NSString*)summary { [summary retain], [_summary release], _summary = summary; }
+- (void)setName:(NSString*)name { [name retain]; [_name release]; _name = name; }
+- (void)setSummary:(NSString*)summary { [summary retain]; [_summary release]; _summary = summary; }
 
 - (NSSize)encodedSize { return _encodedSize; }
 - (NSSize)displaySize { return _displaySize; }

@@ -109,7 +109,7 @@
 - (void)setMovieURL:(NSURL*)movieURL
 {
     //TRACE(@"%s \"%@\"", __PRETTY_FUNCTION__, [movieURL absoluteString]);
-    [movieURL retain], [_movieURL release], _movieURL = movieURL;
+    [movieURL retain]; [_movieURL release]; _movieURL = movieURL;
     [_fullWindow setMovieURL:_movieURL];
     [_playPanel setMovieURL:_movieURL];
 

@@ -264,8 +264,8 @@
 {
     [[self dataWithImage:_captureImage] writeToFile:_capturePath atomically:TRUE];
 
-    [_capturePath release], _capturePath = nil;
-    [_captureImage release], _captureImage = nil;
+    [_capturePath release]; _capturePath = nil;
+    [_captureImage release]; _captureImage = nil;
 }
 
 @end

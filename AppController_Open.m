@@ -663,9 +663,9 @@
 
         [_movieView setMovie:nil];
         [_movieView setMessage:@""];
-        [_movie cleanup], _movie = nil;
+        [_movie cleanup]; _movie = nil;
 
-        [_subtitles release], _subtitles = nil;
+        [_subtitles release]; _subtitles = nil;
         [_reopenWithMenuItem setTitle:[NSString stringWithFormat:
             NSLocalizedString(@"Reopen With %@", nil), @"..."]];
         [self updateUI];

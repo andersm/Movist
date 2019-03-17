@@ -533,7 +533,7 @@ enum {  // for _updateMask
 - (BOOL)setString:(NSAttributedString*)string
 {
     if (![_string isEqualToAttributedString:string]) {
-        [string retain], [_string release], _string = string;
+        [string retain]; [_string release]; _string = string;
         _updateMask |= UPDATE_TEX_IMAGE;
         return TRUE;
     }
@@ -543,7 +543,7 @@ enum {  // for _updateMask
 - (BOOL)setImage:(NSImage*)image
 {
     if (![_image isEqualTo:image]) {
-        [image retain], [_image release], _image = image;
+        [image retain]; [_image release]; _image = image;
         _updateMask |= UPDATE_TEX_IMAGE;
         return TRUE;
     }
@@ -562,9 +562,9 @@ enum {  // for _updateMask
 
 - (void)clearContent
 {
-    [_texImage release], _texImage = nil;
-    [_string release], _string = nil;
-    [_image release], _image = nil;
+    [_texImage release]; _texImage = nil;
+    [_string release]; _string = nil;
+    [_image release]; _image = nil;
     _updateMask &= ~UPDATE_TEX_IMAGE;
     _updateMask &= ~UPDATE_TEXTURE;
     _updateMask &= ~UPDATE_DRAWING_RECT;
@@ -580,7 +580,7 @@ enum {  // for _updateMask
 - (BOOL)setTexImage:(NSImage*)texImage
 {
     if (_texImage != texImage) {
-        [texImage retain], [_texImage release], _texImage = texImage;
+        [texImage retain]; [_texImage release]; _texImage = texImage;
         _updateMask |= UPDATE_TEXTURE | UPDATE_DRAWING_RECT;
         _updateMask &= ~UPDATE_TEX_IMAGE;
         return TRUE;

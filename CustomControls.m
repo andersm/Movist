@@ -36,7 +36,7 @@
 
 - (void)setHoverImage:(NSImage*)image
 {
-    [image retain], [_hoverImage release], _hoverImage = image;
+    [image retain]; [_hoverImage release]; _hoverImage = image;
 }
 
 - (void)mouseEntered:(NSEvent*)event
@@ -409,41 +409,41 @@
     NSImage* lImage, *mImage, *rImage;
     if (segment == 0) {     // first segment
         switch ([self controlSize]) {
-            case NSRegularControlSize : frame.origin.x -= 11, frame.size.width += 19;   break;
-            case NSSmallControlSize   : frame.origin.x -=  8, frame.size.width += 14;   break;
+            case NSRegularControlSize : frame.origin.x -= 11; frame.size.width += 19;   break;
+            case NSSmallControlSize   : frame.origin.x -=  8; frame.size.width += 14;   break;
             case NSMiniControlSize    : /* not supported yet */                         break;
         }
         if ([self selectedSegment] == segment) {
-            lImage = _lImageSelected, mImage = rImage = _mImageSelected;
+            lImage = _lImageSelected; mImage = rImage = _mImageSelected;
         }
         else {
-            lImage = _lImage, mImage = rImage = _mImage;
+            lImage = _lImage; mImage = rImage = _mImage;
         }
     }
     else if (segment < [(NSSegmentedControl*)controlView segmentCount] - 1) {   // middle segments
         switch ([self controlSize]) {
-            case NSRegularControlSize : frame.origin.x -= 9, frame.size.width += 18;    break;
-            case NSSmallControlSize   : frame.origin.x -= 7, frame.size.width += 13;    break;
+            case NSRegularControlSize : frame.origin.x -= 9; frame.size.width += 18;    break;
+            case NSSmallControlSize   : frame.origin.x -= 7; frame.size.width += 13;    break;
             case NSMiniControlSize    : /* not supported yet */                         break;
         }
         if ([self selectedSegment] == segment) {
-            lImage = _sepImage, mImage = rImage = _mImageSelected;
+            lImage = _sepImage; mImage = rImage = _mImageSelected;
         }
         else {
-            lImage = _sepImage, mImage = rImage = _mImage;
+            lImage = _sepImage; mImage = rImage = _mImage;
         }
     }
     else {  // last segment
         switch ([self controlSize]) {
-            case NSRegularControlSize : frame.origin.x -= 9, frame.size.width += 19;    break;
-            case NSSmallControlSize   : frame.origin.x -= 7, frame.size.width += 15;    break;
+            case NSRegularControlSize : frame.origin.x -= 9; frame.size.width += 19;    break;
+            case NSSmallControlSize   : frame.origin.x -= 7; frame.size.width += 15;    break;
             case NSMiniControlSize    : /* not supported yet */                         break;
         }
         if ([self selectedSegment] == segment) {
-            lImage = _sepImage, mImage = _mImageSelected, rImage = _rImageSelected;
+            lImage = _sepImage; mImage = _mImageSelected; rImage = _rImageSelected;
         }
         else {
-            lImage = _sepImage, mImage = _mImage, rImage = _rImage;
+            lImage = _sepImage; mImage = _mImage; rImage = _rImage;
         }
     }
     frame.origin.y--;
@@ -457,8 +457,8 @@
                            paragraphStyle, NSParagraphStyleAttributeName,
                            nil];
     switch ([self controlSize]) {
-        case NSRegularControlSize : frame.origin.y += 2, frame.size.height -= 2;    break;
-        case NSSmallControlSize   : frame.origin.y += 1, frame.size.height -= 2;    break;
+        case NSRegularControlSize : frame.origin.y += 2; frame.size.height -= 2;    break;
+        case NSSmallControlSize   : frame.origin.y += 1; frame.size.height -= 2;    break;
         case NSMiniControlSize    : /* not supported yet */                         break;
     }
     [[self labelForSegment:segment] drawInRect:frame withAttributes:attrs];
@@ -694,7 +694,7 @@
                            HUDTextColor, NSForegroundColorAttributeName,
                            paragraphStyle, NSParagraphStyleAttributeName,
                            nil];
-    cellFrame.origin.x += 3, cellFrame.size.width -= 6;
+    cellFrame.origin.x += 3; cellFrame.size.width -= 6;
     cellFrame.origin.y += 1;
     [[self stringValue] drawInRect:cellFrame withAttributes:attrs];
 }

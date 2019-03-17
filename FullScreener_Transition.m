@@ -222,8 +222,8 @@
     [animation release];
 #else   // !_USE_NSViewAnimation
     float beginAlpha, endAlpha;
-    if (forBegin) { beginAlpha = 0.0, endAlpha = 1.0; } // transparent => opaque
-    else          { beginAlpha = 1.0, endAlpha = 0.0; } // opaque => transparent
+    if (forBegin) { beginAlpha = 0.0; endAlpha = 1.0; } // transparent => opaque
+    else          { beginAlpha = 1.0; endAlpha = 0.0; } // opaque => transparent
     NSRect fullWindowRect = (forBegin) ? _fullMovieRect : _restoreRect;
     [_blackWindow setAlphaValue:beginAlpha];
     [_fullWindow setFrame:fullWindowRect display:TRUE animate:TRUE];

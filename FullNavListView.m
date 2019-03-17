@@ -145,8 +145,8 @@
             NSImage* cImage = [NSImage imageNamed:@"FSNavSelBoxCenter"];
             NSImage* rImage = [NSImage imageNamed:@"FSNavSelBoxRight"];
             NSRect rc;
-            rc.origin.x = 0, rc.size.width = [lImage size].width;
-            rc.origin.y = 0, rc.size.height = size.height;
+            rc.origin.x = 0; rc.size.width = [lImage size].width;
+            rc.origin.y = 0; rc.size.height = size.height;
             [lImage drawInRect:rc fromRect:NSZeroRect
                      operation:NSCompositeSourceOver fraction:1.0];
             rc.origin.x = size.width - [rImage size].width;

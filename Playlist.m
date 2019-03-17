@@ -85,7 +85,7 @@
 - (void)setMovieURL:(NSURL*)movieURL
 {
     //TRACE(@"%s \"%@\"", __PRETTY_FUNCTION__, [movieURL absoluteString]);
-    [movieURL retain], [_movieURL release], _movieURL = movieURL;
+    [movieURL retain]; [_movieURL release]; _movieURL = movieURL;
 }
 
 - (void)setSubtitleURLs:(NSArray*)subtitleURLs { [_subtitleURLs setArray:subtitleURLs]; }

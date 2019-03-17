@@ -95,8 +95,8 @@
     if (isSystemTiger()) {
         [icon setSize:NSMakeSize(128, 128)];
     }
-    [icon retain], [_icon release], _icon = icon;
-    [title retain], [_title release], _title = title;
+    [icon retain]; [_icon release]; _icon = icon;
+    [title retain]; [_title release]; _title = title;
     [self display];
 }
 
@@ -615,9 +615,9 @@
 
     float IN_MARGIN  = (float)(int)(rc.size.width * 0.075);
     float OUT_MARGIN = (float)(int)(rc.size.width * 0.195);
-    rc.origin.x += OUT_MARGIN, rc.size.width -= OUT_MARGIN + IN_MARGIN;
+    rc.origin.x += OUT_MARGIN; rc.size.width -= OUT_MARGIN + IN_MARGIN;
     float height = rc.size.width * movieSize.height / movieSize.width;
-    rc.origin.y += (rc.size.height - height) / 2, rc.size.height = height;
+    rc.origin.y += (rc.size.height - height) / 2; rc.size.height = height;
     return rc;
 }
 

@@ -123,7 +123,7 @@ BOOL checkMovieSeries(NSString* filename1, NSString* filename2)
 
 NSString* NSStringFromMovieTime(float time)
 {
-    BOOL positive = (0.0 <= time) ? TRUE : (time = -time, FALSE);
+    BOOL positive = (0.0 <= time) ? TRUE : ((void)(time = -time), FALSE);
     int totalSeconds = (int)time;
     int totalMinutes = totalSeconds / 60;
     return [NSString stringWithFormat:
