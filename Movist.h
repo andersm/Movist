@@ -436,16 +436,16 @@ extern NSString* MPlaylistItemDataType;
 #pragma mark -
 #pragma mark utilities
 
-void detectOperatingSystem();
-BOOL isSystemTiger();
-BOOL isSystemLeopard();
+void detectOperatingSystem(void);
+BOOL isSystemTiger(void);
+BOOL isSystemLeopard(void);
 
 #ifdef kHIWindowVisibleInAllSpaces
 #undef kHIWindowVisibleInAllSpaces
 #define kHIWindowVisibleInAllSpaces     (1 << 8)
 #endif
 
-NSArray* movistDragTypes();
+NSArray* movistDragTypes(void);
 
 #define valueInRange(value, minValue, maxValue)     ((minValue) <= (value) && (value) <= (maxValue))
 #define adjustToRange(value, minValue, maxValue)    MIN(MAX((minValue), (value)), (maxValue))
