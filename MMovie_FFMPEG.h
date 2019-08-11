@@ -66,8 +66,6 @@ enum {
     // playback: play
     float _rate;
     BOOL _playAfterSeek;   // for continuous play after seek
-    double _frameInterval;
-    BOOL _useFrameDrop;
 
     // playback: seek
     float _seekTime;
