@@ -26,6 +26,7 @@
 		9A935C1A2129BAA000328A62 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A935C192129BA1600328A62 /* CoreMedia.framework */; };
 		9A935C1B212A1C2E00328A62 /* libebml.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9FE3DF14A565D300B5AEF1 /* libebml.a */; };
 		9A935C1C212A1C3100328A62 /* libmatroska.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9FE3E014A565D300B5AEF1 /* libmatroska.a */; };
+		9AED3A922300511600FF2911 /* libavresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AED3A912300511600FF2911 /* libavresample.a */; };
 		AF010C150C0F190600CA9913 /* PlayPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = AF010C140C0F190600CA9913 /* PlayPanel.m */; };
 		AF0204A90C31D01F008F7D03 /* FSPause.tiff in Resources */ = {isa = PBXBuildFile; fileRef = AF0204A50C31D01F008F7D03 /* FSPause.tiff */; };
 		AF0204AA0C31D01F008F7D03 /* FSPausePressed.tiff in Resources */ = {isa = PBXBuildFile; fileRef = AF0204A60C31D01F008F7D03 /* FSPausePressed.tiff */; };
@@ -287,6 +288,7 @@
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Movist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A935C192129BA1600328A62 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		9AED3A912300511600FF2911 /* libavresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavresample.a; path = contrib/build/lib/libavresample.a; sourceTree = "<group>"; };
 		AF010C130C0F190600CA9913 /* PlayPanel.h */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.h; path = PlayPanel.h; sourceTree = "<group>"; };
 		AF010C140C0F190600CA9913 /* PlayPanel.m */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.objc; path = PlayPanel.m; sourceTree = "<group>"; };
 		AF0204A50C31D01F008F7D03 /* FSPause.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = FSPause.tiff; path = Resources/Images/FSPause.tiff; sourceTree = "<group>"; };
@@ -614,6 +616,7 @@
 				9A935C1A2129BAA000328A62 /* CoreMedia.framework in Frameworks */,
 				AF31CFE50B7EF99000676AC6 /* OpenGL.framework in Frameworks */,
 				AF31CFE60B7EF99000676AC6 /* QTKit.framework in Frameworks */,
+				9AED3A922300511600FF2911 /* libavresample.a in Frameworks */,
 				AF31CFE70B7EF99000676AC6 /* QuartzCore.framework in Frameworks */,
 				AF0439910BEA14EA0016091F /* Carbon.framework in Frameworks */,
 				AF1D1D3A0C2836A200D239EA /* IOKit.framework in Frameworks */,
@@ -763,8 +766,9 @@
 			children = (
 				3E9FE3DC14A565D300B5AEF1 /* libavcodec.a */,
 				3E9FE3DD14A565D300B5AEF1 /* libavformat.a */,
-				3E9FE3DE14A565D300B5AEF1 /* libavutil.a */,
+				9AED3A912300511600FF2911 /* libavresample.a */,
 				3E9FE3E814A5667300B5AEF1 /* libswscale.a */,
+				3E9FE3DE14A565D300B5AEF1 /* libavutil.a */,
 			);
 			name = FFmpeg;
 			sourceTree = "<group>";

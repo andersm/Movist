@@ -31,6 +31,7 @@
 
 #import <libavcodec/avcodec.h>
 #import <libavformat/avformat.h>
+#import <libavresample/avresample.h>
 
 #define MOVIST_USE_SWSCALE 1
 
@@ -145,6 +146,7 @@ extern AVPacket s_flushPacket;
     AudioDataQueue* _dataQueue;
     AudioRawDataQueue* _rawDataQueue;
 	AVFrame* _decodedFrame;
+    AVAudioResampleContext* _resampleContext;
     BOOL _bigEndian;
     AudioDeviceID _audioDev;
     AudioStreamID _digitalStream;

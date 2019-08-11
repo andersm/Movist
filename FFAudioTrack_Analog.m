@@ -23,6 +23,8 @@
 
 #import "FFTrack.h"
 #import "MMovie_FFMPEG.h"
+#import <libavutil/mathematics.h>
+#import <libavutil/opt.h>
 
 /*
 @interface AUCallbackInfo : NSObject
@@ -175,11 +177,6 @@ static OSStatus audioProc(void* inRefCon, AudioUnitRenderActionFlags* ioActionFl
 
 - (BOOL)initAudioUnit
 {
-    if (_stream->codec->sample_fmt != SAMPLE_FMT_S16) {
-        TRACE(@"audio sample format is not signed short\n");
-        return false;
-    }
-
     AudioComponentDescription desc;
     desc.componentType = kAudioUnitType_Output;
     desc.componentSubType = kAudioUnitSubType_DefaultOutput;
@@ -264,6 +261,49 @@ static OSStatus audioProc(void* inRefCon, AudioUnitRenderActionFlags* ioActionFl
     return TRUE;
 }
 
+-(BOOL)initResampleContext
+{
+    int averr;
+    _resampleContext = avresample_alloc_context();
+
+    if (!_resampleContext) {
+        return FALSE;
+    }
+
+    AVCodecContext* context = _stream->codec;
+
+    // Hack if there is no channel layout
+    uint64_t channel_layout = context->channel_layout;
+    if (channel_layout == 0) {
+        switch (context->channels) {
+            case 1:
+                channel_layout = AV_CH_LAYOUT_MONO;
+                break;
+            case 2:
+                channel_layout = AV_CH_LAYOUT_STEREO;
+                break;
+            default:
+                break;
+        }
+    }
+
+    av_opt_set_int(_resampleContext, "in_channel_layout", channel_layout, 0);
+    av_opt_set_int(_resampleContext, "in_sample_fmt", context->sample_fmt, 0);
+    av_opt_set_int(_resampleContext, "in_sample_rate", context->sample_rate, 0);
+    av_opt_set_int(_resampleContext, "out_channel_layout", channel_layout, 0);
+    av_opt_set_int(_resampleContext, "out_sample_fmt", AV_SAMPLE_FMT_S16, 0);
+    av_opt_set_int(_resampleContext, "out_sample_rate", context->sample_rate, 0);
+
+    averr = avresample_open(_resampleContext);
+
+    if (averr) {
+        TRACE(@"avresample_open=%ld", averr);
+        return FALSE;
+    }
+
+    return TRUE;
+}
+
 - (BOOL)initAnalogAudio:(int*)errorCode
 {
     // create audio unit
@@ -271,10 +311,15 @@ static OSStatus audioProc(void* inRefCon, AudioUnitRenderActionFlags* ioActionFl
         *errorCode = ERROR_FFMPEG_AUDIO_UNIT_CREATE_FAILED;
         return FALSE;
     }
-    
+
+    if (![self initResampleContext]) {
+        *errorCode = ERROR_LIBRESAMPLE_CONTEXT_CREATE_FAILED;
+        return FALSE;
+    }
+
     _volume = DEFAULT_VOLUME;
-     _speakerCount = 2;
-    
+    _speakerCount = 2;
+
     // init playback
     unsigned int queueCapacity = AVCODEC_MAX_AUDIO_FRAME_SIZE * 20 * 5;
     _dataQueue = [[AudioDataQueue alloc] initWithCapacity:queueCapacity];
@@ -282,7 +327,7 @@ static OSStatus audioProc(void* inRefCon, AudioUnitRenderActionFlags* ioActionFl
     [_dataQueue setBitRate:sizeof(int16_t) * context->sample_rate * context->channels];
     _nextDecodedTime = 0;
     _nextAudioPts = 0;
-    
+
     return TRUE;
 }
 
@@ -301,6 +346,11 @@ static OSStatus audioProc(void* inRefCon, AudioUnitRenderActionFlags* ioActionFl
     [_dataQueue clear];
     [_dataQueue release];
     _dataQueue = 0;
+
+    if (_resampleContext) {
+        avresample_free(&_resampleContext);
+        _resampleContext = 0;
+    }
     _running = FALSE;
 }
 
@@ -335,14 +385,13 @@ static OSStatus audioProc(void* inRefCon, AudioUnitRenderActionFlags* ioActionFl
     UInt8* packetPtr = packet->data;
     int packetSize = packet->size;
     int dataSize, decodedSize;
-    int64_t pts, nextPts;
+    int64_t pts, nextPts = 0;
     double decodedTime;
     BOOL newPacket = true;
 	int got_frame = 0;
 
     //TRACE(@"dts = %lld * %lf = %lf", packet->dts, PTS_TO_SEC, 1. * packet->dts * PTS_TO_SEC);
     while (0 < packetSize) {
-		dataSize = 0;
 		decodedSize = avcodec_decode_audio4(context, _decodedFrame, &got_frame, packet);
         if (decodedSize < 0) { 
             TRACE(@"decodedSize < 0");
@@ -373,19 +422,33 @@ static OSStatus audioProc(void* inRefCon, AudioUnitRenderActionFlags* ioActionFl
                 TRACE(@"AVCODEC_MAX_AUDIO_FRAME_SIZE < dataSize");
                 assert(FALSE);
             }
-            while (![_movie quitRequested] && [_dataQueue freeSize] < dataSize) {
+
+            int sample_rate = _stream->codec->sample_rate;
+            int out_linesize;
+            uint8_t *resample_buffer;
+            int out_samples = avresample_available(_resampleContext) + av_rescale_rnd(avresample_get_delay(_resampleContext) +
+                                                                                      _decodedFrame->nb_samples, sample_rate, sample_rate, AV_ROUND_UP);
+            av_samples_alloc(&resample_buffer, &out_linesize, _stream->codec->channels, out_samples, AV_SAMPLE_FMT_S16, 0);
+            out_samples = avresample_convert(_resampleContext, &resample_buffer, out_linesize, out_samples, &_decodedFrame->data[0], _decodedFrame->linesize[0], _decodedFrame->nb_samples);
+            int resampled_size = out_samples * _stream->codec->channels * av_get_bytes_per_sample(AV_SAMPLE_FMT_S16);
+
+            while (![_movie quitRequested] && [_dataQueue freeSize] < resampled_size) {
                 if ([_movie reservedCommand] == COMMAND_SEEK || ![self isEnabled]) {
                     break;
                 }
                 [NSThread sleepUntilDate:[NSDate dateWithTimeIntervalSinceNow:0.01]];
             }
-            [_dataQueue putData:(UInt8*)_decodedFrame->data[0] size:dataSize time:decodedTime];
+            [_dataQueue putData:resample_buffer size:resampled_size time:decodedTime];
+
+            av_freep(&resample_buffer);
             _nextAudioPts = nextPts;
         }
     }
+
     if (packet->data) {
         av_free_packet(packet);
     }
+
     [pool release];
 }
 
