@@ -406,7 +406,7 @@
 	<key>CFBundleIconFile</key>
 	<string>Movist</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.cocoable.Movist</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -421,11 +421,11 @@
 	<string>11111111</string>
 	<key>LSHasLocalizedDisplayName</key>
 	<true/>
+	<key>NSHighResolutionCapable</key>
+	<true/>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
-	<key>NSHighResolutionCapable</key>
-	<true/>
 </dict>
 </plist>
