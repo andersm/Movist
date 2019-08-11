@@ -194,7 +194,7 @@
         if (_frame[i]) {
             CVOpenGLTextureRelease(_pixelBuffer[i]);
             free(_frame[i]->data[0]);
-            av_free(_frame[i]);
+            avcodec_free_frame(&_frame[i]);
             _frame[i] = 0;
         }
     }
@@ -382,7 +382,7 @@
     }
 #	endif
     if (_frame) {
-        av_free(_frame);
+        avcodec_free_frame(&(_frame));
         _frame = 0;
     }
     if (_textureCache) {
