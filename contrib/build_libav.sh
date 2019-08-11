@@ -69,17 +69,6 @@ build_libav()
 && make clean && make && make install-libs && make install-headers)
 }
 
-########## INTEL i386 ###########
-
-PREFIX="$(cd build;pwd)/i386"
-PATH="$(cd build;pwd)/bin:$PREFIX/bin:$ORIGINAL_PATH"
-THEARC="i386"
-THECPU="pentium-m"
-THEOPT=""
-export PATH
-
-build_libav
-
 ########## INTEL x86_64 ###########
 
 PREFIX="$(cd build;pwd)/x86_64"
@@ -91,11 +80,10 @@ export PATH
 
 build_libav
 
-## Relocate headers
+## Relocate headers and lib
 
 cp -R $PREFIX/include/* $PREFIX/../include
-
-./make_univlib.sh
+cp $PREFIX/lib/*.a ./build/lib/
 
 touch $GUARD_FILE
 
