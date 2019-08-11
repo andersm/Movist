@@ -337,8 +337,6 @@
 	_imageQueue = [[ImageQueue alloc] initWithCapacity:videoQueueCapacity
                                                  width:width height:height];
     _decodeStarted = FALSE;
-    _nextFrameTime = 0;
-    _nextFramePts = 0;
 
     _running = TRUE;
     [NSThread detachNewThreadSelector:@selector(decodeThreadFunc:)

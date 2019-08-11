@@ -103,8 +103,6 @@ extern AVPacket s_flushPacket;
     CVOpenGLTextureCacheRef _textureCache;
     BOOL _decodeStarted;
     BOOL _needPtsAdjust;
-    double _nextFrameTime;
-    double _nextFramePts;
 }
 
 + (id)videoTrackWithAVStream:(AVStream*)stream index:(int)index;
