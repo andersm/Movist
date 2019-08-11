@@ -17,7 +17,6 @@
 		3E9FE3E214A565D400B5AEF1 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9FE3DC14A565D300B5AEF1 /* libavcodec.a */; };
 		3E9FE3E314A565D400B5AEF1 /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9FE3DD14A565D300B5AEF1 /* libavformat.a */; };
 		3E9FE3E414A565D400B5AEF1 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9FE3DE14A565D300B5AEF1 /* libavutil.a */; };
-		3E9FE3E714A565D400B5AEF1 /* libpostproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9FE3E114A565D300B5AEF1 /* libpostproc.a */; };
 		3E9FE3E914A5667300B5AEF1 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9FE3E814A5667300B5AEF1 /* libswscale.a */; };
 		3EDEB20716D2B84500CA8400 /* MMovieLayer_AVFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EDEB20616D2B84300CA8400 /* MMovieLayer_AVFoundation.m */; };
 		3EDEB21A16D3176D00CA8400 /* MMovieViewLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EDEB21916D3176C00CA8400 /* MMovieViewLayer.m */; };
@@ -279,7 +278,6 @@
 		3E9FE3DE14A565D300B5AEF1 /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavutil.a; path = contrib/build/lib/libavutil.a; sourceTree = "<group>"; };
 		3E9FE3DF14A565D300B5AEF1 /* libebml.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libebml.a; path = contrib/build/lib/libebml.a; sourceTree = "<group>"; };
 		3E9FE3E014A565D300B5AEF1 /* libmatroska.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmatroska.a; path = contrib/build/lib/libmatroska.a; sourceTree = "<group>"; };
-		3E9FE3E114A565D300B5AEF1 /* libpostproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpostproc.a; path = contrib/build/lib/libpostproc.a; sourceTree = "<group>"; };
 		3E9FE3E814A5667300B5AEF1 /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswscale.a; path = contrib/build/lib/libswscale.a; sourceTree = "<group>"; };
 		3EDEB1FB16D0177200CA8400 /* MMovieLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMovieLayer.h; sourceTree = "<group>"; };
 		3EDEB20516D2B84200CA8400 /* MMovieLayer_AVFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMovieLayer_AVFoundation.h; sourceTree = "<group>"; };
@@ -625,7 +623,6 @@
 				3E9FE3E214A565D400B5AEF1 /* libavcodec.a in Frameworks */,
 				3E9FE3E314A565D400B5AEF1 /* libavformat.a in Frameworks */,
 				3E9FE3E414A565D400B5AEF1 /* libavutil.a in Frameworks */,
-				3E9FE3E714A565D400B5AEF1 /* libpostproc.a in Frameworks */,
 				3E9FE3E914A5667300B5AEF1 /* libswscale.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -767,7 +764,6 @@
 				3E9FE3DC14A565D300B5AEF1 /* libavcodec.a */,
 				3E9FE3DD14A565D300B5AEF1 /* libavformat.a */,
 				3E9FE3DE14A565D300B5AEF1 /* libavutil.a */,
-				3E9FE3E114A565D300B5AEF1 /* libpostproc.a */,
 				3E9FE3E814A5667300B5AEF1 /* libswscale.a */,
 			);
 			name = FFmpeg;

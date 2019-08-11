@@ -146,7 +146,6 @@
         CASE_FFCODEC_______(TIERTEXSEQVIDEO);
         CASE_FFCODEC_______(TIFF);
         CASE_FFCODEC_______(GIF);
-        CASE_FFCODEC_______(FFH264);
         CASE_FFCODEC_______(DXA);
         CASE_FFCODEC_______(DNXHD);
         CASE_FFCODEC_______(THP);
@@ -266,8 +265,6 @@
         CASE_FFCODEC_MCODEC(MACE3,          MACE);
         CASE_FFCODEC_MCODEC(MACE6,          MACE);
         CASE_FFCODEC_______(VMDAUDIO);
-        CASE_FFCODEC_______(SONIC);
-        CASE_FFCODEC_______(SONIC_LS);
         CASE_FFCODEC_MCODEC(FLAC,           FLAC);
         CASE_FFCODEC_______(MP3ADU);
         CASE_FFCODEC_______(MP3ON4);

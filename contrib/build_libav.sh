@@ -39,15 +39,10 @@ build_libav()
 --disable-muxers \
 --enable-parsers \
 --disable-avdevice \
---enable-postproc \
 --disable-network \
 --enable-pthreads \
 --enable-gpl \
---disable-avconv \
---disable-ffmpeg \
---disable-avprobe \
---disable-avserver \
---disable-avplay \
+--disable-programs \
 --extra-ldflags="-L$PREFIX/../lib -arch $THEARC -mmacosx-version-min=$MACOSX_DEPLOYMENT_TARGET" \
 --extra-cflags="-isystem $PREFIX/../include -arch $THEARC -mmacosx-version-min=$MACOSX_DEPLOYMENT_TARGET -Wno-deprecated-declarations $THEOPT " \
 --enable-protocol=file \
