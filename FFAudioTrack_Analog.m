@@ -34,7 +34,6 @@
 }
 @end
 */
-#define _USE_AUDIO_DATA_FLOAT_BIT
 
 @interface AudioDataQueue : NSObject
 {
@@ -207,21 +206,12 @@ static OSStatus audioProc(void* inRefCon, AudioUnitRenderActionFlags* ioActionFl
     }
 
     AVCodecContext* context = _stream->codec;
-#ifdef _USE_AUDIO_DATA_FLOAT_BIT
+
     UInt32 formatFlags =  kAudioFormatFlagsNativeFloatPacked
                         | kAudioFormatFlagIsNonInterleaved;
     UInt32 bytesPerPacket = 4;
     UInt32 bytesPerFrame = 4;
     UInt32 bitsPerChannel = 32;
-#else
-    UInt32 formatFlags =  kLinearPCMFormatFlagIsSignedInteger
-                        | kAudioFormatFlagsNativeEndian
-                        | kLinearPCMFormatFlagIsPacked
-                        | kAudioFormatFlagIsNonInterleaved;
-    UInt32 bytesPerPacket = 2;
-    UInt32 bytesPerFrame = 2;
-    UInt32 bitsPerChannel = 16;
-#endif
 
     AudioStreamBasicDescription streamFormat;
     streamFormat.mSampleRate = context->sample_rate;
@@ -459,11 +449,7 @@ static OSStatus audioProc(void* inRefCon, AudioUnitRenderActionFlags* ioActionFl
     _nextDecodedTime = 0;
 }
 
-#ifdef _USE_AUDIO_DATA_FLOAT_BIT
 #define AUDIO_DATA_TYPE float
-#else
-#define AUDIO_DATA_TYPE int16_t
-#endif
 
 - (void)makeEmpty:(AUDIO_DATA_TYPE**)buf channelNumber:(int)channelNumber bufSize:(int)bufSize
 {
@@ -550,12 +536,8 @@ static OSStatus audioProc(void* inRefCon, AudioUnitRenderActionFlags* ioActionFl
     float volume = [_movie muted] ? 0 : _volume;
     for (i = 0; i < frameNumber; i++) { 
         for (j = 0; j < channelNumber; j++) {
-#ifdef _USE_AUDIO_DATA_FLOAT_BIT
-            dst[j][i] = 1. * volume * audioBuf[channelNumber * i + j] / INT16_MAX;            
-#else
-            dst[j][i] = audioBuf[channelNumber * i + j];            
-#endif
-        } 
+            dst[j][i] = 1. * volume * audioBuf[channelNumber * i + j] / INT16_MAX;
+        }
     }
     if (_speakerCount == 2 && channelNumber == 6) {
         for (i = 0; i < frameNumber; i++) {
