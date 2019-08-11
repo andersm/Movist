@@ -1,40 +1,26 @@
 #/bin/bash
-set -e 
+set -e
 
 if [ -z "$MACOSX_DEPLOYMENT_TARGET" ]
 then
-	echo MACOSX_DEPLOYMENT_TARGET not set
-	exit 1
+    echo MACOSX_DEPLOYMENT_TARGET not set
+    exit 1
 fi
 
-GUARD_FILE=build/guard_4
-if [[ -e $GUARD_FILE ]]
-then
-	echo libav is up to date
-	exit 0
+CONTRIB_DIR=`pwd`
+BUILD_DIR="$CONTRIB_DIR/build"
+
+GIT_PREFIX=`git rev-parse --show-prefix`
+LIBAV_HEAD=`git rev-parse --revs-only --prefix $GIT_PREFIX @:./libav`
+if [ $? -ne 0 ] || [ ! -e "libav/configure" ]; then
+    echo "The git submodules necessary for building libav are missing."
+    exit 1
 fi
 
-`git status > /dev/null 2>&1`
-if [ $? -ne 0 ]; then
-	echo "You're missing your git repo for Movist and it needs the submodule to get libav."
-	echo "To work around this you can just download libav at the same version as the submodule"
-	echo "and put it into contrib/libav folder"
-	exit 1
-fi
-if [[ ! -e "libav/configure" ]]
-then
-	echo init libav submodule
-	pushd ..
-	git submodule init
-	git submodule update
-	popd
-else
-	# Even if we have the files it's possible that
-	# we've moved to a new commit for the submodule
-	echo update libav submodule
-	pushd ..
-	git submodule update
-	popd
+LIBAV_STAMP=""
+[ -e "$BUILD_DIR/libav.stamp" ] && LIBAV_STAMP=$(<"$BUILD_DIR/libav.stamp")
+if [ $? -eq 0 ] && [ "$LIBAV_HEAD" == "$LIBAV_STAMP" ]; then
+    exit 0
 fi
 
 ORIGINAL_PATH="$PATH"
@@ -78,12 +64,13 @@ THECPU="core2"
 THEOPT="-mtune=core2"
 export PATH
 
+pushd .
 build_libav
+popd .
 
 ## Relocate headers and lib
 
 cp -R $PREFIX/include/* $PREFIX/../include
-cp $PREFIX/lib/*.a ./build/lib/
+cp $PREFIX/lib/*.a "$BUILD_DIR/lib/"
 
-touch $GUARD_FILE
-
+echo `git rev-parse --revs-only --prefix $GIT_PREFIX @:./libav` > "$BUILD_DIR/libav.stamp"
