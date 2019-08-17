@@ -140,6 +140,8 @@
         CASE_FFCODEC_MCODEC(VP5,             VP5);
         CASE_FFCODEC_MCODEC(VP6,             VP6);
         CASE_FFCODEC_MCODEC(VP6F,            VP6F);
+        CASE_FFCODEC_MCODEC(VP8,             VP8);
+        CASE_FFCODEC_MCODEC(VP9,             VP9);
         CASE_FFCODEC_______(TARGA);
         CASE_FFCODEC_______(DSICINVIDEO);
         CASE_FFCODEC_______(TIERTEXSEQVIDEO);

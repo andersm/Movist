@@ -303,6 +303,8 @@ enum {
     MCODEC_VP5          = 710,  // On2 VP5
     MCODEC_VP6          = 720,  // TrueMotion VP6
     MCODEC_VP6F         = 730,  // TrueMotion VP6 Flash
+    MCODEC_VP8          = 750,  // Google VP8
+    MCODEC_VP9          = 760,  // Google VP9
 
     MCODEC_RV10         = 800,  // RealVideo
     MCODEC_RV20         = 810,  // RealVideo G2

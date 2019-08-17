@@ -1,4 +1,4 @@
-﻿/* App General */
+/* App General */
 "Cancel" = "Zrušiť";
 "Never" = "Nikdy";
 "None" = "Žiadne";
@@ -224,6 +224,8 @@
 "VP5 DESC." = "On2 VP5";
 "VP6 DESC." = "TrueMotion VP6";
 "VP6F DESC." = "TrueMotion VP6 Flash";
+"VP8 DESC." = "Google VP8";
+"VP9 DESC." = "Google VP9";
 "RV10 DESC." = "RealVideo";
 "RV20 DESC." = "RealVideo G2";
 "RV30 DESC." = "RealVideo 8";
