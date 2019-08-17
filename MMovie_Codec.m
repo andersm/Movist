@@ -25,13 +25,13 @@
 @implementation MMovie (Codec)
 
 #define CASE_FFCODEC_MCODEC(fc, mc) \
-        case CODEC_ID_##fc : \
+        case AV_CODEC_ID_##fc : \
             codecId = MCODEC_##mc; \
             fs = @""#fc; ms = @""#mc; \
             break
 
 #define CASE_FFCODEC_______(fc) \
-        case CODEC_ID_##fc : \
+        case AV_CODEC_ID_##fc : \
             fs = @""#fc; \
             break
 
@@ -103,7 +103,6 @@
         CASE_FFCODEC_______(MSZH);
         CASE_FFCODEC_______(ZLIB);
         CASE_FFCODEC_______(QTRLE);
-        CASE_FFCODEC_______(SNOW);
         CASE_FFCODEC_______(TSCC);
         CASE_FFCODEC_______(ULTI);
         CASE_FFCODEC_______(QDRAW);

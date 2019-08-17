@@ -163,7 +163,7 @@
     int bufSize = avpicture_get_size(RGB_PIXEL_FORMAT, bufWidth , height);
     int i, ret;
     for (i = 0; i < _capacity; i++) {
-        _frame[i] = avcodec_alloc_frame();
+        _frame[i] = av_frame_alloc();
         if (_frame[i] == 0) {
             TRACE(@"ERROR_FFMPEG_FRAME_ALLOCATE_FAILED");
 			[self release];
@@ -194,7 +194,7 @@
         if (_frame[i]) {
             CVOpenGLTextureRelease(_pixelBuffer[i]);
             free(_frame[i]->data[0]);
-            avcodec_free_frame(&_frame[i]);
+            av_frame_free(&_frame[i]);
             _frame[i] = 0;
         }
     }
@@ -311,7 +311,7 @@
     }
     
     // allocate frame
-    _frame = avcodec_alloc_frame();
+    _frame = av_frame_alloc();
     if (_frame == 0) {
         *errorCode = ERROR_FFMPEG_FRAME_ALLOCATE_FAILED;
         return FALSE;
@@ -378,7 +378,7 @@
     }
 #	endif
     if (_frame) {
-        avcodec_free_frame(&(_frame));
+        av_frame_free(&(_frame));
         _frame = 0;
     }
     if (_textureCache) {

@@ -479,7 +479,7 @@ static AudioDeviceIOProcID s_theIOProcID = NULL;
     
     NSAutoreleasePool* pool = [[NSAutoreleasePool alloc] init];    
     
-    if (_stream->codec->codec_id == CODEC_ID_DTS) {
+    if (_stream->codec->codec_id == AV_CODEC_ID_DTS) {
         [self enqueueDtsData:packet];
     }
     else {

@@ -58,13 +58,8 @@
         return FALSE;
     }
 
-    context->debug_mv = 0;
     context->debug = 0;
     context->workaround_bugs = 1;
-    context->lowres = 0;
-    if (context->lowres) {
-        context->flags |= CODEC_FLAG_EMU_EDGE;
-    }
     context->idct_algo = FF_IDCT_AUTO;
     /* this is already set
        by initTrack:videoQueueCapacity:useFastDecoding: in FFVideoTrack.m.

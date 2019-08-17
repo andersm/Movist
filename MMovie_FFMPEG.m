@@ -91,8 +91,8 @@ void traceAVFormatContext(AVFormatContext* formatContext)
         [s appendFormat:@": %s", buf];
         
         if (stream->codec->codec_type == AVMEDIA_TYPE_VIDEO) {
-            if (stream->r_frame_rate.den && stream->r_frame_rate.num) {
-                [s appendFormat:@", %5.2f fps(r)", av_q2d(stream->r_frame_rate)];
+            if (stream->avg_frame_rate.den && stream->avg_frame_rate.num) {
+                [s appendFormat:@", %5.2f fps(r)", av_q2d(stream->avg_frame_rate)];
             }
             else {
                 [s appendFormat:@", %5.2f fps(c)", 1 / av_q2d(stream->codec->time_base)];

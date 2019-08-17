@@ -26,6 +26,9 @@
 #import <libavutil/mathematics.h>
 #import <libavutil/opt.h>
 
+// Macro removed from libav, should be replaced
+#define AVCODEC_MAX_AUDIO_FRAME_SIZE 192000
+
 /*
 @interface AUCallbackInfo : NSObject
 {
@@ -401,7 +404,7 @@ static OSStatus audioProc(void* inRefCon, AudioUnitRenderActionFlags* ioActionFl
                 //assert(FALSE);
             }
         }
-		dataSize = _decodedFrame->nb_samples * _stream->codec->request_channels * av_get_bytes_per_sample(_stream->codec->sample_fmt);
+		dataSize = _decodedFrame->nb_samples * av_get_channel_layout_nb_channels(_stream->codec->request_channel_layout) * av_get_bytes_per_sample(_stream->codec->sample_fmt);
         if (dataSize > 0) {
             nextPts = pts +  1. * dataSize / [_dataQueue bitRate] / PTS_TO_SEC;
         }
@@ -416,8 +419,8 @@ static OSStatus audioProc(void* inRefCon, AudioUnitRenderActionFlags* ioActionFl
             int sample_rate = _stream->codec->sample_rate;
             int out_linesize;
             uint8_t *resample_buffer;
-            int out_samples = avresample_available(_resampleContext) + av_rescale_rnd(avresample_get_delay(_resampleContext) +
-                                                                                      _decodedFrame->nb_samples, sample_rate, sample_rate, AV_ROUND_UP);
+            int out_samples = (int)(avresample_available(_resampleContext) + av_rescale_rnd(avresample_get_delay(_resampleContext) +
+                                                                                            _decodedFrame->nb_samples, sample_rate, sample_rate, AV_ROUND_UP));
             av_samples_alloc(&resample_buffer, &out_linesize, _stream->codec->channels, out_samples, AV_SAMPLE_FMT_S16, 0);
             out_samples = avresample_convert(_resampleContext, &resample_buffer, out_linesize, out_samples, &_decodedFrame->data[0], _decodedFrame->linesize[0], _decodedFrame->nb_samples);
             int resampled_size = out_samples * _stream->codec->channels * av_get_bytes_per_sample(AV_SAMPLE_FMT_S16);

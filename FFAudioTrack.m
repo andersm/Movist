@@ -37,13 +37,13 @@
     _enabled = FALSE;
     _running = FALSE;
     
-	_decodedFrame = avcodec_alloc_frame();
+	_decodedFrame = av_frame_alloc();
     
     AVCodecContext* context = _stream->codec;
     if (!_passThrough) {
 		// request downmix.
 		// but don't increase channel count unnecessarily
-		context->request_channels = MIN(2, context->channels);
+		context->request_channel_layout = av_get_default_channel_layout(MIN(2, context->channels));
     }
 
     if (![super initTrack:errorCode]) {
@@ -69,8 +69,8 @@
 
 - (BOOL)isAc3Dts
 {
-    return _stream->codec->codec_id == CODEC_ID_DTS ||
-           _stream->codec->codec_id == CODEC_ID_AC3;
+    return _stream->codec->codec_id == AV_CODEC_ID_DTS ||
+           _stream->codec->codec_id == AV_CODEC_ID_AC3;
 }
 
 - (void)startAudio

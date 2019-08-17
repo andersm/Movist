@@ -184,8 +184,8 @@
     }
 
     float fps;
-    if (stream->r_frame_rate.den && stream->r_frame_rate.num) {
-        fps = av_q2d(stream->r_frame_rate);
+    if (stream->avg_frame_rate.den && stream->avg_frame_rate.num) {
+        fps = av_q2d(stream->avg_frame_rate);
     }
     else {
         fps = 1 / av_q2d(codecContext->time_base);

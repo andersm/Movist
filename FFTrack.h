@@ -149,7 +149,7 @@ extern AVPacket s_flushPacket;
     AudioStreamBasicDescription _originalDesc;
     AudioStreamBasicDescription _currentDesc;
     double _nextDecodedTime;
-    int _nextAudioPts;
+    int64_t _nextAudioPts;
 }
 
 + (id)audioTrackWithAVStream:(AVStream*)stream index:(int)index;
