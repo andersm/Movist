@@ -289,6 +289,7 @@ enum {
     MCODEC_H264         = 300,  // H.264/MPEG4 AVC
         MCODEC_AVC1,            // Apple H.264
         MCODEC_X264,            // Open Source H.264
+    MCODEC_HEVC         = 350,  // HEVC/H.265
     MCODEC_VC1          = 400,  // VC-1 (SMPTE 421M)
 
     MCODEC_WMV1         = 500,  // Windows Media Video 7

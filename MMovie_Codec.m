@@ -75,6 +75,7 @@
         CASE_FFCODEC_MCODEC(HUFFYUV,         HUFFYUV);
         CASE_FFCODEC_______(CYUV);
         CASE_FFCODEC_MCODEC(H264,            H264);
+        CASE_FFCODEC_MCODEC(HEVC,            HEVC);
         CASE_FFCODEC_MCODEC(INDEO3,          INDEO3);
         CASE_FFCODEC_MCODEC(VP3,             VP3);
         CASE_FFCODEC_MCODEC(THEORA,          THEORA);

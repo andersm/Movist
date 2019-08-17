@@ -213,6 +213,7 @@
 "H264 DESC." = "H.264/MPEG-4 AVC";
 "AVC1 DESC." = "Apple H.264";
 "X264 DESC." = "Open Source H.264";
+"HEVC DESC." = "HEVC/H.265";
 "VC1 DESC." = "VC-1 (SMPTE 421M)";
 "WMV1 DESC." = "Windows Media Video 7";
 "WMV2 DESC." = "Windows Media Video 8";
