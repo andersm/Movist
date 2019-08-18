@@ -417,14 +417,8 @@
     
     if (_movie && [_movie rate] != 0) {
         NSImage* mainPauseImage, *mainPausePressedImage;
-        if (isSystemTiger()) {
-            mainPauseImage = [NSImage imageNamed:@"MainPauseTiger"];
-            mainPausePressedImage = [NSImage imageNamed:@"MainPausePressedTiger"];
-        }
-        else {
-            mainPauseImage = [NSImage imageNamed:@"MainPause"];
-            mainPausePressedImage = [NSImage imageNamed:@"MainPausePressed"];
-        }
+        mainPauseImage = [NSImage imageNamed:@"MainPause"];
+        mainPausePressedImage = [NSImage imageNamed:@"MainPausePressed"];
         [playMenuItem setTitle:NSLocalizedString(@"Pause_space", nil)];
         [_playButton setImage:mainPauseImage];
         [_playButton setAlternateImage:mainPausePressedImage];
@@ -433,14 +427,8 @@
     }
     else {
         NSImage* mainPlayImage, *mainPlayPressedImage;
-        if (isSystemTiger()) {
-            mainPlayImage = [NSImage imageNamed:@"MainPlayTiger"];
-            mainPlayPressedImage = [NSImage imageNamed:@"MainPlayPressedTiger"];
-        }
-        else {
-            mainPlayImage = [NSImage imageNamed:@"MainPlay"];
-            mainPlayPressedImage = [NSImage imageNamed:@"MainPlayPressed"];
-        }
+        mainPlayImage = [NSImage imageNamed:@"MainPlay"];
+        mainPlayPressedImage = [NSImage imageNamed:@"MainPlayPressed"];
         [playMenuItem setTitle:NSLocalizedString(@"Play_space", nil)];
         [_playButton setImage:mainPlayImage];
         [_playButton setAlternateImage:mainPlayPressedImage];

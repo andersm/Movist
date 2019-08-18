@@ -67,7 +67,6 @@ void detectOperatingSystem()
                        ([version compare:@"10.5"] < 0) ? OS_TIGER : OS_LEOPARD;
 }
 
-BOOL isSystemTiger() { return (_operatingSystem == OS_TIGER); }
 BOOL isSystemLeopard() { return (_operatingSystem == OS_LEOPARD); }
 
 NSArray* movistDragTypes()

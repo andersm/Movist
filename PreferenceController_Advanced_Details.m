@@ -488,17 +488,7 @@
     _detailsCategories = categories;
     [_detailsOutlineView reloadData];
     [_detailsOutlineView setAction:@selector(detailsOutlineViewAction:)];
-
-    if (isSystemTiger()) {
-        CategoryNode* node;
-        NSEnumerator* enumerator = [_detailsCategories objectEnumerator];
-        while (node = [enumerator nextObject]) {
-            [_detailsOutlineView expandItem:node];
-        }
-    }
-    else {
-        [_detailsOutlineView expandItem:nil expandChildren:TRUE];
-    }
+    [_detailsOutlineView expandItem:nil expandChildren:TRUE];
 }
 
 - (NSInteger)outlineView:(NSOutlineView*)outlineView numberOfChildrenOfItem:(id)item

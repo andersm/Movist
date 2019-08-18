@@ -92,9 +92,6 @@
 
 - (void)setIcon:(NSImage*)icon title:(NSString*)title
 {
-    if (isSystemTiger()) {
-        [icon setSize:NSMakeSize(128, 128)];
-    }
     [icon retain]; [_icon release]; _icon = icon;
     [title retain]; [_title release]; _title = title;
     [self display];
@@ -418,7 +415,6 @@
 
     [self addNavListWithParentItem:item items:[item subContents]];
 
-    [window flushWindow];
     [fader fadeIn:FADE_DURATION];
 }
 
@@ -433,7 +429,6 @@
     [self hidePreview];
     [self removeLastNavList];
 
-    [window flushWindow];
     [fader fadeIn:FADE_DURATION];
 }
 
@@ -461,7 +456,6 @@
 
     [window makeFirstResponder:_movieView];
     [_movieView display];
-    [window flushWindow];
     [fader fadeIn:FADE_DURATION];
 
     if (movie) {
@@ -492,7 +486,6 @@
     [[_movieView superview] display];   // for Tiger
     [window makeFirstResponder:self];
 
-    [window flushWindow];
     [fader fadeIn:FADE_DURATION];
     [_listView startItemNameScroll];
     [[_movieView movie] setRate:DEFAULT_PLAY_RATE];

@@ -441,7 +441,6 @@ extern NSString* MPlaylistItemDataType;
 #pragma mark utilities
 
 void detectOperatingSystem(void);
-BOOL isSystemTiger(void);
 BOOL isSystemLeopard(void);
 
 #ifdef kHIWindowVisibleInAllSpaces

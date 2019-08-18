@@ -153,12 +153,6 @@
     _full = FALSE;
 
     int bufWidth = width;
-    if (isSystemTiger()) {
-        bufWidth += 37;
-        if (bufWidth < 512) {
-            bufWidth = 512 + 37;
-        }
-    }
     bufWidth = (bufWidth + 31) / 32 * 32;
     int bufSize = avpicture_get_size(RGB_PIXEL_FORMAT, bufWidth , height);
     int i, ret;
