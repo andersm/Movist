@@ -23,15 +23,9 @@
 #include <Carbon/Carbon.h>
 #include <libavcodec/avcodec.h>
 
-#ifndef __i386__
-#define FASTCALL
-#else
-#define FASTCALL __attribute__((fastcall))
-#endif
-
-typedef void ColorConversionFunc(AVFrame *inPicture, UInt8 *outBaseAddr, int outRowBytes, unsigned outWidth, unsigned outHeight) FASTCALL;
+typedef void ColorConversionFunc(AVFrame *inPicture, UInt8 *outBaseAddr, int outRowBytes, unsigned outWidth, unsigned outHeight);
 typedef ColorConversionFunc *ColorConversionFuncPtr;
-typedef void ColorClearFunc(UInt8 *outBaseAddr, int outRowBytes, unsigned outWidth, unsigned outHeight) FASTCALL;
+typedef void ColorClearFunc(UInt8 *outBaseAddr, int outRowBytes, unsigned outWidth, unsigned outHeight);
 typedef ColorClearFunc *ColorClearFuncPtr;
 
 typedef struct ColorConversionFuncs {

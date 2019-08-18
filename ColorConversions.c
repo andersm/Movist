@@ -58,7 +58,7 @@ static void Y420toY422_lastrow(UInt8 *o, UInt8 *yc, UInt8 *uc, UInt8 *vc, unsign
 
 #include <emmintrin.h>
 
-static FASTCALL void Y420toY422_sse2(AVFrame * picture, UInt8 *o, int outRB, unsigned width, unsigned height)
+static void Y420toY422_sse2(AVFrame * picture, UInt8 *o, int outRB, unsigned width, unsigned height)
 {
 	UInt8	*yc = picture->data[0], *uc = picture->data[1], *vc = picture->data[2];
 	int		rY = picture->linesize[0], rU = picture->linesize[1], rV = picture->linesize[2];
@@ -109,7 +109,7 @@ static FASTCALL void Y420toY422_sse2(AVFrame * picture, UInt8 *o, int outRB, uns
 	HandleLastRow(o, yc, uc, vc, halfwidth, height);
 }
 
-static FASTCALL void Y420toY422_x86_scalar(AVFrame * picture, UInt8 * o, int outRB, unsigned width, unsigned height)
+static void Y420toY422_x86_scalar(AVFrame * picture, UInt8 * o, int outRB, unsigned width, unsigned height)
 {
 	UInt8	*yc = picture->data[0], *u = picture->data[1], *v = picture->data[2];
 	int		rY = picture->linesize[0], rU = picture->linesize[1], rV = picture->linesize[2];
@@ -140,7 +140,7 @@ static FASTCALL void Y420toY422_x86_scalar(AVFrame * picture, UInt8 * o, int out
 
 //Y420+Alpha Planar to V408 (YUV 4:4:4+Alpha 32-bit packed)
 //Could be fully unrolled to avoid x/2
-static FASTCALL void YA420toV408(AVFrame *picture, UInt8 *o, int outRB, unsigned width, unsigned height)
+static void YA420toV408(AVFrame *picture, UInt8 *o, int outRB, unsigned width, unsigned height)
 {
 	UInt8	*yc = picture->data[0], *u = picture->data[1], *v = picture->data[2], *a = picture->data[3];
 	int		rY = picture->linesize[0], rU = picture->linesize[1], rV = picture->linesize[2], rA = picture->linesize[3];
@@ -164,7 +164,7 @@ static FASTCALL void YA420toV408(AVFrame *picture, UInt8 *o, int outRB, unsigned
 	}
 }
 
-static FASTCALL void BGR24toRGB24(AVFrame *picture, UInt8 *baseAddr, int rowBytes, unsigned width, unsigned height)
+static void BGR24toRGB24(AVFrame *picture, UInt8 *baseAddr, int rowBytes, unsigned width, unsigned height)
 {
 	UInt8 *srcPtr = picture->data[0];
 	int srcRB = picture->linesize[0];
@@ -185,7 +185,7 @@ static FASTCALL void BGR24toRGB24(AVFrame *picture, UInt8 *baseAddr, int rowByte
 }
 
 //Native-endian XRGB32 to big-endian XRGB32
-static FASTCALL void RGB32toRGB32(AVFrame *picture, UInt8 *baseAddr, int rowBytes, unsigned width, unsigned height)
+static void RGB32toRGB32(AVFrame *picture, UInt8 *baseAddr, int rowBytes, unsigned width, unsigned height)
 {
 	UInt8 *srcPtr = picture->data[0];
 	int srcRB = picture->linesize[0];
@@ -205,7 +205,7 @@ static FASTCALL void RGB32toRGB32(AVFrame *picture, UInt8 *baseAddr, int rowByte
 	}
 }
 
-static FASTCALL void RGBtoRGB(AVFrame *picture, UInt8 *baseAddr, int rowBytes, unsigned width, unsigned height, unsigned bytesPerPixel)
+static void RGBtoRGB(AVFrame *picture, UInt8 *baseAddr, int rowBytes, unsigned width, unsigned height, unsigned bytesPerPixel)
 {
 	UInt8 *srcPtr = picture->data[0];
 	int srcRB = picture->linesize[0];
@@ -219,17 +219,17 @@ static FASTCALL void RGBtoRGB(AVFrame *picture, UInt8 *baseAddr, int rowBytes, u
 	}
 }
 
-static FASTCALL void RGB24toRGB24(AVFrame *picture, UInt8 *baseAddr, int rowBytes, unsigned width, unsigned height)
+static void RGB24toRGB24(AVFrame *picture, UInt8 *baseAddr, int rowBytes, unsigned width, unsigned height)
 {
 	RGBtoRGB(picture, baseAddr, rowBytes, width, height, 3);
 }
 
-static FASTCALL void RGB16toRGB16(AVFrame *picture, UInt8 *baseAddr, int rowBytes, unsigned width, unsigned height)
+static void RGB16toRGB16(AVFrame *picture, UInt8 *baseAddr, int rowBytes, unsigned width, unsigned height)
 {
 	RGBtoRGB(picture, baseAddr, rowBytes, width, height, 2);
 }
 
-static FASTCALL void RGB16LEtoRGB16(AVFrame *picture, UInt8 *baseAddr, int rowBytes, unsigned width, unsigned height)
+static void RGB16LEtoRGB16(AVFrame *picture, UInt8 *baseAddr, int rowBytes, unsigned width, unsigned height)
 {
 	UInt8 *srcPtr = picture->data[0];
 	int srcRB = picture->linesize[0];
@@ -244,7 +244,7 @@ static FASTCALL void RGB16LEtoRGB16(AVFrame *picture, UInt8 *baseAddr, int rowBy
 	}
 }
 
-static FASTCALL void Y422toY422(AVFrame *picture, UInt8 *o, int outRB, unsigned width, unsigned height)
+static void Y422toY422(AVFrame *picture, UInt8 *o, int outRB, unsigned width, unsigned height)
 {
 	UInt8	*yc = picture->data[0], *u = picture->data[1], *v = picture->data[2];
 	int		rY = picture->linesize[0], rU = picture->linesize[1], rV = picture->linesize[2];
@@ -266,7 +266,7 @@ static FASTCALL void Y422toY422(AVFrame *picture, UInt8 *o, int outRB, unsigned 
 	}
 }
 
-static FASTCALL void Y410toY422(AVFrame *picture, UInt8 *o, int outRB, unsigned width, unsigned height)
+static void Y410toY422(AVFrame *picture, UInt8 *o, int outRB, unsigned width, unsigned height)
 {
 	UInt8	*yc = picture->data[0], *u = picture->data[1], *v = picture->data[2];
 	int		rY = picture->linesize[0], rU = picture->linesize[1], rV = picture->linesize[2];
@@ -302,22 +302,22 @@ static void ClearRGB(UInt8 *baseAddr, int rowBytes, unsigned width, unsigned hei
 	}
 }
 
-static FASTCALL void ClearRGB32(UInt8 *baseAddr, int rowBytes, unsigned width, unsigned height)
+static void ClearRGB32(UInt8 *baseAddr, int rowBytes, unsigned width, unsigned height)
 {
 	ClearRGB(baseAddr, rowBytes, width, height, 4);
 }
 
-static FASTCALL void ClearRGB24(UInt8 *baseAddr, int rowBytes, unsigned width, unsigned height)
+static void ClearRGB24(UInt8 *baseAddr, int rowBytes, unsigned width, unsigned height)
 {
 	ClearRGB(baseAddr, rowBytes, width, height, 3);
 }
 
-static FASTCALL void ClearRGB16(UInt8 *baseAddr, int rowBytes, unsigned width, unsigned height)
+static void ClearRGB16(UInt8 *baseAddr, int rowBytes, unsigned width, unsigned height)
 {
 	ClearRGB(baseAddr, rowBytes, width, height, 2);
 }
 
-static FASTCALL void ClearV408(UInt8 *baseAddr, int rowBytes, unsigned width, unsigned height)
+static void ClearV408(UInt8 *baseAddr, int rowBytes, unsigned width, unsigned height)
 {
 	int x, y;
 	
@@ -335,7 +335,7 @@ static FASTCALL void ClearV408(UInt8 *baseAddr, int rowBytes, unsigned width, un
 	}
 }
 
-static FASTCALL void ClearY422(UInt8 *baseAddr, int rowBytes, unsigned width, unsigned height)
+static void ClearY422(UInt8 *baseAddr, int rowBytes, unsigned width, unsigned height)
 {
 	int x, y;
 	
