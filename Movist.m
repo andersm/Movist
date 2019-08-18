@@ -50,25 +50,6 @@ NSString* MPlaylistItemDataType = @"MPlaylistItemDataType";
 #pragma mark -
 #pragma mark utilities
 
-enum {
-    OS_NOT_SUPPORTED,
-    OS_TIGER,
-    OS_LEOPARD,
-};
-
-static int _operatingSystem = OS_LEOPARD;
-
-void detectOperatingSystem()
-{
-    NSDictionary* dict = [NSDictionary dictionaryWithContentsOfFile:
-                          @"/System/Library/CoreServices/SystemVersion.plist"];
-    NSString* version = [dict objectForKey:@"ProductVersion"];
-    _operatingSystem = ([version compare:@"10.4"] < 0) ? OS_NOT_SUPPORTED :
-                       ([version compare:@"10.5"] < 0) ? OS_TIGER : OS_LEOPARD;
-}
-
-BOOL isSystemLeopard() { return (_operatingSystem == OS_LEOPARD); }
-
 NSArray* movistDragTypes()
 {
     return [NSArray arrayWithObjects:

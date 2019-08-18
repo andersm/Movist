@@ -440,9 +440,6 @@ extern NSString* MPlaylistItemDataType;
 #pragma mark -
 #pragma mark utilities
 
-void detectOperatingSystem(void);
-BOOL isSystemLeopard(void);
-
 #ifdef kHIWindowVisibleInAllSpaces
 #undef kHIWindowVisibleInAllSpaces
 #define kHIWindowVisibleInAllSpaces     (1 << 8)

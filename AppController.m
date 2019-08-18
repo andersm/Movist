@@ -44,7 +44,6 @@ NSString* videoCodecName(int codecId);
 
 + (void)initialize
 {
-    detectOperatingSystem();
     av_register_all();
     [[NSUserDefaults standardUserDefaults] registerMovistDefaults];
 }
