@@ -163,7 +163,6 @@
     NSFont* font = [NSFont fontWithName:name size:size];
 
     NSFontManager* fontManager = [NSFontManager sharedFontManager];
-    [fontManager setDelegate:self];
     [fontManager orderFrontFontPanel:self];
     [fontManager setSelectedFont:font isMultiple:FALSE];
 }
