@@ -67,9 +67,6 @@
 {
     //TRACE(@"%s", __PRETTY_FUNCTION__);
     unsigned int styleMask = NSWindowStyleMaskBorderless;
-#if defined(AVAILABLE_MAC_OS_X_VERSION_10_5_AND_LATER)
-    styleMask |= NSUnscaledWindowMask;
-#endif
     NSRect rect = [screen frame];
     rect.origin.x = rect.origin.y = 0;
     if (self = [super initWithContentRect:rect
