@@ -148,7 +148,7 @@
 - (IBAction)subtitleEncodingAction:(id)sender
 {
     //TRACE(@"%s", __PRETTY_FUNCTION__);
-    CFStringEncoding encoding = [[sender selectedItem] tag];
+    CFStringEncoding encoding = (CFStringEncoding)[[sender selectedItem] tag];
     [_defaults setInteger:encoding forKey:MSubtitleEncodingKey];
     [_appController reopenSubtitles];
 }

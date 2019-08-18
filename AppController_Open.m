@@ -112,7 +112,7 @@
     NSString* path = [subtitleURL path];
     NSString* ext = [[path pathExtension] lowercaseString];
     if (cfEncoding == kCFStringEncodingInvalidId) {
-        cfEncoding = [_defaults integerForKey:MSubtitleEncodingKey];
+        cfEncoding = (CFStringEncoding)[_defaults integerForKey:MSubtitleEncodingKey];
     }
 
     // find parser for subtitle's path extension
