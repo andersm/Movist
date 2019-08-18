@@ -144,7 +144,6 @@
     [self setImagePosition:[buttonCell imagePosition]];
     [self setBackgroundColor:[buttonCell backgroundColor]];
     [self setBezelStyle:[buttonCell bezelStyle]];
-    [self setGradientType:[buttonCell gradientType]];
     [self setImageDimsWhenDisabled:[buttonCell imageDimsWhenDisabled]];
     [self setTransparent:[buttonCell isTransparent]];
 }
