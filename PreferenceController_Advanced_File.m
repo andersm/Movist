@@ -195,9 +195,11 @@ extern void _LSCopyAllApplicationURLs(NSArray**);
         NSURL* url;
         NSInteger index = -1;
         NSString* ext = [_fileExtensions objectAtIndex:rowIndex];
-        if (noErr == LSGetApplicationForInfo(kLSUnknownType, kLSUnknownCreator,
-                                             (CFStringRef)ext, kLSRolesViewer,
-                                             NULL, (CFURLRef*)&url)) {
+        CFStringRef uttype = UTTypeCreatePreferredIdentifierForTag(kUTTagClassFilenameExtension,
+                                                                   (CFStringRef)ext, NULL);
+        url = (NSURL*)LSCopyDefaultApplicationURLForContentType(uttype, kLSRolesViewer, NULL);
+
+        if (url != NULL) {
             TRACE(@"ext=\"%@\" ==> app=\"%@\"", ext, [url path]);
             index = [_bindingApps indexOfObject:[url path]];
         }
