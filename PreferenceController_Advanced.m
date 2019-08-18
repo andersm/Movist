@@ -78,7 +78,7 @@
 #pragma mark -
 #pragma mark file & codec binding
 
-- (int)numberOfRowsInTableView:(NSTableView*)tableView
+- (NSInteger)numberOfRowsInTableView:(NSTableView*)tableView
 {
     if (tableView == _fileBindingTableView) {
         return [self numberOfRowsInFileBindingTableView];

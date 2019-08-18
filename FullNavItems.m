@@ -46,18 +46,18 @@
 }
 
 - (FullNavItem*)parentItem  { return _parentItem; }
-- (int)count                { return [_items count]; }
+- (NSUInteger)count         { return [_items count]; }
 - (int)topIndex             { return _topIndex; }
-- (int)selectedIndex        { return _selectedIndex; }
+- (NSUInteger)selectedIndex { return _selectedIndex; }
 
-- (FullNavItem*)itemAtIndex:(int)index { return [_items objectAtIndex:index]; }
+- (FullNavItem*)itemAtIndex:(NSUInteger)index { return [_items objectAtIndex:index]; }
 
 - (FullNavItem*)selectedItem
 {
     return (0 <= _selectedIndex) ? (FullNavItem*)[_items objectAtIndex:_selectedIndex] : nil;
 }
 
-- (void)selectAtIndex:(int)index { _selectedIndex = index; }
+- (void)selectAtIndex:(NSUInteger)index { _selectedIndex = index; }
 
 - (void)selectUpper
 {

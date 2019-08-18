@@ -637,7 +637,7 @@
         // init _audioTrackIndexSet for next open.
         [_audioTrackIndexSet removeAllIndexes];
         NSArray* audioTracks = [_movie audioTracks];
-        int i, count = [audioTracks count];
+        NSUInteger i, count = [audioTracks count];
         for (i = 0; i < count; i++) {
             if ([[audioTracks objectAtIndex:i] isEnabled]) {
                 [_audioTrackIndexSet addIndex:i];
@@ -818,7 +818,7 @@
 {
     //TRACE(@"%s", __PRETTY_FUNCTION__);
     [self openSubtitles:[[_playlist currentItem] subtitleURLs]
-               encoding:[sender tag]];
+               encoding:(CFStringEncoding)[sender tag]];
 }
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -843,12 +843,12 @@
     objectValueForTableColumn:(NSTableColumn*)tableColumn row:(int)rowIndex
 {
     //TRACE(@"%s %@:%d", __PRETTY_FUNCTION__, [tableColumn identifier], rowIndex);
-    int vCount = [[_movie videoTracks] count];
-    int aCount = [[_movie audioTracks] count];
+    NSUInteger vCount = [[_movie videoTracks] count];
+    NSUInteger aCount = [[_movie audioTracks] count];
     //int sCount = [_subtitles count];
     int vIndex = rowIndex;
-    int aIndex = vIndex - vCount;
-    int sIndex = aIndex - aCount;
+    NSInteger aIndex = vIndex - vCount;
+    NSInteger sIndex = aIndex - aCount;
 
     NSString* identifier = [tableColumn identifier];
     if ([identifier isEqualToString:@"enable"]) {
@@ -965,11 +965,11 @@
     //TRACE(@"%s %@ %@ %d", __PRETTY_FUNCTION__, object, [tableColumn identifier], rowIndex);
     NSString* identifier = [tableColumn identifier];
     if ([identifier isEqualToString:@"enable"]) {
-        int vCount = [[_movie videoTracks] count];
-        int aCount = [[_movie audioTracks] count];
-        int vIndex = rowIndex;
-        int aIndex = vIndex - vCount;
-        int sIndex = aIndex - aCount;
+        NSUInteger vCount = [[_movie videoTracks] count];
+        NSUInteger aCount = [[_movie audioTracks] count];
+        NSInteger vIndex = rowIndex;
+        NSInteger aIndex = vIndex - vCount;
+        NSInteger sIndex = aIndex - aCount;
 
         if (vIndex < vCount) {
             BOOL enabled = [(NSNumber*)object boolValue];

@@ -44,19 +44,19 @@ void traceAVFormatContext(AVFormatContext* formatContext)
         [s appendString:@"N/A"];
     }
     else {
-        int seconds = formatContext->duration / AV_TIME_BASE;
-        int us      = formatContext->duration % AV_TIME_BASE;
-        int minutes = seconds / 60;
-        [s appendFormat:@"%02d:%02d:%02d.%01d",
+        int64_t seconds = formatContext->duration / AV_TIME_BASE;
+        int64_t us      = formatContext->duration % AV_TIME_BASE;
+        int64_t minutes = seconds / 60;
+        [s appendFormat:@"%02lld:%02lld:%02lld.%01lld",
          minutes / 60, minutes % 60, seconds % 60, (10 * us) / AV_TIME_BASE];
     }
     TRACE(s);
     
     [s setString:@"  - start: "];
     if (formatContext->start_time != AV_NOPTS_VALUE) {
-        int seconds = formatContext->start_time / AV_TIME_BASE;
-        int us      = formatContext->start_time % AV_TIME_BASE;
-        [s appendFormat:@"%d.%06d",
+        int64_t seconds = formatContext->start_time / AV_TIME_BASE;
+        int64_t us      = formatContext->start_time % AV_TIME_BASE;
+        [s appendFormat:@"%lld.%06d",
          seconds, (int)av_rescale(us, 1000000, AV_TIME_BASE)];
         TRACE(s);
     }
@@ -218,7 +218,7 @@ void traceAVFormatContext(AVFormatContext* formatContext)
     bool needPtsAdjust = strstr(_formatContext->iformat->name, "matroska");
 
     NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
-    int videoQueueCapacity = [defaults integerForKey:MVideoQueueCapacityKey];
+    NSInteger videoQueueCapacity = [defaults integerForKey:MVideoQueueCapacityKey];
     BOOL useFastDecoding = [defaults integerForKey:MUseFastDecodingKey];
 
     MTrack* track;

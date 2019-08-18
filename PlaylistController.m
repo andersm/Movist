@@ -96,7 +96,7 @@
 - (void)playlistItemDoubleClicked:(id)sender
 {
     //TRACE(@"%s", __PRETTY_FUNCTION__);
-    int row = [_tableView clickedRow];
+    NSInteger row = [_tableView clickedRow];
     if (0 <= row && row < [_playlist count]) {
         [_playlist setCurrentItemAtIndex:row];
         if ([_appController openCurrentPlaylistItem]) {
@@ -132,7 +132,7 @@
     [panel setCanChooseDirectories:TRUE];
     [panel setAllowsMultipleSelection:TRUE];
     if (NSModalResponseOK == [panel runModal]) {
-        int row = MAX(0, [[_tableView selectedRowIndexes] firstIndex]);
+        NSUInteger row = MAX(0, [[_tableView selectedRowIndexes] firstIndex]);
         [_playlist insertURLs:[panel URLs] atIndex:row];
         [self updateUI];
 
@@ -149,7 +149,7 @@
     //TRACE(@"%s", __PRETTY_FUNCTION__);
     NSIndexSet* indexes = [_tableView selectedRowIndexes];
     if (0 < [indexes count]) {
-        int firstRow = [indexes firstIndex];
+        NSUInteger firstRow = [indexes firstIndex];
         [_playlist removeItemsAtIndexes:indexes];
         [self updateUI];
 
@@ -202,10 +202,8 @@
     //TRACE(@"%s", __PRETTY_FUNCTION__);
     [_tableView reloadData];
     if ([_playlist currentItem]) {
-        int rowIndex = [_playlist indexOfItem:[_playlist currentItem]];
-        if (0 <= rowIndex) {
-            [_tableView scrollRowToVisible:rowIndex];
-        }
+        NSUInteger rowIndex = [_playlist indexOfItem:[_playlist currentItem]];
+        [_tableView scrollRowToVisible:rowIndex];
     }
     [self updateRemoveButton];
     [self updateRepeatUI];
@@ -218,7 +216,7 @@
 #pragma mark -
 #pragma mark data-source
 
-- (int)numberOfRowsInTableView:(NSTableView*)tableView
+- (NSUInteger)numberOfRowsInTableView:(NSTableView*)tableView
 {
     //TRACE(@"%s", __PRETTY_FUNCTION__);
     return [_playlist count];
@@ -227,7 +225,7 @@
 - (CGFloat)tableView:(NSTableView*)tableView heightOfRow:(int)rowIndex
 {
     PlaylistItem* item = [_playlist itemAtIndex:rowIndex];
-    int subtitleURLCount = [[item subtitleURLs] count];
+    NSUInteger subtitleURLCount = [[item subtitleURLs] count];
     if (subtitleURLCount <= 1) {
         return [tableView rowHeight];
     }
@@ -341,7 +339,7 @@
         case DRAG_ACTION_REORDER_PLAYLIST : {
             NSData* data = [pboard dataForType:MPlaylistItemDataType];
             NSIndexSet* indexes = [NSKeyedUnarchiver unarchivedObjectOfClass:[NSIndexSet class] fromData:data error:nil];
-            int newFirstRow = [_playlist moveItemsAtIndexes:indexes toIndex:row];
+            NSUInteger newFirstRow = [_playlist moveItemsAtIndexes:indexes toIndex:row];
             [_tableView reloadData];
 
             // re-select original selections

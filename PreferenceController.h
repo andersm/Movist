@@ -222,7 +222,7 @@
 
 - (void)initFileBinding;
 
-- (int)numberOfRowsInFileBindingTableView;
+- (NSInteger)numberOfRowsInFileBindingTableView;
 - (id)objectValueForFileBindingTableColumn:(NSTableColumn*)tableColumn row:(int)rowIndex;
 - (void)setObjectValue:(id)object
 forFileBindingTableColumn:(NSTableColumn*)tableColumn row:(int)rowIndex;
@@ -241,7 +241,7 @@ forFileBindingTableColumn:(NSTableColumn*)tableColumn row:(int)rowIndex;
 
 - (void)initCodecBinding;
 
-- (int)numberOfRowsInCodecBindingTableView;
+- (NSUInteger)numberOfRowsInCodecBindingTableView;
 - (id)objectValueForCodecBindingTableColumn:(NSTableColumn*)tableColumn row:(int)rowIndex;
 - (void)setObjectValue:(id)object
 forCodecBindingTableColumn:(NSTableColumn*)tableColumn row:(int)rowIndex;

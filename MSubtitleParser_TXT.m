@@ -37,7 +37,7 @@ enum {
 };
 
 typedef struct _TXTTag {
-    int type;          // TAG_*
+    NSInteger type;     // TAG_*
     NSString* attr;
     NSRange range;
 } TXTTag;
@@ -281,7 +281,7 @@ typedef struct _TXTTag {
 
     // remove empty subtitle if exist and
     // make complete not-ended-string if exist.
-    int i;
+    NSInteger i;
     for (i = [_subtitles count] - 1; 0 <= i; i--) {
         subtitle = [_subtitles objectAtIndex:i];
         if ([subtitle isEmpty]) {
@@ -367,7 +367,7 @@ typedef struct _TXTTag {
 
 @implementation NSString (MSubtitleParser_TXT)
 
-TXTTag MMakeTXTTag(int type, int location, int length, NSString* attr)
+TXTTag MMakeTXTTag(NSInteger type, NSUInteger location, NSUInteger length, NSString* attr)
 {
     TXTTag tag;
     tag.type = type;

@@ -38,7 +38,7 @@
 
 - (void)dealloc
 {
-    int i, count = [_subtitles count];
+    NSUInteger i, count = [_subtitles count];
     for (i = 0; i < count; i++) {
         if (_spudec[i]) {
             spudec_free(_spudec[i]);

@@ -26,7 +26,7 @@
 
 @implementation MMovieView (Capture)
 
-- (void)setCaptureFormat:(int)format { _captureFormat = format; }
+- (void)setCaptureFormat:(NSInteger)format { _captureFormat = format; }
 - (void)setIncludeLetterBoxOnCapture:(BOOL)include { _includeLetterBoxOnCapture = include; }
 
 - (NSRect)rectForCapture:(BOOL)alternative
@@ -97,7 +97,7 @@
             representationUsingType:fileType properties:properties];
 }
 
-- (NSString*)fileExtensionForCaptureFormat:(int)format
+- (NSString*)fileExtensionForCaptureFormat:(NSInteger)format
 {
     /*
     NSString * NSFileTypeForHFSTypeCode(OSType hfsFileTypeCode);
@@ -152,9 +152,9 @@
 #pragma mark -
 #pragma view drag action
 
-- (void)setViewDragAction:(int)action { _viewDragAction = action; }
+- (void)setViewDragAction:(NSInteger)action { _viewDragAction = action; }
 
-- (int)viewDragActionWithModifierFlags:(unsigned int)flags
+- (NSInteger)viewDragActionWithModifierFlags:(unsigned int)flags
 {
     return (flags & NSEventModifierFlagControl)   ? VIEW_DRAG_ACTION_MOVE_WINDOW :
            (flags & NSEventModifierFlagOption) ? VIEW_DRAG_ACTION_CAPTURE_MOVIE :
@@ -171,7 +171,7 @@
 
 - (void)mouseDragged:(NSEvent*)event
 {
-    int action = [self viewDragActionWithModifierFlags:[event modifierFlags]];
+    NSInteger action = [self viewDragActionWithModifierFlags:[event modifierFlags]];
     if (action == VIEW_DRAG_ACTION_MOVE_WINDOW) {
         if (![(AppController*)[NSApp delegate] isFullScreen]) {
             [[self window] mouseDragged:event];

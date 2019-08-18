@@ -88,8 +88,8 @@ NSString* const kMovistUpdateErrorDomain = @"MovistUpdateErrorDomain";
 	}
 	NSArray* thisVersionValues = [CURRENT_VERSION componentsSeparatedByString:@"."];
 	NSArray* newVersionValues = [versionString componentsSeparatedByString:@"."];
-	int i;
-	int dotCount = [thisVersionValues count] < [newVersionValues count] ? [thisVersionValues count] : [newVersionValues count];
+	NSUInteger i;
+	NSUInteger dotCount = [thisVersionValues count] < [newVersionValues count] ? [thisVersionValues count] : [newVersionValues count];
 	for(i = 0; i < dotCount; i++)
 	{
 		int thisValue = [(NSString*)[thisVersionValues objectAtIndex:i] intValue];

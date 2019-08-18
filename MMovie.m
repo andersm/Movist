@@ -433,9 +433,9 @@
 - (void)setVolume:(float)volume { _volume = volume; }
 - (void)setMuted:(BOOL)muted { _muted = muted; }
 
-- (int)aspectRatio { return _aspectRatio; }
+- (NSInteger)aspectRatio { return _aspectRatio; }
 - (NSSize)adjustedSizeByAspectRatio { return _adjustedSize; }
-- (void)setAspectRatio:(int)aspectRatio
+- (void)setAspectRatio:(NSInteger)aspectRatio
 {
     _aspectRatio = aspectRatio;
 

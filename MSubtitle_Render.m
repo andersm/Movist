@@ -25,12 +25,12 @@
 
 @interface MSubtitle (Private)
 
-- (int)makeTexImagesFrom:(int)firstIndex to:(int)lastIndex baseTime:(float)baseTime;
-- (void)releaseTexImagesFrom:(int)firstIndex to:(int)lastIndex;
+- (NSInteger)makeTexImagesFrom:(NSInteger)firstIndex to:(NSInteger)lastIndex baseTime:(float)baseTime;
+- (void)releaseTexImagesFrom:(NSInteger)firstIndex to:(NSInteger)lastIndex;
 - (void)remakeAllTexImages;
 - (void)remakeTexImagesForBeyondBackwardSeek;
 - (void)remakeTexImagesForBeyondForwardSeek;
-- (void)remakeTexImagesForInsideReleaseRange:(int)index;
+- (void)remakeTexImagesForInsideReleaseRange:(NSInteger)index;
 
 @end
 
@@ -106,7 +106,7 @@
     [_renderConditionLock unlockWithCondition:1];
 }
 
-- (void)updatePlaySeekIndexes:(int)index isSeek:(BOOL)isSeek
+- (void)updatePlaySeekIndexes:(NSInteger)index isSeek:(BOOL)isSeek
 {
     BOOL remakeNeeded = FALSE;
     if (_playIndex != index) {
@@ -133,7 +133,7 @@
         return nil;
     }
 
-    int index = [self indexAtTime:time direction:0];
+    NSInteger index = [self indexAtTime:time direction:0];
     if (index < 0) {
         index = [self indexAtTime:time direction:+1];   // find forward item
         if (0 <= index) {
@@ -202,12 +202,12 @@
 
 #define DIFF_TIME(t1, t2)    ((t2) - (t1))
 
-- (int)makeTexImagesFrom:(int)firstIndex to:(int)lastIndex baseTime:(float)baseTime
+- (NSInteger)makeTexImagesFrom:(NSInteger)firstIndex to:(NSInteger)lastIndex baseTime:(float)baseTime
 {
     //TRACE(@"%s [%d]~[%d] %@", __PRETTY_FUNCTION__,
     //      firstIndex, lastIndex, NSStringFromMovieTime(baseTime));
 
-    int i;
+    NSInteger i;
     float interval;
     MSubtitleItem* item;
     if (lastIndex < firstIndex) {
@@ -245,11 +245,11 @@
     return lastIndex;
 }
 
-- (void)releaseTexImagesFrom:(int)firstIndex to:(int)lastIndex
+- (void)releaseTexImagesFrom:(NSInteger)firstIndex to:(NSInteger)lastIndex
 {
     //TRACE(@"%s [%d]~[%d]", __PRETTY_FUNCTION__, firstIndex, lastIndex);
 
-    int i;
+    NSInteger i;
     MSubtitleItem* item;
     for (i = firstIndex; i <= lastIndex; i++) {
         item = [_items objectAtIndex:i];
@@ -283,7 +283,7 @@
 {
     //TRACE(@"%s remaking for beyond backward seek : %d", __PRETTY_FUNCTION__, _seekIndex);
 
-    int i;
+    NSInteger i;
     float interval, seekTime = [[_items objectAtIndex:_seekIndex] endTime];
     // release in release-range over _forwardRenderInterval.
     for (i = _releaseBeginIndex; i <= _releaseEndIndex; i++) {
@@ -308,7 +308,7 @@
 {
     //TRACE(@"%s remaking for beyond forward seek : %d", __PRETTY_FUNCTION__, _seekIndex);
 
-    int i;
+    NSInteger i;
     float interval, seekTime = [(MSubtitleItem*)[_items objectAtIndex:_seekIndex] beginTime];
     // release in release-range over _backwardRenderInterval.
     for (i = _releaseEndIndex; _releaseBeginIndex <= i; i--) {
@@ -328,11 +328,11 @@
     //      _releaseBeginIndex, _releaseEndIndex);
 }
 
-- (void)remakeTexImagesForInsideReleaseRange:(int)index
+- (void)remakeTexImagesForInsideReleaseRange:(NSInteger)index
 {
     //TRACE(@"%s remaking for inside release range : %d", __PRETTY_FUNCTION__, index);
 
-    int i;
+    NSInteger i;
     float interval, time = [(MSubtitleItem*)[_items objectAtIndex:index] beginTime];
     // release before index over _backwardRenderInterval.
     for (i = index; _releaseBeginIndex <= i; i--) {

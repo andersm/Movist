@@ -406,7 +406,7 @@ private:
 public:
     virtual uint64 getFilePointer() { return ::lseek(_file, 0, SEEK_CUR); }
     virtual void setFilePointer(int64_t offset, seek_mode mode = seek_beginning);
-    virtual uint32 read(void* p, size_t size) { return ::read(_file, p, size); }
+    virtual uint32 read(void* p, size_t size) { return (uint32)::read(_file, p, size); }
     virtual size_t write(const void* p, size_t size) { return ::write(_file, p, size); }
     virtual void close() { ::close(_file); }
 };

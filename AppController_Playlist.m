@@ -107,7 +107,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark -
 
-- (void)setRepeatMode:(unsigned int)mode
+- (void)setRepeatMode:(NSInteger)mode
 {
     //TRACE(@"%s %d", __PRETTY_FUNCTION__, mode);
 	NSMenuItem* item = nil;
@@ -170,7 +170,7 @@
 - (void)updateRepeatUI
 {
     //TRACE(@"%s", __PRETTY_FUNCTION__);
-    unsigned int mode = [_playlist repeatMode];
+    NSInteger mode = [_playlist repeatMode];
 
 	for (NSMenuItem* item in [_controlMenu itemArray]) {
         if ([item action] == @selector(repeatAction:)) {

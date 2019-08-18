@@ -162,7 +162,7 @@
     }
 }
 
-- (void)setSeekInterval:(float)interval atIndex:(unsigned int)index
+- (void)setSeekInterval:(float)interval atIndex:(NSInteger)index
 {
     //TRACE(@"%s [%d]:%.1f sec", __PRETTY_FUNCTION__, index, interval);
     _seekInterval[index] = interval;
@@ -201,7 +201,7 @@
     }
 }
 
-- (void)changePlayRate:(int)tag
+- (void)changePlayRate:(NSInteger)tag
 {
     switch (tag) {
         case -1 : [self setPlayRate:_playRate - 0.1];   break;
@@ -487,7 +487,7 @@
 - (IBAction)seekAction:(id)sender
 {
     //TRACE(@"%s %d", __PRETTY_FUNCTION__, [sender tag]);
-    int tag = [sender tag];
+    NSInteger tag = [sender tag];
     unsigned int flags = [[NSApp currentEvent] modifierFlags];
     if (flags & NSEventModifierFlagOption) {
         if (flags & NSEventModifierFlagShift) {

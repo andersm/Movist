@@ -299,7 +299,7 @@
 #pragma mark -
 #pragma mark subtitle attributes
 
-- (int)letterBoxHeight { return _letterBoxHeight; }
+- (NSInteger)letterBoxHeight { return _letterBoxHeight; }
 - (float)subtitleScreenMargin { return _subtitleScreenMargin; }
 
 - (void)updateLetterBoxHeight
@@ -311,7 +311,7 @@
         _letterBoxHeight = _letterBoxHeightPrefs;
     }
     else {
-        int prevHeight = _letterBoxHeight;
+        NSInteger prevHeight = _letterBoxHeight;
         if (_subtitleInLBOX) {
             MMovieOSD* subtitleOSD = _subtitleOSD;
             NSRect rect = [[[self window] screen] frame];
@@ -323,7 +323,7 @@
             if (bs.width / bs.height < ms.width / ms.height) {
                 float lineHeight = [subtitleOSD adjustedLineHeight:bs.width];
                 float letterBoxHeight = bs.height - (bs.width * ms.height / ms.width);
-                int lines = (int)letterBoxHeight / (int)lineHeight;
+                NSInteger lines = (NSInteger)letterBoxHeight / (NSInteger)lineHeight;
                 lines = MIN(lines, _autoLetterBoxHeightMaxLines);
                 _letterBoxHeight = adjustToRange(lines,
                                                  LETTER_BOX_HEIGHT_1_LINE,
@@ -343,7 +343,7 @@
     }
 }
 
-- (void)setAutoLetterBoxHeightMaxLines:(int)lines
+- (void)setAutoLetterBoxHeightMaxLines:(NSInteger)lines
 {
     _autoLetterBoxHeightMaxLines = lines;
 
@@ -351,7 +351,7 @@
     [self updateMovieRect:TRUE];
 }
 
-- (void)setLetterBoxHeight:(int)height
+- (void)setLetterBoxHeight:(NSInteger)height
 {
     //TRACE(@"%s", __PRETTY_FUNCTION__);
     _letterBoxHeightPrefs = height;

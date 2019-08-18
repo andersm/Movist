@@ -107,9 +107,9 @@ BOOL checkMovieSeries(NSString* filename1, NSString* filename2)
     //    return FALSE;
     //}
 
-    unsigned int length1 = [filename1 length];
-    unsigned int length2 = [filename2 length];
-    unsigned int i, minSameLength = 5;
+    NSUInteger length1 = [filename1 length];
+    NSUInteger length2 = [filename2 length];
+    NSUInteger i, minSameLength = 5;
     unichar c1, c2;
     for (i = 0; i < length1 && i < length2; i++) {
         c1 = [filename1 characterAtIndex:i];

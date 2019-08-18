@@ -32,7 +32,7 @@
     NSColor* _shadowColor;
     float _shadowBlur;          // for 640-width-of-movie
     float _shadowOffset;        // for 640-width-of-movie
-    int _shadowDarkness;
+    NSInteger _shadowDarkness;
 
     // text rendering
     NSFont* _font;
@@ -46,9 +46,9 @@
     float _lineSpacing;
 
     // position & margin
-    int _hPosition;             // OSD_HPOSITION_*
-    int _vPosition;             // OSD_VPOSITION_*
-    int _vPositionPrefs;        // OSD_VPOSITION_*
+    NSInteger _hPosition;       // OSD_HPOSITION_*
+    NSInteger _vPosition;       // OSD_VPOSITION_*
+    NSInteger _vPositionPrefs;  // OSD_VPOSITION_*
     float _hMargin;             // percentage of width
     float _vMargin;             // percentage of height
     float _subtitleSync;        // for subtitle only
@@ -73,11 +73,11 @@
 - (NSColor*)shadowColor;
 - (float)shadowBlur;
 - (float)shadowOffset;
-- (int)shadowDarkness;
+- (NSInteger)shadowDarkness;
 - (BOOL)setShadowColor:(NSColor*)shadowColor;
 - (BOOL)setShadowBlur:(float)shadowBlur;
 - (BOOL)setShadowOffset:(float)shadowOffset;
-- (BOOL)setShadowDarkness:(int)darkness;
+- (BOOL)setShadowDarkness:(NSInteger)darkness;
 
 #pragma mark text
 - (void)initTextRendering;
@@ -96,10 +96,10 @@
 - (BOOL)setLineSpacing:(float)lineSpacing;
 
 #pragma mark position
-- (unsigned int)hPosition;
-- (unsigned int)vPosition;
-- (BOOL)setHPosition:(unsigned int)hPosition;
-- (BOOL)setVPosition:(unsigned int)vPosition;
+- (NSInteger)hPosition;
+- (NSInteger)vPosition;
+- (BOOL)setHPosition:(NSInteger)hPosition;
+- (BOOL)setVPosition:(NSInteger)vPosition;
 - (void)updateVPosition:(BOOL)displayOnLetterBox;
 
 #pragma mark margin

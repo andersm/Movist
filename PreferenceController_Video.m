@@ -51,7 +51,7 @@
 - (IBAction)fullScreenFillAction:(id)sender
 {
     //TRACE(@"%s", __PRETTY_FUNCTION__);
-    int fill = [[sender selectedItem] tag];
+    NSInteger fill = [[sender selectedItem] tag];
     if ([sender tag] == 0) {
         [_defaults setInteger:fill forKey:MFullScreenFillForWideMovieKey];
         [_appController setFullScreenFill:fill forWideMovie:TRUE];

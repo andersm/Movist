@@ -37,12 +37,12 @@
 
     [_subtitleEnableButton setState:[_defaults boolForKey:MSubtitleEnableKey]];
 
-    int textEncoding = [_defaults integerForKey:MSubtitleEncodingKey];
+    NSInteger textEncoding = [_defaults integerForKey:MSubtitleEncodingKey];
     [_subtitleEncodingPopUpButton selectItemWithTag:textEncoding];
 
     [self updateSubtitleDataView];
 
-    int height = [_defaults integerForKey:MLetterBoxHeightKey];
+    NSInteger height = [_defaults integerForKey:MLetterBoxHeightKey];
     [_letterBoxHeightPopUpButton selectItemWithTag:height];
 
     float screenMargin = [_defaults floatForKey:MSubtitleScreenMarginKey];
@@ -79,7 +79,7 @@
     NSColor* shadowColor = [_defaults colorForKey:MSubtitleShadowColorKey];
     float shadowBlur = [_defaults floatForKey:MSubtitleShadowBlurKey];
     float shadowOffset = [_defaults floatForKey:MSubtitleShadowOffsetKey];
-    int shadowDarkness = [_defaults integerForKey:MSubtitleShadowDarknessKey];
+    NSInteger shadowDarkness = [_defaults integerForKey:MSubtitleShadowDarknessKey];
     [_subtitleShadowColorWell setColor:shadowColor];
     [_subtitleShadowOpacitySlider setFloatValue:[shadowColor alphaComponent]];
     [_subtitleShadowOpacityTextField setFloatValue:[shadowColor alphaComponent]];
@@ -87,10 +87,10 @@
     [_subtitleShadowBlurTextField setFloatValue:shadowBlur];
     [_subtitleShadowOffsetSlider setFloatValue:shadowOffset];
     [_subtitleShadowOffsetTextField setFloatValue:shadowOffset];
-    [_subtitleShadowDarknessSlider setIntValue:shadowDarkness];
-    [_subtitleShadowDarknessTextField setIntValue:shadowDarkness];
+    [_subtitleShadowDarknessSlider setIntegerValue:shadowDarkness];
+    [_subtitleShadowDarknessTextField setIntegerValue:shadowDarkness];
 
-    int position = [_defaults integerForKey:MSubtitleVPositionKey];
+    NSInteger position = [_defaults integerForKey:MSubtitleVPositionKey];
     [_subtitlePositionPopUpButton selectItemWithTag:position];
 
     float hMargin = [_defaults floatForKey:MSubtitleHMarginKey];
@@ -135,14 +135,14 @@
     }
     [_subtitleFontButton setAttributedTitle:[mas autorelease]];
     
-    int chars = [_defaults integerForKey:MSubtitleAutoFontSizeCharsKey];
+    NSInteger chars = [_defaults integerForKey:MSubtitleAutoFontSizeCharsKey];
     [_subtitleAutoFontSizeButton setState:autoFontSize];
     [_subtitleAutoFontSizeLabelTextField setEnabled:autoFontSize];
     [_subtitleAutoFontSizeTextField setEnabled:autoFontSize];
     [_subtitleAutoFontSizeTextField setEditable:autoFontSize];
-    [_subtitleAutoFontSizeTextField setIntValue:chars];
+    [_subtitleAutoFontSizeTextField setIntegerValue:chars];
     [_subtitleAutoFontSizeStepper setEnabled:autoFontSize];
-    [_subtitleAutoFontSizeStepper setIntValue:chars];
+    [_subtitleAutoFontSizeStepper setIntegerValue:chars];
 }
 
 - (IBAction)subtitleEncodingAction:(id)sender
@@ -168,7 +168,7 @@
     [fontManager setSelectedFont:font isMultiple:FALSE];
 }
 
-- (float)fontSizeForAutoFontSizeChars:(int)chars
+- (float)fontSizeForAutoFontSizeChars:(NSInteger)chars
 {
     NSString* testChar = NSLocalizedString(@"SubtitleTestChar", nil);
     NSMutableString* s = [NSMutableString stringWithCapacity:100];
@@ -205,7 +205,7 @@
 
 - (void)updateFontSizeForAutoFontSizeChars
 {
-    int chars = [_defaults integerForKey:MSubtitleAutoFontSizeCharsKey];
+    NSInteger chars = [_defaults integerForKey:MSubtitleAutoFontSizeCharsKey];
     float fontSize = [self fontSizeForAutoFontSizeChars:chars];
     [_defaults setFloat:fontSize forKey:MSubtitleFontSizeKey];
 
@@ -381,7 +381,7 @@
 
     switch ([sender tag]) {
         case SUBTITLE_V_POSITION : {
-            int position = [[_subtitlePositionPopUpButton selectedItem] tag];
+            NSInteger position = [[_subtitlePositionPopUpButton selectedItem] tag];
             [_defaults setInteger:position forKey:MSubtitleVPositionKey];
             [_appController setSubtitlePosition:position];
             break;
@@ -415,7 +415,7 @@
 
 - (IBAction)letterBoxHeightAction:(id)sender
 {
-    int height = [[_letterBoxHeightPopUpButton selectedItem] tag];
+    NSInteger height = [[_letterBoxHeightPopUpButton selectedItem] tag];
     [_defaults setInteger:height forKey:MLetterBoxHeightKey];
     [_appController setLetterBoxHeight:height];
 }

@@ -204,7 +204,7 @@
     if (0 <= [segmentedCell selectedSegment]) {
         [self setSelectedSegment:[segmentedCell selectedSegment]];
     }
-    int i, count = [self segmentCount];
+    NSInteger i, count = [self segmentCount];
     for (i = 0; i < count; i++) {
         [self setImage:[segmentedCell imageForSegment:i] forSegment:i];
         [self setLabel:[segmentedCell labelForSegment:i] forSegment:i];
@@ -466,7 +466,7 @@
     //TRACE(@"%s \"%@\" %@", __PRETTY_FUNCTION__, s, NSStringFromRange(*range));
     NSRange r = [self rangeOfString:s range:*range];
     if (r.location != NSNotFound) {
-        int n = NSMaxRange(r) - range->location;
+        NSUInteger n = NSMaxRange(r) - range->location;
         range->location += n;
         range->length   -= n;
     }
@@ -477,7 +477,7 @@
 {
     //TRACE(@"%s %@ (%@)", __PRETTY_FUNCTION__, delimiterSet, NSStringFromRange(*range));
     NSRange result;
-    int i = range->location, end = NSMaxRange(*range);
+    NSUInteger i = range->location, end = NSMaxRange(*range);
     while (i < end && [delimiterSet characterIsMember:[self characterAtIndex:i]]) {
         i++;
     }
@@ -487,7 +487,7 @@
     }
     result.length = i - result.location;
     
-    int n = NSMaxRange(result) - range->location;
+    NSUInteger n = NSMaxRange(result) - range->location;
     range->location += n;
     range->length   -= n;
     
@@ -506,7 +506,7 @@
     //TRACE(@"%s", __PRETTY_FUNCTION__);
     NSCharacterSet* set = [NSCharacterSet whitespaceCharacterSet];
     
-    int i, length = [self length];
+    NSInteger i, length = [self length];
     for (i = 0; i < length; i++) {
         if (![set characterIsMember:[self characterAtIndex:i]]) {
             if (0 < i) {
@@ -522,7 +522,7 @@
     //TRACE(@"%s", __PRETTY_FUNCTION__);
     NSCharacterSet* set = [NSCharacterSet whitespaceCharacterSet];
     
-    int i, length = [self length];
+    NSInteger i, length = [self length];
     for (i = length - 1; 0 <= i; i--) {
         if (![set characterIsMember:[self characterAtIndex:i]]) {
             if (i < length - 1) {
@@ -542,8 +542,8 @@
                              options:0 range:NSMakeRange(0, [self length])];
 }
 
-- (unsigned int)replaceOccurrencesOfString:(NSString*)target
-                                withString:(NSString*)replacement
+- (NSUInteger)replaceOccurrencesOfString:(NSString*)target
+                              withString:(NSString*)replacement
 {
     //TRACE(@"%s \"%@\" with \"%@\"", __PRETTY_FUNCTION__, target, replacement);
     return [self replaceOccurrencesOfString:target

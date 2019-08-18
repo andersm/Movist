@@ -107,8 +107,8 @@
 - (void)removeLeftWhitespaces;
 - (void)removeRightWhitespaces;
 - (void)removeNewLineCharacters;
-- (unsigned int)replaceOccurrencesOfString:(NSString*)target
-                                withString:(NSString*)replacement;
+- (NSUInteger)replaceOccurrencesOfString:(NSString*)target
+                              withString:(NSString*)replacement;
 
 @end
 

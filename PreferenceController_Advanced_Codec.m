@@ -61,7 +61,7 @@
     [[menu itemAtIndex:1] setImage:[NSImage imageNamed:@"FFMPEG16"]];
 }
 
-- (int)numberOfRowsInCodecBindingTableView { return [_codecIds count]; }
+- (NSUInteger)numberOfRowsInCodecBindingTableView { return [_codecIds count]; }
 
 - (id)objectValueForCodecBindingTableColumn:(NSTableColumn*)tableColumn row:(int)rowIndex
 {
@@ -129,7 +129,7 @@ enum {
 
 - (IBAction)codecBindingActions:(id)sender
 {
-    int tag = [sender tag];
+    NSInteger tag = [sender tag];
     if (tag == CODEC_BINDING_ACTION_ALL_TO_QUICKTIME) {
         [_defaults setDefaultDecoder:DECODER_QUICKTIME forCodecId:-1];
     }

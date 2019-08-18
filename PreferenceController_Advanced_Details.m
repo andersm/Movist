@@ -256,7 +256,7 @@
 - (NSNumber*)value
 {
     NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
-    return [NSNumber numberWithInt:[defaults integerForKey:_key]];
+    return [NSNumber numberWithInteger:[defaults integerForKey:_key]];
 }
 
 - (void)setValue:(NSNumber*)intNumber
@@ -364,7 +364,7 @@
 - (NSNumber*)value
 {
     NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
-    return [NSNumber numberWithInt:[defaults integerForKey:_key]];
+    return [NSNumber numberWithInteger:[defaults integerForKey:_key]];
 }
 
 - (void)setValue:(NSNumber*)intNumber
@@ -501,7 +501,7 @@
     }
 }
 
-- (int)outlineView:(NSOutlineView*)outlineView numberOfChildrenOfItem:(id)item
+- (NSInteger)outlineView:(NSOutlineView*)outlineView numberOfChildrenOfItem:(id)item
 {
     //TRACE(@"%s item=%@", __PRETTY_FUNCTION__, item);
     return (item == nil) ? [_detailsCategories count] :

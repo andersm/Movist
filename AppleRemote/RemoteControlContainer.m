@@ -53,7 +53,7 @@
 	return NO;	
 }
 
-- (unsigned int) count {
+- (NSUInteger) count {
 	return [remoteControls count];
 }
 

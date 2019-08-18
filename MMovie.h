@@ -113,7 +113,7 @@ typedef struct {
     float _volume;
     BOOL _muted;
 
-    int _aspectRatio;       // ASPECT_RATIO_*
+    NSInteger _aspectRatio; // ASPECT_RATIO_*
     NSSize _adjustedSize;   // by _aspectRatio
 }
 
@@ -158,9 +158,9 @@ typedef struct {
 - (void)setVolume:(float)volume;
 - (void)setMuted:(BOOL)muted;
 
-- (int)aspectRatio;
+- (NSInteger)aspectRatio;
 - (NSSize)adjustedSizeByAspectRatio;
-- (void)setAspectRatio:(int)aspectRatio;
+- (void)setAspectRatio:(NSInteger)aspectRatio;
 
 #pragma mark -
 #pragma mark playback

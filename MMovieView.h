@@ -47,9 +47,9 @@
     unsigned int _needsSubtitleDrawing; // bit-mask of subtitle-numbers
     BOOL _subtitleVisible;
     BOOL _subtitleInLBOX;
-    int _autoLetterBoxHeightMaxLines;
-    int _letterBoxHeightPrefs;
-    int _letterBoxHeight;
+    NSInteger _autoLetterBoxHeightMaxLines;
+    NSInteger _letterBoxHeightPrefs;
+    NSInteger _letterBoxHeight;
     float _subtitleScreenMargin;        // pixels
 
     // icon, error, message
@@ -60,10 +60,10 @@
     NSTimer* _messageHideTimer;
     
     // etc. options
-    int _fullScreenFill;
+    NSInteger _fullScreenFill;
     float _fullScreenUnderScan;
-    int _viewDragAction;
-    int _captureFormat;
+    NSInteger _viewDragAction;
+    NSInteger _captureFormat;
     BOOL _includeLetterBoxOnCapture;
 
     // capture
@@ -111,9 +111,9 @@
 - (void)updateMovieRect:(BOOL)display;
 - (NSRect)calcMovieRectForBoundingRect:(NSRect)boundingRect;
 
-- (int)fullScreenFill;
+- (NSInteger)fullScreenFill;
 - (float)fullScreenUnderScan;
-- (void)setFullScreenFill:(int)fill;
+- (void)setFullScreenFill:(NSInteger)fill;
 - (void)setFullScreenUnderScan:(float)underScan;
 - (void)setFullScreenMovieSize:(NSSize)size;
 - (NSRect)underScannedRect:(NSRect)rect;
@@ -179,10 +179,10 @@
 - (void)setSubtitleAttributes:(const SubtitleAttributes*)attrs;
 - (void)updateIndexOfSubtitleInLBOX;
 
-- (int)letterBoxHeight;
+- (NSInteger)letterBoxHeight;
 - (float)subtitleScreenMargin;
-- (void)setAutoLetterBoxHeightMaxLines:(int)lines;
-- (void)setLetterBoxHeight:(int)height;
+- (void)setAutoLetterBoxHeightMaxLines:(NSInteger)lines;
+- (void)setLetterBoxHeight:(NSInteger)height;
 - (void)updateLetterBoxHeight;
 - (void)setSubtitleScreenMargin:(float)screenMargin;
 
@@ -196,9 +196,9 @@
 
 @interface MMovieView (Capture)
 
-- (int)viewDragActionWithModifierFlags:(unsigned int)flags;
-- (void)setViewDragAction:(int)action;
-- (void)setCaptureFormat:(int)format;
+- (NSInteger)viewDragActionWithModifierFlags:(unsigned int)flags;
+- (void)setViewDragAction:(NSInteger)action;
+- (void)setCaptureFormat:(NSInteger)format;
 - (void)setIncludeLetterBoxOnCapture:(BOOL)include;
 
 - (void)copyCurrentImage:(BOOL)alternative;

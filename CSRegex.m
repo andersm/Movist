@@ -53,7 +53,7 @@ static NSString *nullstring=nil;
 - (NSArray *) capturedSubstringsOfString:(NSString *)string
 {
 	const char *cstr = [string UTF8String];
-	int num = preg.re_nsub+1;
+	size_t num = preg.re_nsub+1;
 	regmatch_t *matches = calloc(sizeof(regmatch_t),num);
   
 	if (regexec(&preg,cstr,num,matches,0) == 0)	{
@@ -142,7 +142,7 @@ static NSString *nullstring=nil;
 
 - (NSString *) escapedPattern
 {
-	int len=[self length];
+	NSUInteger len = [self length];
 	NSMutableString *escaped=[NSMutableString stringWithCapacity:len];
   
   int i;

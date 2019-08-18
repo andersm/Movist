@@ -582,7 +582,7 @@
 
 - (void)highlightSelectionInClipRect:(NSRect)clipRect
 {
-    int rowIndex = [self selectedRow];
+    NSInteger rowIndex = [self selectedRow];
     if (0 <= rowIndex) {
         NSCell* cell = nil;
         [[self _highlightColorForCell:cell] setFill];

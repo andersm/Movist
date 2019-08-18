@@ -265,7 +265,7 @@
     // FIXME: how to apply line-spacing for line-height?  it's estimated roughly...
     #define LINE_HEIGHT (lineHeight + lineSpacing / 2)
 
-    int lines = _letterBoxHeight - LETTER_BOX_HEIGHT_1_LINE + 1;
+    NSInteger lines = _letterBoxHeight - LETTER_BOX_HEIGHT_1_LINE + 1;
     float height = lines * LINE_HEIGHT + _subtitleScreenMargin;
     while (boundingSize.height < movieSize.height + height) {
         height -= LINE_HEIGHT;
@@ -328,9 +328,9 @@
 #pragma mark -
 #pragma mark full-screen fill
 
-- (int)fullScreenFill { return _fullScreenFill; }
+- (NSInteger)fullScreenFill { return _fullScreenFill; }
 - (float)fullScreenUnderScan { return _fullScreenUnderScan; }
-- (void)setFullScreenFill:(int)fill { _fullScreenFill = fill; }
+- (void)setFullScreenFill:(NSInteger)fill { _fullScreenFill = fill; }
 - (void)setFullScreenUnderScan:(float)underScan { _fullScreenUnderScan = underScan; }
 
 - (void)setFullScreenMovieSize:(NSSize)size

@@ -46,7 +46,7 @@ enum {
 #define isContentsTag(tagType)  (TAG_BR <= tagType)
 
 typedef struct _SMITag {
-    int type;          // TAG_*
+    NSInteger type;     // TAG_*
     NSString* attr;
     NSRange range;
 } SMITag;
@@ -184,7 +184,7 @@ NSString* MSubtitleParserOptionKey_SMI_replaceNewLineWithBR = @"replaceNewLineWi
     while (0 < range.length) {
         r = [string tokenRangeForDelimiterSet:set rangePtr:&range];
         if (r.length != 0) {
-            int i;
+            NSInteger i;
             for (i = NSMaxRange(r) - 1; r.location <= i; i--) {
                 if ([_delimSet characterIsMember:[string characterAtIndex:i]]) {
                     r.length--;
@@ -390,7 +390,7 @@ NSString* MSubtitleParserOptionKey_SMI_replaceNewLineWithBR = @"replaceNewLineWi
 
     // remove empty subtitle if exist and
     // make complete not-ended-string if exist.
-    int i;
+    NSInteger i;
     MSubtitle* subtitle;
     for (i = [_subtitles count] - 1; 0 <= i; i--) {
         subtitle = [_subtitles objectAtIndex:i];
@@ -412,7 +412,7 @@ NSString* MSubtitleParserOptionKey_SMI_replaceNewLineWithBR = @"replaceNewLineWi
 
 @implementation NSString (MSubtitleParser_SMI)
 
-SMITag MMakeSMITag(int type, int location, int length, NSString* attr)
+SMITag MMakeSMITag(NSInteger type, NSUInteger location, NSUInteger length, NSString* attr)
 {
     SMITag tag;
     tag.type = type;

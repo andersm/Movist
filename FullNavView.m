@@ -388,7 +388,7 @@
     // assume movieURL is file URL.
     NSString* path = [movieURL path];
     FullNavFileItem* item;
-    int i, count = [list count];
+    NSUInteger i, count = [list count];
     for (i = 0; i < count; i++) {
         item = (FullNavFileItem*)[list itemAtIndex:i];
         if ([path isEqualToString:[item path]]) {

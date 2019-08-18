@@ -170,7 +170,7 @@ extern void _LSCopyAllApplicationURLs(NSArray**);
     [menu setAutoenablesItems:FALSE];
 }
 
-- (int)numberOfRowsInFileBindingTableView { return [_fileExtensions count]; }
+- (NSInteger)numberOfRowsInFileBindingTableView { return [_fileExtensions count]; }
 
 - (id)objectValueForFileBindingTableColumn:(NSTableColumn*)tableColumn row:(int)rowIndex
 {
@@ -193,7 +193,7 @@ extern void _LSCopyAllApplicationURLs(NSArray**);
     }
     else {  // @"application"
         NSURL* url;
-        int index = -1;
+        NSInteger index = -1;
         NSString* ext = [_fileExtensions objectAtIndex:rowIndex];
         if (noErr == LSGetApplicationForInfo(kLSUnknownType, kLSUnknownCreator,
                                              (CFStringRef)ext, kLSRolesViewer,
@@ -201,7 +201,7 @@ extern void _LSCopyAllApplicationURLs(NSArray**);
             TRACE(@"ext=\"%@\" ==> app=\"%@\"", ext, [url path]);
             index = [_bindingApps indexOfObject:[url path]];
         }
-        return [NSNumber numberWithInt:index];
+        return [NSNumber numberWithInteger:index];
     }
 }
 

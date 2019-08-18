@@ -65,23 +65,23 @@ enum {
     NSMutableArray* _array;     // array of PlaylistItem
     PlaylistItem* _currentItem;
 
-    unsigned int _repeatMode;     // REPEAT_*
+    NSInteger _repeatMode;      // REPEAT_*
 }
 
 #pragma mark -
 #pragma mark add/remove
-- (int)count;
+- (NSUInteger)count;
 - (PlaylistItem*)itemAtIndex:(int)index;
 - (void)addFile:(NSString*)filename option:(int)option;
 - (void)addFiles:(NSArray*)filenames;
 - (void)addURL:(NSURL*)movieURL;
-- (int)insertFile:(NSString*)filename atIndex:(unsigned int)index option:(int)option;
-- (void)insertFiles:(NSArray*)filenames atIndex:(unsigned int)index;
+- (NSUInteger)insertFile:(NSString*)filename atIndex:(NSUInteger)index option:(int)option;
+- (void)insertFiles:(NSArray*)filenames atIndex:(NSUInteger)index;
 - (void)insertURLs:(NSArray*)fileURLs atIndex:(NSUInteger)index;
-- (void)insertURL:(NSURL*)movieURL atIndex:(unsigned int)index;
-- (unsigned int)moveItemsAtIndexes:(NSIndexSet*)indexes
-                           toIndex:(unsigned int)index;
-- (void)removeItemAtIndex:(unsigned int)index;
+- (void)insertURL:(NSURL*)movieURL atIndex:(NSUInteger)index;
+- (NSUInteger)moveItemsAtIndexes:(NSIndexSet*)indexes
+                           toIndex:(NSUInteger)index;
+- (void)removeItemAtIndex:(NSUInteger)index;
 - (void)removeItemsAtIndexes:(NSIndexSet*)indexes;
 - (void)removeAllItems;
 
@@ -89,14 +89,14 @@ enum {
 #pragma mark play
 - (PlaylistItem*)currentItem;
 - (NSEnumerator*)itemEnumerator;
-- (int)indexOfItem:(PlaylistItem*)item;
-- (void)setCurrentItemAtIndex:(unsigned int)index;
+- (NSUInteger)indexOfItem:(PlaylistItem*)item;
+- (void)setCurrentItemAtIndex:(NSInteger)index;
 - (void)setPrevItem;
 - (void)setNextItem;
 
 #pragma mark -
 #pragma mark repeat-mode
-- (unsigned int)repeatMode;
-- (void)setRepeatMode:(unsigned int)mode;
+- (NSInteger)repeatMode;
+- (void)setRepeatMode:(NSInteger)mode;
 
 @end

@@ -28,20 +28,20 @@
 {
     FullNavItem* _parentItem;
     NSArray* _items;
-    int _selectedIndex;
+    NSUInteger _selectedIndex;
     int _topIndex;
 }
 
 - (id)initWithParentItem:(FullNavItem*)parentItem items:(NSArray*)items;
 
 - (FullNavItem*)parentItem;
-- (int)count;
+- (NSUInteger)count;
 - (int)topIndex;
-- (int)selectedIndex;
+- (NSUInteger)selectedIndex;
 
-- (FullNavItem*)itemAtIndex:(int)index;
+- (FullNavItem*)itemAtIndex:(NSUInteger)index;
 - (FullNavItem*)selectedItem;
-- (void)selectAtIndex:(int)index;
+- (void)selectAtIndex:(NSUInteger)index;
 - (void)selectUpper;
 - (void)selectLower;
 

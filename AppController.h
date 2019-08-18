@@ -74,7 +74,7 @@
     NSURL* _lastPlayedMovieURL;
     float _lastPlayedMovieTime;
     NSRange _lastPlayedMovieRepeatRange;
-    int _lastPlayedMovieAspectRatio;
+    NSInteger _lastPlayedMovieAspectRatio;
 
     // main-menu
     IBOutlet NSMenuItem* _reopenWithMenuItem;
@@ -224,7 +224,7 @@
 - (void)showPlaylistWindow;
 - (void)hidePlaylistWindow;
 
-- (void)setRepeatMode:(unsigned int)mode;
+- (void)setRepeatMode:(NSInteger)mode;
 - (void)updateRepeatUI;
 
 - (void)loadLastPlayedMovieInfo;
@@ -251,9 +251,9 @@
 - (void)seekForward:(unsigned int)indexOfValue;
 - (void)stepBackward;
 - (void)stepForward;
-- (void)setSeekInterval:(float)interval atIndex:(unsigned int)index;
+- (void)setSeekInterval:(float)interval atIndex:(NSInteger)index;
 - (void)setPlayRate:(float)rate;
-- (void)changePlayRate:(int)tag;
+- (void)changePlayRate:(NSInteger)tag;
 - (void)setRangeRepeatRange:(NSRange)range;
 - (void)setRangeRepeatBeginning:(float)beginning;
 - (void)setRangeRepeatEnd:(float)end;
@@ -273,12 +273,12 @@
 
 @interface AppController (Video)
 
-- (void)setVideoTrackAtIndex:(unsigned int)index enabled:(BOOL)enabled;
+- (void)setVideoTrackAtIndex:(NSUInteger)index enabled:(BOOL)enabled;
 - (void)resizeWithMagnification:(float)magnification;
 - (void)resizeToScreen;
 
-- (int)aspectRatio;
-- (void)setAspectRatio:(int)aspectRatio;
+- (NSInteger)aspectRatio;
+- (void)setAspectRatio:(NSInteger)aspectRatio;
 - (void)updateAspectRatioMenu;
 
 - (BOOL)isFullScreen;
@@ -293,8 +293,8 @@
 - (void)beginFullNavigation;
 - (void)endFullNavigation;
 
-- (void)setFullScreenFill:(int)fill forWideMovie:(BOOL)forWideMovie;
-- (void)setFullScreenFill:(int)fill;
+- (void)setFullScreenFill:(NSInteger)fill forWideMovie:(BOOL)forWideMovie;
+- (void)setFullScreenFill:(NSInteger)fill;
 - (void)setFullScreenUnderScan:(float)underScan;
 - (void)updateFullScreenFillMenu;
 
@@ -320,10 +320,10 @@
 - (void)updateVolumeUI;
 - (float)systemVolume;
 
-- (void)setAudioTrackAtIndex:(unsigned int)index enabled:(BOOL)enabled;
+- (void)setAudioTrackAtIndex:(NSUInteger)index enabled:(BOOL)enabled;
 - (void)enableAudioTracksInIndexSet:(NSIndexSet*)set;
 - (void)autoenableAudioTracks;
-- (void)changeAudioTrack:(int)tag;
+- (void)changeAudioTrack:(NSInteger)tag;
 - (void)updateAudioTrackMenuItems;
 - (void)updateVolumeMenuItems;
 
@@ -352,23 +352,23 @@
 - (void)setSubtitleEnable:(BOOL)enable;
 
 - (void)setSubtitleFontSize:(float)size;
-- (void)changeSubtitleFontSize:(int)tag;
-- (void)setSubtitlePosition:(int)position;
+- (void)changeSubtitleFontSize:(NSInteger)tag;
+- (void)setSubtitlePosition:(NSInteger)position;
 - (void)changeSubtitlePosition;
 - (void)setSubtitleHMargin:(float)hMargin;
 - (void)setSubtitleVMargin:(float)vMargin;
-- (void)changeSubtitleVMargin:(int)tag;
+- (void)changeSubtitleVMargin:(NSInteger)tag;
 - (void)setSubtitleLineSpacing:(float)spacing;
-- (void)changeSubtitleSync:(int)tag;
+- (void)changeSubtitleSync:(NSInteger)tag;
 
-- (void)setLetterBoxHeight:(int)height;
+- (void)setLetterBoxHeight:(NSInteger)height;
 - (void)changeLetterBoxHeight;
 - (void)setSubtitleScreenMargin:(float)screenMargin;
 
 - (void)setSubtitle:(MSubtitle*)subtitle enabled:(BOOL)enabled;
 - (void)updateExternalSubtitleTrackNames;
 - (void)autoenableSubtitles;
-- (void)changeSubtitleLanguage:(int)tag;
+- (void)changeSubtitleLanguage:(NSInteger)tag;
 - (void)updateMovieViewSubtitles;
 - (void)updateSubtitleLanguageMenuItems;
 - (void)updateSubtitlePositionMenuItem;

@@ -144,10 +144,10 @@ typedef struct {
     NSColor*  shadowColor;
     float     shadowBlur;
     float     shadowOffset;
-    int       shadowDarkness;
+    NSInteger shadowDarkness;
     float     lineSpacing;
-    int       hPosition;
-    int       vPosition;
+    NSInteger hPosition;
+    NSInteger vPosition;
     float     hMargin;
     float     vMargin;
     float     sync;

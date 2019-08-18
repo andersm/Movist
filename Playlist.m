@@ -158,8 +158,8 @@
 {
     //TRACE(@"%s", __PRETTY_FUNCTION__);
     [coder encodeObject:_array forKey:@"Array"];
-    [coder encodeInt32:[_array indexOfObject:_currentItem] forKey:@"CurrentIndex"];
-    [coder encodeInt32:_repeatMode forKey:@"RepeatMode"];
+    [coder encodeInt32:(int32_t)[_array indexOfObject:_currentItem] forKey:@"CurrentIndex"];
+    [coder encodeInt32:(int32_t)_repeatMode forKey:@"RepeatMode"];
 }
 
 - (void)dealloc
@@ -191,8 +191,8 @@ NSInteger compareSubtitleURLs(id url1, id url2, void* context)
     NSString* path1 = [url1 absoluteString], *ext1 = [path1 pathExtension];
     NSString* path2 = [url2 absoluteString], *ext2 = [path2 pathExtension];
     if (NSOrderedSame == [ext1 caseInsensitiveCompare:ext2]) {
-        unsigned int len1 = [path1 length];
-        unsigned int len2 = [path2 length];
+        NSUInteger len1 = [path1 length];
+        NSUInteger len2 = [path2 length];
         return (len1 < len2) ? NSOrderedAscending :
         (len1 > len2) ? NSOrderedDescending : NSOrderedSame;
     }
@@ -230,7 +230,7 @@ NSInteger compareSubtitleURLs(id url1, id url2, void* context)
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark -
 
-- (int)count                            { return [_array count]; }
+- (NSUInteger)count                     { return [_array count]; }
 - (PlaylistItem*)itemAtIndex:(int)index { return [_array objectAtIndex:index]; }
 
 - (void)addFile:(NSString*)filename option:(int)option
@@ -253,7 +253,7 @@ NSInteger compareSubtitleURLs(id url1, id url2, void* context)
     [self insertURL:movieURL atIndex:[_array count]];
 }
 
-- (int)insertFile:(NSString*)filename atIndex:(unsigned int)index option:(int)option
+- (NSUInteger)insertFile:(NSString*)filename atIndex:(NSUInteger)index option:(int)option
 {
     //TRACE(@"%s \"%@\" at %d %@", __PRETTY_FUNCTION__, filename, index,
     //      (option == OPTION_ONLY) ? @"only" :
@@ -264,7 +264,7 @@ NSInteger compareSubtitleURLs(id url1, id url2, void* context)
         return 0;
     }
 
-    int count = 0;
+    NSUInteger count = 0;
     NSArray* fileExtensions = [MMovie fileExtensions];
     if (isDirectory) {
         NSString* directory = filename;
@@ -313,7 +313,7 @@ NSInteger compareSubtitleURLs(id url1, id url2, void* context)
     return count;
 }
 
-- (void)insertFiles:(NSArray*)filenames atIndex:(unsigned int)index
+- (void)insertFiles:(NSArray*)filenames atIndex:(NSUInteger)index
 {
     //TRACE(@"%s {%@} at %d", __PRETTY_FUNCTION__, filenames, index);
     NSString* filename;
@@ -332,7 +332,7 @@ NSInteger compareSubtitleURLs(id url1, id url2, void* context)
 	}
 }
 
-- (void)insertURL:(NSURL*)movieURL atIndex:(unsigned int)index
+- (void)insertURL:(NSURL*)movieURL atIndex:(NSUInteger)index
 {
     //TRACE(@"%s \"%@\" at %d", __PRETTY_FUNCTION__, [movieURL absoluteString], index);
     if ([self containsMovieURL:movieURL]) {
@@ -357,11 +357,11 @@ NSInteger compareSubtitleURLs(id url1, id url2, void* context)
     [nc postNotificationName:MPlaylistUpdatedNotification object:self];
 }
 
-- (unsigned int)moveItemsAtIndexes:(NSIndexSet*)indexes toIndex:(unsigned int)index
+- (NSUInteger)moveItemsAtIndexes:(NSIndexSet*)indexes toIndex:(NSUInteger)index
 {
     //TRACE(@"%s %@ to %d", __PRETTY_FUNCTION__, indexes, index);
     if ([indexes firstIndex] <= index && index <= [indexes lastIndex]) {
-        int i, lastIndex = index;
+        NSUInteger i, lastIndex = index;
         for (i = [indexes firstIndex]; i <= lastIndex; i++) {
             if ([indexes containsIndex:i]) {
                 index--;
@@ -387,7 +387,7 @@ NSInteger compareSubtitleURLs(id url1, id url2, void* context)
     return index - [items count];   // new first index
 }
 
-- (void)removeItemAtIndex:(unsigned int)index
+- (void)removeItemAtIndex:(NSUInteger)index
 {
     //TRACE(@"%s at %d", __PRETTY_FUNCTION__, index);
     if ([_array count] <= index) {
@@ -438,12 +438,12 @@ NSInteger compareSubtitleURLs(id url1, id url2, void* context)
 
 - (PlaylistItem*)currentItem { return _currentItem; }
 - (NSEnumerator*)itemEnumerator { return [_array objectEnumerator]; }
-- (int)indexOfItem:(PlaylistItem*)item { return [_array indexOfObject:item]; }
+- (NSUInteger)indexOfItem:(PlaylistItem*)item { return [_array indexOfObject:item]; }
 
-- (void)setCurrentItemAtIndex:(unsigned int)index
+- (void)setCurrentItemAtIndex:(NSInteger)index
 {
     //TRACE(@"%s %d", __PRETTY_FUNCTION__, index);
-	if (index >= [_array count]) {
+	if (index < 0 || index >= [_array count]) {
 		_currentItem = nil;
 	}
 	else {
@@ -460,7 +460,7 @@ NSInteger compareSubtitleURLs(id url1, id url2, void* context)
                                    [_array objectAtIndex:[_array count] - 1];
     }
     else {
-        int index = [_array indexOfObject:_currentItem];
+        NSInteger index = [_array indexOfObject:_currentItem];
         if (forward) {
             _currentItem = (index == [_array count] - 1) ? nil :
                                                 [_array objectAtIndex:index + 1];
@@ -480,7 +480,7 @@ NSInteger compareSubtitleURLs(id url1, id url2, void* context)
                                    [_array objectAtIndex:[_array count] - 1];
     }
     else {
-        int index = [_array indexOfObject:_currentItem];
+        NSInteger index = [_array indexOfObject:_currentItem];
         if (forward) {
             index = (index < [_array count] - 1) ? (index + 1) : 0;
         }
@@ -528,9 +528,9 @@ NSInteger compareSubtitleURLs(id url1, id url2, void* context)
 #pragma mark -
 #pragma mark repeat-mode
 
-- (unsigned int)repeatMode { return _repeatMode; }
+- (NSInteger)repeatMode { return _repeatMode; }
 
-- (void)setRepeatMode:(unsigned int)mode
+- (void)setRepeatMode:(NSInteger)mode
 {
     //TRACE(@"%s %d", __PRETTY_FUNCTION__, mode);
     _repeatMode = mode;

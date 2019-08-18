@@ -355,7 +355,7 @@ NSString* MShowActualPathForLinkKey         = @"ShowActualPathForLink";
     [[self dictionaryForKey:MDefaultCodecBindingKey] mutableCopy];
     
     id object = DECODER_OBJECT(decoder);
-    int i, count = [codecIdSet count];
+    NSUInteger i, count = [codecIdSet count];
 	// TODO: we don't need to malloc to iterate
     NSUInteger* ids = (NSUInteger*)malloc(sizeof(NSUInteger) * count);
     [codecIdSet getIndexes:ids maxCount:count inIndexRange:nil];

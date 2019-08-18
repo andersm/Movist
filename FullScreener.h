@@ -31,7 +31,7 @@
 
 @interface FullScreener : NSObject
 {
-    int _effect;
+    NSInteger _effect;
     MMovieView* _movieView;
     MainWindow* _mainWindow;
     FullWindow* _fullWindow;

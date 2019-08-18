@@ -179,7 +179,7 @@
     }
 
     NSArray* subtitleURLs = [_playlistItem subtitleURLs];
-    int lines = 1 + (([subtitleURLs count] <= 1) ? 1 : [subtitleURLs count]);
+    NSUInteger lines = 1 + (([subtitleURLs count] <= 1) ? 1 : [subtitleURLs count]);
     float lineHeight = cellFrame.size.height / lines;
 
     NSRect rect = cellFrame;

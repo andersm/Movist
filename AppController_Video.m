@@ -31,7 +31,7 @@
 
 @implementation AppController (Video)
 
-- (void)setVideoTrackAtIndex:(unsigned int)index enabled:(BOOL)enabled
+- (void)setVideoTrackAtIndex:(NSUInteger)index enabled:(BOOL)enabled
 {
     MTrack* track = (MTrack*)[[_movie videoTracks] objectAtIndex:index];
     [track setEnabled:enabled];
@@ -257,7 +257,7 @@
     [_fullScreenLock unlock];
 }
 
-- (void)setFullScreenFill:(int)fill forWideMovie:(BOOL)forWideMovie
+- (void)setFullScreenFill:(NSInteger)fill forWideMovie:(BOOL)forWideMovie
 {
     //TRACE(@"%s", __PRETTY_FUNCTION__);
     if (_movie) {
@@ -276,14 +276,14 @@
     }
 }
 
-- (void)setFullScreenFill:(int)fill
+- (void)setFullScreenFill:(NSInteger)fill
 {
     //TRACE(@"%s", __PRETTY_FUNCTION__);
     [_movieView setFullScreenFill:fill];
     [_movieView updateMovieRect:TRUE];
 
     NSMenuItem* item;
-    unsigned int i, count = [_fullScreenFillMenu numberOfItems];
+    NSInteger i, count = [_fullScreenFillMenu numberOfItems];
     for (i = 0; i < count; i++) {
         item = [_fullScreenFillMenu itemAtIndex:i];
         if ([item tag] == fill) {
@@ -301,7 +301,7 @@
     [_movieView setFullScreenUnderScan:underScan];
     [_movieView updateMovieRect:TRUE];
 
-    unsigned int count = [_fullScreenFillMenu numberOfItems];
+    NSInteger count = [_fullScreenFillMenu numberOfItems];
     NSMenuItem* item = [_fullScreenFillMenu itemAtIndex:count - 1];
     [item setState:(underScan != 0)];
     if (underScan == 0) {
@@ -318,7 +318,7 @@
 {
     //TRACE(@"%s", __PRETTY_FUNCTION__);
     NSMenuItem* item;
-    unsigned int i, count = [_fullScreenFillMenu numberOfItems];
+    NSInteger i, count = [_fullScreenFillMenu numberOfItems];
     for (i = 0; i < count; i++) {
         item = [_fullScreenFillMenu itemAtIndex:i];
         if ([item tag] <= FS_FILL_CROP) {
@@ -334,14 +334,14 @@
 #pragma mark -
 #pragma mark aspect-ratio
 
-- (int)aspectRatio { return (_movie) ? [_movie aspectRatio] : ASPECT_RATIO_DAR; }
+- (NSInteger)aspectRatio { return (_movie) ? [_movie aspectRatio] : ASPECT_RATIO_DAR; }
 
-- (void)setAspectRatio:(int)aspectRatio
+- (void)setAspectRatio:(NSInteger)aspectRatio
 {
     //TRACE(@"%s", __PRETTY_FUNCTION__);
     if (_movie) {
         NSMenuItem* item;
-        unsigned int i, count = [_aspectRatioMenu numberOfItems];
+        NSInteger i, count = [_aspectRatioMenu numberOfItems];
         for (i = 0; i < count; i++) {
             item = [_aspectRatioMenu itemAtIndex:i];
             if ([item tag] == aspectRatio) {
@@ -367,7 +367,7 @@
 {
     //TRACE(@"%s", __PRETTY_FUNCTION__);
     NSMenuItem* item;
-    unsigned int i, count = [_aspectRatioMenu numberOfItems];
+    NSInteger i, count = [_aspectRatioMenu numberOfItems];
     for (i = 0; i < count; i++) {
         item = [_aspectRatioMenu itemAtIndex:i];
         [item setState:(_movie) ? ([item tag] == [_movie aspectRatio]) : NSControlStateValueOff];
@@ -447,7 +447,7 @@
 - (IBAction)fullScreenFillAction:(id)sender
 {
     if ([sender tag] < 0) {
-        int fill = [_movieView fullScreenFill];
+        NSInteger fill = [_movieView fullScreenFill];
         switch (fill) {
             case FS_FILL_NEVER   : fill = FS_FILL_STRETCH;  break;
             case FS_FILL_STRETCH : fill = FS_FILL_CROP;     break;

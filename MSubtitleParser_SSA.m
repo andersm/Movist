@@ -35,7 +35,7 @@ enum {
 };
 
 typedef struct _SSATag {
-    int type;          // TAG_*
+    NSInteger type;     // TAG_*
     NSString* attr;
     NSRange range;
 } SSATag;
@@ -139,8 +139,8 @@ NSString* const STYLE_KEY_BOLD      = @"Bold";
     NSColor* color;
     NSMutableArray* as;
     NSMutableDictionary* style;
-    int nameIndex = [format indexOfObject:STYLE_KEY_NAME];
-    int colorIndex = [format indexOfObject:STYLE_KEY_COLOR];
+    NSUInteger nameIndex = [format indexOfObject:STYLE_KEY_NAME];
+    NSUInteger colorIndex = [format indexOfObject:STYLE_KEY_COLOR];
     while (0 < range.length) {
         as = [self formatForTitle:@"Style:" styles:string rangePtr:&range];
         if (!as) {
@@ -408,7 +408,7 @@ static float movieTimeFromString(NSString* string)
 
     // remove empty subtitle if exist and
     // make complete not-ended-string if exist.
-    int i;
+    NSUInteger i;
     for (i = [_subtitles count] - 1; 0 <= i; i--) {
         subtitle = [_subtitles objectAtIndex:i];
         if ([subtitle isEmpty]) {
@@ -429,7 +429,7 @@ static float movieTimeFromString(NSString* string)
 
 @implementation NSString (MSubtitleParser_SSA)
 
-SSATag MMakeSSATag(int type, int location, int length, NSString* attr)
+SSATag MMakeSSATag(NSInteger type, NSUInteger location, NSUInteger length, NSString* attr)
 {
     SSATag tag;
     tag.type = type;
@@ -463,7 +463,7 @@ SSATag MMakeSSATag(int type, int location, int length, NSString* attr)
     // find tag name & attributes
     NSRange ar;
     int tag = TAG_UNKNOWN;
-    int location = NSMaxRange(or);
+    NSUInteger location = NSMaxRange(or);
     if (![self compare:@"b" options:0 range:NSMakeRange(location, 1)]) {
         tag = ([self characterAtIndex:location + 1] == '1') ? TAG_B_OPEN : TAG_B_CLOSE;
         ar.length = 0;
@@ -513,7 +513,7 @@ SSATag MMakeSSATag(int type, int location, int length, NSString* attr)
     if (![string compare:@"&H" options:0 range:NSMakeRange(0, 2)]) {
         int n = ([string characterAtIndex:[string length] - 1] == '&') ? 1 : 0;
         NSString* cs = [string substringWithRange:NSMakeRange(2, [string length] - 2 - n)];
-        int length = [cs length];
+        NSUInteger length = [cs length];
         if (length == 2) {
             sscanf([cs UTF8String], "%2x", &red);
         }

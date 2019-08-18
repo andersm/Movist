@@ -179,7 +179,7 @@
         { _seekInterval2TextField, _seekInterval2Stepper, MSeekInterval2Key }
     };
     
-    int index = [sender tag];
+    NSInteger index = [sender tag];
     float interval = [sender floatValue];
     [seek[index].textField setFloatValue:interval];
     [seek[index].stepper setFloatValue:interval];

@@ -103,7 +103,7 @@
         }   \
     }
 
-- (void)setLetterBoxHeight:(int)height
+- (void)setLetterBoxHeight:(NSInteger)height
 {
     INIT_LETTER_BOX_HEIGHT_MENUITEMS
 
@@ -125,7 +125,7 @@
 
 - (void)changeLetterBoxHeight
 {
-    int height = [_movieView letterBoxHeight];
+    NSInteger height = [_movieView letterBoxHeight];
     switch (height) {   // change to next height
         case LETTER_BOX_HEIGHT_SAME    : height = LETTER_BOX_HEIGHT_1_LINE;     break;
         case LETTER_BOX_HEIGHT_1_LINE  : height = LETTER_BOX_HEIGHT_2_LINES;    break;
@@ -162,7 +162,7 @@
                             NSLocalizedString(@"Font Size", nil), size]];
 }
 
-- (float)_changeSubtitleFontSize:(int)tag
+- (float)_changeSubtitleFontSize:(NSInteger)tag
 {
     SubtitleAttributes attrs;
     attrs.mask = SUBTITLE_ATTRIBUTE_FONT;
@@ -175,7 +175,7 @@
     return attrs.fontSize;
 }
 
-- (void)changeSubtitleFontSize:(int)tag
+- (void)changeSubtitleFontSize:(NSInteger)tag
 {
     //TRACE(@"%s %d", __PRETTY_FUNCTION__);
     NSString* action = (tag < 0) ? [_subtitleFontSizeSmallerMenuItem title] :
@@ -214,7 +214,7 @@
                             NSLocalizedString(@"VMargin", nil), vMargin]];
 }
 
-- (float)_changeSubtitleVMargin:(int)tag
+- (float)_changeSubtitleVMargin:(NSInteger)tag
 {
     //TRACE(@"%s", __PRETTY_FUNCTION__);
     SubtitleAttributes attrs;
@@ -229,7 +229,7 @@
     return attrs.vMargin;
 }
 
-- (void)changeSubtitleVMargin:(int)tag
+- (void)changeSubtitleVMargin:(NSInteger)tag
 {
     //TRACE(@"%s", __PRETTY_FUNCTION__);
     NSString* action = (tag < 0) ? [_subtitleVMarginSmallerMenuItem title] :
@@ -256,7 +256,7 @@
                             NSLocalizedString(@"Line Spacing", nil), spacing]];
 }
 
-- (float)_changeSubtitleSync:(int)tag
+- (float)_changeSubtitleSync:(NSInteger)tag
 {
     SubtitleAttributes attrs;
     attrs.mask = SUBTITLE_ATTRIBUTE_SYNC;
@@ -268,7 +268,7 @@
     return attrs.sync;
 }
 
-- (void)changeSubtitleSync:(int)tag
+- (void)changeSubtitleSync:(NSInteger)tag
 {
     NSString* action = (tag < 0) ? [_subtitleSyncLaterMenuItem title] :
                        (0 < tag) ? [_subtitleSyncEarlierMenuItem title] :
@@ -297,7 +297,7 @@
         }   \
     }
 
-- (void)setSubtitlePosition:(int)position
+- (void)setSubtitlePosition:(NSInteger)position
 {
     INIT_SUBTITLE_POSITION_MENUITEMS
 
@@ -440,9 +440,9 @@
     }
 }
 
-- (void)changeSubtitleLanguage:(int)tag
+- (void)changeSubtitleLanguage:(NSInteger)tag
 {
-	int index;
+	NSInteger index;
 	if (tag < 0)
 	{
 		// Pick the next subtitle
@@ -468,7 +468,7 @@
 			// TODO: be smarter about this since we know only one subtitle
 			//       is enabled at a time.
 			// enable only one at index.
-			int i, subtitleCount = [_subtitles count];
+			NSInteger i, subtitleCount = [_subtitles count];
 			for (i = 0; i < subtitleCount; i++) {
 				[[_subtitles objectAtIndex:i] setEnabled:(i == index)];
 			}
@@ -522,10 +522,10 @@
         MSubtitle* subtitle;
         NSString* keyEquivalent;
         unsigned int mask = NSEventModifierFlagCommand | NSEventModifierFlagControl;
-        unsigned int i, mi, count = [_subtitles count];
+        NSUInteger i, mi, count = [_subtitles count];
         for (i = mi = 0; i < count; i++) {
             subtitle = [_subtitles objectAtIndex:i];
-            keyEquivalent = [NSString stringWithFormat:@"%d", i + 1];
+            keyEquivalent = [NSString stringWithFormat:@"%lu", i + 1];
             // select ... item
             item = [_subtitleMenu
                     insertItemWithTitle:[subtitle UIName]
@@ -565,7 +565,7 @@
 - (void)updateSubtitlePositionMenuItem
 {
     //TRACE(@"%s", __PRETTY_FUNCTION__);
-    int position = -10; // for no check
+    NSInteger position = -10; // for no check
     if ([_movieView subtitle]) {
         SubtitleAttributes attrs;
         attrs.mask = SUBTITLE_ATTRIBUTE_V_POSITION;
@@ -593,7 +593,7 @@
     #define LETTER_BOX_HEIGHT_MENUITEM_SET_STATE(item)    \
         [item setState:([item tag] == height) ? NSControlStateValueOn : NSControlStateValueOff]
 
-    int height = (_movie) ? [_movieView letterBoxHeight] : -10; // -10 for no check
+    NSInteger height = (_movie) ? [_movieView letterBoxHeight] : -10; // -10 for no check
     LETTER_BOX_HEIGHT_MENUITEM_SET_STATE(sameItem);
     LETTER_BOX_HEIGHT_MENUITEM_SET_STATE(line1Item);
     LETTER_BOX_HEIGHT_MENUITEM_SET_STATE(line2Item);
@@ -674,7 +674,7 @@
 - (IBAction)subtitlePositionAction:(id)sender
 {
     //TRACE(@"%s", __PRETTY_FUNCTION__);
-    int position;
+    NSInteger position;
     if (sender == _subtitlePositionPopUpButton) {
         position = [[_subtitlePositionPopUpButton selectedItem] tag];
     }
@@ -697,7 +697,7 @@
 - (IBAction)letterBoxHeightAction:(id)sender
 {
     //TRACE(@"%s", __PRETTY_FUNCTION__);
-    int height;
+    NSInteger height;
     if (sender == _preferenceController) {
         height = [_defaults integerForKey:MLetterBoxHeightKey];
     }

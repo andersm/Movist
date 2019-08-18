@@ -106,7 +106,7 @@ enum {  // for _updateMask
 - (NSColor*)shadowColor { return _shadowColor; }
 - (float)shadowBlur { return _shadowBlur; }
 - (float)shadowOffset { return _shadowOffset; }
-- (int)shadowDarkness { return _shadowDarkness; }
+- (NSInteger)shadowDarkness { return _shadowDarkness; }
 
 - (BOOL)setShadowColor:(NSColor*)shadowColor
 {
@@ -148,7 +148,7 @@ enum {  // for _updateMask
     return FALSE;
 }
 
-- (BOOL)setShadowDarkness:(int)darkness
+- (BOOL)setShadowDarkness:(NSInteger)darkness
 {
     assert(0 < darkness);
     if (_shadowDarkness != darkness) {
@@ -280,10 +280,10 @@ enum {  // for _updateMask
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark position
 
-- (unsigned int)hPosition { return _hPosition; }
-- (unsigned int)vPosition { return _vPosition; }
+- (NSInteger)hPosition { return _hPosition; }
+- (NSInteger)vPosition { return _vPosition; }
 
-- (BOOL)setHPosition:(unsigned int)hPosition
+- (BOOL)setHPosition:(NSInteger)hPosition
 {
     if (_hPosition != hPosition) {
         [_lock lock];
@@ -295,7 +295,7 @@ enum {  // for _updateMask
     return FALSE;
 }
 
-- (BOOL)setVPosition:(unsigned int)vPosition
+- (BOOL)setVPosition:(NSInteger)vPosition
 {
     if (_vPosition != vPosition) {
         [_lock lock];
@@ -396,7 +396,7 @@ enum {  // for _updateMask
 
     // at first, draw with outline & shadow
     [_shadow set];
-    int i, darkness = (0 < [_shadow shadowBlurRadius]) ? _shadowDarkness : 1;
+    NSInteger i, darkness = (0 < [_shadow shadowBlurRadius]) ? _shadowDarkness : 1;
     for (i = 0; i < darkness; i++) {
         [string drawInRect:rect];
     }
@@ -426,7 +426,7 @@ enum {  // for _updateMask
     rect.size.height -= ltMargin + rbMargin;
     
     [_shadow set];
-    int i, darkness = (0 < [_shadow shadowBlurRadius]) ? _shadowDarkness : 1;
+    NSInteger i, darkness = (0 < [_shadow shadowBlurRadius]) ? _shadowDarkness : 1;
     for (i = 0; i < darkness; i++) {
         [image drawInRect:rect fromRect:NSZeroRect
                 operation:NSCompositingOperationSourceOver fraction:1.0];

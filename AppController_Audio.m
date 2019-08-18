@@ -332,7 +332,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark -
 
-- (void)setAudioTrackAtIndex:(unsigned int)index enabled:(BOOL)enabled
+- (void)setAudioTrackAtIndex:(NSUInteger)index enabled:(BOOL)enabled
 {
     MTrack* track = (MTrack*)[[_movie audioTracks] objectAtIndex:index];
     if (enabled != [track isEnabled]) {
@@ -375,7 +375,7 @@
         if (0 < [tracks count]) {
             [[tracks objectAtIndex:0] setEnabled:TRUE];
             [_audioTrackIndexSet addIndex:0];
-            unsigned int i, count = [tracks count];
+            NSUInteger i, count = [tracks count];
             for (i = 1; i < count; i++) {
                 [[tracks objectAtIndex:i] setEnabled:FALSE];
             }
@@ -384,14 +384,14 @@
     else if (0 < [_audioTrackIndexSet count]) {
         if ([self isCurrentlyDigitalAudioOut] && 1 < [_audioTrackIndexSet count]) {
             // only one audio track should be enabled for digial audio.
-            unsigned int index = [_audioTrackIndexSet firstIndex];
+            NSUInteger index = [_audioTrackIndexSet firstIndex];
             [_audioTrackIndexSet removeAllIndexes];
             [_audioTrackIndexSet addIndex:index];
         }
         [self enableAudioTracksInIndexSet:_audioTrackIndexSet];
 
         NSArray* tracks = [_movie audioTracks];
-        unsigned int i, lastIndex = [_audioTrackIndexSet lastIndex];
+        NSUInteger i, lastIndex = [_audioTrackIndexSet lastIndex];
         for (i = [tracks count]; i <= lastIndex; i++) {
             if ([_audioTrackIndexSet containsIndex:i]) {
                 [_audioTrackIndexSet removeIndex:i];
@@ -406,12 +406,12 @@
     [_propertiesView reloadData];
 }
 
-- (void)changeAudioTrack:(int)tag
+- (void)changeAudioTrack:(NSInteger)tag
 {
     float rate = [_movie rate];
     [_movie setRate:0.0];
     
-    int index = tag;
+    NSInteger index = tag;
     if (index < 0) { // rotation
         int i = 0;
 		for (MTrack* track in [_movie audioTracks]) {
@@ -458,7 +458,7 @@
         // insert before rotation item
         MTrack* track;
         unsigned int mask = NSEventModifierFlagCommand | NSEventModifierFlagShift;
-        unsigned int i, count = [tracks count];
+        NSUInteger i, count = [tracks count];
         for (i = 0; i < count; i++) {
             track = [tracks objectAtIndex:i];
             item = [_movieMenu
@@ -467,7 +467,7 @@
                               keyEquivalent:@"" atIndex:index++];
             [item setTag:i];
             [item setState:[track isEnabled]];
-            [item setKeyEquivalent:[NSString stringWithFormat:@"%d", i + 1]];
+            [item setKeyEquivalent:[NSString stringWithFormat:@"%lu", i + 1]];
             [item setKeyEquivalentModifierMask:mask];
         }
         if (1 < [tracks count]) {   // add rotate item

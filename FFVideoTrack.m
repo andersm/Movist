@@ -128,9 +128,9 @@
     CVPixelBufferRef* _pixelBuffer;
 	AVFrame** _frame;
 	double* _time;
-    unsigned int _capacity;
-    unsigned int _front;
-    unsigned int _rear;
+    NSUInteger _capacity;
+    NSUInteger _front;
+    NSUInteger _rear;
     BOOL _full;
     NSRecursiveLock* _mutex;
 }
@@ -138,7 +138,7 @@
 
 @implementation ImageQueue
 
-- (id)initWithCapacity:(unsigned int)capacity width:(int)width	height:(int)height
+- (id)initWithCapacity:(NSUInteger)capacity width:(int)width height:(int)height
 {
     self = [super init];
 	if (!self) {
@@ -204,12 +204,12 @@
     [super dealloc];
 }
 
-- (int)capacity
+- (NSUInteger)capacity
 {
     return _capacity;
 }
 
-- (int)count 
+- (NSUInteger)count
 { 
     return (_capacity + _rear - _front) % _capacity; 
 }
@@ -289,7 +289,7 @@
     return [[[FFVideoTrack alloc] initWithAVStream:stream index:index] autorelease];
 }
 
-- (BOOL)initTrack:(int*)errorCode videoQueueCapacity:(int)videoQueueCapacity
+- (BOOL)initTrack:(int*)errorCode videoQueueCapacity:(NSInteger)videoQueueCapacity
                                      useFastDecoding:(BOOL)useFastDecoding
 {
     _enabled = FALSE;

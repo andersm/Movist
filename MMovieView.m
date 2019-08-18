@@ -259,7 +259,7 @@
         [(AppController*)[NSApp delegate] fullScreenAction:self];
     }
     else {
-        int action = [self viewDragActionWithModifierFlags:[event modifierFlags]];
+        NSInteger action = [self viewDragActionWithModifierFlags:[event modifierFlags]];
         if (action == VIEW_DRAG_ACTION_MOVE_WINDOW) {
             if (![(AppController*)[NSApp delegate] isFullScreen]) {
                 [[self window] mouseDown:event];

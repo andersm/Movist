@@ -82,7 +82,7 @@
         [_tabView selectFirstTabViewItem:self];
     }
     else {
-        int index = [_tabView indexOfTabViewItemWithIdentifier:identifier];
+        NSInteger index = [_tabView indexOfTabViewItemWithIdentifier:identifier];
         [_segmentedControl setSelectedSegment:index];
         [_tabView selectTabViewItemWithIdentifier:identifier];
     }

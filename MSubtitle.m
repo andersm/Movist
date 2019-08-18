@@ -154,7 +154,7 @@
 
 - (void)addString:(NSMutableAttributedString*)string time:(float)time
 {
-    int index;
+    NSInteger index;
     MSubtitleItem* item;
     for (index = [_items count] - 1; 0 <= index; index--) {
         item = [_items objectAtIndex:index];
@@ -182,7 +182,7 @@
     //      [self name], beginTime, endTime, [string string]);
     #define NEW_LINE    [[[NSAttributedString alloc] initWithString:@"\n"] autorelease]
 
-    int index;
+    NSInteger index;
     MSubtitleItem* item;
     for (index = [_items count] - 1; 0 <= index; index--) {
         item = [_items objectAtIndex:index];
@@ -248,7 +248,7 @@
 - (void)checkEndTimes
 {
     MSubtitleItem* item;
-    int i, count = [_items count];
+    NSUInteger i, count = [_items count];
     for (i = 0; i < count; i++) {
         item = [_items objectAtIndex:i];
         if ([item endTime] < 0.0) {
@@ -267,13 +267,13 @@
 
 - (MSubtitleItem*)itemAtTime:(float)time direction:(int)direction
 {
-    int index = [self indexAtTime:time direction:direction];
+    NSInteger index = [self indexAtTime:time direction:direction];
     return (0 <= index) ? [_items objectAtIndex:index] : nil;
 }
 
-- (int)indexAtTime:(float)time direction:(int)direction
+- (NSInteger)indexAtTime:(float)time direction:(int)direction
 {
-    int index = MAX(0, _indexCache);
+    NSInteger index = MAX(0, _indexCache);
 	if ([_items count] <= index) {
         //TRACE(@"%s(\"%@\")[%.03f]: <none>", __PRETTY_FUNCTION__, _name, time);
         return _indexCache = (direction < 0) ? [_items count] - 1 : -1;
@@ -297,7 +297,7 @@
         }
     }
     else if ([si endTime] < time) {
-        int maxIndex = [_items count] - 1;
+        NSInteger maxIndex = [_items count] - 1;
         while (++index <= maxIndex) {  // find in next items
             si = [_items objectAtIndex:index];
             if (time < [si endTime]) {
@@ -320,7 +320,7 @@
 
 - (float)prevSubtitleTime:(float)time
 {
-    int index = [self indexAtTime:time direction:-1];  // backward
+    NSInteger index = [self indexAtTime:time direction:-1];  // backward
     if (index < 0) {
         index = 0;
     }
@@ -329,7 +329,7 @@
 
 - (float)nextSubtitleTime:(float)time
 {
-    int index = [self indexAtTime:time direction:+1];   // forward
+    NSInteger index = [self indexAtTime:time direction:+1];   // forward
     if (index < 0) {
         index = [_items count] - 1;
     }

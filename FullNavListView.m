@@ -278,7 +278,7 @@
     FullNavItem* item;
     CGPoint fadePoint;
     CGRect fadeRect = CGRectMake(0, 0, ITEM_HSCROLL_FADE_SIZE, r.size.height);
-    int i, count = [_list count];
+    NSUInteger i, count = [_list count];
     for (i = 0; i < count; i++) {
         if (NSIntersectsRect(rect, r)) {
             item = [_list itemAtIndex:i];
@@ -383,12 +383,12 @@
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark
 
-- (int)topIndex
+- (NSInteger)topIndex
 {
     NSRect rc = [[self superview] bounds];
-    int visibleCount = rc.size.height / _itemHeight;
-    int halfCount = visibleCount / 2 - ((visibleCount % 2) ? 0 : 1);
-    int sel = [_list selectedIndex];
+    NSInteger visibleCount = rc.size.height / _itemHeight;
+    NSInteger halfCount = visibleCount / 2 - ((visibleCount % 2) ? 0 : 1);
+    NSInteger sel = [_list selectedIndex];
     if ([_list count] <= visibleCount || sel <= halfCount) {
         return 0;
     }

@@ -36,19 +36,19 @@
     BOOL _embedded;
     BOOL _enabled;
     NSMutableArray* _items; // of MSubtitleItem
-    int _indexCache;        // for performance of -indexAtTime:
+    NSInteger _indexCache;  // for performance of -indexAtTime:
 
     // for render-threading
     MMovieOSD* _movieOSD;
     float _forwardRenderInterval;
     float _backwardRenderInterval;
-    int _releaseBeginIndex;
-    int _releaseEndIndex;
-    int _seekIndex;
-    int _playIndex;
+    NSInteger _releaseBeginIndex;
+    NSInteger _releaseEndIndex;
+    NSInteger _seekIndex;
+    NSInteger _playIndex;
     int _renderStamp;
-    int _lastSeekIndex;
-    int _lastPlayIndex;
+    NSInteger _lastSeekIndex;
+    NSInteger _lastPlayIndex;
     int _lastRenderStamp;
     BOOL _renderThreadRunning;
     BOOL _quitRenderThreadRequested;
@@ -95,7 +95,7 @@
 
 #pragma mark seeking
 - (MSubtitleItem*)itemAtTime:(float)time direction:(int)direction;
-- (int)indexAtTime:(float)time direction:(int)direction;
+- (NSInteger)indexAtTime:(float)time direction:(int)direction;
 - (float)prevSubtitleTime:(float)time;
 - (float)nextSubtitleTime:(float)time;
 
