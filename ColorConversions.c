@@ -70,56 +70,6 @@ static FASTCALL void Y420toY422_sse2(AVFrame * picture, UInt8 *o, int outRB, uns
 		__m128i * ov = (__m128i*)o, * ov2 = (__m128i*)o2, * yv = (__m128i*)yc, * yv2 = (__m128i*)yc2;
 		__m128i * uv = (__m128i*)uc,* vv  = (__m128i*)vc;
 		
-#if defined(__i386__) && !defined(DEBUG)
-		int vWidth_ = vWidth;
-
-		asm volatile(
-			"\n0:			\n\t"
-			"movdqa		(%2),	%%xmm0	\n\t"
-			"movdqa		16(%2),	%%xmm2	\n\t"
-			"movdqa		(%3),		%%xmm1	\n\t"
-			"movdqa		16(%3),	%%xmm3	\n\t"
-			"movdqu		(%4),	%%xmm4	\n\t"
-			"movdqu		(%5),	%%xmm5	\n\t"
-			"addl		$32,	%2		\n\t"
-			"addl		$32,	%3		\n\t"
-			"addl		$16,	%4		\n\t"
-			"addl		$16,	%5		\n\t"
-			"movdqa		%%xmm4, %%xmm6	\n\t"
-			"punpcklbw	%%xmm5, %%xmm4	\n\t" /*chroma_l*/
-			"punpckhbw	%%xmm5, %%xmm6	\n\t" /*chroma_h*/
-			"movdqa		%%xmm4, %%xmm5	\n\t"
-			"punpcklbw	%%xmm0, %%xmm5	\n\t"
-			"movntdq	%%xmm5, (%0)	\n\t" /*ov[x4]*/
-			"movdqa		%%xmm4, %%xmm5	\n\t"
-			"punpckhbw	%%xmm0, %%xmm5	\n\t"
-			"movntdq	%%xmm5, 16(%0)	\n\t" /*ov[x4+1]*/
-			"movdqa		%%xmm6, %%xmm5	\n\t"
-			"punpcklbw	%%xmm2, %%xmm5	\n\t"
-			"movntdq	%%xmm5, 32(%0)	\n\t" /*ov[x4+2]*/
-			"movdqa		%%xmm6, %%xmm5	\n\t"
-			"punpckhbw	%%xmm2, %%xmm5	\n\t"
-			"movntdq	%%xmm5, 48(%0)	\n\t" /*ov[x4+3]*/
-			"addl		$64,	%0		\n\t"
-			"movdqa		%%xmm4, %%xmm5	\n\t"
-			"punpcklbw	%%xmm1, %%xmm5	\n\t"
-			"movntdq	%%xmm5, (%1)	\n\t" /*ov2[x4]*/
-			"punpckhbw	%%xmm1, %%xmm4	\n\t"
-			"movntdq	%%xmm4, 16(%1)	\n\t" /*ov2[x4+1]*/
-			"movdqa		%%xmm6, %%xmm5	\n\t"
-			"punpcklbw	%%xmm3, %%xmm5	\n\t"
-			"movntdq	%%xmm5, 32(%1)	\n\t" /*ov2[x4+2]*/
-			"punpckhbw	%%xmm3, %%xmm6	\n\t"
-			"movntdq	%%xmm6, 48(%1)	\n\t" /*ov2[x4+3]*/
-			"addl		$64,	%1		\n\t"
-			"decl		%6				\n\t"
-			"jnz		0b				\n\t"
-			: "+r" (ov), "+r" (ov2),
-			"+r" (yv), "+r" (yv2), "+r" (uv), "+r" (vv), "+m"(vWidth_)
-			:
-			: "memory", "xmm1", "xmm2", "xmm3", "xmm4", "xmm5", "xmm6"
-			);
-#else
 		for (x = 0; x < vWidth; x++) {
 			int x2 = x*2, x4 = x*4;
 
@@ -139,7 +89,6 @@ static FASTCALL void Y420toY422_sse2(AVFrame * picture, UInt8 *o, int outRB, uns
 			_mm_stream_si128(&ov2[x4+2],_mm_unpacklo_epi8(chroma_h, tmp_y4));
 			_mm_stream_si128(&ov2[x4+3],_mm_unpackhi_epi8(chroma_h, tmp_y4));
 		}
-#endif
 
 		for (x=vWidth * 16; x < halfwidth; x++) {
 			int x4 = x*4, x2 = x*2;
