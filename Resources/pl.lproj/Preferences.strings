@@ -1,0 +1,393 @@
+
+/* Class = "NSWindow"; title = "환경설정"; ObjectID = "5"; */
+"5.title" = "환경설정";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "570"; */
+"570.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Domyślne"; ObjectID = "571"; */
+"571.title" = "Domyślne";
+
+/* Class = "NSMenuItem"; title = "Rozciąganie"; ObjectID = "572"; */
+"572.title" = "Rozciąganie";
+
+/* Class = "NSMenuItem"; title = "Kadrowanie"; ObjectID = "573"; */
+"573.title" = "Kadrowanie";
+
+/* Class = "NSBox"; title = "Pełny ekran"; ObjectID = "576"; */
+"576.title" = "Pełny ekran";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "581"; */
+"581.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Rozciąganie"; ObjectID = "582"; */
+"582.title" = "Rozciąganie";
+
+/* Class = "NSMenuItem"; title = "Domyślne"; ObjectID = "583"; */
+"583.title" = "Domyślne";
+
+/* Class = "NSMenuItem"; title = "Kadrowanie"; ObjectID = "584"; */
+"584.title" = "Kadrowanie";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "602"; */
+"602.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Fade"; ObjectID = "603"; */
+"603.title" = "Fade";
+
+/* Class = "NSMenuItem"; title = "None"; ObjectID = "604"; */
+"604.title" = "None";
+
+/* Class = "NSMenuItem"; title = "Animation"; ObjectID = "605"; */
+"605.title" = "Animation";
+
+/* Class = "NSBox"; title = "Backward/Forward Seek Intervals"; ObjectID = "631"; */
+"631.title" = "Backward/Forward Seek Intervals";
+
+/* Class = "NSTabViewItem"; label = "File Binding"; ObjectID = "848"; */
+"848.label" = "File Binding";
+
+/* Class = "NSTabViewItem"; label = "Ogólne"; ObjectID = "850"; */
+"850.label" = "Ogólne";
+
+/* Class = "NSTabViewItem"; label = "Kodeki"; ObjectID = "852"; */
+"852.label" = "Kodeki";
+
+/* Class = "NSTabViewItem"; label = "Szczegóły"; ObjectID = "854"; */
+"854.label" = "Szczegóły";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "858"; */
+"858.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Codziennie"; ObjectID = "859"; */
+"859.title" = "Codziennie";
+
+/* Class = "NSMenuItem"; title = "Co tydzień"; ObjectID = "860"; */
+"860.title" = "Co tydzień";
+
+/* Class = "NSMenuItem"; title = "Co miesiąc"; ObjectID = "862"; */
+"862.title" = "Co miesiąc";
+
+/* Class = "NSMenuItem"; title = "Nigdy"; ObjectID = "863"; */
+"863.title" = "Nigdy";
+
+/* Class = "NSTableColumn"; headerCell.title = "Wartość"; ObjectID = "870"; */
+"870.headerCell.title" = "Wartość";
+
+/* Class = "NSTableColumn"; headerCell.title = "Ustawienie"; ObjectID = "871"; */
+"871.headerCell.title" = "Ustawienie";
+
+/* Class = "NSTableColumn"; headerCell.title = "Opis"; ObjectID = "881"; */
+"881.headerCell.title" = "Opis";
+
+/* Class = "NSTableColumn"; headerCell.title = "Kodek"; ObjectID = "882"; */
+"882.headerCell.title" = "Kodek";
+
+/* Class = "NSTableColumn"; headerCell.title = "Dekoder"; ObjectID = "883"; */
+"883.headerCell.title" = "Dekoder";
+
+/* Class = "NSTableColumn"; headerCell.title = "Rozszerzenie"; ObjectID = "890"; */
+"890.headerCell.title" = "Rozszerzenie";
+
+/* Class = "NSTableColumn"; headerCell.title = "Opis"; ObjectID = "891"; */
+"891.headerCell.title" = "Opis";
+
+/* Class = "NSTableColumn"; headerCell.title = "Aplikacje"; ObjectID = "892"; */
+"892.headerCell.title" = "Aplikacje";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "2130"; */
+"2130.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Połowa wielkości"; ObjectID = "2132"; */
+"2132.title" = "Połowa wielkości";
+
+/* Class = "NSMenuItem"; title = "Tło pulpitu"; ObjectID = "2133"; */
+"2133.title" = "Tło pulpitu";
+
+/* Class = "NSMenuItem"; title = "Pełny ekran"; ObjectID = "2134"; */
+"2134.title" = "Pełny ekran";
+
+/* Class = "NSMenuItem"; title = "Dopasuj do ekranu"; ObjectID = "2135"; */
+"2135.title" = "Dopasuj do ekranu";
+
+/* Class = "NSMenuItem"; title = "Wielkość podwójna"; ObjectID = "2136"; */
+"2136.title" = "Wielkość podwójna";
+
+/* Class = "NSMenuItem"; title = "Wielkość rzeczywista"; ObjectID = "2137"; */
+"2137.title" = "Wielkość rzeczywista";
+
+/* Class = "NSMenuItem"; title = "Nie zmieniaj wielkości"; ObjectID = "2138"; */
+"2138.title" = "Nie zmieniaj wielkości";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "2603"; */
+"2603.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Dolny Letterbox"; ObjectID = "2604"; */
+"2604.title" = "Dolny Letterbox";
+
+/* Class = "NSMenuItem"; title = "Góra filmu"; ObjectID = "2605"; */
+"2605.title" = "Góra filmu";
+
+/* Class = "NSMenuItem"; title = "Górny Letterbox"; ObjectID = "2606"; */
+"2606.title" = "Górny Letterbox";
+
+/* Class = "NSMenuItem"; title = "Środek filmu"; ObjectID = "2607"; */
+"2607.title" = "Środek filmu";
+
+/* Class = "NSMenuItem"; title = "Dół filmu"; ObjectID = "2608"; */
+"2608.title" = "Dół filmu";
+
+/* Class = "NSTabViewItem"; label = "Napisy 3"; ObjectID = "2612"; */
+"2612.label" = "Napisy 3";
+
+/* Class = "NSTabViewItem"; label = "Napisy 2"; ObjectID = "2613"; */
+"2613.label" = "Napisy 2";
+
+/* Class = "NSTabViewItem"; label = "Napisy 1"; ObjectID = "2614"; */
+"2614.label" = "Napisy 1";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "2628"; */
+"2628.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "1 linia napisów"; ObjectID = "2629"; */
+"2629.title" = "1 linia napisów";
+
+/* Class = "NSMenuItem"; title = "T/B Same"; ObjectID = "2630"; */
+"2630.title" = "T/B Same";
+
+/* Class = "NSMenuItem"; title = "2 linie napisów"; ObjectID = "2631"; */
+"2631.title" = "2 linie napisów";
+
+/* Class = "NSMenuItem"; title = "3 linie napisów"; ObjectID = "2632"; */
+"2632.title" = "3 linie napisów";
+
+/* Class = "NSMenuItem"; title = "Automatyczna"; ObjectID = "2633"; */
+"2633.title" = "Automatyczna";
+
+/* Class = "NSMenuItem"; title = " "; ObjectID = "2634"; */
+"2634.title" = " ";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "2822"; */
+"2822.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "encoding"; ObjectID = "2823"; */
+"2823.title" = "encoding";
+
+/* Class = "NSButtonCell"; title = "Utrzymuj okno odtwarzania zawsze na wierzchu"; ObjectID = "3325"; */
+"3325.title" = "Utrzymuj okno odtwarzania zawsze na wierzchu";
+
+/* Class = "NSButtonCell"; title = "Zamykaj program, kiedy zostanie zamknięte okno z filmem"; ObjectID = "3326"; */
+"3326.title" = "Zamykaj program, kiedy zostanie zamknięte okno z filmem";
+
+/* Class = "NSTextFieldCell"; title = "←/→ :"; ObjectID = "3327"; */
+"3327.title" = "←/→ :";
+
+/* Class = "NSTextFieldCell"; title = "⌥ ←/→ :"; ObjectID = "3328"; */
+"3328.title" = "⌥ ←/→ :";
+
+/* Class = "NSTextFieldCell"; title = "⌥⇧ ←/→ :"; ObjectID = "3329"; */
+"3329.title" = "⌥⇧ ←/→ :";
+
+/* Class = "NSTextFieldCell"; title = "sek."; ObjectID = "3331"; */
+"3331.title" = "sek.";
+
+/* Class = "NSTextFieldCell"; title = "sek."; ObjectID = "3334"; */
+"3334.title" = "sek.";
+
+/* Class = "NSTextFieldCell"; title = "sek."; ObjectID = "3337"; */
+"3337.title" = "sek.";
+
+/* Class = "NSButtonCell"; title = "Obsługuj Apple Remote"; ObjectID = "3339"; */
+"3339.title" = "Obsługuj Apple Remote";
+
+/* Class = "NSButtonCell"; title = "Używaj pełnoekranowej nawigacji"; ObjectID = "3340"; */
+"3340.title" = "Używaj pełnoekranowej nawigacji";
+
+/* Class = "NSButtonCell"; title = "Zapamiętuj pozycję odtwarzania podczas zamykania"; ObjectID = "3341"; */
+"3341.title" = "Zapamiętuj pozycję odtwarzania podczas zamykania";
+
+/* Class = "NSButtonCell"; title = "Wyłącz wygaszacz, odtwarzając w oknie"; ObjectID = "3342"; */
+"3342.title" = "Wyłącz wygaszacz, odtwarzając w oknie";
+
+/* Class = "NSButtonCell"; title = "Autowykrywanie kolejnych części filmu"; ObjectID = "3343"; */
+"3343.title" = "Autowykrywanie kolejnych części filmu";
+
+/* Class = "NSButtonCell"; title = "Autoodtwarzanie na pełnym ekranie"; ObjectID = "3344"; */
+"3344.title" = "Autoodtwarzanie na pełnym ekranie";
+
+/* Class = "NSButtonCell"; title = "Pokazuj filmy biblioteki iTunes"; ObjectID = "3345"; */
+"3345.title" = "Pokazuj filmy biblioteki iTunes";
+
+/* Class = "NSButtonCell"; title = "Pokazuj podcasty wideo biblioteki iTunes"; ObjectID = "3346"; */
+"3346.title" = "Pokazuj podcasty wideo biblioteki iTunes";
+
+/* Class = "NSButtonCell"; title = "Pokazuj programy TV biblioteki iTunes"; ObjectID = "3347"; */
+"3347.title" = "Pokazuj programy TV biblioteki iTunes";
+
+/* Class = "NSButtonCell"; title = "Uruchom pełnoekranową nawigację na starcie"; ObjectID = "3348"; */
+"3348.title" = "Uruchom pełnoekranową nawigację na starcie";
+
+/* Class = "NSTextFieldCell"; title = "Po otwarciu filmu:"; ObjectID = "3349"; */
+"3349.title" = "Po otwarciu filmu:";
+
+/* Class = "NSButtonCell"; title = "Tylko podczas odtwarzania"; ObjectID = "3351"; */
+"3351.title" = "Tylko podczas odtwarzania";
+
+/* Class = "NSButtonCell"; title = "Włącz napisy"; ObjectID = "3352"; */
+"3352.title" = "Włącz napisy";
+
+/* Class = "NSTextFieldCell"; title = "Wysokość Letterbox'u:"; ObjectID = "3353"; */
+"3353.title" = "Wysokość Letterbox'u:";
+
+/* Class = "NSTextFieldCell"; title = "T/B Screen Margin:"; ObjectID = "3355"; */
+"3355.title" = "T/B Screen Margin:";
+
+/* Class = "NSTextFieldCell"; title = "0,0"; ObjectID = "3357"; */
+"3357.title" = "0,0";
+
+/* Class = "NSTextFieldCell"; title = "Domyślna strona kodowa:"; ObjectID = "3358"; */
+"3358.title" = "Domyślna strona kodowa:";
+
+/* Class = "NSButtonCell"; title = "..."; ObjectID = "3360"; */
+"3360.title" = "...";
+
+/* Class = "NSTextFieldCell"; title = "Sprawdzanie uaktualnień:"; ObjectID = "3361"; */
+"3361.title" = "Sprawdzanie uaktualnień:";
+
+/* Class = "NSButtonCell"; title = "Sprawdź teraz"; ObjectID = "3363"; */
+"3363.title" = "Sprawdź teraz";
+
+/* Class = "NSTextFieldCell"; title = "Ostatnie sprawdzanie:"; ObjectID = "3365"; */
+"3365.title" = "Ostatnie sprawdzanie:";
+
+/* Class = "NSButtonCell"; title = "..."; ObjectID = "3366"; */
+"3366.title" = "...";
+
+/* Class = "NSTextFieldCell"; title = "Jeśli określony dekoder będzie działać, nastąpi próba użycia innego."; ObjectID = "3367"; */
+"3367.title" = "Jeśli określony dekoder będzie działać, nastąpi próba użycia innego.";
+
+/* Class = "NSTextFieldCell"; title = "* Zmiany zostaną wprowadzone po załadowaniu następnego filmu."; ObjectID = "3368"; */
+"3368.title" = "* Zmiany zostaną wprowadzone po załadowaniu następnego filmu.";
+
+/* Class = "NSTextFieldCell"; title = "Wypełnianie ekranu filmów 16/9:"; ObjectID = "3369"; */
+"3369.title" = "Wypełnianie ekranu filmów 16/9:";
+
+/* Class = "NSTextFieldCell"; title = "Wypełnianie ekranu filmów 4/3:"; ObjectID = "3371"; */
+"3371.title" = "Wypełnianie ekranu filmów 4/3:";
+
+/* Class = "NSTextFieldCell"; title = "Under Scan:"; ObjectID = "3373"; */
+"3373.title" = "Under Scan:";
+
+/* Class = "NSTextFieldCell"; title = "Nigdy"; ObjectID = "3375"; */
+"3375.title" = "Nigdy";
+
+/* Class = "NSTextFieldCell"; title = "15 %"; ObjectID = "3376"; */
+"3376.title" = "15 %";
+
+/* Class = "NSTextFieldCell"; title = "10 %"; ObjectID = "3377"; */
+"3377.title" = "10 %";
+
+/* Class = "NSTextFieldCell"; title = "Efekt przejścia:"; ObjectID = "3378"; */
+"3378.title" = "Efekt przejścia:";
+
+/* Class = "NSButtonCell"; title = "Black out Other Screens"; ObjectID = "3380"; */
+"3380.title" = "Black out Other Screens";
+
+/* Class = "NSTextFieldCell"; title = "5 %"; ObjectID = "3381"; */
+"3381.title" = "5 %";
+
+/* Class = "NSButtonCell"; title = "Autowykrywanie wyjścia cyfrowego"; ObjectID = "3382"; */
+"3382.title" = "Autowykrywanie wyjścia cyfrowego";
+
+/* Class = "NSTextFieldCell"; title = "Zmiany zostaną wprowadzone po załadowaniu następnego filmu."; ObjectID = "3383"; */
+"3383.title" = "Zmiany zostaną wprowadzone po załadowaniu następnego filmu.";
+
+/* Class = "NSButtonCell"; title = "Zmieniaj głośność systemu wraz z głośnością filmu"; ObjectID = "3384"; */
+"3384.title" = "Zmieniaj głośność systemu wraz z głośnością filmu";
+
+/* Class = "NSTextFieldCell"; title = "Głośność systemu nie będzie zmieniana na wyjściu cyfrowym."; ObjectID = "3385"; */
+"3385.title" = "Głośność systemu nie będzie zmieniana na wyjściu cyfrowym.";
+
+/* Class = "NSTextFieldCell"; title = "0,0"; ObjectID = "3387"; */
+"3387.title" = "0,0";
+
+/* Class = "NSTextFieldCell"; title = "Line Spacing:"; ObjectID = "3389"; */
+"3389.title" = "Line Spacing:";
+
+/* Class = "NSTextFieldCell"; title = "Pozycja:"; ObjectID = "3390"; */
+"3390.title" = "Pozycja:";
+
+/* Class = "NSTextFieldCell"; title = "0,0%"; ObjectID = "3391"; */
+"3391.title" = "0,0%";
+
+/* Class = "NSTextFieldCell"; title = "0,0%"; ObjectID = "3392"; */
+"3392.title" = "0,0%";
+
+/* Class = "NSTextFieldCell"; title = "Górny/Dolny margines:"; ObjectID = "3395"; */
+"3395.title" = "Górny/Dolny margines:";
+
+/* Class = "NSTextFieldCell"; title = "Lewy/Prawy margines:"; ObjectID = "3396"; */
+"3396.title" = "Lewy/Prawy margines:";
+
+/* Class = "NSTextFieldCell"; title = "darkness:"; ObjectID = "3397"; */
+"3397.title" = "darkness:";
+
+/* Class = "NSTextFieldCell"; title = "0"; ObjectID = "3398"; */
+"3398.title" = "0";
+
+/* Class = "NSTextFieldCell"; title = "znaków/linijkę"; ObjectID = "3400"; */
+"3400.title" = "znaków/linijkę";
+
+/* Class = "NSButtonCell"; title = "Auto rozmiar"; ObjectID = "3403"; */
+"3403.title" = "Auto rozmiar";
+
+/* Class = "NSTextFieldCell"; title = "Czcionka:"; ObjectID = "3404"; */
+"3404.title" = "Czcionka:";
+
+/* Class = "NSButtonCell"; title = "Font & Size"; ObjectID = "3405"; */
+"3405.title" = "Font & Size";
+
+/* Class = "NSTextFieldCell"; title = "opacity:"; ObjectID = "3406"; */
+"3406.title" = "opacity:";
+
+/* Class = "NSTextFieldCell"; title = "0,0"; ObjectID = "3407"; */
+"3407.title" = "0,0";
+
+/* Class = "NSTextFieldCell"; title = "opacity:"; ObjectID = "3409"; */
+"3409.title" = "opacity:";
+
+/* Class = "NSTextFieldCell"; title = "0,0"; ObjectID = "3410"; */
+"3410.title" = "0,0";
+
+/* Class = "NSTextFieldCell"; title = "opacity:"; ObjectID = "3412"; */
+"3412.title" = "opacity:";
+
+/* Class = "NSTextFieldCell"; title = "0,0"; ObjectID = "3413"; */
+"3413.title" = "0,0";
+
+/* Class = "NSTextFieldCell"; title = "offset:"; ObjectID = "3415"; */
+"3415.title" = "offset:";
+
+/* Class = "NSTextFieldCell"; title = "rozmycie:"; ObjectID = "3416"; */
+"3416.title" = "rozmycie:";
+
+/* Class = "NSTextFieldCell"; title = "szerokość:"; ObjectID = "3417"; */
+"3417.title" = "szerokość:";
+
+/* Class = "NSTextFieldCell"; title = "0,0"; ObjectID = "3418"; */
+"3418.title" = "0,0";
+
+/* Class = "NSTextFieldCell"; title = "0,0"; ObjectID = "3420"; */
+"3420.title" = "0,0";
+
+/* Class = "NSTextFieldCell"; title = "0,0"; ObjectID = "3422"; */
+"3422.title" = "0,0";
+
+/* Class = "NSTextFieldCell"; title = "Cień:"; ObjectID = "3424"; */
+"3424.title" = "Cień:";
+
+/* Class = "NSTextFieldCell"; title = "Obwódka:"; ObjectID = "3425"; */
+"3425.title" = "Obwódka:";
+
+/* Class = "NSTextFieldCell"; title = "Tekst:"; ObjectID = "3426"; */
+"3426.title" = "Tekst:";

@@ -1,0 +1,393 @@
+
+/* Class = "NSWindow"; title = "환경설정"; ObjectID = "5"; */
+"5.title" = "환경설정";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "570"; */
+"570.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "기본"; ObjectID = "571"; */
+"571.title" = "기본";
+
+/* Class = "NSMenuItem"; title = "늘이기"; ObjectID = "572"; */
+"572.title" = "늘이기";
+
+/* Class = "NSMenuItem"; title = "잘라내기"; ObjectID = "573"; */
+"573.title" = "잘라내기";
+
+/* Class = "NSBox"; title = "전체 화면"; ObjectID = "576"; */
+"576.title" = "전체 화면";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "581"; */
+"581.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "늘이기"; ObjectID = "582"; */
+"582.title" = "늘이기";
+
+/* Class = "NSMenuItem"; title = "기본"; ObjectID = "583"; */
+"583.title" = "기본";
+
+/* Class = "NSMenuItem"; title = "잘라내기"; ObjectID = "584"; */
+"584.title" = "잘라내기";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "602"; */
+"602.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "페이드"; ObjectID = "603"; */
+"603.title" = "페이드";
+
+/* Class = "NSMenuItem"; title = "없음"; ObjectID = "604"; */
+"604.title" = "없음";
+
+/* Class = "NSMenuItem"; title = "애니메이션"; ObjectID = "605"; */
+"605.title" = "애니메이션";
+
+/* Class = "NSBox"; title = "뒤로/앞으로 이동 간격"; ObjectID = "631"; */
+"631.title" = "뒤로/앞으로 이동 간격";
+
+/* Class = "NSTabViewItem"; label = "파일 연결"; ObjectID = "848"; */
+"848.label" = "파일 연결";
+
+/* Class = "NSTabViewItem"; label = "일반"; ObjectID = "850"; */
+"850.label" = "일반";
+
+/* Class = "NSTabViewItem"; label = "코덱 연결"; ObjectID = "852"; */
+"852.label" = "코덱 연결";
+
+/* Class = "NSTabViewItem"; label = "세부 설정"; ObjectID = "854"; */
+"854.label" = "세부 설정";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "858"; */
+"858.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "매일"; ObjectID = "859"; */
+"859.title" = "매일";
+
+/* Class = "NSMenuItem"; title = "매주"; ObjectID = "860"; */
+"860.title" = "매주";
+
+/* Class = "NSMenuItem"; title = "매달"; ObjectID = "862"; */
+"862.title" = "매달";
+
+/* Class = "NSMenuItem"; title = "안함"; ObjectID = "863"; */
+"863.title" = "안함";
+
+/* Class = "NSTableColumn"; headerCell.title = "값"; ObjectID = "870"; */
+"870.headerCell.title" = "값";
+
+/* Class = "NSTableColumn"; headerCell.title = "설정"; ObjectID = "871"; */
+"871.headerCell.title" = "설정";
+
+/* Class = "NSTableColumn"; headerCell.title = "설명"; ObjectID = "881"; */
+"881.headerCell.title" = "설명";
+
+/* Class = "NSTableColumn"; headerCell.title = "코덱"; ObjectID = "882"; */
+"882.headerCell.title" = "코덱";
+
+/* Class = "NSTableColumn"; headerCell.title = "디코더"; ObjectID = "883"; */
+"883.headerCell.title" = "디코더";
+
+/* Class = "NSTableColumn"; headerCell.title = "확장자"; ObjectID = "890"; */
+"890.headerCell.title" = "확장자";
+
+/* Class = "NSTableColumn"; headerCell.title = "설명"; ObjectID = "891"; */
+"891.headerCell.title" = "설명";
+
+/* Class = "NSTableColumn"; headerCell.title = "응용 프로그램"; ObjectID = "892"; */
+"892.headerCell.title" = "응용 프로그램";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "2131"; */
+"2131.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "현재 크기 유지"; ObjectID = "2132"; */
+"2132.title" = "현재 크기 유지";
+
+/* Class = "NSMenuItem"; title = "실제 크기"; ObjectID = "2133"; */
+"2133.title" = "실제 크기";
+
+/* Class = "NSMenuItem"; title = "두배 크기"; ObjectID = "2134"; */
+"2134.title" = "두배 크기";
+
+/* Class = "NSMenuItem"; title = "화면에 맞추기"; ObjectID = "2135"; */
+"2135.title" = "화면에 맞추기";
+
+/* Class = "NSMenuItem"; title = "전체 화면"; ObjectID = "2136"; */
+"2136.title" = "전체 화면";
+
+/* Class = "NSMenuItem"; title = "데스크탑 배경"; ObjectID = "2137"; */
+"2137.title" = "데스크탑 배경";
+
+/* Class = "NSMenuItem"; title = "절반 크기"; ObjectID = "2138"; */
+"2138.title" = "절반 크기";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "2586"; */
+"2586.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "영상 아래쪽"; ObjectID = "2589"; */
+"2589.title" = "영상 아래쪽";
+
+/* Class = "NSMenuItem"; title = "영상 가운데"; ObjectID = "2590"; */
+"2590.title" = "영상 가운데";
+
+/* Class = "NSMenuItem"; title = "아래쪽 레터박스"; ObjectID = "2591"; */
+"2591.title" = "아래쪽 레터박스";
+
+/* Class = "NSMenuItem"; title = "위쪽 레터박스"; ObjectID = "2592"; */
+"2592.title" = "위쪽 레터박스";
+
+/* Class = "NSMenuItem"; title = "영상 위쪽"; ObjectID = "2593"; */
+"2593.title" = "영상 위쪽";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "2616"; */
+"2616.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = " "; ObjectID = "2617"; */
+"2617.title" = " ";
+
+/* Class = "NSMenuItem"; title = "자동"; ObjectID = "2618"; */
+"2618.title" = "자동";
+
+/* Class = "NSMenuItem"; title = "자막 3줄 높이"; ObjectID = "2619"; */
+"2619.title" = "자막 3줄 높이";
+
+/* Class = "NSMenuItem"; title = "자막 2줄 높이"; ObjectID = "2620"; */
+"2620.title" = "자막 2줄 높이";
+
+/* Class = "NSMenuItem"; title = "위, 아래 같게"; ObjectID = "2621"; */
+"2621.title" = "위, 아래 같게";
+
+/* Class = "NSMenuItem"; title = "자막 1줄 높이"; ObjectID = "2623"; */
+"2623.title" = "자막 1줄 높이";
+
+/* Class = "NSTabViewItem"; label = "자막 1"; ObjectID = "2630"; */
+"2630.label" = "자막 1";
+
+/* Class = "NSTabViewItem"; label = "자막 2"; ObjectID = "2631"; */
+"2631.label" = "자막 2";
+
+/* Class = "NSTabViewItem"; label = "자막 3"; ObjectID = "2634"; */
+"2634.label" = "자막 3";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "2825"; */
+"2825.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "encoding"; ObjectID = "2826"; */
+"2826.title" = "encoding";
+
+/* Class = "NSButtonCell"; title = "다른 모든 윈도우 위에 유지"; ObjectID = "3203"; */
+"3203.title" = "다른 모든 윈도우 위에 유지";
+
+/* Class = "NSButtonCell"; title = "영상 윈도우를 닫으면 종료"; ObjectID = "3204"; */
+"3204.title" = "영상 윈도우를 닫으면 종료";
+
+/* Class = "NSTextFieldCell"; title = "←/→ :"; ObjectID = "3205"; */
+"3205.title" = "←/→ :";
+
+/* Class = "NSTextFieldCell"; title = "⌥ ←/→ :"; ObjectID = "3206"; */
+"3206.title" = "⌥ ←/→ :";
+
+/* Class = "NSTextFieldCell"; title = "⌥⇧ ←/→ :"; ObjectID = "3207"; */
+"3207.title" = "⌥⇧ ←/→ :";
+
+/* Class = "NSTextFieldCell"; title = "초"; ObjectID = "3209"; */
+"3209.title" = "초";
+
+/* Class = "NSTextFieldCell"; title = "초"; ObjectID = "3212"; */
+"3212.title" = "초";
+
+/* Class = "NSTextFieldCell"; title = "초"; ObjectID = "3215"; */
+"3215.title" = "초";
+
+/* Class = "NSButtonCell"; title = "Apple Remote 지원"; ObjectID = "3217"; */
+"3217.title" = "Apple Remote 지원";
+
+/* Class = "NSButtonCell"; title = "전체 화면 탐색 사용"; ObjectID = "3218"; */
+"3218.title" = "전체 화면 탐색 사용";
+
+/* Class = "NSButtonCell"; title = "종료시 마지막 재생 위치 기억"; ObjectID = "3219"; */
+"3219.title" = "종료시 마지막 재생 위치 기억";
+
+/* Class = "NSButtonCell"; title = "윈도우 모드에서 화면 보호기 방지"; ObjectID = "3220"; */
+"3220.title" = "윈도우 모드에서 화면 보호기 방지";
+
+/* Class = "NSButtonCell"; title = "동영상 열 때 비슷한 파일 재생 목록에 추가"; ObjectID = "3221"; */
+"3221.title" = "동영상 열 때 비슷한 파일 재생 목록에 추가";
+
+/* Class = "NSButtonCell"; title = "전체 화면 전환시 자동 재생"; ObjectID = "3222"; */
+"3222.title" = "전체 화면 전환시 자동 재생";
+
+/* Class = "NSButtonCell"; title = "iTunes 동영상 보기"; ObjectID = "3223"; */
+"3223.title" = "iTunes 동영상 보기";
+
+/* Class = "NSButtonCell"; title = "iTunes 비디오 Podcast 보기"; ObjectID = "3224"; */
+"3224.title" = "iTunes 비디오 Podcast 보기";
+
+/* Class = "NSButtonCell"; title = "iTunes TV 프로그램 보기"; ObjectID = "3225"; */
+"3225.title" = "iTunes TV 프로그램 보기";
+
+/* Class = "NSButtonCell"; title = "시작시 전체 화면 탐색 실행"; ObjectID = "3226"; */
+"3226.title" = "시작시 전체 화면 탐색 실행";
+
+/* Class = "NSTextFieldCell"; title = "동영상 열 때 보기:"; ObjectID = "3227"; */
+"3227.title" = "동영상 열 때 보기:";
+
+/* Class = "NSButtonCell"; title = "재생 중에만 적용"; ObjectID = "3229"; */
+"3229.title" = "재생 중에만 적용";
+
+/* Class = "NSButtonCell"; title = "자막 사용"; ObjectID = "3230"; */
+"3230.title" = "자막 사용";
+
+/* Class = "NSTextFieldCell"; title = "레터박스 높이:"; ObjectID = "3231"; */
+"3231.title" = "레터박스 높이:";
+
+/* Class = "NSTextFieldCell"; title = "상/하 화면 여백:"; ObjectID = "3233"; */
+"3233.title" = "상/하 화면 여백:";
+
+/* Class = "NSTextFieldCell"; title = "0,0"; ObjectID = "3235"; */
+"3235.title" = "0,0";
+
+/* Class = "NSTextFieldCell"; title = "텍스트 인코딩:"; ObjectID = "3236"; */
+"3236.title" = "텍스트 인코딩:";
+
+/* Class = "NSButtonCell"; title = "..."; ObjectID = "3238"; */
+"3238.title" = "...";
+
+/* Class = "NSTextFieldCell"; title = "업데이트 확인:"; ObjectID = "3239"; */
+"3239.title" = "업데이트 확인:";
+
+/* Class = "NSButtonCell"; title = "지금 확인"; ObjectID = "3241"; */
+"3241.title" = "지금 확인";
+
+/* Class = "NSTextFieldCell"; title = "마지막 확인:"; ObjectID = "3243"; */
+"3243.title" = "마지막 확인:";
+
+/* Class = "NSButtonCell"; title = "..."; ObjectID = "3244"; */
+"3244.title" = "...";
+
+/* Class = "NSTextFieldCell"; title = "지정한 디코더로 열지 못하면 자동으로 다른 디코더로 재시도합니다."; ObjectID = "3245"; */
+"3245.title" = "지정한 디코더로 열지 못하면 자동으로 다른 디코더로 재시도합니다.";
+
+/* Class = "NSTextFieldCell"; title = "* 표시가 있는 항목은 다음 동영상부터 적용됩니다."; ObjectID = "3246"; */
+"3246.title" = "* 표시가 있는 항목은 다음 동영상부터 적용됩니다.";
+
+/* Class = "NSTextFieldCell"; title = "와이드 동영상 채우기:"; ObjectID = "3247"; */
+"3247.title" = "와이드 동영상 채우기:";
+
+/* Class = "NSTextFieldCell"; title = "표준 동영상 채우기:"; ObjectID = "3249"; */
+"3249.title" = "표준 동영상 채우기:";
+
+/* Class = "NSTextFieldCell"; title = "언더스캔:"; ObjectID = "3251"; */
+"3251.title" = "언더스캔:";
+
+/* Class = "NSTextFieldCell"; title = "안함"; ObjectID = "3253"; */
+"3253.title" = "안함";
+
+/* Class = "NSTextFieldCell"; title = "15 %"; ObjectID = "3254"; */
+"3254.title" = "15 %";
+
+/* Class = "NSTextFieldCell"; title = "5 %"; ObjectID = "3255"; */
+"3255.title" = "5 %";
+
+/* Class = "NSTextFieldCell"; title = "전환 효과:"; ObjectID = "3256"; */
+"3256.title" = "전환 효과:";
+
+/* Class = "NSButtonCell"; title = "다른 모니터 검게 가리기"; ObjectID = "3258"; */
+"3258.title" = "다른 모니터 검게 가리기";
+
+/* Class = "NSTextFieldCell"; title = "10 %"; ObjectID = "3259"; */
+"3259.title" = "10 %";
+
+/* Class = "NSButtonCell"; title = "디지털 오디오 출력 자동 인식"; ObjectID = "3260"; */
+"3260.title" = "디지털 오디오 출력 자동 인식";
+
+/* Class = "NSTextFieldCell"; title = "변경 사항은 다음 동영상부터 적용됩니다."; ObjectID = "3261"; */
+"3261.title" = "변경 사항은 다음 동영상부터 적용됩니다.";
+
+/* Class = "NSButtonCell"; title = "음량 조절시 시스템 음량 조절"; ObjectID = "3262"; */
+"3262.title" = "음량 조절시 시스템 음량 조절";
+
+/* Class = "NSTextFieldCell"; title = "디지털 출력 시에는 시스템 음량을 조절할 수 없습니다."; ObjectID = "3263"; */
+"3263.title" = "디지털 출력 시에는 시스템 음량을 조절할 수 없습니다.";
+
+/* Class = "NSTextFieldCell"; title = "글자:"; ObjectID = "3264"; */
+"3264.title" = "글자:";
+
+/* Class = "NSTextFieldCell"; title = "외곽선:"; ObjectID = "3265"; */
+"3265.title" = "외곽선:";
+
+/* Class = "NSTextFieldCell"; title = "그림자:"; ObjectID = "3266"; */
+"3266.title" = "그림자:";
+
+/* Class = "NSTextFieldCell"; title = "0,0"; ObjectID = "3268"; */
+"3268.title" = "0,0";
+
+/* Class = "NSTextFieldCell"; title = "0,0"; ObjectID = "3270"; */
+"3270.title" = "0,0";
+
+/* Class = "NSTextFieldCell"; title = "0,0"; ObjectID = "3272"; */
+"3272.title" = "0,0";
+
+/* Class = "NSTextFieldCell"; title = "두께:"; ObjectID = "3273"; */
+"3273.title" = "두께:";
+
+/* Class = "NSTextFieldCell"; title = "흐림:"; ObjectID = "3274"; */
+"3274.title" = "흐림:";
+
+/* Class = "NSTextFieldCell"; title = "거리:"; ObjectID = "3275"; */
+"3275.title" = "거리:";
+
+/* Class = "NSTextFieldCell"; title = "0,0"; ObjectID = "3277"; */
+"3277.title" = "0,0";
+
+/* Class = "NSTextFieldCell"; title = "불투명:"; ObjectID = "3278"; */
+"3278.title" = "불투명:";
+
+/* Class = "NSTextFieldCell"; title = "0,0"; ObjectID = "3280"; */
+"3280.title" = "0,0";
+
+/* Class = "NSTextFieldCell"; title = "불투명:"; ObjectID = "3281"; */
+"3281.title" = "불투명:";
+
+/* Class = "NSTextFieldCell"; title = "0,0"; ObjectID = "3283"; */
+"3283.title" = "0,0";
+
+/* Class = "NSTextFieldCell"; title = "불투명:"; ObjectID = "3284"; */
+"3284.title" = "불투명:";
+
+/* Class = "NSButtonCell"; title = "Font & Size"; ObjectID = "3285"; */
+"3285.title" = "Font & Size";
+
+/* Class = "NSTextFieldCell"; title = "서체:"; ObjectID = "3286"; */
+"3286.title" = "서체:";
+
+/* Class = "NSButtonCell"; title = "크기 자동 조절"; ObjectID = "3287"; */
+"3287.title" = "크기 자동 조절";
+
+/* Class = "NSTextFieldCell"; title = "한 줄 당 글자 수:"; ObjectID = "3290"; */
+"3290.title" = "한 줄 당 글자 수:";
+
+/* Class = "NSTextFieldCell"; title = "0"; ObjectID = "3292"; */
+"3292.title" = "0";
+
+/* Class = "NSTextFieldCell"; title = "진하기:"; ObjectID = "3293"; */
+"3293.title" = "진하기:";
+
+/* Class = "NSTextFieldCell"; title = "좌/우 여백:"; ObjectID = "3294"; */
+"3294.title" = "좌/우 여백:";
+
+/* Class = "NSTextFieldCell"; title = "상/하 여백:"; ObjectID = "3295"; */
+"3295.title" = "상/하 여백:";
+
+/* Class = "NSTextFieldCell"; title = "0,0%"; ObjectID = "3298"; */
+"3298.title" = "0,0%";
+
+/* Class = "NSTextFieldCell"; title = "0,0%"; ObjectID = "3299"; */
+"3299.title" = "0,0%";
+
+/* Class = "NSTextFieldCell"; title = "위치:"; ObjectID = "3300"; */
+"3300.title" = "위치:";
+
+/* Class = "NSTextFieldCell"; title = "줄 간격:"; ObjectID = "3301"; */
+"3301.title" = "줄 간격:";
+
+/* Class = "NSTextFieldCell"; title = "0,0"; ObjectID = "3303"; */
+"3303.title" = "0,0";

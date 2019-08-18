@@ -1,0 +1,393 @@
+
+/* Class = "NSWindow"; title = "面板"; ObjectID = "5"; */
+"5.title" = "面板";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "570"; */
+"570.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "預設"; ObjectID = "571"; */
+"571.title" = "預設";
+
+/* Class = "NSMenuItem"; title = "展開"; ObjectID = "572"; */
+"572.title" = "展開";
+
+/* Class = "NSMenuItem"; title = "裁切"; ObjectID = "573"; */
+"573.title" = "裁切";
+
+/* Class = "NSBox"; title = "全螢幕"; ObjectID = "576"; */
+"576.title" = "全螢幕";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "581"; */
+"581.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "展開"; ObjectID = "582"; */
+"582.title" = "展開";
+
+/* Class = "NSMenuItem"; title = "預設"; ObjectID = "583"; */
+"583.title" = "預設";
+
+/* Class = "NSMenuItem"; title = "裁切"; ObjectID = "584"; */
+"584.title" = "裁切";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "602"; */
+"602.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "漸淡"; ObjectID = "603"; */
+"603.title" = "漸淡";
+
+/* Class = "NSMenuItem"; title = "無"; ObjectID = "604"; */
+"604.title" = "無";
+
+/* Class = "NSMenuItem"; title = "動畫"; ObjectID = "605"; */
+"605.title" = "動畫";
+
+/* Class = "NSBox"; title = "往後/往前搜尋間隔"; ObjectID = "631"; */
+"631.title" = "往後/往前搜尋間隔";
+
+/* Class = "NSTabViewItem"; label = "檔案內容"; ObjectID = "848"; */
+"848.label" = "檔案內容";
+
+/* Class = "NSTabViewItem"; label = "一般"; ObjectID = "850"; */
+"850.label" = "一般";
+
+/* Class = "NSTabViewItem"; label = "編碼內容"; ObjectID = "852"; */
+"852.label" = "編碼內容";
+
+/* Class = "NSTabViewItem"; label = "詳細資料"; ObjectID = "854"; */
+"854.label" = "詳細資料";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "858"; */
+"858.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "每天"; ObjectID = "859"; */
+"859.title" = "每天";
+
+/* Class = "NSMenuItem"; title = "每週"; ObjectID = "860"; */
+"860.title" = "每週";
+
+/* Class = "NSMenuItem"; title = "每月"; ObjectID = "862"; */
+"862.title" = "每月";
+
+/* Class = "NSMenuItem"; title = "從不"; ObjectID = "863"; */
+"863.title" = "從不";
+
+/* Class = "NSTableColumn"; headerCell.title = "數值"; ObjectID = "870"; */
+"870.headerCell.title" = "數值";
+
+/* Class = "NSTableColumn"; headerCell.title = "設定"; ObjectID = "871"; */
+"871.headerCell.title" = "設定";
+
+/* Class = "NSTableColumn"; headerCell.title = "說明"; ObjectID = "881"; */
+"881.headerCell.title" = "說明";
+
+/* Class = "NSTableColumn"; headerCell.title = "編碼"; ObjectID = "882"; */
+"882.headerCell.title" = "編碼";
+
+/* Class = "NSTableColumn"; headerCell.title = "編碼器"; ObjectID = "883"; */
+"883.headerCell.title" = "編碼器";
+
+/* Class = "NSTableColumn"; headerCell.title = "Extension"; ObjectID = "890"; */
+"890.headerCell.title" = "Extension";
+
+/* Class = "NSTableColumn"; headerCell.title = "說明"; ObjectID = "891"; */
+"891.headerCell.title" = "說明";
+
+/* Class = "NSTableColumn"; headerCell.title = "應用程式"; ObjectID = "892"; */
+"892.headerCell.title" = "應用程式";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "2130"; */
+"2130.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "一半大小"; ObjectID = "2132"; */
+"2132.title" = "一半大小";
+
+/* Class = "NSMenuItem"; title = "桌面背景"; ObjectID = "2133"; */
+"2133.title" = "桌面背景";
+
+/* Class = "NSMenuItem"; title = "全螢幕"; ObjectID = "2134"; */
+"2134.title" = "全螢幕";
+
+/* Class = "NSMenuItem"; title = "符合視窗"; ObjectID = "2135"; */
+"2135.title" = "符合視窗";
+
+/* Class = "NSMenuItem"; title = "兩倍大"; ObjectID = "2136"; */
+"2136.title" = "兩倍大";
+
+/* Class = "NSMenuItem"; title = "一般大小"; ObjectID = "2137"; */
+"2137.title" = "一般大小";
+
+/* Class = "NSMenuItem"; title = "不要重新調整"; ObjectID = "2138"; */
+"2138.title" = "不要重新調整";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "2603"; */
+"2603.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "低於螢幕"; ObjectID = "2604"; */
+"2604.title" = "低於螢幕";
+
+/* Class = "NSMenuItem"; title = "影片頂端"; ObjectID = "2605"; */
+"2605.title" = "影片頂端";
+
+/* Class = "NSMenuItem"; title = "高於螢幕"; ObjectID = "2606"; */
+"2606.title" = "高於螢幕";
+
+/* Class = "NSMenuItem"; title = "影片中間"; ObjectID = "2607"; */
+"2607.title" = "影片中間";
+
+/* Class = "NSMenuItem"; title = "影片底部"; ObjectID = "2608"; */
+"2608.title" = "影片底部";
+
+/* Class = "NSTabViewItem"; label = "字幕 3"; ObjectID = "2612"; */
+"2612.label" = "字幕 3";
+
+/* Class = "NSTabViewItem"; label = "字幕 2"; ObjectID = "2613"; */
+"2613.label" = "字幕 2";
+
+/* Class = "NSTabViewItem"; label = "字幕 1"; ObjectID = "2614"; */
+"2614.label" = "字幕 1";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "2628"; */
+"2628.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "1行字幕"; ObjectID = "2629"; */
+"2629.title" = "1行字幕";
+
+/* Class = "NSMenuItem"; title = "T/B 相同"; ObjectID = "2630"; */
+"2630.title" = "T/B 相同";
+
+/* Class = "NSMenuItem"; title = "2行字幕"; ObjectID = "2631"; */
+"2631.title" = "2行字幕";
+
+/* Class = "NSMenuItem"; title = "3行字幕"; ObjectID = "2632"; */
+"2632.title" = "3行字幕";
+
+/* Class = "NSMenuItem"; title = "自動"; ObjectID = "2633"; */
+"2633.title" = "自動";
+
+/* Class = "NSMenuItem"; title = " "; ObjectID = "2634"; */
+"2634.title" = " ";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "2822"; */
+"2822.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "編碼"; ObjectID = "2823"; */
+"2823.title" = "編碼";
+
+/* Class = "NSButtonCell"; title = "保持在所有視窗支上"; ObjectID = "3325"; */
+"3325.title" = "保持在所有視窗支上";
+
+/* Class = "NSButtonCell"; title = "當影片視窗關閉後結束"; ObjectID = "3326"; */
+"3326.title" = "當影片視窗關閉後結束";
+
+/* Class = "NSTextFieldCell"; title = "←/→ :"; ObjectID = "3327"; */
+"3327.title" = "←/→ :";
+
+/* Class = "NSTextFieldCell"; title = "⌥ ←/→ :"; ObjectID = "3328"; */
+"3328.title" = "⌥ ←/→ :";
+
+/* Class = "NSTextFieldCell"; title = "⌥⇧ ←/→ :"; ObjectID = "3329"; */
+"3329.title" = "⌥⇧ ←/→ :";
+
+/* Class = "NSTextFieldCell"; title = "秒"; ObjectID = "3331"; */
+"3331.title" = "秒";
+
+/* Class = "NSTextFieldCell"; title = "秒"; ObjectID = "3334"; */
+"3334.title" = "秒";
+
+/* Class = "NSTextFieldCell"; title = "秒"; ObjectID = "3337"; */
+"3337.title" = "秒";
+
+/* Class = "NSButtonCell"; title = "支援 Apple Remote"; ObjectID = "3339"; */
+"3339.title" = "支援 Apple Remote";
+
+/* Class = "NSButtonCell"; title = "使用全螢幕瀏覽"; ObjectID = "3340"; */
+"3340.title" = "使用全螢幕瀏覽";
+
+/* Class = "NSButtonCell"; title = "當結束時記得最後播放的位置"; ObjectID = "3341"; */
+"3341.title" = "當結束時記得最後播放的位置";
+
+/* Class = "NSButtonCell"; title = "視窗模式播放時阻止螢幕保護裝置"; ObjectID = "3342"; */
+"3342.title" = "視窗模式播放時阻止螢幕保護裝置";
+
+/* Class = "NSButtonCell"; title = "自動偵測影集檔案"; ObjectID = "3343"; */
+"3343.title" = "自動偵測影集檔案";
+
+/* Class = "NSButtonCell"; title = "自動播放在全螢幕"; ObjectID = "3344"; */
+"3344.title" = "自動播放在全螢幕";
+
+/* Class = "NSButtonCell"; title = "顯示 iTunes 電影"; ObjectID = "3345"; */
+"3345.title" = "顯示 iTunes 電影";
+
+/* Class = "NSButtonCell"; title = "顯示 iTunes Video Podcasts"; ObjectID = "3346"; */
+"3346.title" = "顯示 iTunes Video Podcasts";
+
+/* Class = "NSButtonCell"; title = "顯示 iTunes 電視影集"; ObjectID = "3347"; */
+"3347.title" = "顯示 iTunes 電視影集";
+
+/* Class = "NSButtonCell"; title = "在開始時執行瀏覽"; ObjectID = "3348"; */
+"3348.title" = "在開始時執行瀏覽";
+
+/* Class = "NSTextFieldCell"; title = "當影片開始時:"; ObjectID = "3349"; */
+"3349.title" = "當影片開始時:";
+
+/* Class = "NSButtonCell"; title = "僅在播放電影時適用"; ObjectID = "3351"; */
+"3351.title" = "僅在播放電影時適用";
+
+/* Class = "NSButtonCell"; title = "啓動字幕"; ObjectID = "3352"; */
+"3352.title" = "啓動字幕";
+
+/* Class = "NSTextFieldCell"; title = "螢幕高度:"; ObjectID = "3353"; */
+"3353.title" = "螢幕高度:";
+
+/* Class = "NSTextFieldCell"; title = "T/B 螢幕邊距:"; ObjectID = "3355"; */
+"3355.title" = "T/B 螢幕邊距:";
+
+/* Class = "NSTextFieldCell"; title = "0,0"; ObjectID = "3357"; */
+"3357.title" = "0,0";
+
+/* Class = "NSTextFieldCell"; title = "文字編碼:"; ObjectID = "3358"; */
+"3358.title" = "文字編碼:";
+
+/* Class = "NSButtonCell"; title = "..."; ObjectID = "3360"; */
+"3360.title" = "...";
+
+/* Class = "NSTextFieldCell"; title = "檢查更新:"; ObjectID = "3361"; */
+"3361.title" = "檢查更新:";
+
+/* Class = "NSButtonCell"; title = "立刻檢查"; ObjectID = "3363"; */
+"3363.title" = "立刻檢查";
+
+/* Class = "NSTextFieldCell"; title = "最後檢查:"; ObjectID = "3365"; */
+"3365.title" = "最後檢查:";
+
+/* Class = "NSButtonCell"; title = "..."; ObjectID = "3366"; */
+"3366.title" = "...";
+
+/* Class = "NSTextFieldCell"; title = "如果指定的解碼器不能打開，將使用其他的解碼器重試。"; ObjectID = "3367"; */
+"3367.title" = "如果指定的解碼器不能打開，將使用其他的解碼器重試。";
+
+/* Class = "NSTextFieldCell"; title = "帶 * 的設定將在下次播放的時候應用。"; ObjectID = "3368"; */
+"3368.title" = "帶 * 的設定將在下次播放的時候應用。";
+
+/* Class = "NSTextFieldCell"; title = "寬螢幕影片填滿:"; ObjectID = "3369"; */
+"3369.title" = "寬螢幕影片填滿:";
+
+/* Class = "NSTextFieldCell"; title = "標準影片填滿:"; ObjectID = "3371"; */
+"3371.title" = "標準影片填滿:";
+
+/* Class = "NSTextFieldCell"; title = "幕後掃描:"; ObjectID = "3373"; */
+"3373.title" = "幕後掃描:";
+
+/* Class = "NSTextFieldCell"; title = "從不"; ObjectID = "3375"; */
+"3375.title" = "從不";
+
+/* Class = "NSTextFieldCell"; title = "15 %"; ObjectID = "3376"; */
+"3376.title" = "15 %";
+
+/* Class = "NSTextFieldCell"; title = "10 %"; ObjectID = "3377"; */
+"3377.title" = "10 %";
+
+/* Class = "NSTextFieldCell"; title = "過場特效:"; ObjectID = "3378"; */
+"3378.title" = "過場特效:";
+
+/* Class = "NSButtonCell"; title = "其他螢幕變黑"; ObjectID = "3380"; */
+"3380.title" = "其他螢幕變黑";
+
+/* Class = "NSTextFieldCell"; title = "5 %"; ObjectID = "3381"; */
+"3381.title" = "5 %";
+
+/* Class = "NSButtonCell"; title = "自動探測數位音訊輸出"; ObjectID = "3382"; */
+"3382.title" = "自動探測數位音訊輸出";
+
+/* Class = "NSTextFieldCell"; title = "此設定將在下一個電影播放中生效。"; ObjectID = "3383"; */
+"3383.title" = "此設定將在下一個電影播放中生效。";
+
+/* Class = "NSButtonCell"; title = "當更改音量時更新系統音量"; ObjectID = "3384"; */
+"3384.title" = "當更改音量時更新系統音量";
+
+/* Class = "NSTextFieldCell"; title = "系統音量無法更改在數位輸出"; ObjectID = "3385"; */
+"3385.title" = "系統音量無法更改在數位輸出";
+
+/* Class = "NSTextFieldCell"; title = "0,0"; ObjectID = "3387"; */
+"3387.title" = "0,0";
+
+/* Class = "NSTextFieldCell"; title = "行距:"; ObjectID = "3389"; */
+"3389.title" = "行距:";
+
+/* Class = "NSTextFieldCell"; title = "位置:"; ObjectID = "3390"; */
+"3390.title" = "位置:";
+
+/* Class = "NSTextFieldCell"; title = "0,0%"; ObjectID = "3391"; */
+"3391.title" = "0,0%";
+
+/* Class = "NSTextFieldCell"; title = "0,0%"; ObjectID = "3392"; */
+"3392.title" = "0,0%";
+
+/* Class = "NSTextFieldCell"; title = "上/下邊距:"; ObjectID = "3395"; */
+"3395.title" = "上/下邊距:";
+
+/* Class = "NSTextFieldCell"; title = "左/右邊距:"; ObjectID = "3396"; */
+"3396.title" = "左/右邊距:";
+
+/* Class = "NSTextFieldCell"; title = "暗度:"; ObjectID = "3397"; */
+"3397.title" = "暗度:";
+
+/* Class = "NSTextFieldCell"; title = "0"; ObjectID = "3398"; */
+"3398.title" = "0";
+
+/* Class = "NSTextFieldCell"; title = "字符/行"; ObjectID = "3400"; */
+"3400.title" = "字符/行";
+
+/* Class = "NSButtonCell"; title = "自動調整大小"; ObjectID = "3403"; */
+"3403.title" = "自動調整大小";
+
+/* Class = "NSTextFieldCell"; title = "字形:"; ObjectID = "3404"; */
+"3404.title" = "字形:";
+
+/* Class = "NSButtonCell"; title = "Font & Size"; ObjectID = "3405"; */
+"3405.title" = "Font & Size";
+
+/* Class = "NSTextFieldCell"; title = "透明度:"; ObjectID = "3406"; */
+"3406.title" = "透明度:";
+
+/* Class = "NSTextFieldCell"; title = "0,0"; ObjectID = "3407"; */
+"3407.title" = "0,0";
+
+/* Class = "NSTextFieldCell"; title = "透明度:"; ObjectID = "3409"; */
+"3409.title" = "透明度:";
+
+/* Class = "NSTextFieldCell"; title = "0,0"; ObjectID = "3410"; */
+"3410.title" = "0,0";
+
+/* Class = "NSTextFieldCell"; title = "透明度:"; ObjectID = "3412"; */
+"3412.title" = "透明度:";
+
+/* Class = "NSTextFieldCell"; title = "0,0"; ObjectID = "3413"; */
+"3413.title" = "0,0";
+
+/* Class = "NSTextFieldCell"; title = "偏移:"; ObjectID = "3415"; */
+"3415.title" = "偏移:";
+
+/* Class = "NSTextFieldCell"; title = "模糊:"; ObjectID = "3416"; */
+"3416.title" = "模糊:";
+
+/* Class = "NSTextFieldCell"; title = "寬度:"; ObjectID = "3417"; */
+"3417.title" = "寬度:";
+
+/* Class = "NSTextFieldCell"; title = "0,0"; ObjectID = "3418"; */
+"3418.title" = "0,0";
+
+/* Class = "NSTextFieldCell"; title = "0,0"; ObjectID = "3420"; */
+"3420.title" = "0,0";
+
+/* Class = "NSTextFieldCell"; title = "0,0"; ObjectID = "3422"; */
+"3422.title" = "0,0";
+
+/* Class = "NSTextFieldCell"; title = "陰影:"; ObjectID = "3424"; */
+"3424.title" = "陰影:";
+
+/* Class = "NSTextFieldCell"; title = "筆畫:"; ObjectID = "3425"; */
+"3425.title" = "筆畫:";
+
+/* Class = "NSTextFieldCell"; title = "文字:"; ObjectID = "3426"; */
+"3426.title" = "文字:";

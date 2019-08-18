@@ -1,0 +1,768 @@
+
+/* Class = "NSMenuItem"; title = "Tamamını Öne Getir"; ObjectID = "5"; */
+"5.title" = "Tamamını Öne Getir";
+
+/* Class = "NSMenuItem"; title = "Pencere"; ObjectID = "19"; */
+"19.title" = "Pencere";
+
+/* Class = "NSMenuItem"; title = "Küçült"; ObjectID = "23"; */
+"23.title" = "Küçült";
+
+/* Class = "NSMenu"; title = "Pencere"; ObjectID = "24"; */
+"24.title" = "Pencere";
+
+/* Class = "NSMenu"; title = "MainMenu"; ObjectID = "29"; */
+"29.title" = "MainMenu";
+
+/* Class = "NSMenuItem"; title = "Movist"; ObjectID = "56"; */
+"56.title" = "Movist";
+
+/* Class = "NSMenu"; title = "Movist"; ObjectID = "57"; */
+"57.title" = "Movist";
+
+/* Class = "NSMenuItem"; title = "Movist Hakkında"; ObjectID = "58"; */
+"58.title" = "Movist Hakkında";
+
+/* Class = "NSMenuItem"; title = "Film Dosyası Aç…"; ObjectID = "72"; */
+"72.title" = "Film Dosyası Aç…";
+
+/* Class = "NSMenu"; title = "Dosya"; ObjectID = "81"; */
+"81.title" = "Dosya";
+
+/* Class = "NSMenuItem"; title = "Dosya"; ObjectID = "83"; */
+"83.title" = "Dosya";
+
+/* Class = "NSMenuItem"; title = "Yardım"; ObjectID = "103"; */
+"103.title" = "Yardım";
+
+/* Class = "NSMenu"; title = "Yardım"; ObjectID = "106"; */
+"106.title" = "Yardım";
+
+/* Class = "NSMenuItem"; title = "Movist Yardım"; ObjectID = "111"; */
+"111.title" = "Movist Yardım";
+
+/* Class = "NSMenuItem"; title = "Sonlardan Aç"; ObjectID = "124"; */
+"124.title" = "Sonlardan Aç";
+
+/* Class = "NSMenu"; title = "Sonlardan Aç"; ObjectID = "125"; */
+"125.title" = "Sonlardan Aç";
+
+/* Class = "NSMenuItem"; title = "En Son"; ObjectID = "126"; */
+"126.title" = "En Son";
+
+/* Class = "NSMenu"; title = "Servisler"; ObjectID = "130"; */
+"130.title" = "Servisler";
+
+/* Class = "NSMenuItem"; title = "Servisler"; ObjectID = "131"; */
+"131.title" = "Servisler";
+
+/* Class = "NSMenuItem"; title = "Movist Gizle"; ObjectID = "134"; */
+"134.title" = "Movist Gizle";
+
+/* Class = "NSMenuItem"; title = "Movist Çık"; ObjectID = "136"; */
+"136.title" = "Movist Çık";
+
+/* Class = "NSMenuItem"; title = "Diğerlerini Gizle"; ObjectID = "145"; */
+"145.title" = "Diğerlerini Gizle";
+
+/* Class = "NSMenuItem"; title = "Hepsini Göster"; ObjectID = "150"; */
+"150.title" = "Hepsini Göster";
+
+/* Class = "NSMenuItem"; title = "Kes"; ObjectID = "157"; */
+"157.title" = "Kes";
+
+/* Class = "NSMenuItem"; title = "Düzenle"; ObjectID = "163"; */
+"163.title" = "Düzenle";
+
+/* Class = "NSMenu"; title = "Düzenle"; ObjectID = "169"; */
+"169.title" = "Düzenle";
+
+/* Class = "NSMenuItem"; title = "Yakınlaştır"; ObjectID = "197"; */
+"197.title" = "Yakınlaştır";
+
+/* Class = "NSMenuItem"; title = "Film"; ObjectID = "218"; */
+"218.title" = "Film";
+
+/* Class = "NSMenu"; title = "Film"; ObjectID = "219"; */
+"219.title" = "Film";
+
+/* Class = "NSMenuItem"; title = "Normal Boyut"; ObjectID = "220"; */
+"220.title" = "Normal Boyut";
+
+/* Class = "NSMenuItem"; title = "Yarım Boyut"; ObjectID = "221"; */
+"221.title" = "Yarım Boyut";
+
+/* Class = "NSMenuItem"; title = "Çifte Boyut"; ObjectID = "222"; */
+"222.title" = "Çifte Boyut";
+
+/* Class = "NSMenuItem"; title = "Tam Ekran"; ObjectID = "223"; */
+"223.title" = "Tam Ekran";
+
+/* Class = "NSMenuItem"; title = "Ekrana Sığdır"; ObjectID = "233"; */
+"233.title" = "Ekrana Sığdır";
+
+/* Class = "NSMenuItem"; title = "Tekrar Aç…"; ObjectID = "252"; */
+"252.title" = "Tekrar Aç…";
+
+/* Class = "NSWindow"; title = "Movist"; ObjectID = "311"; */
+"311.title" = "Movist";
+
+/* Class = "NSMenuItem"; title = "Kopyala (... Kenarlar İle)"; ObjectID = "339"; */
+"339.title" = "Kopyala (... Kenarlar İle)";
+
+/* Class = "NSMenuItem"; title = "Tümünü Seç"; ObjectID = "341"; */
+"341.title" = "Tümünü Seç";
+
+/* Class = "NSMenuItem"; title = "Altyazı"; ObjectID = "350"; */
+"350.title" = "Altyazı";
+
+/* Class = "NSMenu"; title = "Altyazı"; ObjectID = "351"; */
+"351.title" = "Altyazı";
+
+/* Class = "NSWindow"; title = "Play Panel"; ObjectID = "363"; */
+"363.title" = "Play Panel";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Mute"; ObjectID = "399"; */
+"399.ibShadowedToolTip" = "Mute";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Playlist"; ObjectID = "402"; */
+"402.ibShadowedToolTip" = "Playlist";
+
+/* Class = "NSMenuItem"; title = "Görüş Oranı"; ObjectID = "438"; */
+"438.title" = "Görüş Oranı";
+
+/* Class = "NSMenu"; title = "Görüş Oranı"; ObjectID = "439"; */
+"439.title" = "Görüş Oranı";
+
+/* Class = "NSMenuItem"; title = "Varsayılan (VEO)"; ObjectID = "440"; */
+"440.title" = "Varsayılan (VEO)";
+
+/* Class = "NSMenuItem"; title = "4 : 3 (TV)"; ObjectID = "441"; */
+"441.title" = "4 : 3 (TV)";
+
+/* Class = "NSMenuItem"; title = "16 : 9 (HDTV)"; ObjectID = "442"; */
+"442.title" = "16 : 9 (HDTV)";
+
+/* Class = "NSMenuItem"; title = "1.85 : 1 (Ekran)"; ObjectID = "443"; */
+"443.title" = "1.85 : 1 (Ekran)";
+
+/* Class = "NSMenuItem"; title = "2.35 : 1 (Ekran)"; ObjectID = "444"; */
+"444.title" = "2.35 : 1 (Ekran)";
+
+/* Class = "NSWindow"; title = "Control Panel"; ObjectID = "451"; */
+"451.title" = "Control Panel";
+
+/* Class = "NSMenuItem"; title = "Oynatma Listesi"; ObjectID = "470"; */
+"470.title" = "Oynatma Listesi";
+
+/* Class = "NSMenuItem"; title = "Kontrol Paneli"; ObjectID = "472"; */
+"472.title" = "Kontrol Paneli";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Control Panel"; ObjectID = "536"; */
+"536.ibShadowedToolTip" = "Control Panel";
+
+/* Class = "NSMenuItem"; title = "Kontrol"; ObjectID = "605"; */
+"605.title" = "Kontrol";
+
+/* Class = "NSMenu"; title = "Kontrol"; ObjectID = "606"; */
+"606.title" = "Kontrol";
+
+/* Class = "NSMenuItem"; title = "Oynat"; ObjectID = "607"; */
+"607.title" = "Oynat";
+
+/* Class = "NSMenuItem"; title = "10 sn Geri"; ObjectID = "609"; */
+"609.title" = "10 sn Geri";
+
+/* Class = "NSMenuItem"; title = "Son"; ObjectID = "610"; */
+"610.title" = "Son";
+
+/* Class = "NSMenuItem"; title = "Önceki Film"; ObjectID = "612"; */
+"612.title" = "Önceki Film";
+
+/* Class = "NSMenuItem"; title = "Sonraki Film"; ObjectID = "613"; */
+"613.title" = "Sonraki Film";
+
+/* Class = "NSMenuItem"; title = "Tekrarı Kapat"; ObjectID = "617"; */
+"617.title" = "Tekrarı Kapat";
+
+/* Class = "NSMenuItem"; title = "Tümünü Tekrarla"; ObjectID = "618"; */
+"618.title" = "Tümünü Tekrarla";
+
+/* Class = "NSMenuItem"; title = "Tekini Tekrarla"; ObjectID = "619"; */
+"619.title" = "Tekini Tekrarla";
+
+/* Class = "NSMenuItem"; title = "Sesi Artır"; ObjectID = "621"; */
+"621.title" = "Sesi Artır";
+
+/* Class = "NSMenuItem"; title = "Sesi Azalt"; ObjectID = "622"; */
+"622.title" = "Sesi Azalt";
+
+/* Class = "NSMenuItem"; title = "Sessiz"; ObjectID = "623"; */
+"623.title" = "Sessiz";
+
+/* Class = "NSMenuItem"; title = "Sonraki Kare"; ObjectID = "651"; */
+"651.title" = "Sonraki Kare";
+
+/* Class = "NSMenuItem"; title = "Başlangıç"; ObjectID = "652"; */
+"652.title" = "Başlangıç";
+
+/* Class = "NSMenuItem"; title = "Önceki Kare"; ObjectID = "653"; */
+"653.title" = "Önceki Kare";
+
+/* Class = "NSMenuItem"; title = "10 sn İleri"; ObjectID = "654"; */
+"654.title" = "10 sn İleri";
+
+/* Class = "NSMenuItem"; title = "Kenar Boşluğu: Aynı"; ObjectID = "665"; */
+"665.title" = "Kenar Boşluğu: Aynı";
+
+/* Class = "NSMenuItem"; title = "0.5 sn Sonra"; ObjectID = "666"; */
+"666.title" = "0.5 sn Sonra";
+
+/* Class = "NSMenuItem"; title = "0.5 sn Önce"; ObjectID = "667"; */
+"667.title" = "0.5 sn Önce";
+
+/* Class = "NSMenuItem"; title = "Kenar Boşluğu: Varsayılan"; ObjectID = "673"; */
+"673.title" = "Kenar Boşluğu: Varsayılan";
+
+/* Class = "NSMenuItem"; title = "Varsayılana Eşle"; ObjectID = "674"; */
+"674.title" = "Varsayılana Eşle";
+
+/* Class = "NSMenuItem"; title = "60 sn Geri"; ObjectID = "794"; */
+"794.title" = "60 sn Geri";
+
+/* Class = "NSMenuItem"; title = "60 sn İleri"; ObjectID = "795"; */
+"795.title" = "60 sn İleri";
+
+/* Class = "NSMenuItem"; title = "300 sn Geri"; ObjectID = "796"; */
+"796.title" = "300 sn Geri";
+
+/* Class = "NSMenuItem"; title = "300 sn İleri"; ObjectID = "797"; */
+"797.title" = "300 sn İleri";
+
+/* Class = "NSMenuItem"; title = "Aralığı Başlangıçtan Tekrarla"; ObjectID = "1139"; */
+"1139.title" = "Aralığı Başlangıçtan Tekrarla";
+
+/* Class = "NSMenuItem"; title = "Aralığı Sondan Tekrarla"; ObjectID = "1140"; */
+"1140.title" = "Aralığı Sondan Tekrarla";
+
+/* Class = "NSMenuItem"; title = "Tekrarlanan Aralığı Sıfırla"; ObjectID = "1141"; */
+"1141.title" = "Tekrarlanan Aralığı Sıfırla";
+
+/* Class = "NSMenuItem"; title = "Font Boyutu Büyüt"; ObjectID = "1151"; */
+"1151.title" = "Font Boyutu Büyüt";
+
+/* Class = "NSMenuItem"; title = "Font Boyutu Küçült"; ObjectID = "1152"; */
+"1152.title" = "Font Boyutu Küçült";
+
+/* Class = "NSMenuItem"; title = "Varsayılan Font Boyutu"; ObjectID = "1153"; */
+"1153.title" = "Varsayılan Font Boyutu";
+
+/* Class = "NSMenuItem"; title = "V-Kenarı Büyüt"; ObjectID = "1158"; */
+"1158.title" = "V-Kenarı Büyüt";
+
+/* Class = "NSMenuItem"; title = "V-Kenarı Küçült"; ObjectID = "1159"; */
+"1159.title" = "V-Kenarı Küçült";
+
+/* Class = "NSMenuItem"; title = "V-Kenarı Varsayılan"; ObjectID = "1160"; */
+"1160.title" = "V-Kenarı Varsayılan";
+
+/* Class = "NSMenuItem"; title = "Pencereyi Kapat"; ObjectID = "1180"; */
+"1180.title" = "Pencereyi Kapat";
+
+/* Class = "NSMenuItem"; title = "Önceki Altyazı"; ObjectID = "1189"; */
+"1189.title" = "Önceki Altyazı";
+
+/* Class = "NSMenuItem"; title = "Sonraki Altyazı"; ObjectID = "1190"; */
+"1190.title" = "Sonraki Altyazı";
+
+/* Class = "NSMenuItem"; title = "Daha Yavaş Oynat"; ObjectID = "1197"; */
+"1197.title" = "Daha Yavaş Oynat";
+
+/* Class = "NSMenuItem"; title = "Daha Hızlı Oynat"; ObjectID = "1199"; */
+"1199.title" = "Daha Hızlı Oynat";
+
+/* Class = "NSMenuItem"; title = "Normal Oynatma Hızı"; ObjectID = "1200"; */
+"1200.title" = "Normal Oynatma Hızı";
+
+/* Class = "NSMenuItem"; title = "Altyazıyı Gizle"; ObjectID = "1219"; */
+"1219.title" = "Altyazıyı Gizle";
+
+/* Class = "NSMenuItem"; title = "Ses İzi Yok"; ObjectID = "1223"; */
+"1223.title" = "Ses İzi Yok";
+
+/* Class = "NSMenuItem"; title = "Ayarlar"; ObjectID = "1232"; */
+"1232.title" = "Ayarlar";
+
+/* Class = "NSMenuItem"; title = "Tam Ekran Doldurma"; ObjectID = "1271"; */
+"1271.title" = "Tam Ekran Doldurma";
+
+/* Class = "NSMenu"; title = "Tam Ekran Doldurma"; ObjectID = "1272"; */
+"1272.title" = "Tam Ekran Doldurma";
+
+/* Class = "NSMenuItem"; title = "Varsayılan"; ObjectID = "1273"; */
+"1273.title" = "Varsayılan";
+
+/* Class = "NSMenuItem"; title = "Genişlet"; ObjectID = "1274"; */
+"1274.title" = "Genişlet";
+
+/* Class = "NSMenuItem"; title = "Kes"; ObjectID = "1275"; */
+"1275.title" = "Kes";
+
+/* Class = "NSMenuItem"; title = "Tarama Altı"; ObjectID = "1276"; */
+"1276.title" = "Tarama Altı";
+
+/* Class = "NSMenuItem"; title = "Dönüş"; ObjectID = "1277"; */
+"1277.title" = "Dönüş";
+
+/* Class = "NSMenuItem"; title = "Tam Ekran Gez"; ObjectID = "1285"; */
+"1285.title" = "Tam Ekran Gez";
+
+/* Class = "NSMenuItem"; title = "Yapıştır"; ObjectID = "1290"; */
+"1290.title" = "Yapıştır";
+
+/* Class = "NSMenuItem"; title = "Şimdiki Resmi Kaydet"; ObjectID = "1294"; */
+"1294.title" = "Şimdiki Resmi Kaydet";
+
+/* Class = "NSMenuItem"; title = "Şimdiki Resmi Kenar ile Kaydet"; ObjectID = "1295"; */
+"1295.title" = "Şimdiki Resmi Kenar ile Kaydet";
+
+/* Class = "NSMenuItem"; title = "Kenar Boşluğu: 1 Satır"; ObjectID = "1306"; */
+"1306.title" = "Kenar Boşluğu: 1 Satır";
+
+/* Class = "NSMenuItem"; title = "Kenar Boşluğu: 2 Satır"; ObjectID = "1307"; */
+"1307.title" = "Kenar Boşluğu: 2 Satır";
+
+/* Class = "NSMenuItem"; title = "Kenar Boşluğu: 3 Satır"; ObjectID = "1308"; */
+"1308.title" = "Kenar Boşluğu: 3 Satır";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Previous Movie"; ObjectID = "1327"; */
+"1327.ibShadowedToolTip" = "Previous Movie";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Next Movie"; ObjectID = "1329"; */
+"1329.ibShadowedToolTip" = "Next Movie";
+
+/* Class = "NSTabViewItem"; label = "A/V Control"; ObjectID = "1340"; */
+"1340.label" = "A/V Control";
+
+/* Class = "NSTabViewItem"; label = "Properties"; ObjectID = "1342"; */
+"1342.label" = "Properties";
+
+/* Class = "NSBox"; title = "Video"; ObjectID = "1344"; */
+"1344.title" = "Video";
+
+/* Class = "NSBox"; title = "Ses"; ObjectID = "1358"; */
+"1358.title" = "Ses";
+
+/* Class = "NSBox"; title = "Altyazı"; ObjectID = "1360"; */
+"1360.title" = "Altyazı";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "1375"; */
+"1375.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "2 Sıra Yükseklik"; ObjectID = "1376"; */
+"1376.title" = "2 Sıra Yükseklik";
+
+/* Class = "NSMenuItem"; title = "Aynı Yükseklik"; ObjectID = "1378"; */
+"1378.title" = "Aynı Yükseklik";
+
+/* Class = "NSMenuItem"; title = "1 Sıra Yükseklik"; ObjectID = "1379"; */
+"1379.title" = "1 Sıra Yükseklik";
+
+/* Class = "NSMenuItem"; title = "3 Sıra Yükseklik"; ObjectID = "1380"; */
+"1380.title" = "3 Sıra Yükseklik";
+
+/* Class = "NSBox"; title = "Oynatıcı"; ObjectID = "1384"; */
+"1384.title" = "Oynatıcı";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "1426"; */
+"1426.headerCell.title" = "Name";
+
+/* Class = "NSTableColumn"; headerCell.title = "Format"; ObjectID = "1430"; */
+"1430.headerCell.title" = "Format";
+
+/* Class = "NSTableColumn"; headerCell.title = "Codec"; ObjectID = "1438"; */
+"1438.headerCell.title" = "Codec";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Backward"; ObjectID = "1527"; */
+"1527.ibShadowedToolTip" = "Backward";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Forward"; ObjectID = "1529"; */
+"1529.ibShadowedToolTip" = "Forward";
+
+/* Class = "NSBox"; title = "Title"; ObjectID = "1539"; */
+"1539.title" = "Title";
+
+/* Class = "NSBox"; title = "Title"; ObjectID = "1547"; */
+"1547.title" = "Title";
+
+/* Class = "NSMenuItem"; title = "Kaynak (KEO)"; ObjectID = "1565"; */
+"1565.title" = "Kaynak (KEO)";
+
+/* Class = "NSMenuItem"; title = "Sistem Sesini Artır"; ObjectID = "1660"; */
+"1660.title" = "Sistem Sesini Artır";
+
+/* Class = "NSMenuItem"; title = "Sistem Sesini Azalt"; ObjectID = "1661"; */
+"1661.title" = "Sistem Sesini Azalt";
+
+/* Class = "NSMenuItem"; title = "Masaüstü Arkaplan"; ObjectID = "1766"; */
+"1766.title" = "Masaüstü Arkaplan";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "1885"; */
+"1885.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Filmin Altında"; ObjectID = "1886"; */
+"1886.title" = "Filmin Altında";
+
+/* Class = "NSMenuItem"; title = "Filmin Üstünde"; ObjectID = "1887"; */
+"1887.title" = "Filmin Üstünde";
+
+/* Class = "NSMenuItem"; title = "Üstte Boşluk"; ObjectID = "1888"; */
+"1888.title" = "Üstte Boşluk";
+
+/* Class = "NSMenuItem"; title = "Filmi Ortala"; ObjectID = "1889"; */
+"1889.title" = "Filmi Ortala";
+
+/* Class = "NSMenuItem"; title = "Altta Boşluk"; ObjectID = "1892"; */
+"1892.title" = "Altta Boşluk";
+
+/* Class = "NSMenuItem"; title = "Altyazı Dosyası Aç…"; ObjectID = "2131"; */
+"2131.title" = "Altyazı Dosyası Aç…";
+
+/* Class = "NSMenuItem"; title = "1:"; ObjectID = "2133"; */
+"2133.title" = "1:";
+
+/* Class = "NSMenu"; title = "1:"; ObjectID = "2134"; */
+"2134.title" = "1:";
+
+/* Class = "NSMenuItem"; title = "Varsayılana Eşle"; ObjectID = "2135"; */
+"2135.title" = "Varsayılana Eşle";
+
+/* Class = "NSMenuItem"; title = "0.5 sn Önce"; ObjectID = "2136"; */
+"2136.title" = "0.5 sn Önce";
+
+/* Class = "NSMenuItem"; title = "0.5 sn Sonra"; ObjectID = "2137"; */
+"2137.title" = "0.5 sn Sonra";
+
+/* Class = "NSMenuItem"; title = "Kodlama ile Tekrar Aç"; ObjectID = "2140"; */
+"2140.title" = "Kodlama ile Tekrar Aç";
+
+/* Class = "NSMenuItem"; title = "Pozisyon: Varsayılan"; ObjectID = "2143"; */
+"2143.title" = "Pozisyon: Varsayılan";
+
+/* Class = "NSMenuItem"; title = "Pozisyon: Alt Boşluk"; ObjectID = "2144"; */
+"2144.title" = "Pozisyon: Alt Boşluk";
+
+/* Class = "NSMenuItem"; title = "Pozisyon: Filmin Altı"; ObjectID = "2145"; */
+"2145.title" = "Pozisyon: Filmin Altı";
+
+/* Class = "NSMenuItem"; title = "Pozisyon: Filmi Ortala"; ObjectID = "2146"; */
+"2146.title" = "Pozisyon: Filmi Ortala";
+
+/* Class = "NSMenuItem"; title = "Pozisyon: Filmin Üstü"; ObjectID = "2147"; */
+"2147.title" = "Pozisyon: Filmin Üstü";
+
+/* Class = "NSMenuItem"; title = "Pozisyon: Üst Boşluk"; ObjectID = "2148"; */
+"2148.title" = "Pozisyon: Üst Boşluk";
+
+/* Class = "NSMenuItem"; title = "V-Kenarı Varsayılan"; ObjectID = "2149"; */
+"2149.title" = "V-Kenarı Varsayılan";
+
+/* Class = "NSMenuItem"; title = "V-Kenarı Küçült"; ObjectID = "2150"; */
+"2150.title" = "V-Kenarı Küçült";
+
+/* Class = "NSMenuItem"; title = "V-Kenarı Büyüt"; ObjectID = "2151"; */
+"2151.title" = "V-Kenarı Büyüt";
+
+/* Class = "NSMenuItem"; title = "Varsayılan Font Boyutu"; ObjectID = "2152"; */
+"2152.title" = "Varsayılan Font Boyutu";
+
+/* Class = "NSMenuItem"; title = "Font Boyutu Küçült"; ObjectID = "2153"; */
+"2153.title" = "Font Boyutu Küçült";
+
+/* Class = "NSMenuItem"; title = "Font Boyutu Büyüt"; ObjectID = "2154"; */
+"2154.title" = "Font Boyutu Büyüt";
+
+/* Class = "NSMenu"; title = "Kodlama ile Tekrar Aç"; ObjectID = "2155"; */
+"2155.title" = "Kodlama ile Tekrar Aç";
+
+/* Class = "NSMenuItem"; title = "Nesne"; ObjectID = "2156"; */
+"2156.title" = "Nesne";
+
+/* Class = "NSMenuItem"; title = "2:"; ObjectID = "2158"; */
+"2158.title" = "2:";
+
+/* Class = "NSMenu"; title = "2:"; ObjectID = "2159"; */
+"2159.title" = "2:";
+
+/* Class = "NSMenuItem"; title = "Font Boyutu Büyüt"; ObjectID = "2160"; */
+"2160.title" = "Font Boyutu Büyüt";
+
+/* Class = "NSMenuItem"; title = "Font Boyutu Küçült"; ObjectID = "2161"; */
+"2161.title" = "Font Boyutu Küçült";
+
+/* Class = "NSMenuItem"; title = "Varsayılan Font Boyutu"; ObjectID = "2162"; */
+"2162.title" = "Varsayılan Font Boyutu";
+
+/* Class = "NSMenuItem"; title = "V-Kenarı Büyüt"; ObjectID = "2163"; */
+"2163.title" = "V-Kenarı Büyüt";
+
+/* Class = "NSMenuItem"; title = "V-Kenarı Küçült"; ObjectID = "2164"; */
+"2164.title" = "V-Kenarı Küçült";
+
+/* Class = "NSMenuItem"; title = "V-Kenarı Varsayılan"; ObjectID = "2165"; */
+"2165.title" = "V-Kenarı Varsayılan";
+
+/* Class = "NSMenuItem"; title = "Pozisyon: Üst Boşluk"; ObjectID = "2166"; */
+"2166.title" = "Pozisyon: Üst Boşluk";
+
+/* Class = "NSMenuItem"; title = "Pozisyon: Filmin Üstü"; ObjectID = "2167"; */
+"2167.title" = "Pozisyon: Filmin Üstü";
+
+/* Class = "NSMenuItem"; title = "Pozisyon: Filmi Ortala"; ObjectID = "2168"; */
+"2168.title" = "Pozisyon: Filmi Ortala";
+
+/* Class = "NSMenuItem"; title = "Pozisyon: Filmin Altı"; ObjectID = "2169"; */
+"2169.title" = "Pozisyon: Filmin Altı";
+
+/* Class = "NSMenuItem"; title = "Pozisyon: Alt Boşluk"; ObjectID = "2170"; */
+"2170.title" = "Pozisyon: Alt Boşluk";
+
+/* Class = "NSMenuItem"; title = "Pozisyon: Varsayılan"; ObjectID = "2171"; */
+"2171.title" = "Pozisyon: Varsayılan";
+
+/* Class = "NSMenuItem"; title = "Kodlama ile Tekrar Aç"; ObjectID = "2174"; */
+"2174.title" = "Kodlama ile Tekrar Aç";
+
+/* Class = "NSMenuItem"; title = "0.5 sn Sonra"; ObjectID = "2177"; */
+"2177.title" = "0.5 sn Sonra";
+
+/* Class = "NSMenuItem"; title = "0.5 sn Önce"; ObjectID = "2178"; */
+"2178.title" = "0.5 sn Önce";
+
+/* Class = "NSMenuItem"; title = "Varsayılana Eşle"; ObjectID = "2179"; */
+"2179.title" = "Varsayılana Eşle";
+
+/* Class = "NSMenu"; title = "Kodlama ile Tekrar Aç"; ObjectID = "2180"; */
+"2180.title" = "Kodlama ile Tekrar Aç";
+
+/* Class = "NSMenuItem"; title = "Nesne"; ObjectID = "2181"; */
+"2181.title" = "Nesne";
+
+/* Class = "NSMenuItem"; title = "3:"; ObjectID = "2182"; */
+"2182.title" = "3:";
+
+/* Class = "NSMenu"; title = "3:"; ObjectID = "2183"; */
+"2183.title" = "3:";
+
+/* Class = "NSMenuItem"; title = "Varsayılana Eşle"; ObjectID = "2184"; */
+"2184.title" = "Varsayılana Eşle";
+
+/* Class = "NSMenuItem"; title = "0.5 sn Sonra"; ObjectID = "2185"; */
+"2185.title" = "0.5 sn Sonra";
+
+/* Class = "NSMenuItem"; title = "0.5 sn Önce"; ObjectID = "2186"; */
+"2186.title" = "0.5 sn Önce";
+
+/* Class = "NSMenuItem"; title = "Kodlama ile Tekrar Aç"; ObjectID = "2189"; */
+"2189.title" = "Kodlama ile Tekrar Aç";
+
+/* Class = "NSMenuItem"; title = "Pozisyon: Varsayılan"; ObjectID = "2192"; */
+"2192.title" = "Pozisyon: Varsayılan";
+
+/* Class = "NSMenuItem"; title = "Pozisyon: Alt Boşluk"; ObjectID = "2193"; */
+"2193.title" = "Pozisyon: Alt Boşluk";
+
+/* Class = "NSMenuItem"; title = "Pozisyon: Film Altı"; ObjectID = "2194"; */
+"2194.title" = "Pozisyon: Film Altı";
+
+/* Class = "NSMenuItem"; title = "Pozisyon: Filmi Ortala"; ObjectID = "2195"; */
+"2195.title" = "Pozisyon: Filmi Ortala";
+
+/* Class = "NSMenuItem"; title = "Pozisyon: Film Üstü"; ObjectID = "2196"; */
+"2196.title" = "Pozisyon: Film Üstü";
+
+/* Class = "NSMenuItem"; title = "Pozisyon: Üst Boşluk"; ObjectID = "2197"; */
+"2197.title" = "Pozisyon: Üst Boşluk";
+
+/* Class = "NSMenuItem"; title = "V-Kenarı Varsayılan"; ObjectID = "2198"; */
+"2198.title" = "V-Kenarı Varsayılan";
+
+/* Class = "NSMenuItem"; title = "V-Kenarı Küçült"; ObjectID = "2199"; */
+"2199.title" = "V-Kenarı Küçült";
+
+/* Class = "NSMenuItem"; title = "V-Kenarı Büyüt"; ObjectID = "2200"; */
+"2200.title" = "V-Kenarı Büyüt";
+
+/* Class = "NSMenuItem"; title = "Varsayılan Font Boyutu"; ObjectID = "2201"; */
+"2201.title" = "Varsayılan Font Boyutu";
+
+/* Class = "NSMenuItem"; title = "Font Boyutu Küçült"; ObjectID = "2202"; */
+"2202.title" = "Font Boyutu Küçült";
+
+/* Class = "NSMenuItem"; title = "Font Boyutu Büyüt"; ObjectID = "2203"; */
+"2203.title" = "Font Boyutu Büyüt";
+
+/* Class = "NSMenu"; title = "Kodlama ile Tekrar Aç"; ObjectID = "2204"; */
+"2204.title" = "Kodlama ile Tekrar Aç";
+
+/* Class = "NSMenuItem"; title = "Nesne"; ObjectID = "2205"; */
+"2205.title" = "Nesne";
+
+/* Class = "NSMenuItem"; title = "Altyazı Dosyası Ekle…"; ObjectID = "2376"; */
+"2376.title" = "Altyazı Dosyası Ekle…";
+
+/* Class = "NSMenuItem"; title = "Sırayı Değiştir"; ObjectID = "2676"; */
+"2676.title" = "Sırayı Değiştir";
+
+/* Class = "NSMenuItem"; title = "Her Zaman Üstte"; ObjectID = "2687"; */
+"2687.title" = "Her Zaman Üstte";
+
+/* Class = "NSMenuItem"; title = "Kopyala"; ObjectID = "2792"; */
+"2792.title" = "Kopyala";
+
+/* Class = "NSMenuItem"; title = "Pozisyon Dönüş"; ObjectID = "2898"; */
+"2898.title" = "Pozisyon Dönüş";
+
+/* Class = "NSTextFieldCell"; title = "--:--:--"; ObjectID = "2908"; */
+"2908.title" = "--:--:--";
+
+/* Class = "NSTextFieldCell"; title = "--:--:--"; ObjectID = "2909"; */
+"2909.title" = "--:--:--";
+
+/* Class = "NSTextFieldCell"; title = "00:00:00"; ObjectID = "2917"; */
+"2917.title" = "00:00:00";
+
+/* Class = "NSTextFieldCell"; title = "Oynatma Paneli"; ObjectID = "2918"; */
+"2918.title" = "Oynatma Paneli";
+
+/* Class = "NSTextFieldCell"; title = "00:00:00"; ObjectID = "2920"; */
+"2920.title" = "00:00:00";
+
+/* Class = "NSTextFieldCell"; title = "Renkler:"; ObjectID = "2928"; */
+"2928.title" = "Renkler:";
+
+/* Class = "NSTextFieldCell"; title = "Karşıtlık:"; ObjectID = "2930"; */
+"2930.title" = "Karşıtlık:";
+
+/* Class = "NSTextFieldCell"; title = "Aydınlık:"; ObjectID = "2932"; */
+"2932.title" = "Aydınlık:";
+
+/* Class = "NSTextFieldCell"; title = "Doygunluk:"; ObjectID = "2935"; */
+"2935.title" = "Doygunluk:";
+
+/* Class = "NSTextFieldCell"; title = "Aygıt:"; ObjectID = "2939"; */
+"2939.title" = "Aygıt:";
+
+/* Class = "NSTextFieldCell"; title = "..."; ObjectID = "2940"; */
+"2940.title" = "...";
+
+/* Class = "NSTextFieldCell"; title = "Şimdiki:"; ObjectID = "2941"; */
+"2941.title" = "Şimdiki:";
+
+/* Class = "NSTextFieldCell"; title = "..."; ObjectID = "2942"; */
+"2942.title" = "...";
+
+/* Class = "NSTextFieldCell"; title = "Eşleme:"; ObjectID = "2943"; */
+"2943.title" = "Eşleme:";
+
+/* Class = "NSTextFieldCell"; title = "Font Boyutu:"; ObjectID = "2944"; */
+"2944.title" = "Font Boyutu:";
+
+/* Class = "NSTextFieldCell"; title = "V-Kenarı:"; ObjectID = "2945"; */
+"2945.title" = "V-Kenarı:";
+
+/* Class = "NSTextFieldCell"; title = "Boşluk Kutusu:"; ObjectID = "2946"; */
+"2946.title" = "Boşluk Kutusu:";
+
+/* Class = "NSButtonCell"; title = "Küçült"; ObjectID = "2948"; */
+"2948.title" = "Küçült";
+
+/* Class = "NSButtonCell"; title = "Büyüt"; ObjectID = "2949"; */
+"2949.title" = "Büyüt";
+
+/* Class = "NSButtonCell"; title = "Küçült"; ObjectID = "2951"; */
+"2951.title" = "Küçült";
+
+/* Class = "NSButtonCell"; title = "Büyüt"; ObjectID = "2952"; */
+"2952.title" = "Büyüt";
+
+/* Class = "NSButtonCell"; title = "Sonra"; ObjectID = "2956"; */
+"2956.title" = "Sonra";
+
+/* Class = "NSButtonCell"; title = "Önce"; ObjectID = "2957"; */
+"2957.title" = "Önce";
+
+/* Class = "NSTextFieldCell"; title = "Pozisyon:"; ObjectID = "2958"; */
+"2958.title" = "Pozisyon:";
+
+/* Class = "NSTextFieldCell"; title = "..."; ObjectID = "2961"; */
+"2961.title" = "...";
+
+/* Class = "NSSegmentedCell"; 2962.ibShadowedLabels[0] = "*"; ObjectID = "2962"; */
+"2962.ibShadowedLabels[0]" = "*";
+
+/* Class = "NSSegmentedCell"; 2962.ibShadowedLabels[1] = "1"; ObjectID = "2962"; */
+"2962.ibShadowedLabels[1]" = "1";
+
+/* Class = "NSSegmentedCell"; 2962.ibShadowedLabels[2] = "2"; ObjectID = "2962"; */
+"2962.ibShadowedLabels[2]" = "2";
+
+/* Class = "NSSegmentedCell"; 2962.ibShadowedLabels[3] = "3"; ObjectID = "2962"; */
+"2962.ibShadowedLabels[3]" = "3";
+
+/* Class = "NSTextFieldCell"; title = "Oynatma Hızı:"; ObjectID = "2965"; */
+"2965.title" = "Oynatma Hızı:";
+
+/* Class = "NSTextFieldCell"; title = "½x"; ObjectID = "2966"; */
+"2966.title" = "½x";
+
+/* Class = "NSTextFieldCell"; title = "1x"; ObjectID = "2967"; */
+"2967.title" = "1x";
+
+/* Class = "NSTextFieldCell"; title = "2x"; ObjectID = "2968"; */
+"2968.title" = "2x";
+
+/* Class = "NSTextFieldCell"; title = "3x"; ObjectID = "2969"; */
+"2969.title" = "3x";
+
+/* Class = "NSTextFieldCell"; title = "Tekrar Arası:"; ObjectID = "2970"; */
+"2970.title" = "Tekrar Arası:";
+
+/* Class = "NSButtonCell"; title = "Başlangıç"; ObjectID = "2972"; */
+"2972.title" = "Başlangıç";
+
+/* Class = "NSButtonCell"; title = "Son"; ObjectID = "2973"; */
+"2973.title" = "Son";
+
+/* Class = "NSTextFieldCell"; title = "--:--:--"; ObjectID = "2974"; */
+"2974.title" = "--:--:--";
+
+/* Class = "NSTextFieldCell"; title = "--:--:--"; ObjectID = "2975"; */
+"2975.title" = "--:--:--";
+
+/* Class = "NSTextFieldCell"; title = "Movie File name"; ObjectID = "2976"; */
+"2976.title" = "Movie File name";
+
+/* Class = "NSTextFieldCell"; title = "Movie:"; ObjectID = "2978"; */
+"2978.title" = "Movie:";
+
+/* Class = "NSTextFieldCell"; title = "xx.xx / xx.xx"; ObjectID = "2979"; */
+"2979.title" = "xx.xx / xx.xx";
+
+/* Class = "NSTextFieldCell"; title = "FPS:"; ObjectID = "2980"; */
+"2980.title" = "FPS:";
+
+/* Class = "NSTextFieldCell"; title = "xxx.xx MB, xxxx.xx kbps"; ObjectID = "2981"; */
+"2981.title" = "xxx.xx MB, xxxx.xx kbps";
+
+/* Class = "NSTextFieldCell"; title = "Data:"; ObjectID = "2982"; */
+"2982.title" = "Data:";
+
+/* Class = "NSTextFieldCell"; title = "Kontrol Paneli"; ObjectID = "2983"; */
+"2983.title" = "Kontrol Paneli";
+
+/* Class = "NSSegmentedCell"; 2985.ibShadowedLabels[0] = "S/V Kontrol"; ObjectID = "2985"; */
+"2985.ibShadowedLabels[0]" = "S/V Kontrol";
+
+/* Class = "NSSegmentedCell"; 2985.ibShadowedLabels[1] = "Özellikler"; ObjectID = "2985"; */
+"2985.ibShadowedLabels[1]" = "Özellikler";

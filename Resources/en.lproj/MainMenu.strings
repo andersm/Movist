@@ -1,0 +1,630 @@
+
+/* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "5"; */
+"5.title" = "Bring All to Front";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "19"; */
+"19.title" = "Window";
+
+/* Class = "NSMenuItem"; title = "Minimize"; ObjectID = "23"; */
+"23.title" = "Minimize";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "24"; */
+"24.title" = "Window";
+
+/* Class = "NSMenu"; title = "MainMenu"; ObjectID = "29"; */
+"29.title" = "MainMenu";
+
+/* Class = "NSMenuItem"; title = "Movist"; ObjectID = "56"; */
+"56.title" = "Movist";
+
+/* Class = "NSMenu"; title = "Movist"; ObjectID = "57"; */
+"57.title" = "Movist";
+
+/* Class = "NSMenuItem"; title = "About Movist"; ObjectID = "58"; */
+"58.title" = "About Movist";
+
+/* Class = "NSMenuItem"; title = "Open Movie File…"; ObjectID = "72"; */
+"72.title" = "Open Movie File…";
+
+/* Class = "NSMenu"; title = "File"; ObjectID = "81"; */
+"81.title" = "File";
+
+/* Class = "NSMenuItem"; title = "File"; ObjectID = "83"; */
+"83.title" = "File";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "103"; */
+"103.title" = "Help";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "106"; */
+"106.title" = "Help";
+
+/* Class = "NSMenuItem"; title = "Movist Help"; ObjectID = "111"; */
+"111.title" = "Movist Help";
+
+/* Class = "NSMenuItem"; title = "Open Recent"; ObjectID = "124"; */
+"124.title" = "Open Recent";
+
+/* Class = "NSMenu"; title = "Open Recent"; ObjectID = "125"; */
+"125.title" = "Open Recent";
+
+/* Class = "NSMenuItem"; title = "메뉴 지우기"; ObjectID = "126"; */
+"126.title" = "메뉴 지우기";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "130"; */
+"130.title" = "Services";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "131"; */
+"131.title" = "Services";
+
+/* Class = "NSMenuItem"; title = "Hide Movist"; ObjectID = "134"; */
+"134.title" = "Hide Movist";
+
+/* Class = "NSMenuItem"; title = "Quit Movist"; ObjectID = "136"; */
+"136.title" = "Quit Movist";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "145"; */
+"145.title" = "Hide Others";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "150"; */
+"150.title" = "Show All";
+
+/* Class = "NSMenuItem"; title = "Cut"; ObjectID = "157"; */
+"157.title" = "Cut";
+
+/* Class = "NSMenuItem"; title = "Edit"; ObjectID = "163"; */
+"163.title" = "Edit";
+
+/* Class = "NSMenu"; title = "Edit"; ObjectID = "169"; */
+"169.title" = "Edit";
+
+/* Class = "NSMenuItem"; title = "Zoom"; ObjectID = "197"; */
+"197.title" = "Zoom";
+
+/* Class = "NSMenuItem"; title = "Movie"; ObjectID = "218"; */
+"218.title" = "Movie";
+
+/* Class = "NSMenu"; title = "Movie"; ObjectID = "219"; */
+"219.title" = "Movie";
+
+/* Class = "NSMenuItem"; title = "Normal Size"; ObjectID = "220"; */
+"220.title" = "Normal Size";
+
+/* Class = "NSMenuItem"; title = "Half Size"; ObjectID = "221"; */
+"221.title" = "Half Size";
+
+/* Class = "NSMenuItem"; title = "Double Size"; ObjectID = "222"; */
+"222.title" = "Double Size";
+
+/* Class = "NSMenuItem"; title = "Full Screen"; ObjectID = "223"; */
+"223.title" = "Full Screen";
+
+/* Class = "NSMenuItem"; title = "Fit to Screen"; ObjectID = "233"; */
+"233.title" = "Fit to Screen";
+
+/* Class = "NSMenuItem"; title = "Reopen with …"; ObjectID = "252"; */
+"252.title" = "Reopen with …";
+
+/* Class = "NSWindow"; title = "Movist"; ObjectID = "311"; */
+"311.title" = "Movist";
+
+/* Class = "NSMenuItem"; title = "Copy (... Letter Box)"; ObjectID = "339"; */
+"339.title" = "Copy (... Letter Box)";
+
+/* Class = "NSMenuItem"; title = "Select All"; ObjectID = "341"; */
+"341.title" = "Select All";
+
+/* Class = "NSMenuItem"; title = "Subtitle"; ObjectID = "350"; */
+"350.title" = "Subtitle";
+
+/* Class = "NSMenu"; title = "Subtitle"; ObjectID = "351"; */
+"351.title" = "Subtitle";
+
+/* Class = "NSWindow"; title = "Play Panel"; ObjectID = "363"; */
+"363.title" = "Play Panel";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Mute"; ObjectID = "399"; */
+"399.ibShadowedToolTip" = "Mute";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Playlist"; ObjectID = "402"; */
+"402.ibShadowedToolTip" = "Playlist";
+
+/* Class = "NSMenuItem"; title = "Aspect Ratio"; ObjectID = "438"; */
+"438.title" = "Aspect Ratio";
+
+/* Class = "NSMenu"; title = "Aspect Ratio"; ObjectID = "439"; */
+"439.title" = "Aspect Ratio";
+
+/* Class = "NSMenuItem"; title = "Default (DAR)"; ObjectID = "440"; */
+"440.title" = "Default (DAR)";
+
+/* Class = "NSMenuItem"; title = "4 : 3 (TV)"; ObjectID = "441"; */
+"441.title" = "4 : 3 (TV)";
+
+/* Class = "NSMenuItem"; title = "16 : 9 (HDTV)"; ObjectID = "442"; */
+"442.title" = "16 : 9 (HDTV)";
+
+/* Class = "NSMenuItem"; title = "1.85 : 1 (Screen)"; ObjectID = "443"; */
+"443.title" = "1.85 : 1 (Screen)";
+
+/* Class = "NSMenuItem"; title = "2.35 : 1 (Screen)"; ObjectID = "444"; */
+"444.title" = "2.35 : 1 (Screen)";
+
+/* Class = "NSWindow"; title = "Control Panel"; ObjectID = "451"; */
+"451.title" = "Control Panel";
+
+/* Class = "NSMenuItem"; title = "Playlist"; ObjectID = "470"; */
+"470.title" = "Playlist";
+
+/* Class = "NSMenuItem"; title = "Control Panel"; ObjectID = "472"; */
+"472.title" = "Control Panel";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Control Panel"; ObjectID = "536"; */
+"536.ibShadowedToolTip" = "Control Panel";
+
+/* Class = "NSMenuItem"; title = "Controls"; ObjectID = "605"; */
+"605.title" = "Controls";
+
+/* Class = "NSMenu"; title = "Controls"; ObjectID = "606"; */
+"606.title" = "Controls";
+
+/* Class = "NSMenuItem"; title = "Play"; ObjectID = "607"; */
+"607.title" = "Play";
+
+/* Class = "NSMenuItem"; title = "Backward 10 sec."; ObjectID = "609"; */
+"609.title" = "Backward 10 sec.";
+
+/* Class = "NSMenuItem"; title = "End"; ObjectID = "610"; */
+"610.title" = "End";
+
+/* Class = "NSMenuItem"; title = "Previous Movie"; ObjectID = "612"; */
+"612.title" = "Previous Movie";
+
+/* Class = "NSMenuItem"; title = "Next Movie"; ObjectID = "613"; */
+"613.title" = "Next Movie";
+
+/* Class = "NSMenuItem"; title = "Repeat Off"; ObjectID = "617"; */
+"617.title" = "Repeat Off";
+
+/* Class = "NSMenuItem"; title = "Repeat All"; ObjectID = "618"; */
+"618.title" = "Repeat All";
+
+/* Class = "NSMenuItem"; title = "Repeat One"; ObjectID = "619"; */
+"619.title" = "Repeat One";
+
+/* Class = "NSMenuItem"; title = "Volume Up"; ObjectID = "621"; */
+"621.title" = "Volume Up";
+
+/* Class = "NSMenuItem"; title = "Volume Down"; ObjectID = "622"; */
+"622.title" = "Volume Down";
+
+/* Class = "NSMenuItem"; title = "Mute"; ObjectID = "623"; */
+"623.title" = "Mute";
+
+/* Class = "NSMenuItem"; title = "Next Frame"; ObjectID = "651"; */
+"651.title" = "Next Frame";
+
+/* Class = "NSMenuItem"; title = "Beginning"; ObjectID = "652"; */
+"652.title" = "Beginning";
+
+/* Class = "NSMenuItem"; title = "Previous Frame"; ObjectID = "653"; */
+"653.title" = "Previous Frame";
+
+/* Class = "NSMenuItem"; title = "Forward 10 sec."; ObjectID = "654"; */
+"654.title" = "Forward 10 sec.";
+
+/* Class = "NSMenuItem"; title = "Letter Box Height: Same"; ObjectID = "665"; */
+"665.title" = "Letter Box Height: Same";
+
+/* Class = "NSMenuItem"; title = "0.5 sec. Later"; ObjectID = "666"; */
+"666.title" = "0.5 sec. Later";
+
+/* Class = "NSMenuItem"; title = "0.5 sec. Earlier"; ObjectID = "667"; */
+"667.title" = "0.5 sec. Earlier";
+
+/* Class = "NSMenuItem"; title = "Letter Box Height Default"; ObjectID = "673"; */
+"673.title" = "Letter Box Height Default";
+
+/* Class = "NSMenuItem"; title = "Sync. Default"; ObjectID = "674"; */
+"674.title" = "Sync. Default";
+
+/* Class = "NSMenuItem"; title = "Backward 60 sec."; ObjectID = "794"; */
+"794.title" = "Backward 60 sec.";
+
+/* Class = "NSMenuItem"; title = "Forward 60 sec."; ObjectID = "795"; */
+"795.title" = "Forward 60 sec.";
+
+/* Class = "NSMenuItem"; title = "Backward 300 sec."; ObjectID = "796"; */
+"796.title" = "Backward 300 sec.";
+
+/* Class = "NSMenuItem"; title = "Forward 300 sec."; ObjectID = "797"; */
+"797.title" = "Forward 300 sec.";
+
+/* Class = "NSMenuItem"; title = "Range Repeat Beginning"; ObjectID = "1139"; */
+"1139.title" = "Range Repeat Beginning";
+
+/* Class = "NSMenuItem"; title = "Range Repeat End"; ObjectID = "1140"; */
+"1140.title" = "Range Repeat End";
+
+/* Class = "NSMenuItem"; title = "Range Repeat Clear"; ObjectID = "1141"; */
+"1141.title" = "Range Repeat Clear";
+
+/* Class = "NSMenuItem"; title = "Font Size Bigger"; ObjectID = "1151"; */
+"1151.title" = "Font Size Bigger";
+
+/* Class = "NSMenuItem"; title = "Font Size Smaller"; ObjectID = "1152"; */
+"1152.title" = "Font Size Smaller";
+
+/* Class = "NSMenuItem"; title = "Font Size Default"; ObjectID = "1153"; */
+"1153.title" = "Font Size Default";
+
+/* Class = "NSMenuItem"; title = "V-Margin Bigger"; ObjectID = "1158"; */
+"1158.title" = "V-Margin Bigger";
+
+/* Class = "NSMenuItem"; title = "V-Margin Smaller"; ObjectID = "1159"; */
+"1159.title" = "V-Margin Smaller";
+
+/* Class = "NSMenuItem"; title = "V-Margin Default"; ObjectID = "1160"; */
+"1160.title" = "V-Margin Default";
+
+/* Class = "NSMenuItem"; title = "Close Window"; ObjectID = "1180"; */
+"1180.title" = "Close Window";
+
+/* Class = "NSMenuItem"; title = "Previous Subtitle"; ObjectID = "1189"; */
+"1189.title" = "Previous Subtitle";
+
+/* Class = "NSMenuItem"; title = "Next Subtitle"; ObjectID = "1190"; */
+"1190.title" = "Next Subtitle";
+
+/* Class = "NSMenuItem"; title = "Play Speed Slower"; ObjectID = "1197"; */
+"1197.title" = "Play Speed Slower";
+
+/* Class = "NSMenuItem"; title = "Play Speed Faster"; ObjectID = "1199"; */
+"1199.title" = "Play Speed Faster";
+
+/* Class = "NSMenuItem"; title = "Play Speed Default"; ObjectID = "1200"; */
+"1200.title" = "Play Speed Default";
+
+/* Class = "NSMenuItem"; title = "Hide Subtitle"; ObjectID = "1219"; */
+"1219.title" = "Hide Subtitle";
+
+/* Class = "NSMenuItem"; title = "No Sound Track"; ObjectID = "1223"; */
+"1223.title" = "No Sound Track";
+
+/* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "1232"; */
+"1232.title" = "Preferences…";
+
+/* Class = "NSMenuItem"; title = "Full Screen Filling"; ObjectID = "1271"; */
+"1271.title" = "Full Screen Filling";
+
+/* Class = "NSMenu"; title = "Full Screen Filling"; ObjectID = "1272"; */
+"1272.title" = "Full Screen Filling";
+
+/* Class = "NSMenuItem"; title = "Default"; ObjectID = "1273"; */
+"1273.title" = "Default";
+
+/* Class = "NSMenuItem"; title = "Expand"; ObjectID = "1274"; */
+"1274.title" = "Expand";
+
+/* Class = "NSMenuItem"; title = "Crop"; ObjectID = "1275"; */
+"1275.title" = "Crop";
+
+/* Class = "NSMenuItem"; title = "Under Scan"; ObjectID = "1276"; */
+"1276.title" = "Under Scan";
+
+/* Class = "NSMenuItem"; title = "Rotation"; ObjectID = "1277"; */
+"1277.title" = "Rotation";
+
+/* Class = "NSMenuItem"; title = "Full Screen Navigation"; ObjectID = "1285"; */
+"1285.title" = "Full Screen Navigation";
+
+/* Class = "NSMenuItem"; title = "Paste"; ObjectID = "1290"; */
+"1290.title" = "Paste";
+
+/* Class = "NSMenuItem"; title = "Save Current Image"; ObjectID = "1294"; */
+"1294.title" = "Save Current Image";
+
+/* Class = "NSMenuItem"; title = "Save Current Image (... Letter Box)"; ObjectID = "1295"; */
+"1295.title" = "Save Current Image (... Letter Box)";
+
+/* Class = "NSMenuItem"; title = "Letter Box Height: 1 Line"; ObjectID = "1306"; */
+"1306.title" = "Letter Box Height: 1 Line";
+
+/* Class = "NSMenuItem"; title = "Letter Box Height: 2 Lines"; ObjectID = "1307"; */
+"1307.title" = "Letter Box Height: 2 Lines";
+
+/* Class = "NSMenuItem"; title = "Letter Box Height: 3 Lines"; ObjectID = "1308"; */
+"1308.title" = "Letter Box Height: 3 Lines";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Previous Movie"; ObjectID = "1327"; */
+"1327.ibShadowedToolTip" = "Previous Movie";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Next Movie"; ObjectID = "1329"; */
+"1329.ibShadowedToolTip" = "Next Movie";
+
+/* Class = "NSTabViewItem"; label = "A/V Control"; ObjectID = "1340"; */
+"1340.label" = "A/V Control";
+
+/* Class = "NSTabViewItem"; label = "Properties"; ObjectID = "1342"; */
+"1342.label" = "Properties";
+
+/* Class = "NSBox"; title = "Video"; ObjectID = "1344"; */
+"1344.title" = "Video";
+
+/* Class = "NSBox"; title = "Audio"; ObjectID = "1358"; */
+"1358.title" = "Audio";
+
+/* Class = "NSBox"; title = "Subtitle"; ObjectID = "1360"; */
+"1360.title" = "Subtitle";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "1375"; */
+"1375.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "2 Lines Height"; ObjectID = "1376"; */
+"1376.title" = "2 Lines Height";
+
+/* Class = "NSMenuItem"; title = "Same Height"; ObjectID = "1378"; */
+"1378.title" = "Same Height";
+
+/* Class = "NSMenuItem"; title = "1 Line Height"; ObjectID = "1379"; */
+"1379.title" = "1 Line Height";
+
+/* Class = "NSMenuItem"; title = "3 Lines Height"; ObjectID = "1380"; */
+"1380.title" = "3 Lines Height";
+
+/* Class = "NSBox"; title = "Playback"; ObjectID = "1384"; */
+"1384.title" = "Playback";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "1426"; */
+"1426.headerCell.title" = "Name";
+
+/* Class = "NSTableColumn"; headerCell.title = "Format"; ObjectID = "1430"; */
+"1430.headerCell.title" = "Format";
+
+/* Class = "NSTableColumn"; headerCell.title = "Codec"; ObjectID = "1438"; */
+"1438.headerCell.title" = "Codec";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Backward"; ObjectID = "1527"; */
+"1527.ibShadowedToolTip" = "Backward";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Forward"; ObjectID = "1529"; */
+"1529.ibShadowedToolTip" = "Forward";
+
+/* Class = "NSBox"; title = "Title"; ObjectID = "1539"; */
+"1539.title" = "Title";
+
+/* Class = "NSBox"; title = "Title"; ObjectID = "1547"; */
+"1547.title" = "Title";
+
+/* Class = "NSMenuItem"; title = "Source (SAR)"; ObjectID = "1565"; */
+"1565.title" = "Source (SAR)";
+
+/* Class = "NSMenuItem"; title = "System Volume Up"; ObjectID = "1660"; */
+"1660.title" = "System Volume Up";
+
+/* Class = "NSMenuItem"; title = "System Volume Down"; ObjectID = "1661"; */
+"1661.title" = "System Volume Down";
+
+/* Class = "NSMenuItem"; title = "Desktop Background"; ObjectID = "1766"; */
+"1766.title" = "Desktop Background";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "1885"; */
+"1885.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Movie Bottom"; ObjectID = "1886"; */
+"1886.title" = "Movie Bottom";
+
+/* Class = "NSMenuItem"; title = "Movie Top"; ObjectID = "1887"; */
+"1887.title" = "Movie Top";
+
+/* Class = "NSMenuItem"; title = "Upper Letter Box"; ObjectID = "1888"; */
+"1888.title" = "Upper Letter Box";
+
+/* Class = "NSMenuItem"; title = "Movie Center"; ObjectID = "1889"; */
+"1889.title" = "Movie Center";
+
+/* Class = "NSMenuItem"; title = "Lower Letter Box"; ObjectID = "1892"; */
+"1892.title" = "Lower Letter Box";
+
+/* Class = "NSMenuItem"; title = "Open Subtitle Files…"; ObjectID = "2131"; */
+"2131.title" = "Open Subtitle Files…";
+
+/* Class = "NSMenuItem"; title = "1:"; ObjectID = "2133"; */
+"2133.title" = "1:";
+
+/* Class = "NSMenu"; title = "1:"; ObjectID = "2134"; */
+"2134.title" = "1:";
+
+/* Class = "NSMenuItem"; title = "Sync. Default"; ObjectID = "2135"; */
+"2135.title" = "Sync. Default";
+
+/* Class = "NSMenuItem"; title = "0.5 sec. Earlier"; ObjectID = "2136"; */
+"2136.title" = "0.5 sec. Earlier";
+
+/* Class = "NSMenuItem"; title = "0.5 sec. Later"; ObjectID = "2137"; */
+"2137.title" = "0.5 sec. Later";
+
+/* Class = "NSMenuItem"; title = "Reopen with Encoding"; ObjectID = "2140"; */
+"2140.title" = "Reopen with Encoding";
+
+/* Class = "NSMenuItem"; title = "Position Default"; ObjectID = "2143"; */
+"2143.title" = "Position Default";
+
+/* Class = "NSMenuItem"; title = "Position: Lower Letter Box"; ObjectID = "2144"; */
+"2144.title" = "Position: Lower Letter Box";
+
+/* Class = "NSMenuItem"; title = "Position: Movie Bottom"; ObjectID = "2145"; */
+"2145.title" = "Position: Movie Bottom";
+
+/* Class = "NSMenuItem"; title = "Position: Movie Center"; ObjectID = "2146"; */
+"2146.title" = "Position: Movie Center";
+
+/* Class = "NSMenuItem"; title = "Position: Movie Top"; ObjectID = "2147"; */
+"2147.title" = "Position: Movie Top";
+
+/* Class = "NSMenuItem"; title = "Position: Upper Letter Box"; ObjectID = "2148"; */
+"2148.title" = "Position: Upper Letter Box";
+
+/* Class = "NSMenuItem"; title = "V-Margin Default"; ObjectID = "2149"; */
+"2149.title" = "V-Margin Default";
+
+/* Class = "NSMenuItem"; title = "V-Margin Smaller"; ObjectID = "2150"; */
+"2150.title" = "V-Margin Smaller";
+
+/* Class = "NSMenuItem"; title = "V-Margin Bigger"; ObjectID = "2151"; */
+"2151.title" = "V-Margin Bigger";
+
+/* Class = "NSMenuItem"; title = "Font Size Default"; ObjectID = "2152"; */
+"2152.title" = "Font Size Default";
+
+/* Class = "NSMenuItem"; title = "Font Size Smaller"; ObjectID = "2153"; */
+"2153.title" = "Font Size Smaller";
+
+/* Class = "NSMenuItem"; title = "Font Size Bigger"; ObjectID = "2154"; */
+"2154.title" = "Font Size Bigger";
+
+/* Class = "NSMenu"; title = "Reopen with Encoding"; ObjectID = "2155"; */
+"2155.title" = "Reopen with Encoding";
+
+/* Class = "NSMenuItem"; title = "Item"; ObjectID = "2156"; */
+"2156.title" = "Item";
+
+/* Class = "NSMenuItem"; title = "Add Subtitle Files…"; ObjectID = "2376"; */
+"2376.title" = "Add Subtitle Files…";
+
+/* Class = "NSMenuItem"; title = "Always On Top"; ObjectID = "2687"; */
+"2687.title" = "Always On Top";
+
+/* Class = "NSMenuItem"; title = "Copy"; ObjectID = "2792"; */
+"2792.title" = "Copy";
+
+/* Class = "NSMenuItem"; title = "Position Rotation"; ObjectID = "2898"; */
+"2898.title" = "Position Rotation";
+
+/* Class = "NSTextFieldCell"; title = "--:--:--"; ObjectID = "2908"; */
+"2908.title" = "--:--:--";
+
+/* Class = "NSTextFieldCell"; title = "--:--:--"; ObjectID = "2909"; */
+"2909.title" = "--:--:--";
+
+/* Class = "NSTextFieldCell"; title = "00:00:00"; ObjectID = "2917"; */
+"2917.title" = "00:00:00";
+
+/* Class = "NSTextFieldCell"; title = "Play Panel"; ObjectID = "2918"; */
+"2918.title" = "Play Panel";
+
+/* Class = "NSTextFieldCell"; title = "00:00:00"; ObjectID = "2920"; */
+"2920.title" = "00:00:00";
+
+/* Class = "NSTextFieldCell"; title = "Hue:"; ObjectID = "2928"; */
+"2928.title" = "Hue:";
+
+/* Class = "NSTextFieldCell"; title = "Contrast:"; ObjectID = "2930"; */
+"2930.title" = "Contrast:";
+
+/* Class = "NSTextFieldCell"; title = "Brightness:"; ObjectID = "2932"; */
+"2932.title" = "Brightness:";
+
+/* Class = "NSTextFieldCell"; title = "Saturation:"; ObjectID = "2935"; */
+"2935.title" = "Saturation:";
+
+/* Class = "NSTextFieldCell"; title = "Device:"; ObjectID = "2939"; */
+"2939.title" = "Device:";
+
+/* Class = "NSTextFieldCell"; title = "..."; ObjectID = "2940"; */
+"2940.title" = "...";
+
+/* Class = "NSTextFieldCell"; title = "Current:"; ObjectID = "2941"; */
+"2941.title" = "Current:";
+
+/* Class = "NSTextFieldCell"; title = "..."; ObjectID = "2942"; */
+"2942.title" = "...";
+
+/* Class = "NSTextFieldCell"; title = "Sync.:"; ObjectID = "2943"; */
+"2943.title" = "Sync.:";
+
+/* Class = "NSTextFieldCell"; title = "Font Size:"; ObjectID = "2944"; */
+"2944.title" = "Font Size:";
+
+/* Class = "NSTextFieldCell"; title = "V-Margin:"; ObjectID = "2945"; */
+"2945.title" = "V-Margin:";
+
+/* Class = "NSTextFieldCell"; title = "Letter Box:"; ObjectID = "2946"; */
+"2946.title" = "Letter Box:";
+
+/* Class = "NSButtonCell"; title = "Smaller"; ObjectID = "2948"; */
+"2948.title" = "Smaller";
+
+/* Class = "NSButtonCell"; title = "Bigger"; ObjectID = "2949"; */
+"2949.title" = "Bigger";
+
+/* Class = "NSButtonCell"; title = "Smaller"; ObjectID = "2951"; */
+"2951.title" = "Smaller";
+
+/* Class = "NSButtonCell"; title = "Bigger"; ObjectID = "2952"; */
+"2952.title" = "Bigger";
+
+/* Class = "NSButtonCell"; title = "Later"; ObjectID = "2956"; */
+"2956.title" = "Later";
+
+/* Class = "NSButtonCell"; title = "Earlier"; ObjectID = "2957"; */
+"2957.title" = "Earlier";
+
+/* Class = "NSTextFieldCell"; title = "Position:"; ObjectID = "2958"; */
+"2958.title" = "Position:";
+
+/* Class = "NSTextFieldCell"; title = "Play Speed:"; ObjectID = "2965"; */
+"2965.title" = "Play Speed:";
+
+/* Class = "NSTextFieldCell"; title = "½x"; ObjectID = "2966"; */
+"2966.title" = "½x";
+
+/* Class = "NSTextFieldCell"; title = "1x"; ObjectID = "2967"; */
+"2967.title" = "1x";
+
+/* Class = "NSTextFieldCell"; title = "2x"; ObjectID = "2968"; */
+"2968.title" = "2x";
+
+/* Class = "NSTextFieldCell"; title = "3x"; ObjectID = "2969"; */
+"2969.title" = "3x";
+
+/* Class = "NSTextFieldCell"; title = "Range Repeat:"; ObjectID = "2970"; */
+"2970.title" = "Range Repeat:";
+
+/* Class = "NSButtonCell"; title = "Begin"; ObjectID = "2972"; */
+"2972.title" = "Begin";
+
+/* Class = "NSButtonCell"; title = "End"; ObjectID = "2973"; */
+"2973.title" = "End";
+
+/* Class = "NSTextFieldCell"; title = "--:--:--"; ObjectID = "2974"; */
+"2974.title" = "--:--:--";
+
+/* Class = "NSTextFieldCell"; title = "--:--:--"; ObjectID = "2975"; */
+"2975.title" = "--:--:--";
+
+/* Class = "NSTextFieldCell"; title = "Movie File name"; ObjectID = "2976"; */
+"2976.title" = "Movie File name";
+
+/* Class = "NSTextFieldCell"; title = "Movie:"; ObjectID = "2978"; */
+"2978.title" = "Movie:";
+
+/* Class = "NSTextFieldCell"; title = "xx.xx / xx.xx"; ObjectID = "2979"; */
+"2979.title" = "xx.xx / xx.xx";
+
+/* Class = "NSTextFieldCell"; title = "FPS:"; ObjectID = "2980"; */
+"2980.title" = "FPS:";
+
+/* Class = "NSTextFieldCell"; title = "xxx.xx MB, xxxx.xx kbps"; ObjectID = "2981"; */
+"2981.title" = "xxx.xx MB, xxxx.xx kbps";
+
+/* Class = "NSTextFieldCell"; title = "Data:"; ObjectID = "2982"; */
+"2982.title" = "Data:";
+
+/* Class = "NSTextFieldCell"; title = "Control Panel"; ObjectID = "2983"; */
+"2983.title" = "Control Panel";
+
+/* Class = "NSSegmentedCell"; 2985.ibShadowedLabels[0] = "A/V Control"; ObjectID = "2985"; */
+"2985.ibShadowedLabels[0]" = "A/V Control";
+
+/* Class = "NSSegmentedCell"; 2985.ibShadowedLabels[1] = "Properties"; ObjectID = "2985"; */
+"2985.ibShadowedLabels[1]" = "Properties";

@@ -1,0 +1,768 @@
+
+/* Class = "NSMenuItem"; title = "Все окна - на передний план"; ObjectID = "5"; */
+"5.title" = "Все окна - на передний план";
+
+/* Class = "NSMenuItem"; title = "Окно"; ObjectID = "19"; */
+"19.title" = "Окно";
+
+/* Class = "NSMenuItem"; title = "Свернуть"; ObjectID = "23"; */
+"23.title" = "Свернуть";
+
+/* Class = "NSMenu"; title = "Окно"; ObjectID = "24"; */
+"24.title" = "Окно";
+
+/* Class = "NSMenu"; title = "MainMenu"; ObjectID = "29"; */
+"29.title" = "MainMenu";
+
+/* Class = "NSMenuItem"; title = "Movist"; ObjectID = "56"; */
+"56.title" = "Movist";
+
+/* Class = "NSMenu"; title = "Movist"; ObjectID = "57"; */
+"57.title" = "Movist";
+
+/* Class = "NSMenuItem"; title = "О Movist..."; ObjectID = "58"; */
+"58.title" = "О Movist...";
+
+/* Class = "NSMenuItem"; title = "Открыть видеофайл..."; ObjectID = "72"; */
+"72.title" = "Открыть видеофайл...";
+
+/* Class = "NSMenu"; title = "Файл"; ObjectID = "81"; */
+"81.title" = "Файл";
+
+/* Class = "NSMenuItem"; title = "Файл"; ObjectID = "83"; */
+"83.title" = "Файл";
+
+/* Class = "NSMenuItem"; title = "Справка"; ObjectID = "103"; */
+"103.title" = "Справка";
+
+/* Class = "NSMenu"; title = "Справка"; ObjectID = "106"; */
+"106.title" = "Справка";
+
+/* Class = "NSMenuItem"; title = "Справка Movist"; ObjectID = "111"; */
+"111.title" = "Справка Movist";
+
+/* Class = "NSMenuItem"; title = "Открыть недавние"; ObjectID = "124"; */
+"124.title" = "Открыть недавние";
+
+/* Class = "NSMenu"; title = "Открыть недавние"; ObjectID = "125"; */
+"125.title" = "Открыть недавние";
+
+/* Class = "NSMenuItem"; title = "메뉴 지우기"; ObjectID = "126"; */
+"126.title" = "메뉴 지우기";
+
+/* Class = "NSMenu"; title = "Службы"; ObjectID = "130"; */
+"130.title" = "Службы";
+
+/* Class = "NSMenuItem"; title = "Службы"; ObjectID = "131"; */
+"131.title" = "Службы";
+
+/* Class = "NSMenuItem"; title = "Скрыть Movist"; ObjectID = "134"; */
+"134.title" = "Скрыть Movist";
+
+/* Class = "NSMenuItem"; title = "Выйти из Movist"; ObjectID = "136"; */
+"136.title" = "Выйти из Movist";
+
+/* Class = "NSMenuItem"; title = "Скрыть остальные"; ObjectID = "145"; */
+"145.title" = "Скрыть остальные";
+
+/* Class = "NSMenuItem"; title = "Показать все"; ObjectID = "150"; */
+"150.title" = "Показать все";
+
+/* Class = "NSMenuItem"; title = "Вырезать"; ObjectID = "157"; */
+"157.title" = "Вырезать";
+
+/* Class = "NSMenuItem"; title = "Правка"; ObjectID = "163"; */
+"163.title" = "Правка";
+
+/* Class = "NSMenu"; title = "Правка"; ObjectID = "169"; */
+"169.title" = "Правка";
+
+/* Class = "NSMenuItem"; title = "Изменить масштаб"; ObjectID = "197"; */
+"197.title" = "Изменить масштаб";
+
+/* Class = "NSMenuItem"; title = "Видеофайл"; ObjectID = "218"; */
+"218.title" = "Видеофайл";
+
+/* Class = "NSMenu"; title = "Видеофайл"; ObjectID = "219"; */
+"219.title" = "Видеофайл";
+
+/* Class = "NSMenuItem"; title = "Оригинальный размер"; ObjectID = "220"; */
+"220.title" = "Оригинальный размер";
+
+/* Class = "NSMenuItem"; title = "Уменьшить размер в 2 раза"; ObjectID = "221"; */
+"221.title" = "Уменьшить размер в 2 раза";
+
+/* Class = "NSMenuItem"; title = "Удвоить размер"; ObjectID = "222"; */
+"222.title" = "Удвоить размер";
+
+/* Class = "NSMenuItem"; title = "Полноэкранный режим"; ObjectID = "223"; */
+"223.title" = "Полноэкранный режим";
+
+/* Class = "NSMenuItem"; title = "Подогнать по размеру экрана"; ObjectID = "233"; */
+"233.title" = "Подогнать по размеру экрана";
+
+/* Class = "NSMenuItem"; title = "Открыть заново с помощью..."; ObjectID = "252"; */
+"252.title" = "Открыть заново с помощью...";
+
+/* Class = "NSWindow"; title = "Movist"; ObjectID = "311"; */
+"311.title" = "Movist";
+
+/* Class = "NSMenuItem"; title = "Копировать (... бокса)"; ObjectID = "339"; */
+"339.title" = "Копировать (... бокса)";
+
+/* Class = "NSMenuItem"; title = "Выбрать все"; ObjectID = "341"; */
+"341.title" = "Выбрать все";
+
+/* Class = "NSMenuItem"; title = "Субтитры"; ObjectID = "350"; */
+"350.title" = "Субтитры";
+
+/* Class = "NSMenu"; title = "Субтитры"; ObjectID = "351"; */
+"351.title" = "Субтитры";
+
+/* Class = "NSWindow"; title = "Play Panel"; ObjectID = "363"; */
+"363.title" = "Play Panel";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Mute"; ObjectID = "399"; */
+"399.ibShadowedToolTip" = "Mute";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Playlist"; ObjectID = "402"; */
+"402.ibShadowedToolTip" = "Playlist";
+
+/* Class = "NSMenuItem"; title = "Соотношение сторон"; ObjectID = "438"; */
+"438.title" = "Соотношение сторон";
+
+/* Class = "NSMenu"; title = "Соотношение сторон"; ObjectID = "439"; */
+"439.title" = "Соотношение сторон";
+
+/* Class = "NSMenuItem"; title = "По умолчанию (DAR)"; ObjectID = "440"; */
+"440.title" = "По умолчанию (DAR)";
+
+/* Class = "NSMenuItem"; title = "4 : 3 (TV)"; ObjectID = "441"; */
+"441.title" = "4 : 3 (TV)";
+
+/* Class = "NSMenuItem"; title = "16 : 9 (HDTV)"; ObjectID = "442"; */
+"442.title" = "16 : 9 (HDTV)";
+
+/* Class = "NSMenuItem"; title = "1.85 : 1 (Screen)"; ObjectID = "443"; */
+"443.title" = "1.85 : 1 (Screen)";
+
+/* Class = "NSMenuItem"; title = "2.35 : 1 (Screen)"; ObjectID = "444"; */
+"444.title" = "2.35 : 1 (Screen)";
+
+/* Class = "NSWindow"; title = "Control Panel"; ObjectID = "451"; */
+"451.title" = "Control Panel";
+
+/* Class = "NSMenuItem"; title = "Список воспроизведения"; ObjectID = "470"; */
+"470.title" = "Список воспроизведения";
+
+/* Class = "NSMenuItem"; title = "Настройки"; ObjectID = "472"; */
+"472.title" = "Настройки";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Control Panel"; ObjectID = "536"; */
+"536.ibShadowedToolTip" = "Control Panel";
+
+/* Class = "NSMenuItem"; title = "Управление"; ObjectID = "605"; */
+"605.title" = "Управление";
+
+/* Class = "NSMenu"; title = "Управление"; ObjectID = "606"; */
+"606.title" = "Управление";
+
+/* Class = "NSMenuItem"; title = "Проигрывать"; ObjectID = "607"; */
+"607.title" = "Проигрывать";
+
+/* Class = "NSMenuItem"; title = "Назад на 10 сек."; ObjectID = "609"; */
+"609.title" = "Назад на 10 сек.";
+
+/* Class = "NSMenuItem"; title = "В конец"; ObjectID = "610"; */
+"610.title" = "В конец";
+
+/* Class = "NSMenuItem"; title = "Предыдущий видеофайл"; ObjectID = "612"; */
+"612.title" = "Предыдущий видеофайл";
+
+/* Class = "NSMenuItem"; title = "Следующий видеофайл"; ObjectID = "613"; */
+"613.title" = "Следующий видеофайл";
+
+/* Class = "NSMenuItem"; title = "Не повторять"; ObjectID = "617"; */
+"617.title" = "Не повторять";
+
+/* Class = "NSMenuItem"; title = "Повторять все"; ObjectID = "618"; */
+"618.title" = "Повторять все";
+
+/* Class = "NSMenuItem"; title = "Повторять только этот файл"; ObjectID = "619"; */
+"619.title" = "Повторять только этот файл";
+
+/* Class = "NSMenuItem"; title = "Увеличение громкости"; ObjectID = "621"; */
+"621.title" = "Увеличение громкости";
+
+/* Class = "NSMenuItem"; title = "Уменьшение громкости"; ObjectID = "622"; */
+"622.title" = "Уменьшение громкости";
+
+/* Class = "NSMenuItem"; title = "Отключить звук"; ObjectID = "623"; */
+"623.title" = "Отключить звук";
+
+/* Class = "NSMenuItem"; title = "Следующий кадр"; ObjectID = "651"; */
+"651.title" = "Следующий кадр";
+
+/* Class = "NSMenuItem"; title = "В начало"; ObjectID = "652"; */
+"652.title" = "В начало";
+
+/* Class = "NSMenuItem"; title = "Предыдущий кадр"; ObjectID = "653"; */
+"653.title" = "Предыдущий кадр";
+
+/* Class = "NSMenuItem"; title = "Вперед на 10 сек."; ObjectID = "654"; */
+"654.title" = "Вперед на 10 сек.";
+
+/* Class = "NSMenuItem"; title = "Высота бокса: без изменений"; ObjectID = "665"; */
+"665.title" = "Высота бокса: без изменений";
+
+/* Class = "NSMenuItem"; title = "Появление субтитров на 0,5 сек. позже"; ObjectID = "666"; */
+"666.title" = "Появление субтитров на 0,5 сек. позже";
+
+/* Class = "NSMenuItem"; title = "Появление субтитров на 0,5 сек. раньше"; ObjectID = "667"; */
+"667.title" = "Появление субтитров на 0,5 сек. раньше";
+
+/* Class = "NSMenuItem"; title = "Высота бокса: по умолчанию"; ObjectID = "673"; */
+"673.title" = "Высота бокса: по умолчанию";
+
+/* Class = "NSMenuItem"; title = "Появление субтитров на изначальной скорости"; ObjectID = "674"; */
+"674.title" = "Появление субтитров на изначальной скорости";
+
+/* Class = "NSMenuItem"; title = "Назад на 60 сек."; ObjectID = "794"; */
+"794.title" = "Назад на 60 сек.";
+
+/* Class = "NSMenuItem"; title = "Вперед на 60 сек."; ObjectID = "795"; */
+"795.title" = "Вперед на 60 сек.";
+
+/* Class = "NSMenuItem"; title = "Назад на 300 сек."; ObjectID = "796"; */
+"796.title" = "Назад на 300 сек.";
+
+/* Class = "NSMenuItem"; title = "Вперед на 300 сек."; ObjectID = "797"; */
+"797.title" = "Вперед на 300 сек.";
+
+/* Class = "NSMenuItem"; title = "Поставить начальную отметку отрезка повтора"; ObjectID = "1139"; */
+"1139.title" = "Поставить начальную отметку отрезка повтора";
+
+/* Class = "NSMenuItem"; title = "Поставить конечную отметку отрезка повтора"; ObjectID = "1140"; */
+"1140.title" = "Поставить конечную отметку отрезка повтора";
+
+/* Class = "NSMenuItem"; title = "Убрать отрезок повтора"; ObjectID = "1141"; */
+"1141.title" = "Убрать отрезок повтора";
+
+/* Class = "NSMenuItem"; title = "Увеличить размер шрифта"; ObjectID = "1151"; */
+"1151.title" = "Увеличить размер шрифта";
+
+/* Class = "NSMenuItem"; title = "Уменьшить размер шрифта"; ObjectID = "1152"; */
+"1152.title" = "Уменьшить размер шрифта";
+
+/* Class = "NSMenuItem"; title = "Размер шрифта по умолчанию"; ObjectID = "1153"; */
+"1153.title" = "Размер шрифта по умолчанию";
+
+/* Class = "NSMenuItem"; title = "Увеличить вертикальный отступ"; ObjectID = "1158"; */
+"1158.title" = "Увеличить вертикальный отступ";
+
+/* Class = "NSMenuItem"; title = "Уменьшить вертикальный отступ"; ObjectID = "1159"; */
+"1159.title" = "Уменьшить вертикальный отступ";
+
+/* Class = "NSMenuItem"; title = "Вертикальный отступ по умолчанию"; ObjectID = "1160"; */
+"1160.title" = "Вертикальный отступ по умолчанию";
+
+/* Class = "NSMenuItem"; title = "Закрыть окно"; ObjectID = "1180"; */
+"1180.title" = "Закрыть окно";
+
+/* Class = "NSMenuItem"; title = "Предыдущая дорожка субтитров"; ObjectID = "1189"; */
+"1189.title" = "Предыдущая дорожка субтитров";
+
+/* Class = "NSMenuItem"; title = "Следующая дорожка субтитров"; ObjectID = "1190"; */
+"1190.title" = "Следующая дорожка субтитров";
+
+/* Class = "NSMenuItem"; title = "Проигрывать видео медленнее"; ObjectID = "1197"; */
+"1197.title" = "Проигрывать видео медленнее";
+
+/* Class = "NSMenuItem"; title = "Проигрывать видео быстрее"; ObjectID = "1199"; */
+"1199.title" = "Проигрывать видео быстрее";
+
+/* Class = "NSMenuItem"; title = "Проигрывать видео на обычной скорости"; ObjectID = "1200"; */
+"1200.title" = "Проигрывать видео на обычной скорости";
+
+/* Class = "NSMenuItem"; title = "Скрыть субтитры"; ObjectID = "1219"; */
+"1219.title" = "Скрыть субтитры";
+
+/* Class = "NSMenuItem"; title = "Отключить звук"; ObjectID = "1223"; */
+"1223.title" = "Отключить звук";
+
+/* Class = "NSMenuItem"; title = "Настройки..."; ObjectID = "1232"; */
+"1232.title" = "Настройки...";
+
+/* Class = "NSMenuItem"; title = "Растягивание в полноэкранном режиме"; ObjectID = "1271"; */
+"1271.title" = "Растягивание в полноэкранном режиме";
+
+/* Class = "NSMenu"; title = "Растягивание в полноэкранном режиме"; ObjectID = "1272"; */
+"1272.title" = "Растягивание в полноэкранном режиме";
+
+/* Class = "NSMenuItem"; title = "По умолчанию"; ObjectID = "1273"; */
+"1273.title" = "По умолчанию";
+
+/* Class = "NSMenuItem"; title = "Растяжение"; ObjectID = "1274"; */
+"1274.title" = "Растяжение";
+
+/* Class = "NSMenuItem"; title = "Обрезание"; ObjectID = "1275"; */
+"1275.title" = "Обрезание";
+
+/* Class = "NSMenuItem"; title = "Under Scan"; ObjectID = "1276"; */
+"1276.title" = "Under Scan";
+
+/* Class = "NSMenuItem"; title = "Переключение режимов"; ObjectID = "1277"; */
+"1277.title" = "Переключение режимов";
+
+/* Class = "NSMenuItem"; title = "Полноэкранная навигация"; ObjectID = "1285"; */
+"1285.title" = "Полноэкранная навигация";
+
+/* Class = "NSMenuItem"; title = "Вставить"; ObjectID = "1290"; */
+"1290.title" = "Вставить";
+
+/* Class = "NSMenuItem"; title = "Сохранить текущий кадр в виде изображения"; ObjectID = "1294"; */
+"1294.title" = "Сохранить текущий кадр в виде изображения";
+
+/* Class = "NSMenuItem"; title = "Сохранить текущий кадр (... бокса)"; ObjectID = "1295"; */
+"1295.title" = "Сохранить текущий кадр (... бокса)";
+
+/* Class = "NSMenuItem"; title = "Высота бокса: 1 строчка"; ObjectID = "1306"; */
+"1306.title" = "Высота бокса: 1 строчка";
+
+/* Class = "NSMenuItem"; title = "Высота бокса: 2 строчки"; ObjectID = "1307"; */
+"1307.title" = "Высота бокса: 2 строчки";
+
+/* Class = "NSMenuItem"; title = "Высота бокса: 3 строчки"; ObjectID = "1308"; */
+"1308.title" = "Высота бокса: 3 строчки";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Previous Movie"; ObjectID = "1327"; */
+"1327.ibShadowedToolTip" = "Previous Movie";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Next Movie"; ObjectID = "1329"; */
+"1329.ibShadowedToolTip" = "Next Movie";
+
+/* Class = "NSTabViewItem"; label = "A/V Control"; ObjectID = "1340"; */
+"1340.label" = "A/V Control";
+
+/* Class = "NSTabViewItem"; label = "Properties"; ObjectID = "1342"; */
+"1342.label" = "Properties";
+
+/* Class = "NSBox"; title = "Видео"; ObjectID = "1344"; */
+"1344.title" = "Видео";
+
+/* Class = "NSBox"; title = "Аудио"; ObjectID = "1358"; */
+"1358.title" = "Аудио";
+
+/* Class = "NSBox"; title = "Субтитры"; ObjectID = "1360"; */
+"1360.title" = "Субтитры";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "1375"; */
+"1375.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Высота в 2 строчки"; ObjectID = "1376"; */
+"1376.title" = "Высота в 2 строчки";
+
+/* Class = "NSMenuItem"; title = "Высота по умолчанию"; ObjectID = "1378"; */
+"1378.title" = "Высота по умолчанию";
+
+/* Class = "NSMenuItem"; title = "Высота в 1 строчку"; ObjectID = "1379"; */
+"1379.title" = "Высота в 1 строчку";
+
+/* Class = "NSMenuItem"; title = "Высота в 3 строчки"; ObjectID = "1380"; */
+"1380.title" = "Высота в 3 строчки";
+
+/* Class = "NSBox"; title = "Проигрывание"; ObjectID = "1384"; */
+"1384.title" = "Проигрывание";
+
+/* Class = "NSTableColumn"; headerCell.title = "Название"; ObjectID = "1426"; */
+"1426.headerCell.title" = "Название";
+
+/* Class = "NSTableColumn"; headerCell.title = "Формат"; ObjectID = "1430"; */
+"1430.headerCell.title" = "Формат";
+
+/* Class = "NSTableColumn"; headerCell.title = "Кодек"; ObjectID = "1438"; */
+"1438.headerCell.title" = "Кодек";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Backward"; ObjectID = "1527"; */
+"1527.ibShadowedToolTip" = "Backward";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Forward"; ObjectID = "1529"; */
+"1529.ibShadowedToolTip" = "Forward";
+
+/* Class = "NSBox"; title = "Title"; ObjectID = "1539"; */
+"1539.title" = "Title";
+
+/* Class = "NSBox"; title = "Title"; ObjectID = "1547"; */
+"1547.title" = "Title";
+
+/* Class = "NSMenuItem"; title = "Как в источнике (SAR)"; ObjectID = "1565"; */
+"1565.title" = "Как в источнике (SAR)";
+
+/* Class = "NSMenuItem"; title = "Увеличение системной громкости"; ObjectID = "1660"; */
+"1660.title" = "Увеличение системной громкости";
+
+/* Class = "NSMenuItem"; title = "Уменьшение системной громкости"; ObjectID = "1661"; */
+"1661.title" = "Уменьшение системной громкости";
+
+/* Class = "NSMenuItem"; title = "Установить как фон рабочего стола"; ObjectID = "1766"; */
+"1766.title" = "Установить как фон рабочего стола";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "1885"; */
+"1885.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Внизу видео"; ObjectID = "1886"; */
+"1886.title" = "Внизу видео";
+
+/* Class = "NSMenuItem"; title = "Вверху видео"; ObjectID = "1887"; */
+"1887.title" = "Вверху видео";
+
+/* Class = "NSMenuItem"; title = "Верхний бокс"; ObjectID = "1888"; */
+"1888.title" = "Верхний бокс";
+
+/* Class = "NSMenuItem"; title = "В центре видео"; ObjectID = "1889"; */
+"1889.title" = "В центре видео";
+
+/* Class = "NSMenuItem"; title = "Нижний бокс"; ObjectID = "1892"; */
+"1892.title" = "Нижний бокс";
+
+/* Class = "NSMenuItem"; title = "Подключить субтитры"; ObjectID = "2131"; */
+"2131.title" = "Подключить субтитры";
+
+/* Class = "NSMenuItem"; title = "1:"; ObjectID = "2133"; */
+"2133.title" = "1:";
+
+/* Class = "NSMenu"; title = "1:"; ObjectID = "2134"; */
+"2134.title" = "1:";
+
+/* Class = "NSMenuItem"; title = "Появление субтитров на изначальной скорости"; ObjectID = "2135"; */
+"2135.title" = "Появление субтитров на изначальной скорости";
+
+/* Class = "NSMenuItem"; title = "Появление субтитров на 0,5 сек. раньше"; ObjectID = "2136"; */
+"2136.title" = "Появление субтитров на 0,5 сек. раньше";
+
+/* Class = "NSMenuItem"; title = "Появление субтитров на 0,5 сек. позже"; ObjectID = "2137"; */
+"2137.title" = "Появление субтитров на 0,5 сек. позже";
+
+/* Class = "NSMenuItem"; title = "Открыть заново с кодировкой..."; ObjectID = "2140"; */
+"2140.title" = "Открыть заново с кодировкой...";
+
+/* Class = "NSMenuItem"; title = "Положение: по умолчанию"; ObjectID = "2143"; */
+"2143.title" = "Положение: по умолчанию";
+
+/* Class = "NSMenuItem"; title = "Положение: нижний бокс"; ObjectID = "2144"; */
+"2144.title" = "Положение: нижний бокс";
+
+/* Class = "NSMenuItem"; title = "Положение: внизу видео"; ObjectID = "2145"; */
+"2145.title" = "Положение: внизу видео";
+
+/* Class = "NSMenuItem"; title = "Положение: в центре видео"; ObjectID = "2146"; */
+"2146.title" = "Положение: в центре видео";
+
+/* Class = "NSMenuItem"; title = "Положение: вверху видео"; ObjectID = "2147"; */
+"2147.title" = "Положение: вверху видео";
+
+/* Class = "NSMenuItem"; title = "Положение: верхний бокс"; ObjectID = "2148"; */
+"2148.title" = "Положение: верхний бокс";
+
+/* Class = "NSMenuItem"; title = "Вертикальный отступ по умолчанию"; ObjectID = "2149"; */
+"2149.title" = "Вертикальный отступ по умолчанию";
+
+/* Class = "NSMenuItem"; title = "Уменьшить вертикальный отступ"; ObjectID = "2150"; */
+"2150.title" = "Уменьшить вертикальный отступ";
+
+/* Class = "NSMenuItem"; title = "Увеличить вертикальный отступ"; ObjectID = "2151"; */
+"2151.title" = "Увеличить вертикальный отступ";
+
+/* Class = "NSMenuItem"; title = "Размер шрифта по умолчанию"; ObjectID = "2152"; */
+"2152.title" = "Размер шрифта по умолчанию";
+
+/* Class = "NSMenuItem"; title = "Уменьшить размер шрифта"; ObjectID = "2153"; */
+"2153.title" = "Уменьшить размер шрифта";
+
+/* Class = "NSMenuItem"; title = "Увеличить размер шрифта"; ObjectID = "2154"; */
+"2154.title" = "Увеличить размер шрифта";
+
+/* Class = "NSMenu"; title = "Открыть заново с кодировкой..."; ObjectID = "2155"; */
+"2155.title" = "Открыть заново с кодировкой...";
+
+/* Class = "NSMenuItem"; title = "Item"; ObjectID = "2156"; */
+"2156.title" = "Item";
+
+/* Class = "NSMenuItem"; title = "2:"; ObjectID = "2158"; */
+"2158.title" = "2:";
+
+/* Class = "NSMenu"; title = "2:"; ObjectID = "2159"; */
+"2159.title" = "2:";
+
+/* Class = "NSMenuItem"; title = "Увеличить размер шрифта"; ObjectID = "2160"; */
+"2160.title" = "Увеличить размер шрифта";
+
+/* Class = "NSMenuItem"; title = "Уменьшить размер шрифта"; ObjectID = "2161"; */
+"2161.title" = "Уменьшить размер шрифта";
+
+/* Class = "NSMenuItem"; title = "Размер шрифта по умолчанию"; ObjectID = "2162"; */
+"2162.title" = "Размер шрифта по умолчанию";
+
+/* Class = "NSMenuItem"; title = "Увеличить вертикальный отступ"; ObjectID = "2163"; */
+"2163.title" = "Увеличить вертикальный отступ";
+
+/* Class = "NSMenuItem"; title = "Уменьшить вертикальный отступ"; ObjectID = "2164"; */
+"2164.title" = "Уменьшить вертикальный отступ";
+
+/* Class = "NSMenuItem"; title = "Вертикальный отступ по умолчанию"; ObjectID = "2165"; */
+"2165.title" = "Вертикальный отступ по умолчанию";
+
+/* Class = "NSMenuItem"; title = "Положение: верхний бокс"; ObjectID = "2166"; */
+"2166.title" = "Положение: верхний бокс";
+
+/* Class = "NSMenuItem"; title = "Положение: вверху видео"; ObjectID = "2167"; */
+"2167.title" = "Положение: вверху видео";
+
+/* Class = "NSMenuItem"; title = "Положение: в центре видео"; ObjectID = "2168"; */
+"2168.title" = "Положение: в центре видео";
+
+/* Class = "NSMenuItem"; title = "Положение: внизу видео"; ObjectID = "2169"; */
+"2169.title" = "Положение: внизу видео";
+
+/* Class = "NSMenuItem"; title = "Положение: нижний бокс"; ObjectID = "2170"; */
+"2170.title" = "Положение: нижний бокс";
+
+/* Class = "NSMenuItem"; title = "Положение: по умолчанию"; ObjectID = "2171"; */
+"2171.title" = "Положение: по умолчанию";
+
+/* Class = "NSMenuItem"; title = "Открыть заново с кодировкой..."; ObjectID = "2174"; */
+"2174.title" = "Открыть заново с кодировкой...";
+
+/* Class = "NSMenuItem"; title = "Появление субтитров на 0,5 сек. позже"; ObjectID = "2177"; */
+"2177.title" = "Появление субтитров на 0,5 сек. позже";
+
+/* Class = "NSMenuItem"; title = "Появление субтитров на 0,5 сек. раньше"; ObjectID = "2178"; */
+"2178.title" = "Появление субтитров на 0,5 сек. раньше";
+
+/* Class = "NSMenuItem"; title = "Появление субтитров на изначальной скорости"; ObjectID = "2179"; */
+"2179.title" = "Появление субтитров на изначальной скорости";
+
+/* Class = "NSMenu"; title = "Открыть заново с кодировкой..."; ObjectID = "2180"; */
+"2180.title" = "Открыть заново с кодировкой...";
+
+/* Class = "NSMenuItem"; title = "Item"; ObjectID = "2181"; */
+"2181.title" = "Item";
+
+/* Class = "NSMenuItem"; title = "3:"; ObjectID = "2182"; */
+"2182.title" = "3:";
+
+/* Class = "NSMenu"; title = "3:"; ObjectID = "2183"; */
+"2183.title" = "3:";
+
+/* Class = "NSMenuItem"; title = "Появление субтитров на изначальной скорости"; ObjectID = "2184"; */
+"2184.title" = "Появление субтитров на изначальной скорости";
+
+/* Class = "NSMenuItem"; title = "Появление субтитров на 0,5 сек. раньше"; ObjectID = "2185"; */
+"2185.title" = "Появление субтитров на 0,5 сек. раньше";
+
+/* Class = "NSMenuItem"; title = "Появление субтитров на 0,5 сек. позже"; ObjectID = "2186"; */
+"2186.title" = "Появление субтитров на 0,5 сек. позже";
+
+/* Class = "NSMenuItem"; title = "Открыть заново с кодировкой..."; ObjectID = "2189"; */
+"2189.title" = "Открыть заново с кодировкой...";
+
+/* Class = "NSMenuItem"; title = "Положение: по умолчанию"; ObjectID = "2192"; */
+"2192.title" = "Положение: по умолчанию";
+
+/* Class = "NSMenuItem"; title = "Положение: нижний бокс"; ObjectID = "2193"; */
+"2193.title" = "Положение: нижний бокс";
+
+/* Class = "NSMenuItem"; title = "Положение: внизу видео"; ObjectID = "2194"; */
+"2194.title" = "Положение: внизу видео";
+
+/* Class = "NSMenuItem"; title = "Положение: в центре видео"; ObjectID = "2195"; */
+"2195.title" = "Положение: в центре видео";
+
+/* Class = "NSMenuItem"; title = "Положение: вверху видео"; ObjectID = "2196"; */
+"2196.title" = "Положение: вверху видео";
+
+/* Class = "NSMenuItem"; title = "Положение: верхний бокс"; ObjectID = "2197"; */
+"2197.title" = "Положение: верхний бокс";
+
+/* Class = "NSMenuItem"; title = "Вертикальный отступ по умолчанию"; ObjectID = "2198"; */
+"2198.title" = "Вертикальный отступ по умолчанию";
+
+/* Class = "NSMenuItem"; title = "Уменьшить вертикальный отступ"; ObjectID = "2199"; */
+"2199.title" = "Уменьшить вертикальный отступ";
+
+/* Class = "NSMenuItem"; title = "Увеличить вертикальный отступ"; ObjectID = "2200"; */
+"2200.title" = "Увеличить вертикальный отступ";
+
+/* Class = "NSMenuItem"; title = "Размер шрифта по умолчанию"; ObjectID = "2201"; */
+"2201.title" = "Размер шрифта по умолчанию";
+
+/* Class = "NSMenuItem"; title = "Уменьшить размер шрифта"; ObjectID = "2202"; */
+"2202.title" = "Уменьшить размер шрифта";
+
+/* Class = "NSMenuItem"; title = "Увеличить размер шрифта"; ObjectID = "2203"; */
+"2203.title" = "Увеличить размер шрифта";
+
+/* Class = "NSMenu"; title = "Открыть заново с кодировкой..."; ObjectID = "2204"; */
+"2204.title" = "Открыть заново с кодировкой...";
+
+/* Class = "NSMenuItem"; title = "Item"; ObjectID = "2205"; */
+"2205.title" = "Item";
+
+/* Class = "NSMenuItem"; title = "Добавить дорожку субтитров"; ObjectID = "2376"; */
+"2376.title" = "Добавить дорожку субтитров";
+
+/* Class = "NSMenuItem"; title = "Сменить порядок"; ObjectID = "2676"; */
+"2676.title" = "Сменить порядок";
+
+/* Class = "NSMenuItem"; title = "Поверх всех окон"; ObjectID = "2687"; */
+"2687.title" = "Поверх всех окон";
+
+/* Class = "NSMenuItem"; title = "Копировать"; ObjectID = "2792"; */
+"2792.title" = "Копировать";
+
+/* Class = "NSMenuItem"; title = "Перебирать положение"; ObjectID = "2898"; */
+"2898.title" = "Перебирать положение";
+
+/* Class = "NSTextFieldCell"; title = "--:--:--"; ObjectID = "2908"; */
+"2908.title" = "--:--:--";
+
+/* Class = "NSTextFieldCell"; title = "--:--:--"; ObjectID = "2909"; */
+"2909.title" = "--:--:--";
+
+/* Class = "NSTextFieldCell"; title = "00:00:00"; ObjectID = "2917"; */
+"2917.title" = "00:00:00";
+
+/* Class = "NSTextFieldCell"; title = "Play Panel"; ObjectID = "2918"; */
+"2918.title" = "Play Panel";
+
+/* Class = "NSTextFieldCell"; title = "00:00:00"; ObjectID = "2920"; */
+"2920.title" = "00:00:00";
+
+/* Class = "NSTextFieldCell"; title = "Оттенок:"; ObjectID = "2928"; */
+"2928.title" = "Оттенок:";
+
+/* Class = "NSTextFieldCell"; title = "Контраст:"; ObjectID = "2930"; */
+"2930.title" = "Контраст:";
+
+/* Class = "NSTextFieldCell"; title = "Яркость:"; ObjectID = "2932"; */
+"2932.title" = "Яркость:";
+
+/* Class = "NSTextFieldCell"; title = "Насыщенность:"; ObjectID = "2935"; */
+"2935.title" = "Насыщенность:";
+
+/* Class = "NSTextFieldCell"; title = "Уст-во:"; ObjectID = "2939"; */
+"2939.title" = "Уст-во:";
+
+/* Class = "NSTextFieldCell"; title = "..."; ObjectID = "2940"; */
+"2940.title" = "...";
+
+/* Class = "NSTextFieldCell"; title = "Текущее:"; ObjectID = "2941"; */
+"2941.title" = "Текущее:";
+
+/* Class = "NSTextFieldCell"; title = "..."; ObjectID = "2942"; */
+"2942.title" = "...";
+
+/* Class = "NSTextFieldCell"; title = "Появление:"; ObjectID = "2943"; */
+"2943.title" = "Появление:";
+
+/* Class = "NSTextFieldCell"; title = "Размер шрифта:"; ObjectID = "2944"; */
+"2944.title" = "Размер шрифта:";
+
+/* Class = "NSTextFieldCell"; title = "Отступ:"; ObjectID = "2945"; */
+"2945.title" = "Отступ:";
+
+/* Class = "NSTextFieldCell"; title = "Бокс"; ObjectID = "2946"; */
+"2946.title" = "Бокс";
+
+/* Class = "NSButtonCell"; title = "Меньше"; ObjectID = "2948"; */
+"2948.title" = "Меньше";
+
+/* Class = "NSButtonCell"; title = "Больше"; ObjectID = "2949"; */
+"2949.title" = "Больше";
+
+/* Class = "NSButtonCell"; title = "Меньше"; ObjectID = "2951"; */
+"2951.title" = "Меньше";
+
+/* Class = "NSButtonCell"; title = "Больше"; ObjectID = "2952"; */
+"2952.title" = "Больше";
+
+/* Class = "NSButtonCell"; title = "Позже"; ObjectID = "2956"; */
+"2956.title" = "Позже";
+
+/* Class = "NSButtonCell"; title = "Раньше"; ObjectID = "2957"; */
+"2957.title" = "Раньше";
+
+/* Class = "NSTextFieldCell"; title = "Положение:"; ObjectID = "2958"; */
+"2958.title" = "Положение:";
+
+/* Class = "NSTextFieldCell"; title = "..."; ObjectID = "2961"; */
+"2961.title" = "...";
+
+/* Class = "NSSegmentedCell"; 2962.ibShadowedLabels[0] = "*"; ObjectID = "2962"; */
+"2962.ibShadowedLabels[0]" = "*";
+
+/* Class = "NSSegmentedCell"; 2962.ibShadowedLabels[1] = "1"; ObjectID = "2962"; */
+"2962.ibShadowedLabels[1]" = "1";
+
+/* Class = "NSSegmentedCell"; 2962.ibShadowedLabels[2] = "2"; ObjectID = "2962"; */
+"2962.ibShadowedLabels[2]" = "2";
+
+/* Class = "NSSegmentedCell"; 2962.ibShadowedLabels[3] = "3"; ObjectID = "2962"; */
+"2962.ibShadowedLabels[3]" = "3";
+
+/* Class = "NSTextFieldCell"; title = "Скорость:"; ObjectID = "2965"; */
+"2965.title" = "Скорость:";
+
+/* Class = "NSTextFieldCell"; title = "½x"; ObjectID = "2966"; */
+"2966.title" = "½x";
+
+/* Class = "NSTextFieldCell"; title = "1x"; ObjectID = "2967"; */
+"2967.title" = "1x";
+
+/* Class = "NSTextFieldCell"; title = "2x"; ObjectID = "2968"; */
+"2968.title" = "2x";
+
+/* Class = "NSTextFieldCell"; title = "3x"; ObjectID = "2969"; */
+"2969.title" = "3x";
+
+/* Class = "NSTextFieldCell"; title = "Повторение:"; ObjectID = "2970"; */
+"2970.title" = "Повторение:";
+
+/* Class = "NSButtonCell"; title = "Начало"; ObjectID = "2972"; */
+"2972.title" = "Начало";
+
+/* Class = "NSButtonCell"; title = "Конец"; ObjectID = "2973"; */
+"2973.title" = "Конец";
+
+/* Class = "NSTextFieldCell"; title = "--:--:--"; ObjectID = "2974"; */
+"2974.title" = "--:--:--";
+
+/* Class = "NSTextFieldCell"; title = "--:--:--"; ObjectID = "2975"; */
+"2975.title" = "--:--:--";
+
+/* Class = "NSTextFieldCell"; title = "Movie File name"; ObjectID = "2976"; */
+"2976.title" = "Movie File name";
+
+/* Class = "NSTextFieldCell"; title = "Файл:"; ObjectID = "2978"; */
+"2978.title" = "Файл:";
+
+/* Class = "NSTextFieldCell"; title = "xx.xx / xx.xx"; ObjectID = "2979"; */
+"2979.title" = "xx.xx / xx.xx";
+
+/* Class = "NSTextFieldCell"; title = "FPS:"; ObjectID = "2980"; */
+"2980.title" = "FPS:";
+
+/* Class = "NSTextFieldCell"; title = "xxx.xx MB, xxxx.xx kbps"; ObjectID = "2981"; */
+"2981.title" = "xxx.xx MB, xxxx.xx kbps";
+
+/* Class = "NSTextFieldCell"; title = "Дата:"; ObjectID = "2982"; */
+"2982.title" = "Дата:";
+
+/* Class = "NSTextFieldCell"; title = "Настройки"; ObjectID = "2983"; */
+"2983.title" = "Настройки";
+
+/* Class = "NSSegmentedCell"; 2985.ibShadowedLabels[0] = "Управление видеофайлом"; ObjectID = "2985"; */
+"2985.ibShadowedLabels[0]" = "Управление видеофайлом";
+
+/* Class = "NSSegmentedCell"; 2985.ibShadowedLabels[1] = "Параметры видеофайла"; ObjectID = "2985"; */
+"2985.ibShadowedLabels[1]" = "Параметры видеофайла";

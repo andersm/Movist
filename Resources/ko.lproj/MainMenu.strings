@@ -1,0 +1,768 @@
+
+/* Class = "NSMenuItem"; title = "모두 앞으로 가져오기"; ObjectID = "5"; */
+"5.title" = "모두 앞으로 가져오기";
+
+/* Class = "NSMenuItem"; title = "윈도우"; ObjectID = "19"; */
+"19.title" = "윈도우";
+
+/* Class = "NSMenuItem"; title = "윈도우 축소"; ObjectID = "23"; */
+"23.title" = "윈도우 축소";
+
+/* Class = "NSMenu"; title = "윈도우"; ObjectID = "24"; */
+"24.title" = "윈도우";
+
+/* Class = "NSMenu"; title = "MainMenu"; ObjectID = "29"; */
+"29.title" = "MainMenu";
+
+/* Class = "NSMenuItem"; title = "무비스트"; ObjectID = "56"; */
+"56.title" = "무비스트";
+
+/* Class = "NSMenu"; title = "무비스트"; ObjectID = "57"; */
+"57.title" = "무비스트";
+
+/* Class = "NSMenuItem"; title = "무비스트에 관하여"; ObjectID = "58"; */
+"58.title" = "무비스트에 관하여";
+
+/* Class = "NSMenuItem"; title = "동영상 파일 열기…"; ObjectID = "72"; */
+"72.title" = "동영상 파일 열기…";
+
+/* Class = "NSMenu"; title = "파일"; ObjectID = "81"; */
+"81.title" = "파일";
+
+/* Class = "NSMenuItem"; title = "파일"; ObjectID = "83"; */
+"83.title" = "파일";
+
+/* Class = "NSMenuItem"; title = "도움말"; ObjectID = "103"; */
+"103.title" = "도움말";
+
+/* Class = "NSMenu"; title = "도움말"; ObjectID = "106"; */
+"106.title" = "도움말";
+
+/* Class = "NSMenuItem"; title = "무비스트 도움말"; ObjectID = "111"; */
+"111.title" = "무비스트 도움말";
+
+/* Class = "NSMenuItem"; title = "최근 사용 열기"; ObjectID = "124"; */
+"124.title" = "최근 사용 열기";
+
+/* Class = "NSMenu"; title = "최근 사용 열기"; ObjectID = "125"; */
+"125.title" = "최근 사용 열기";
+
+/* Class = "NSMenuItem"; title = "메뉴 지우기"; ObjectID = "126"; */
+"126.title" = "메뉴 지우기";
+
+/* Class = "NSMenu"; title = "서비스"; ObjectID = "130"; */
+"130.title" = "서비스";
+
+/* Class = "NSMenuItem"; title = "서비스"; ObjectID = "131"; */
+"131.title" = "서비스";
+
+/* Class = "NSMenuItem"; title = "무비스트 가리기"; ObjectID = "134"; */
+"134.title" = "무비스트 가리기";
+
+/* Class = "NSMenuItem"; title = "무비스트 종료"; ObjectID = "136"; */
+"136.title" = "무비스트 종료";
+
+/* Class = "NSMenuItem"; title = "기타 가리기"; ObjectID = "145"; */
+"145.title" = "기타 가리기";
+
+/* Class = "NSMenuItem"; title = "모두 보기"; ObjectID = "150"; */
+"150.title" = "모두 보기";
+
+/* Class = "NSMenuItem"; title = "오려두기"; ObjectID = "157"; */
+"157.title" = "오려두기";
+
+/* Class = "NSMenuItem"; title = "편집"; ObjectID = "163"; */
+"163.title" = "편집";
+
+/* Class = "NSMenu"; title = "편집"; ObjectID = "169"; */
+"169.title" = "편집";
+
+/* Class = "NSMenuItem"; title = "확대/축소"; ObjectID = "197"; */
+"197.title" = "확대/축소";
+
+/* Class = "NSMenuItem"; title = "동영상"; ObjectID = "218"; */
+"218.title" = "동영상";
+
+/* Class = "NSMenu"; title = "동영상"; ObjectID = "219"; */
+"219.title" = "동영상";
+
+/* Class = "NSMenuItem"; title = "실제 크기"; ObjectID = "220"; */
+"220.title" = "실제 크기";
+
+/* Class = "NSMenuItem"; title = "절반 크기"; ObjectID = "221"; */
+"221.title" = "절반 크기";
+
+/* Class = "NSMenuItem"; title = "두배 크기"; ObjectID = "222"; */
+"222.title" = "두배 크기";
+
+/* Class = "NSMenuItem"; title = "전체 화면"; ObjectID = "223"; */
+"223.title" = "전체 화면";
+
+/* Class = "NSMenuItem"; title = "화면에 맞추기"; ObjectID = "233"; */
+"233.title" = "화면에 맞추기";
+
+/* Class = "NSMenuItem"; title = "…으로 다시 열기"; ObjectID = "252"; */
+"252.title" = "…으로 다시 열기";
+
+/* Class = "NSWindow"; title = "무비스트"; ObjectID = "311"; */
+"311.title" = "무비스트";
+
+/* Class = "NSMenuItem"; title = "베껴두기 (레터박스 ...)"; ObjectID = "339"; */
+"339.title" = "베껴두기 (레터박스 ...)";
+
+/* Class = "NSMenuItem"; title = "전체 선택"; ObjectID = "341"; */
+"341.title" = "전체 선택";
+
+/* Class = "NSMenuItem"; title = "자막"; ObjectID = "350"; */
+"350.title" = "자막";
+
+/* Class = "NSMenu"; title = "자막"; ObjectID = "351"; */
+"351.title" = "자막";
+
+/* Class = "NSWindow"; title = "재생 패널"; ObjectID = "363"; */
+"363.title" = "재생 패널";
+
+/* Class = "NSButton"; ibShadowedToolTip = "소리 끔"; ObjectID = "399"; */
+"399.ibShadowedToolTip" = "소리 끔";
+
+/* Class = "NSButton"; ibShadowedToolTip = "재생 목록"; ObjectID = "402"; */
+"402.ibShadowedToolTip" = "재생 목록";
+
+/* Class = "NSMenuItem"; title = "영상 비율"; ObjectID = "438"; */
+"438.title" = "영상 비율";
+
+/* Class = "NSMenu"; title = "영상 비율"; ObjectID = "439"; */
+"439.title" = "영상 비율";
+
+/* Class = "NSMenuItem"; title = "기본 (DAR)"; ObjectID = "440"; */
+"440.title" = "기본 (DAR)";
+
+/* Class = "NSMenuItem"; title = "4 : 3 (TV)"; ObjectID = "441"; */
+"441.title" = "4 : 3 (TV)";
+
+/* Class = "NSMenuItem"; title = "16 : 9 (HDTV)"; ObjectID = "442"; */
+"442.title" = "16 : 9 (HDTV)";
+
+/* Class = "NSMenuItem"; title = "1.85 : 1 (영화)"; ObjectID = "443"; */
+"443.title" = "1.85 : 1 (영화)";
+
+/* Class = "NSMenuItem"; title = "2.35 : 1 (영화)"; ObjectID = "444"; */
+"444.title" = "2.35 : 1 (영화)";
+
+/* Class = "NSWindow"; title = "제어기"; ObjectID = "451"; */
+"451.title" = "제어기";
+
+/* Class = "NSMenuItem"; title = "재생목록"; ObjectID = "470"; */
+"470.title" = "재생목록";
+
+/* Class = "NSMenuItem"; title = "제어기"; ObjectID = "472"; */
+"472.title" = "제어기";
+
+/* Class = "NSButton"; ibShadowedToolTip = "제어기"; ObjectID = "536"; */
+"536.ibShadowedToolTip" = "제어기";
+
+/* Class = "NSMenuItem"; title = "조정"; ObjectID = "605"; */
+"605.title" = "조정";
+
+/* Class = "NSMenu"; title = "조정"; ObjectID = "606"; */
+"606.title" = "조정";
+
+/* Class = "NSMenuItem"; title = "재생"; ObjectID = "607"; */
+"607.title" = "재생";
+
+/* Class = "NSMenuItem"; title = "10초 뒤로"; ObjectID = "609"; */
+"609.title" = "10초 뒤로";
+
+/* Class = "NSMenuItem"; title = "끝으로"; ObjectID = "610"; */
+"610.title" = "끝으로";
+
+/* Class = "NSMenuItem"; title = "이전 동영상"; ObjectID = "612"; */
+"612.title" = "이전 동영상";
+
+/* Class = "NSMenuItem"; title = "다음 동영상"; ObjectID = "613"; */
+"613.title" = "다음 동영상";
+
+/* Class = "NSMenuItem"; title = "반복 끔"; ObjectID = "617"; */
+"617.title" = "반복 끔";
+
+/* Class = "NSMenuItem"; title = "전체 반복"; ObjectID = "618"; */
+"618.title" = "전체 반복";
+
+/* Class = "NSMenuItem"; title = "하나만 반복"; ObjectID = "619"; */
+"619.title" = "하나만 반복";
+
+/* Class = "NSMenuItem"; title = "음량 크게"; ObjectID = "621"; */
+"621.title" = "음량 크게";
+
+/* Class = "NSMenuItem"; title = "음량 작게"; ObjectID = "622"; */
+"622.title" = "음량 작게";
+
+/* Class = "NSMenuItem"; title = "소리 끔"; ObjectID = "623"; */
+"623.title" = "소리 끔";
+
+/* Class = "NSMenuItem"; title = "다음 프레임"; ObjectID = "651"; */
+"651.title" = "다음 프레임";
+
+/* Class = "NSMenuItem"; title = "처음으로"; ObjectID = "652"; */
+"652.title" = "처음으로";
+
+/* Class = "NSMenuItem"; title = "이전 프레임"; ObjectID = "653"; */
+"653.title" = "이전 프레임";
+
+/* Class = "NSMenuItem"; title = "10초 앞으로"; ObjectID = "654"; */
+"654.title" = "10초 앞으로";
+
+/* Class = "NSMenuItem"; title = "레터박스: 위, 아래 같게"; ObjectID = "665"; */
+"665.title" = "레터박스: 위, 아래 같게";
+
+/* Class = "NSMenuItem"; title = "0.5초 늦게 표시"; ObjectID = "666"; */
+"666.title" = "0.5초 늦게 표시";
+
+/* Class = "NSMenuItem"; title = "0.5초 일찍 표시"; ObjectID = "667"; */
+"667.title" = "0.5초 일찍 표시";
+
+/* Class = "NSMenuItem"; title = "레터박스 기본 높이"; ObjectID = "673"; */
+"673.title" = "레터박스 기본 높이";
+
+/* Class = "NSMenuItem"; title = "동기 조절 안함"; ObjectID = "674"; */
+"674.title" = "동기 조절 안함";
+
+/* Class = "NSMenuItem"; title = "60초 뒤로"; ObjectID = "794"; */
+"794.title" = "60초 뒤로";
+
+/* Class = "NSMenuItem"; title = "60초 앞으로"; ObjectID = "795"; */
+"795.title" = "60초 앞으로";
+
+/* Class = "NSMenuItem"; title = "300초 뒤로"; ObjectID = "796"; */
+"796.title" = "300초 뒤로";
+
+/* Class = "NSMenuItem"; title = "300초 앞으로"; ObjectID = "797"; */
+"797.title" = "300초 앞으로";
+
+/* Class = "NSMenuItem"; title = "구간 반복 시작"; ObjectID = "1139"; */
+"1139.title" = "구간 반복 시작";
+
+/* Class = "NSMenuItem"; title = "구간 반복 끝"; ObjectID = "1140"; */
+"1140.title" = "구간 반복 끝";
+
+/* Class = "NSMenuItem"; title = "구간 반복 해제"; ObjectID = "1141"; */
+"1141.title" = "구간 반복 해제";
+
+/* Class = "NSMenuItem"; title = "서체 크게"; ObjectID = "1151"; */
+"1151.title" = "서체 크게";
+
+/* Class = "NSMenuItem"; title = "서체 작게"; ObjectID = "1152"; */
+"1152.title" = "서체 작게";
+
+/* Class = "NSMenuItem"; title = "서체 기본 크기"; ObjectID = "1153"; */
+"1153.title" = "서체 기본 크기";
+
+/* Class = "NSMenuItem"; title = "상/하 여백 크게"; ObjectID = "1158"; */
+"1158.title" = "상/하 여백 크게";
+
+/* Class = "NSMenuItem"; title = "상/하 여백 작게"; ObjectID = "1159"; */
+"1159.title" = "상/하 여백 작게";
+
+/* Class = "NSMenuItem"; title = "상/하 여백 기본"; ObjectID = "1160"; */
+"1160.title" = "상/하 여백 기본";
+
+/* Class = "NSMenuItem"; title = "윈도우 닫기"; ObjectID = "1180"; */
+"1180.title" = "윈도우 닫기";
+
+/* Class = "NSMenuItem"; title = "이전 자막 위치로"; ObjectID = "1189"; */
+"1189.title" = "이전 자막 위치로";
+
+/* Class = "NSMenuItem"; title = "다음 자막 위치로"; ObjectID = "1190"; */
+"1190.title" = "다음 자막 위치로";
+
+/* Class = "NSMenuItem"; title = "재생 속도 느리게"; ObjectID = "1197"; */
+"1197.title" = "재생 속도 느리게";
+
+/* Class = "NSMenuItem"; title = "재생 속도 빠르게"; ObjectID = "1199"; */
+"1199.title" = "재생 속도 빠르게";
+
+/* Class = "NSMenuItem"; title = "재생 속도 기본"; ObjectID = "1200"; */
+"1200.title" = "재생 속도 기본";
+
+/* Class = "NSMenuItem"; title = "사운드 트랙 없음"; ObjectID = "1223"; */
+"1223.title" = "사운드 트랙 없음";
+
+/* Class = "NSMenuItem"; title = "환경설정…"; ObjectID = "1232"; */
+"1232.title" = "환경설정…";
+
+/* Class = "NSMenuItem"; title = "전체 화면 채우기"; ObjectID = "1271"; */
+"1271.title" = "전체 화면 채우기";
+
+/* Class = "NSMenu"; title = "전체 화면 채우기"; ObjectID = "1272"; */
+"1272.title" = "전체 화면 채우기";
+
+/* Class = "NSMenuItem"; title = "기본"; ObjectID = "1273"; */
+"1273.title" = "기본";
+
+/* Class = "NSMenuItem"; title = "늘이기"; ObjectID = "1274"; */
+"1274.title" = "늘이기";
+
+/* Class = "NSMenuItem"; title = "잘라내기"; ObjectID = "1275"; */
+"1275.title" = "잘라내기";
+
+/* Class = "NSMenuItem"; title = "언더스캔"; ObjectID = "1276"; */
+"1276.title" = "언더스캔";
+
+/* Class = "NSMenuItem"; title = "순환"; ObjectID = "1277"; */
+"1277.title" = "순환";
+
+/* Class = "NSMenuItem"; title = "전체 화면 탐색"; ObjectID = "1285"; */
+"1285.title" = "전체 화면 탐색";
+
+/* Class = "NSMenuItem"; title = "붙이기"; ObjectID = "1290"; */
+"1290.title" = "붙이기";
+
+/* Class = "NSMenuItem"; title = "현재 화면 저장"; ObjectID = "1294"; */
+"1294.title" = "현재 화면 저장";
+
+/* Class = "NSMenuItem"; title = "현재 화면 저장 (레터박스 ...)"; ObjectID = "1295"; */
+"1295.title" = "현재 화면 저장 (레터박스 ...)";
+
+/* Class = "NSMenuItem"; title = "레터박스: 자막 1줄 높이"; ObjectID = "1306"; */
+"1306.title" = "레터박스: 자막 1줄 높이";
+
+/* Class = "NSMenuItem"; title = "레터박스: 자막 2줄 높이"; ObjectID = "1307"; */
+"1307.title" = "레터박스: 자막 2줄 높이";
+
+/* Class = "NSMenuItem"; title = "레터박스: 자막 3줄 높이"; ObjectID = "1308"; */
+"1308.title" = "레터박스: 자막 3줄 높이";
+
+/* Class = "NSButton"; ibShadowedToolTip = "이전 동영상"; ObjectID = "1327"; */
+"1327.ibShadowedToolTip" = "이전 동영상";
+
+/* Class = "NSButton"; ibShadowedToolTip = "다음 동영상"; ObjectID = "1329"; */
+"1329.ibShadowedToolTip" = "다음 동영상";
+
+/* Class = "NSTabViewItem"; label = "A/V 제어"; ObjectID = "1340"; */
+"1340.label" = "A/V 제어";
+
+/* Class = "NSTabViewItem"; label = "속성"; ObjectID = "1342"; */
+"1342.label" = "속성";
+
+/* Class = "NSBox"; title = "영상"; ObjectID = "1344"; */
+"1344.title" = "영상";
+
+/* Class = "NSBox"; title = "소리"; ObjectID = "1358"; */
+"1358.title" = "소리";
+
+/* Class = "NSBox"; title = "자막"; ObjectID = "1360"; */
+"1360.title" = "자막";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "1375"; */
+"1375.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "자막 2줄 높이"; ObjectID = "1376"; */
+"1376.title" = "자막 2줄 높이";
+
+/* Class = "NSMenuItem"; title = "위, 아래 같게"; ObjectID = "1378"; */
+"1378.title" = "위, 아래 같게";
+
+/* Class = "NSMenuItem"; title = "자막 1줄 높이"; ObjectID = "1379"; */
+"1379.title" = "자막 1줄 높이";
+
+/* Class = "NSMenuItem"; title = "자막 3줄 높이"; ObjectID = "1380"; */
+"1380.title" = "자막 3줄 높이";
+
+/* Class = "NSBox"; title = "재생"; ObjectID = "1384"; */
+"1384.title" = "재생";
+
+/* Class = "NSTableColumn"; headerCell.title = "이름"; ObjectID = "1426"; */
+"1426.headerCell.title" = "이름";
+
+/* Class = "NSTableColumn"; headerCell.title = "포맷"; ObjectID = "1430"; */
+"1430.headerCell.title" = "포맷";
+
+/* Class = "NSTableColumn"; headerCell.title = "코덱"; ObjectID = "1438"; */
+"1438.headerCell.title" = "코덱";
+
+/* Class = "NSButton"; ibShadowedToolTip = "뒤로"; ObjectID = "1527"; */
+"1527.ibShadowedToolTip" = "뒤로";
+
+/* Class = "NSButton"; ibShadowedToolTip = "앞으로"; ObjectID = "1529"; */
+"1529.ibShadowedToolTip" = "앞으로";
+
+/* Class = "NSBox"; title = "Title"; ObjectID = "1539"; */
+"1539.title" = "Title";
+
+/* Class = "NSBox"; title = "Title"; ObjectID = "1547"; */
+"1547.title" = "Title";
+
+/* Class = "NSMenuItem"; title = "원본 (SAR)"; ObjectID = "1565"; */
+"1565.title" = "원본 (SAR)";
+
+/* Class = "NSMenuItem"; title = "시스템 음량 크게"; ObjectID = "1660"; */
+"1660.title" = "시스템 음량 크게";
+
+/* Class = "NSMenuItem"; title = "시스템 음량 작게"; ObjectID = "1661"; */
+"1661.title" = "시스템 음량 작게";
+
+/* Class = "NSMenuItem"; title = "데스크탑 배경"; ObjectID = "1766"; */
+"1766.title" = "데스크탑 배경";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "1886"; */
+"1886.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "영상 아래쪽"; ObjectID = "1887"; */
+"1887.title" = "영상 아래쪽";
+
+/* Class = "NSMenuItem"; title = "영상 위쪽"; ObjectID = "1888"; */
+"1888.title" = "영상 위쪽";
+
+/* Class = "NSMenuItem"; title = "위쪽 레터박스"; ObjectID = "1889"; */
+"1889.title" = "위쪽 레터박스";
+
+/* Class = "NSMenuItem"; title = "영상 가운데"; ObjectID = "1890"; */
+"1890.title" = "영상 가운데";
+
+/* Class = "NSMenuItem"; title = "아래쪽 레터박스"; ObjectID = "1893"; */
+"1893.title" = "아래쪽 레터박스";
+
+/* Class = "NSMenuItem"; title = "1:"; ObjectID = "2131"; */
+"2131.title" = "1:";
+
+/* Class = "NSMenu"; title = "1:"; ObjectID = "2132"; */
+"2132.title" = "1:";
+
+/* Class = "NSMenuItem"; title = "0.5초 늦게 표시"; ObjectID = "2136"; */
+"2136.title" = "0.5초 늦게 표시";
+
+/* Class = "NSMenuItem"; title = "0.5초 일찍 표시"; ObjectID = "2137"; */
+"2137.title" = "0.5초 일찍 표시";
+
+/* Class = "NSMenuItem"; title = "동기 조절 안함"; ObjectID = "2138"; */
+"2138.title" = "동기 조절 안함";
+
+/* Class = "NSMenuItem"; title = "서체 크게"; ObjectID = "2140"; */
+"2140.title" = "서체 크게";
+
+/* Class = "NSMenuItem"; title = "서체 작게"; ObjectID = "2141"; */
+"2141.title" = "서체 작게";
+
+/* Class = "NSMenuItem"; title = "서체 기본 크기"; ObjectID = "2142"; */
+"2142.title" = "서체 기본 크기";
+
+/* Class = "NSMenuItem"; title = "상/하 여백 크게"; ObjectID = "2143"; */
+"2143.title" = "상/하 여백 크게";
+
+/* Class = "NSMenuItem"; title = "상/하 여백 작게"; ObjectID = "2144"; */
+"2144.title" = "상/하 여백 작게";
+
+/* Class = "NSMenuItem"; title = "상/하 여백 기본"; ObjectID = "2145"; */
+"2145.title" = "상/하 여백 기본";
+
+/* Class = "NSMenuItem"; title = "위쪽 레터박스에 표시"; ObjectID = "2146"; */
+"2146.title" = "위쪽 레터박스에 표시";
+
+/* Class = "NSMenuItem"; title = "영상 위쪽에 표시"; ObjectID = "2147"; */
+"2147.title" = "영상 위쪽에 표시";
+
+/* Class = "NSMenuItem"; title = "영상 가운데에 표시"; ObjectID = "2148"; */
+"2148.title" = "영상 가운데에 표시";
+
+/* Class = "NSMenuItem"; title = "영상 아래쪽에 표시"; ObjectID = "2149"; */
+"2149.title" = "영상 아래쪽에 표시";
+
+/* Class = "NSMenuItem"; title = "아래쪽 레터박스에 표시"; ObjectID = "2150"; */
+"2150.title" = "아래쪽 레터박스에 표시";
+
+/* Class = "NSMenuItem"; title = "기본 위치에 표시"; ObjectID = "2151"; */
+"2151.title" = "기본 위치에 표시";
+
+/* Class = "NSMenuItem"; title = "다음 인코딩으로 다시 열기"; ObjectID = "2154"; */
+"2154.title" = "다음 인코딩으로 다시 열기";
+
+/* Class = "NSMenu"; title = "다음 인코딩으로 다시 열기"; ObjectID = "2155"; */
+"2155.title" = "다음 인코딩으로 다시 열기";
+
+/* Class = "NSMenuItem"; title = "Item"; ObjectID = "2156"; */
+"2156.title" = "Item";
+
+/* Class = "NSMenuItem"; title = "자막 파일 열기…"; ObjectID = "2158"; */
+"2158.title" = "자막 파일 열기…";
+
+/* Class = "NSMenuItem"; title = "2:"; ObjectID = "2160"; */
+"2160.title" = "2:";
+
+/* Class = "NSMenu"; title = "2:"; ObjectID = "2161"; */
+"2161.title" = "2:";
+
+/* Class = "NSMenuItem"; title = "다음 인코딩으로 다시 열기"; ObjectID = "2163"; */
+"2163.title" = "다음 인코딩으로 다시 열기";
+
+/* Class = "NSMenuItem"; title = "기본 위치에 표시"; ObjectID = "2166"; */
+"2166.title" = "기본 위치에 표시";
+
+/* Class = "NSMenuItem"; title = "아래쪽 레터박스에 표시"; ObjectID = "2167"; */
+"2167.title" = "아래쪽 레터박스에 표시";
+
+/* Class = "NSMenuItem"; title = "영상 아래쪽에 표시"; ObjectID = "2168"; */
+"2168.title" = "영상 아래쪽에 표시";
+
+/* Class = "NSMenuItem"; title = "영상 가운데에 표시"; ObjectID = "2169"; */
+"2169.title" = "영상 가운데에 표시";
+
+/* Class = "NSMenuItem"; title = "영상 위쪽에 표시"; ObjectID = "2170"; */
+"2170.title" = "영상 위쪽에 표시";
+
+/* Class = "NSMenuItem"; title = "위쪽 레터박스에 표시"; ObjectID = "2171"; */
+"2171.title" = "위쪽 레터박스에 표시";
+
+/* Class = "NSMenuItem"; title = "상/하 여백 기본"; ObjectID = "2172"; */
+"2172.title" = "상/하 여백 기본";
+
+/* Class = "NSMenuItem"; title = "상/하 여백 작게"; ObjectID = "2173"; */
+"2173.title" = "상/하 여백 작게";
+
+/* Class = "NSMenuItem"; title = "상/하 여백 크게"; ObjectID = "2174"; */
+"2174.title" = "상/하 여백 크게";
+
+/* Class = "NSMenuItem"; title = "서체 기본 크기"; ObjectID = "2175"; */
+"2175.title" = "서체 기본 크기";
+
+/* Class = "NSMenuItem"; title = "서체 작게"; ObjectID = "2176"; */
+"2176.title" = "서체 작게";
+
+/* Class = "NSMenuItem"; title = "서체 크게"; ObjectID = "2177"; */
+"2177.title" = "서체 크게";
+
+/* Class = "NSMenuItem"; title = "동기 조절 안함"; ObjectID = "2179"; */
+"2179.title" = "동기 조절 안함";
+
+/* Class = "NSMenuItem"; title = "0.5초 일찍 표시"; ObjectID = "2180"; */
+"2180.title" = "0.5초 일찍 표시";
+
+/* Class = "NSMenuItem"; title = "0.5초 늦게 표시"; ObjectID = "2181"; */
+"2181.title" = "0.5초 늦게 표시";
+
+/* Class = "NSMenu"; title = "다음 인코딩으로 다시 열기"; ObjectID = "2184"; */
+"2184.title" = "다음 인코딩으로 다시 열기";
+
+/* Class = "NSMenuItem"; title = "Item"; ObjectID = "2185"; */
+"2185.title" = "Item";
+
+/* Class = "NSMenuItem"; title = "3:"; ObjectID = "2186"; */
+"2186.title" = "3:";
+
+/* Class = "NSMenu"; title = "3:"; ObjectID = "2187"; */
+"2187.title" = "3:";
+
+/* Class = "NSMenuItem"; title = "0.5초 늦게 표시"; ObjectID = "2190"; */
+"2190.title" = "0.5초 늦게 표시";
+
+/* Class = "NSMenuItem"; title = "0.5초 일찍 표시"; ObjectID = "2191"; */
+"2191.title" = "0.5초 일찍 표시";
+
+/* Class = "NSMenuItem"; title = "동기 조절 안함"; ObjectID = "2192"; */
+"2192.title" = "동기 조절 안함";
+
+/* Class = "NSMenuItem"; title = "서체 크게"; ObjectID = "2194"; */
+"2194.title" = "서체 크게";
+
+/* Class = "NSMenuItem"; title = "서체 작게"; ObjectID = "2195"; */
+"2195.title" = "서체 작게";
+
+/* Class = "NSMenuItem"; title = "서체 기본 크기"; ObjectID = "2196"; */
+"2196.title" = "서체 기본 크기";
+
+/* Class = "NSMenuItem"; title = "상/하 여백 크게"; ObjectID = "2197"; */
+"2197.title" = "상/하 여백 크게";
+
+/* Class = "NSMenuItem"; title = "상/하 여백 작게"; ObjectID = "2198"; */
+"2198.title" = "상/하 여백 작게";
+
+/* Class = "NSMenuItem"; title = "상/하 여백 기본"; ObjectID = "2199"; */
+"2199.title" = "상/하 여백 기본";
+
+/* Class = "NSMenuItem"; title = "위쪽 레터박스에 표시"; ObjectID = "2200"; */
+"2200.title" = "위쪽 레터박스에 표시";
+
+/* Class = "NSMenuItem"; title = "영상 위쪽에 표시"; ObjectID = "2201"; */
+"2201.title" = "영상 위쪽에 표시";
+
+/* Class = "NSMenuItem"; title = "영상 가운데에 표시"; ObjectID = "2202"; */
+"2202.title" = "영상 가운데에 표시";
+
+/* Class = "NSMenuItem"; title = "영상 아래쪽에 표시"; ObjectID = "2203"; */
+"2203.title" = "영상 아래쪽에 표시";
+
+/* Class = "NSMenuItem"; title = "아래쪽 레터박스에 표시"; ObjectID = "2204"; */
+"2204.title" = "아래쪽 레터박스에 표시";
+
+/* Class = "NSMenuItem"; title = "기본 위치에 표시"; ObjectID = "2205"; */
+"2205.title" = "기본 위치에 표시";
+
+/* Class = "NSMenuItem"; title = "다음 인코딩으로 다시 열기"; ObjectID = "2208"; */
+"2208.title" = "다음 인코딩으로 다시 열기";
+
+/* Class = "NSMenu"; title = "다음 인코딩으로 다시 열기"; ObjectID = "2210"; */
+"2210.title" = "다음 인코딩으로 다시 열기";
+
+/* Class = "NSMenuItem"; title = "Item"; ObjectID = "2211"; */
+"2211.title" = "Item";
+
+/* Class = "NSMenuItem"; title = "자막 가리기"; ObjectID = "2289"; */
+"2289.title" = "자막 가리기";
+
+/* Class = "NSMenuItem"; title = "자막 파일 추가…"; ObjectID = "2400"; */
+"2400.title" = "자막 파일 추가…";
+
+/* Class = "NSMenuItem"; title = "순서 변경"; ObjectID = "2699"; */
+"2699.title" = "순서 변경";
+
+/* Class = "NSMenuItem"; title = "다른 모든 윈도우 위에 유지"; ObjectID = "2800"; */
+"2800.title" = "다른 모든 윈도우 위에 유지";
+
+/* Class = "NSMenuItem"; title = "베껴두기"; ObjectID = "2905"; */
+"2905.title" = "베껴두기";
+
+/* Class = "NSMenuItem"; title = "위치 순환"; ObjectID = "3011"; */
+"3011.title" = "위치 순환";
+
+/* Class = "NSTextFieldCell"; title = "--:--:--"; ObjectID = "3021"; */
+"3021.title" = "--:--:--";
+
+/* Class = "NSTextFieldCell"; title = "--:--:--"; ObjectID = "3022"; */
+"3022.title" = "--:--:--";
+
+/* Class = "NSTextFieldCell"; title = "00:00:00"; ObjectID = "3030"; */
+"3030.title" = "00:00:00";
+
+/* Class = "NSTextFieldCell"; title = "재생 패널"; ObjectID = "3031"; */
+"3031.title" = "재생 패널";
+
+/* Class = "NSTextFieldCell"; title = "00:00:00"; ObjectID = "3033"; */
+"3033.title" = "00:00:00";
+
+/* Class = "NSTextFieldCell"; title = "색조:"; ObjectID = "3041"; */
+"3041.title" = "색조:";
+
+/* Class = "NSTextFieldCell"; title = "대비:"; ObjectID = "3043"; */
+"3043.title" = "대비:";
+
+/* Class = "NSTextFieldCell"; title = "밝기:"; ObjectID = "3045"; */
+"3045.title" = "밝기:";
+
+/* Class = "NSTextFieldCell"; title = "색상:"; ObjectID = "3048"; */
+"3048.title" = "색상:";
+
+/* Class = "NSTextFieldCell"; title = "출력 장치:"; ObjectID = "3052"; */
+"3052.title" = "출력 장치:";
+
+/* Class = "NSTextFieldCell"; title = "..."; ObjectID = "3053"; */
+"3053.title" = "...";
+
+/* Class = "NSTextFieldCell"; title = "현재 출력:"; ObjectID = "3054"; */
+"3054.title" = "현재 출력:";
+
+/* Class = "NSTextFieldCell"; title = "..."; ObjectID = "3055"; */
+"3055.title" = "...";
+
+/* Class = "NSTextFieldCell"; title = "동기:"; ObjectID = "3056"; */
+"3056.title" = "동기:";
+
+/* Class = "NSTextFieldCell"; title = "서체 크기:"; ObjectID = "3057"; */
+"3057.title" = "서체 크기:";
+
+/* Class = "NSTextFieldCell"; title = "상/하 여백:"; ObjectID = "3058"; */
+"3058.title" = "상/하 여백:";
+
+/* Class = "NSTextFieldCell"; title = "레터박스 높이:"; ObjectID = "3059"; */
+"3059.title" = "레터박스 높이:";
+
+/* Class = "NSButtonCell"; title = "작게"; ObjectID = "3061"; */
+"3061.title" = "작게";
+
+/* Class = "NSButtonCell"; title = "크게"; ObjectID = "3062"; */
+"3062.title" = "크게";
+
+/* Class = "NSButtonCell"; title = "작게"; ObjectID = "3064"; */
+"3064.title" = "작게";
+
+/* Class = "NSButtonCell"; title = "크게"; ObjectID = "3065"; */
+"3065.title" = "크게";
+
+/* Class = "NSButtonCell"; title = "늦게"; ObjectID = "3069"; */
+"3069.title" = "늦게";
+
+/* Class = "NSButtonCell"; title = "일찍"; ObjectID = "3070"; */
+"3070.title" = "일찍";
+
+/* Class = "NSTextFieldCell"; title = "..."; ObjectID = "3071"; */
+"3071.title" = "...";
+
+/* Class = "NSTextFieldCell"; title = "위치:"; ObjectID = "3072"; */
+"3072.title" = "위치:";
+
+/* Class = "NSSegmentedCell"; 3075.ibShadowedLabels[0] = "*"; ObjectID = "3075"; */
+"3075.ibShadowedLabels[0]" = "*";
+
+/* Class = "NSSegmentedCell"; 3075.ibShadowedLabels[1] = "1"; ObjectID = "3075"; */
+"3075.ibShadowedLabels[1]" = "1";
+
+/* Class = "NSSegmentedCell"; 3075.ibShadowedLabels[2] = "2"; ObjectID = "3075"; */
+"3075.ibShadowedLabels[2]" = "2";
+
+/* Class = "NSSegmentedCell"; 3075.ibShadowedLabels[3] = "3"; ObjectID = "3075"; */
+"3075.ibShadowedLabels[3]" = "3";
+
+/* Class = "NSTextFieldCell"; title = "재생 속도:"; ObjectID = "3078"; */
+"3078.title" = "재생 속도:";
+
+/* Class = "NSTextFieldCell"; title = "½x"; ObjectID = "3079"; */
+"3079.title" = "½x";
+
+/* Class = "NSTextFieldCell"; title = "1x"; ObjectID = "3080"; */
+"3080.title" = "1x";
+
+/* Class = "NSTextFieldCell"; title = "2x"; ObjectID = "3081"; */
+"3081.title" = "2x";
+
+/* Class = "NSTextFieldCell"; title = "3x"; ObjectID = "3082"; */
+"3082.title" = "3x";
+
+/* Class = "NSTextFieldCell"; title = "구간 반복:"; ObjectID = "3083"; */
+"3083.title" = "구간 반복:";
+
+/* Class = "NSButtonCell"; title = "시작"; ObjectID = "3085"; */
+"3085.title" = "시작";
+
+/* Class = "NSButtonCell"; title = "끝"; ObjectID = "3086"; */
+"3086.title" = "끝";
+
+/* Class = "NSTextFieldCell"; title = "--:--:--"; ObjectID = "3087"; */
+"3087.title" = "--:--:--";
+
+/* Class = "NSTextFieldCell"; title = "--:--:--"; ObjectID = "3088"; */
+"3088.title" = "--:--:--";
+
+/* Class = "NSTextFieldCell"; title = "동영상 파일 이름"; ObjectID = "3089"; */
+"3089.title" = "동영상 파일 이름";
+
+/* Class = "NSTextFieldCell"; title = "동영상:"; ObjectID = "3091"; */
+"3091.title" = "동영상:";
+
+/* Class = "NSTextFieldCell"; title = "xx.xx / xx.xx"; ObjectID = "3092"; */
+"3092.title" = "xx.xx / xx.xx";
+
+/* Class = "NSTextFieldCell"; title = "FPS:"; ObjectID = "3093"; */
+"3093.title" = "FPS:";
+
+/* Class = "NSTextFieldCell"; title = "xxx.xx MB, xxxx.xx kbps"; ObjectID = "3094"; */
+"3094.title" = "xxx.xx MB, xxxx.xx kbps";
+
+/* Class = "NSTextFieldCell"; title = "데이터:"; ObjectID = "3095"; */
+"3095.title" = "데이터:";
+
+/* Class = "NSTextFieldCell"; title = "제어기"; ObjectID = "3096"; */
+"3096.title" = "제어기";
+
+/* Class = "NSSegmentedCell"; 3098.ibShadowedLabels[0] = "A/V 제어"; ObjectID = "3098"; */
+"3098.ibShadowedLabels[0]" = "A/V 제어";
+
+/* Class = "NSSegmentedCell"; 3098.ibShadowedLabels[1] = "속성"; ObjectID = "3098"; */
+"3098.ibShadowedLabels[1]" = "속성";

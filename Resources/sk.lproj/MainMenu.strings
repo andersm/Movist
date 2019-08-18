@@ -1,0 +1,777 @@
+
+/* Class = "NSMenuItem"; title = "Zobraziť všetky v popredí"; ObjectID = "5"; */
+"5.title" = "Zobraziť všetky v popredí";
+
+/* Class = "NSMenuItem"; title = "Okno"; ObjectID = "19"; */
+"19.title" = "Okno";
+
+/* Class = "NSMenuItem"; title = "Minimalizovať"; ObjectID = "23"; */
+"23.title" = "Minimalizovať";
+
+/* Class = "NSMenu"; title = "Okno"; ObjectID = "24"; */
+"24.title" = "Okno";
+
+/* Class = "NSMenu"; title = "MainMenu"; ObjectID = "29"; */
+"29.title" = "MainMenu";
+
+/* Class = "NSMenuItem"; title = "Movist"; ObjectID = "56"; */
+"56.title" = "Movist";
+
+/* Class = "NSMenu"; title = "Movist"; ObjectID = "57"; */
+"57.title" = "Movist";
+
+/* Class = "NSMenuItem"; title = "Čo je Movist"; ObjectID = "58"; */
+"58.title" = "Čo je Movist";
+
+/* Class = "NSMenuItem"; title = "Otvoriť filmový súbor…"; ObjectID = "72"; */
+"72.title" = "Otvoriť filmový súbor…";
+
+/* Class = "NSMenu"; title = "Súbor"; ObjectID = "81"; */
+"81.title" = "Súbor";
+
+/* Class = "NSMenuItem"; title = "Súbor"; ObjectID = "83"; */
+"83.title" = "Súbor";
+
+/* Class = "NSMenuItem"; title = "Pomocník"; ObjectID = "103"; */
+"103.title" = "Pomocník";
+
+/* Class = "NSMenu"; title = "Pomocník"; ObjectID = "106"; */
+"106.title" = "Pomocník";
+
+/* Class = "NSMenuItem"; title = "Pomocník pre Movist"; ObjectID = "111"; */
+"111.title" = "Pomocník pre Movist";
+
+/* Class = "NSMenuItem"; title = "Otvoriť nedávny"; ObjectID = "124"; */
+"124.title" = "Otvoriť nedávny";
+
+/* Class = "NSMenu"; title = "Otvoriť nedávny"; ObjectID = "125"; */
+"125.title" = "Otvoriť nedávny";
+
+/* Class = "NSMenuItem"; title = "메뉴 지우기"; ObjectID = "126"; */
+"126.title" = "메뉴 지우기";
+
+/* Class = "NSMenu"; title = "Služby"; ObjectID = "130"; */
+"130.title" = "Služby";
+
+/* Class = "NSMenuItem"; title = "Služby"; ObjectID = "131"; */
+"131.title" = "Služby";
+
+/* Class = "NSMenuItem"; title = "Skryť Movist"; ObjectID = "134"; */
+"134.title" = "Skryť Movist";
+
+/* Class = "NSMenuItem"; title = "Ukončiť Movist"; ObjectID = "136"; */
+"136.title" = "Ukončiť Movist";
+
+/* Class = "NSMenuItem"; title = "Skryť ostatné"; ObjectID = "145"; */
+"145.title" = "Skryť ostatné";
+
+/* Class = "NSMenuItem"; title = "Zobraziť všetky"; ObjectID = "150"; */
+"150.title" = "Zobraziť všetky";
+
+/* Class = "NSMenuItem"; title = "Vyňať"; ObjectID = "157"; */
+"157.title" = "Vyňať";
+
+/* Class = "NSMenuItem"; title = "Úpravy"; ObjectID = "163"; */
+"163.title" = "Úpravy";
+
+/* Class = "NSMenu"; title = "Úpravy"; ObjectID = "169"; */
+"169.title" = "Úpravy";
+
+/* Class = "NSMenuItem"; title = "Upraviť veľkosť"; ObjectID = "197"; */
+"197.title" = "Upraviť veľkosť";
+
+/* Class = "NSMenuItem"; title = "Film"; ObjectID = "218"; */
+"218.title" = "Film";
+
+/* Class = "NSMenu"; title = "Film"; ObjectID = "219"; */
+"219.title" = "Film";
+
+/* Class = "NSMenuItem"; title = "Normálna veľkosť"; ObjectID = "220"; */
+"220.title" = "Normálna veľkosť";
+
+/* Class = "NSMenuItem"; title = "Polovičná veľkosť"; ObjectID = "221"; */
+"221.title" = "Polovičná veľkosť";
+
+/* Class = "NSMenuItem"; title = "Dvojnásobná veľkosť"; ObjectID = "222"; */
+"222.title" = "Dvojnásobná veľkosť";
+
+/* Class = "NSMenuItem"; title = "Celoobrazovkový režim"; ObjectID = "223"; */
+"223.title" = "Celoobrazovkový režim";
+
+/* Class = "NSMenuItem"; title = "Veľkosť obrazovky"; ObjectID = "233"; */
+"233.title" = "Veľkosť obrazovky";
+
+/* Class = "NSMenuItem"; title = "Znovu otvoriť v…"; ObjectID = "252"; */
+"252.title" = "Znovu otvoriť v…";
+
+/* Class = "NSWindow"; title = "Movist"; ObjectID = "311"; */
+"311.title" = "Movist";
+
+/* Class = "NSMenuItem"; title = "Kopírovať (bez textového rámčeka)"; ObjectID = "339"; */
+"339.title" = "Kopírovať (bez textového rámčeka)";
+
+/* Class = "NSMenuItem"; title = "Vybrať všetko"; ObjectID = "341"; */
+"341.title" = "Vybrať všetko";
+
+/* Class = "NSMenuItem"; title = "Titulky"; ObjectID = "350"; */
+"350.title" = "Titulky";
+
+/* Class = "NSMenu"; title = "Titulky"; ObjectID = "351"; */
+"351.title" = "Titulky";
+
+/* Class = "NSWindow"; title = "Play Panel"; ObjectID = "363"; */
+"363.title" = "Play Panel";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Vypnúť zvuk"; ObjectID = "399"; */
+"399.ibShadowedToolTip" = "Vypnúť zvuk";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Zoznam filmov"; ObjectID = "402"; */
+"402.ibShadowedToolTip" = "Zoznam filmov";
+
+/* Class = "NSMenuItem"; title = "Pomer strán"; ObjectID = "438"; */
+"438.title" = "Pomer strán";
+
+/* Class = "NSMenu"; title = "Pomer strán"; ObjectID = "439"; */
+"439.title" = "Pomer strán";
+
+/* Class = "NSMenuItem"; title = "Predvolený (DAR)"; ObjectID = "440"; */
+"440.title" = "Predvolený (DAR)";
+
+/* Class = "NSMenuItem"; title = "4 : 3 (TV)"; ObjectID = "441"; */
+"441.title" = "4 : 3 (TV)";
+
+/* Class = "NSMenuItem"; title = "16 : 9 (HDTV)"; ObjectID = "442"; */
+"442.title" = "16 : 9 (HDTV)";
+
+/* Class = "NSMenuItem"; title = "1.85 : 1 (obrazovka)"; ObjectID = "443"; */
+"443.title" = "1.85 : 1 (obrazovka)";
+
+/* Class = "NSMenuItem"; title = "2.35 : 1 (obrazovka)"; ObjectID = "444"; */
+"444.title" = "2.35 : 1 (obrazovka)";
+
+/* Class = "NSWindow"; title = "Control Panel"; ObjectID = "451"; */
+"451.title" = "Control Panel";
+
+/* Class = "NSMenuItem"; title = "Zoznam filmov"; ObjectID = "470"; */
+"470.title" = "Zoznam filmov";
+
+/* Class = "NSMenuItem"; title = "Ovládací panel"; ObjectID = "472"; */
+"472.title" = "Ovládací panel";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Ovládač"; ObjectID = "536"; */
+"536.ibShadowedToolTip" = "Ovládač";
+
+/* Class = "NSMenuItem"; title = "Ovládače"; ObjectID = "605"; */
+"605.title" = "Ovládače";
+
+/* Class = "NSMenu"; title = "Ovládače"; ObjectID = "606"; */
+"606.title" = "Ovládače";
+
+/* Class = "NSMenuItem"; title = "Prehrávať"; ObjectID = "607"; */
+"607.title" = "Prehrávať";
+
+/* Class = "NSMenuItem"; title = "Dozadu 10 sekúnd"; ObjectID = "609"; */
+"609.title" = "Dozadu 10 sekúnd";
+
+/* Class = "NSMenuItem"; title = "Koniec"; ObjectID = "610"; */
+"610.title" = "Koniec";
+
+/* Class = "NSMenuItem"; title = "Predchádzajúci film"; ObjectID = "612"; */
+"612.title" = "Predchádzajúci film";
+
+/* Class = "NSMenuItem"; title = "Nasledujúci film"; ObjectID = "613"; */
+"613.title" = "Nasledujúci film";
+
+/* Class = "NSMenuItem"; title = "Vypnúť opakovanie"; ObjectID = "617"; */
+"617.title" = "Vypnúť opakovanie";
+
+/* Class = "NSMenuItem"; title = "Opakovať všetky"; ObjectID = "618"; */
+"618.title" = "Opakovať všetky";
+
+/* Class = "NSMenuItem"; title = "Opakovať jeden"; ObjectID = "619"; */
+"619.title" = "Opakovať jeden";
+
+/* Class = "NSMenuItem"; title = "Zvýšiť hlasitosť"; ObjectID = "621"; */
+"621.title" = "Zvýšiť hlasitosť";
+
+/* Class = "NSMenuItem"; title = "Znížiť hlasitosť"; ObjectID = "622"; */
+"622.title" = "Znížiť hlasitosť";
+
+/* Class = "NSMenuItem"; title = "Vypnúť zvuk"; ObjectID = "623"; */
+"623.title" = "Vypnúť zvuk";
+
+/* Class = "NSMenuItem"; title = "Nasledujúci snímok"; ObjectID = "651"; */
+"651.title" = "Nasledujúci snímok";
+
+/* Class = "NSMenuItem"; title = "Začiatok"; ObjectID = "652"; */
+"652.title" = "Začiatok";
+
+/* Class = "NSMenuItem"; title = "Predchádzajúci snímok"; ObjectID = "653"; */
+"653.title" = "Predchádzajúci snímok";
+
+/* Class = "NSMenuItem"; title = "Dopredu 10 sekúnd"; ObjectID = "654"; */
+"654.title" = "Dopredu 10 sekúnd";
+
+/* Class = "NSMenuItem"; title = "Výška textového rámika: rovnaká"; ObjectID = "665"; */
+"665.title" = "Výška textového rámika: rovnaká";
+
+/* Class = "NSMenuItem"; title = "Omeškať o 0,5 sekundy"; ObjectID = "666"; */
+"666.title" = "Omeškať o 0,5 sekundy";
+
+/* Class = "NSMenuItem"; title = "Predbehnúť o 0,5 sekundy"; ObjectID = "667"; */
+"667.title" = "Predbehnúť o 0,5 sekundy";
+
+/* Class = "NSMenuItem"; title = "Predvolená výška textového rámika"; ObjectID = "673"; */
+"673.title" = "Predvolená výška textového rámika";
+
+/* Class = "NSMenuItem"; title = "Predvolená synchronizácia"; ObjectID = "674"; */
+"674.title" = "Predvolená synchronizácia";
+
+/* Class = "NSMenuItem"; title = "Dozadu 60 sekúnd"; ObjectID = "794"; */
+"794.title" = "Dozadu 60 sekúnd";
+
+/* Class = "NSMenuItem"; title = "Dopredu 60 sekúnd"; ObjectID = "795"; */
+"795.title" = "Dopredu 60 sekúnd";
+
+/* Class = "NSMenuItem"; title = "Dozadu 300 sekúnd"; ObjectID = "796"; */
+"796.title" = "Dozadu 300 sekúnd";
+
+/* Class = "NSMenuItem"; title = "Dopredu 300 sekúnd"; ObjectID = "797"; */
+"797.title" = "Dopredu 300 sekúnd";
+
+/* Class = "NSMenuItem"; title = "Začiatok rozsahu opakovania"; ObjectID = "1139"; */
+"1139.title" = "Začiatok rozsahu opakovania";
+
+/* Class = "NSMenuItem"; title = "Koniec rozsahu opakovania"; ObjectID = "1140"; */
+"1140.title" = "Koniec rozsahu opakovania";
+
+/* Class = "NSMenuItem"; title = "Odstrániť rozsah opakovania"; ObjectID = "1141"; */
+"1141.title" = "Odstrániť rozsah opakovania";
+
+/* Class = "NSMenuItem"; title = "Zväčšiť písmo"; ObjectID = "1151"; */
+"1151.title" = "Zväčšiť písmo";
+
+/* Class = "NSMenuItem"; title = "Zmenšiť písmo"; ObjectID = "1152"; */
+"1152.title" = "Zmenšiť písmo";
+
+/* Class = "NSMenuItem"; title = "Predvolená veľkosť písma"; ObjectID = "1153"; */
+"1153.title" = "Predvolená veľkosť písma";
+
+/* Class = "NSMenuItem"; title = "Zväčšiť vertikálny okraj"; ObjectID = "1158"; */
+"1158.title" = "Zväčšiť vertikálny okraj";
+
+/* Class = "NSMenuItem"; title = "Zmenšiť vertikálny okraj"; ObjectID = "1159"; */
+"1159.title" = "Zmenšiť vertikálny okraj";
+
+/* Class = "NSMenuItem"; title = "Predvolený vertikálny okraj"; ObjectID = "1160"; */
+"1160.title" = "Predvolený vertikálny okraj";
+
+/* Class = "NSMenuItem"; title = "Zavrieť okno"; ObjectID = "1180"; */
+"1180.title" = "Zavrieť okno";
+
+/* Class = "NSMenuItem"; title = "Predchádzajúci titulok"; ObjectID = "1189"; */
+"1189.title" = "Predchádzajúci titulok";
+
+/* Class = "NSMenuItem"; title = "Nasledujúci titulok"; ObjectID = "1190"; */
+"1190.title" = "Nasledujúci titulok";
+
+/* Class = "NSMenuItem"; title = "Spomaliť prehrávanie"; ObjectID = "1197"; */
+"1197.title" = "Spomaliť prehrávanie";
+
+/* Class = "NSMenuItem"; title = "Zrýchliť prehrávanie"; ObjectID = "1199"; */
+"1199.title" = "Zrýchliť prehrávanie";
+
+/* Class = "NSMenuItem"; title = "Predvolená rýchlosť prehrávania"; ObjectID = "1200"; */
+"1200.title" = "Predvolená rýchlosť prehrávania";
+
+/* Class = "NSMenuItem"; title = "Skryť titulky"; ObjectID = "1219"; */
+"1219.title" = "Skryť titulky";
+
+/* Class = "NSMenuItem"; title = "Bez zvukovej stopy"; ObjectID = "1223"; */
+"1223.title" = "Bez zvukovej stopy";
+
+/* Class = "NSMenuItem"; title = "Predvoľby…"; ObjectID = "1232"; */
+"1232.title" = "Predvoľby…";
+
+/* Class = "NSMenuItem"; title = "Vyplnenie celej obrazovky"; ObjectID = "1271"; */
+"1271.title" = "Vyplnenie celej obrazovky";
+
+/* Class = "NSMenu"; title = "Vyplnenie celej obrazovky"; ObjectID = "1272"; */
+"1272.title" = "Vyplnenie celej obrazovky";
+
+/* Class = "NSMenuItem"; title = "Predvolené"; ObjectID = "1273"; */
+"1273.title" = "Predvolené";
+
+/* Class = "NSMenuItem"; title = "Roztiahnuť"; ObjectID = "1274"; */
+"1274.title" = "Roztiahnuť";
+
+/* Class = "NSMenuItem"; title = "Orezať"; ObjectID = "1275"; */
+"1275.title" = "Orezať";
+
+/* Class = "NSMenuItem"; title = "Under Scan"; ObjectID = "1276"; */
+"1276.title" = "Under Scan";
+
+/* Class = "NSMenuItem"; title = "Rotovať vyplnenie"; ObjectID = "1277"; */
+"1277.title" = "Rotovať vyplnenie";
+
+/* Class = "NSMenuItem"; title = "Celoobrazovková navigácia"; ObjectID = "1285"; */
+"1285.title" = "Celoobrazovková navigácia";
+
+/* Class = "NSMenuItem"; title = "Vložiť"; ObjectID = "1290"; */
+"1290.title" = "Vložiť";
+
+/* Class = "NSMenuItem"; title = "Uložiť platný obraz"; ObjectID = "1294"; */
+"1294.title" = "Uložiť platný obraz";
+
+/* Class = "NSMenuItem"; title = "Uložiť platný obraz (bez textového rámčeka)"; ObjectID = "1295"; */
+"1295.title" = "Uložiť platný obraz (bez textového rámčeka)";
+
+/* Class = "NSMenuItem"; title = "Výška textového rámika: 1 riadok"; ObjectID = "1306"; */
+"1306.title" = "Výška textového rámika: 1 riadok";
+
+/* Class = "NSMenuItem"; title = "Výška textového rámika: 2 riadky"; ObjectID = "1307"; */
+"1307.title" = "Výška textového rámika: 2 riadky";
+
+/* Class = "NSMenuItem"; title = "Výška textového rámika: 3 riadky"; ObjectID = "1308"; */
+"1308.title" = "Výška textového rámika: 3 riadky";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Predchádzajúci film"; ObjectID = "1327"; */
+"1327.ibShadowedToolTip" = "Predchádzajúci film";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Nasledujúci film"; ObjectID = "1329"; */
+"1329.ibShadowedToolTip" = "Nasledujúci film";
+
+/* Class = "NSTabViewItem"; label = "A/V Control"; ObjectID = "1340"; */
+"1340.label" = "A/V Control";
+
+/* Class = "NSTabViewItem"; label = "Properties"; ObjectID = "1342"; */
+"1342.label" = "Properties";
+
+/* Class = "NSBox"; title = "Obraz"; ObjectID = "1344"; */
+"1344.title" = "Obraz";
+
+/* Class = "NSBox"; title = "Zvuk"; ObjectID = "1358"; */
+"1358.title" = "Zvuk";
+
+/* Class = "NSBox"; title = "Titulky"; ObjectID = "1360"; */
+"1360.title" = "Titulky";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "1375"; */
+"1375.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Výška: 2 riadky"; ObjectID = "1376"; */
+"1376.title" = "Výška: 2 riadky";
+
+/* Class = "NSMenuItem"; title = "Rovnaká výška"; ObjectID = "1378"; */
+"1378.title" = "Rovnaká výška";
+
+/* Class = "NSMenuItem"; title = "Výška: 1 riadok"; ObjectID = "1379"; */
+"1379.title" = "Výška: 1 riadok";
+
+/* Class = "NSMenuItem"; title = "Výška: 3 riadky"; ObjectID = "1380"; */
+"1380.title" = "Výška: 3 riadky";
+
+/* Class = "NSBox"; title = "Prehrávanie"; ObjectID = "1384"; */
+"1384.title" = "Prehrávanie";
+
+/* Class = "NSTableColumn"; headerCell.title = "Názov"; ObjectID = "1426"; */
+"1426.headerCell.title" = "Názov";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "1427"; */
+"1427.title" = "Text Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "Formát"; ObjectID = "1430"; */
+"1430.headerCell.title" = "Formát";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "1431"; */
+"1431.title" = "Text Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "Kodek"; ObjectID = "1438"; */
+"1438.headerCell.title" = "Kodek";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "1495"; */
+"1495.title" = "Text Cell";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Dozadu"; ObjectID = "1527"; */
+"1527.ibShadowedToolTip" = "Dozadu";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Dopredu"; ObjectID = "1529"; */
+"1529.ibShadowedToolTip" = "Dopredu";
+
+/* Class = "NSBox"; title = "Title"; ObjectID = "1539"; */
+"1539.title" = "Title";
+
+/* Class = "NSBox"; title = "Title"; ObjectID = "1547"; */
+"1547.title" = "Title";
+
+/* Class = "NSMenuItem"; title = "Zdroj (SAR)"; ObjectID = "1565"; */
+"1565.title" = "Zdroj (SAR)";
+
+/* Class = "NSMenuItem"; title = "Zvýšiť systémvú hlasitosť"; ObjectID = "1660"; */
+"1660.title" = "Zvýšiť systémvú hlasitosť";
+
+/* Class = "NSMenuItem"; title = "Znižiť systémovú hlasitosť"; ObjectID = "1661"; */
+"1661.title" = "Znižiť systémovú hlasitosť";
+
+/* Class = "NSMenuItem"; title = "Pozadie plochy"; ObjectID = "1766"; */
+"1766.title" = "Pozadie plochy";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "1885"; */
+"1885.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Spodok filmu"; ObjectID = "1886"; */
+"1886.title" = "Spodok filmu";
+
+/* Class = "NSMenuItem"; title = "Vrch filmu"; ObjectID = "1887"; */
+"1887.title" = "Vrch filmu";
+
+/* Class = "NSMenuItem"; title = "Vrchný textový rámik"; ObjectID = "1888"; */
+"1888.title" = "Vrchný textový rámik";
+
+/* Class = "NSMenuItem"; title = "Stred filmu"; ObjectID = "1889"; */
+"1889.title" = "Stred filmu";
+
+/* Class = "NSMenuItem"; title = "Spodný textový rámik"; ObjectID = "1892"; */
+"1892.title" = "Spodný textový rámik";
+
+/* Class = "NSMenuItem"; title = "Otvoriť súbor titulkov…"; ObjectID = "2131"; */
+"2131.title" = "Otvoriť súbor titulkov…";
+
+/* Class = "NSMenuItem"; title = "1:"; ObjectID = "2133"; */
+"2133.title" = "1:";
+
+/* Class = "NSMenu"; title = "1:"; ObjectID = "2134"; */
+"2134.title" = "1:";
+
+/* Class = "NSMenuItem"; title = "Predvolená synchronizácia"; ObjectID = "2135"; */
+"2135.title" = "Predvolená synchronizácia";
+
+/* Class = "NSMenuItem"; title = "Predbehnúť o 0,5 sekundy"; ObjectID = "2136"; */
+"2136.title" = "Predbehnúť o 0,5 sekundy";
+
+/* Class = "NSMenuItem"; title = "Omeškať o 0,5 sekundy"; ObjectID = "2137"; */
+"2137.title" = "Omeškať o 0,5 sekundy";
+
+/* Class = "NSMenuItem"; title = "Znovu načítať so znakovou sadou"; ObjectID = "2140"; */
+"2140.title" = "Znovu načítať so znakovou sadou";
+
+/* Class = "NSMenuItem"; title = "Predvolené umiestnenie"; ObjectID = "2143"; */
+"2143.title" = "Predvolené umiestnenie";
+
+/* Class = "NSMenuItem"; title = "Umiestnenie: spodný textový rámik"; ObjectID = "2144"; */
+"2144.title" = "Umiestnenie: spodný textový rámik";
+
+/* Class = "NSMenuItem"; title = "Umiestnenie: spodok filmu"; ObjectID = "2145"; */
+"2145.title" = "Umiestnenie: spodok filmu";
+
+/* Class = "NSMenuItem"; title = "Umiestnenie: stred filmu"; ObjectID = "2146"; */
+"2146.title" = "Umiestnenie: stred filmu";
+
+/* Class = "NSMenuItem"; title = "Umiestnenie: vrch filmu"; ObjectID = "2147"; */
+"2147.title" = "Umiestnenie: vrch filmu";
+
+/* Class = "NSMenuItem"; title = "Umiestnenie: vrchný textový rámik"; ObjectID = "2148"; */
+"2148.title" = "Umiestnenie: vrchný textový rámik";
+
+/* Class = "NSMenuItem"; title = "Predvolený vertikálny okraj"; ObjectID = "2149"; */
+"2149.title" = "Predvolený vertikálny okraj";
+
+/* Class = "NSMenuItem"; title = "Zmenšiť vertikálny okraj"; ObjectID = "2150"; */
+"2150.title" = "Zmenšiť vertikálny okraj";
+
+/* Class = "NSMenuItem"; title = "Zväčšiť vertikálny okraj"; ObjectID = "2151"; */
+"2151.title" = "Zväčšiť vertikálny okraj";
+
+/* Class = "NSMenuItem"; title = "Predvolená veľkosť písma"; ObjectID = "2152"; */
+"2152.title" = "Predvolená veľkosť písma";
+
+/* Class = "NSMenuItem"; title = "Zmenšiť písmo"; ObjectID = "2153"; */
+"2153.title" = "Zmenšiť písmo";
+
+/* Class = "NSMenuItem"; title = "Zväčšiť písmo"; ObjectID = "2154"; */
+"2154.title" = "Zväčšiť písmo";
+
+/* Class = "NSMenu"; title = "Znovu načítať so znakovou sadou"; ObjectID = "2155"; */
+"2155.title" = "Znovu načítať so znakovou sadou";
+
+/* Class = "NSMenuItem"; title = "Item"; ObjectID = "2156"; */
+"2156.title" = "Item";
+
+/* Class = "NSMenuItem"; title = "2:"; ObjectID = "2158"; */
+"2158.title" = "2:";
+
+/* Class = "NSMenu"; title = "2:"; ObjectID = "2159"; */
+"2159.title" = "2:";
+
+/* Class = "NSMenuItem"; title = "Zväčšiť písmo"; ObjectID = "2160"; */
+"2160.title" = "Zväčšiť písmo";
+
+/* Class = "NSMenuItem"; title = "Zmenšiť písmo"; ObjectID = "2161"; */
+"2161.title" = "Zmenšiť písmo";
+
+/* Class = "NSMenuItem"; title = "Predvolená veľkosť písma"; ObjectID = "2162"; */
+"2162.title" = "Predvolená veľkosť písma";
+
+/* Class = "NSMenuItem"; title = "Zväčšiť vertikálny okraj"; ObjectID = "2163"; */
+"2163.title" = "Zväčšiť vertikálny okraj";
+
+/* Class = "NSMenuItem"; title = "Zmenšiť vertikálny okraj"; ObjectID = "2164"; */
+"2164.title" = "Zmenšiť vertikálny okraj";
+
+/* Class = "NSMenuItem"; title = "Predvolený vertikálny okraj"; ObjectID = "2165"; */
+"2165.title" = "Predvolený vertikálny okraj";
+
+/* Class = "NSMenuItem"; title = "Umiestnenie: vrchný textový rámik"; ObjectID = "2166"; */
+"2166.title" = "Umiestnenie: vrchný textový rámik";
+
+/* Class = "NSMenuItem"; title = "Umiestnenie: vrch filmu"; ObjectID = "2167"; */
+"2167.title" = "Umiestnenie: vrch filmu";
+
+/* Class = "NSMenuItem"; title = "Umiestnenie: stred filmu"; ObjectID = "2168"; */
+"2168.title" = "Umiestnenie: stred filmu";
+
+/* Class = "NSMenuItem"; title = "Umiestnenie: spodok filmu"; ObjectID = "2169"; */
+"2169.title" = "Umiestnenie: spodok filmu";
+
+/* Class = "NSMenuItem"; title = "Umiestnenie: spodný textový rámik"; ObjectID = "2170"; */
+"2170.title" = "Umiestnenie: spodný textový rámik";
+
+/* Class = "NSMenuItem"; title = "Predvolené umiestnenie"; ObjectID = "2171"; */
+"2171.title" = "Predvolené umiestnenie";
+
+/* Class = "NSMenuItem"; title = "Znovu načítať so znakovou sadou"; ObjectID = "2174"; */
+"2174.title" = "Znovu načítať so znakovou sadou";
+
+/* Class = "NSMenuItem"; title = "Omeškať o 0,5 sekundy"; ObjectID = "2177"; */
+"2177.title" = "Omeškať o 0,5 sekundy";
+
+/* Class = "NSMenuItem"; title = "Predbehnúť o 0,5 sekundy"; ObjectID = "2178"; */
+"2178.title" = "Predbehnúť o 0,5 sekundy";
+
+/* Class = "NSMenuItem"; title = "Predvolená synchronizácia"; ObjectID = "2179"; */
+"2179.title" = "Predvolená synchronizácia";
+
+/* Class = "NSMenu"; title = "Znovu načítať so znakovou sadou"; ObjectID = "2180"; */
+"2180.title" = "Znovu načítať so znakovou sadou";
+
+/* Class = "NSMenuItem"; title = "Item"; ObjectID = "2181"; */
+"2181.title" = "Item";
+
+/* Class = "NSMenuItem"; title = "3:"; ObjectID = "2182"; */
+"2182.title" = "3:";
+
+/* Class = "NSMenu"; title = "3:"; ObjectID = "2183"; */
+"2183.title" = "3:";
+
+/* Class = "NSMenuItem"; title = "Predvolená synchronizácia"; ObjectID = "2184"; */
+"2184.title" = "Predvolená synchronizácia";
+
+/* Class = "NSMenuItem"; title = "Predbehnúť o 0,5 sekundy"; ObjectID = "2185"; */
+"2185.title" = "Predbehnúť o 0,5 sekundy";
+
+/* Class = "NSMenuItem"; title = "Omeškať o 0,5 sekundy"; ObjectID = "2186"; */
+"2186.title" = "Omeškať o 0,5 sekundy";
+
+/* Class = "NSMenuItem"; title = "Znovu načítať so znakovou sadou"; ObjectID = "2189"; */
+"2189.title" = "Znovu načítať so znakovou sadou";
+
+/* Class = "NSMenuItem"; title = "Predvolené umiestnenie"; ObjectID = "2192"; */
+"2192.title" = "Predvolené umiestnenie";
+
+/* Class = "NSMenuItem"; title = "Umiestnenie: spodný textový rámik"; ObjectID = "2193"; */
+"2193.title" = "Umiestnenie: spodný textový rámik";
+
+/* Class = "NSMenuItem"; title = "Umiestnenie: spodok filmu"; ObjectID = "2194"; */
+"2194.title" = "Umiestnenie: spodok filmu";
+
+/* Class = "NSMenuItem"; title = "Umiestnenie: stred filmu"; ObjectID = "2195"; */
+"2195.title" = "Umiestnenie: stred filmu";
+
+/* Class = "NSMenuItem"; title = "Umiestnenie: vrch filmu"; ObjectID = "2196"; */
+"2196.title" = "Umiestnenie: vrch filmu";
+
+/* Class = "NSMenuItem"; title = "Umiestnenie: vrchný textový rámik"; ObjectID = "2197"; */
+"2197.title" = "Umiestnenie: vrchný textový rámik";
+
+/* Class = "NSMenuItem"; title = "Predvolený vetikálny okraj"; ObjectID = "2198"; */
+"2198.title" = "Predvolený vetikálny okraj";
+
+/* Class = "NSMenuItem"; title = "Zmenšiť vertikálny okraj"; ObjectID = "2199"; */
+"2199.title" = "Zmenšiť vertikálny okraj";
+
+/* Class = "NSMenuItem"; title = "Zväčšiť vertikálny okraj"; ObjectID = "2200"; */
+"2200.title" = "Zväčšiť vertikálny okraj";
+
+/* Class = "NSMenuItem"; title = "Predvolená veľkosť písma"; ObjectID = "2201"; */
+"2201.title" = "Predvolená veľkosť písma";
+
+/* Class = "NSMenuItem"; title = "Zmenšiť písmo"; ObjectID = "2202"; */
+"2202.title" = "Zmenšiť písmo";
+
+/* Class = "NSMenuItem"; title = "Zväčšiť písmo"; ObjectID = "2203"; */
+"2203.title" = "Zväčšiť písmo";
+
+/* Class = "NSMenu"; title = "Znovu načítať so znakovou sadou"; ObjectID = "2204"; */
+"2204.title" = "Znovu načítať so znakovou sadou";
+
+/* Class = "NSMenuItem"; title = "Item"; ObjectID = "2205"; */
+"2205.title" = "Item";
+
+/* Class = "NSMenuItem"; title = "Pridať súbor titulkov…"; ObjectID = "2376"; */
+"2376.title" = "Pridať súbor titulkov…";
+
+/* Class = "NSMenuItem"; title = "Zmeniť poradie"; ObjectID = "2676"; */
+"2676.title" = "Zmeniť poradie";
+
+/* Class = "NSMenuItem"; title = "Vždy navrchu"; ObjectID = "2687"; */
+"2687.title" = "Vždy navrchu";
+
+/* Class = "NSMenuItem"; title = "Kopírovať"; ObjectID = "2792"; */
+"2792.title" = "Kopírovať";
+
+/* Class = "NSMenuItem"; title = "Rotovať umiestnenie"; ObjectID = "2898"; */
+"2898.title" = "Rotovať umiestnenie";
+
+/* Class = "NSTextFieldCell"; title = "--:--:--"; ObjectID = "2908"; */
+"2908.title" = "--:--:--";
+
+/* Class = "NSTextFieldCell"; title = "--:--:--"; ObjectID = "2909"; */
+"2909.title" = "--:--:--";
+
+/* Class = "NSTextFieldCell"; title = "00:00:00"; ObjectID = "2917"; */
+"2917.title" = "00:00:00";
+
+/* Class = "NSTextFieldCell"; title = "Play Panel"; ObjectID = "2918"; */
+"2918.title" = "Play Panel";
+
+/* Class = "NSTextFieldCell"; title = "00:00:00"; ObjectID = "2920"; */
+"2920.title" = "00:00:00";
+
+/* Class = "NSTextFieldCell"; title = "Farba:"; ObjectID = "2928"; */
+"2928.title" = "Farba:";
+
+/* Class = "NSTextFieldCell"; title = "Kontrast:"; ObjectID = "2930"; */
+"2930.title" = "Kontrast:";
+
+/* Class = "NSTextFieldCell"; title = "Jas:"; ObjectID = "2932"; */
+"2932.title" = "Jas:";
+
+/* Class = "NSTextFieldCell"; title = "Sýtosť:"; ObjectID = "2935"; */
+"2935.title" = "Sýtosť:";
+
+/* Class = "NSTextFieldCell"; title = "Zariadenie:"; ObjectID = "2939"; */
+"2939.title" = "Zariadenie:";
+
+/* Class = "NSTextFieldCell"; title = "..."; ObjectID = "2940"; */
+"2940.title" = "...";
+
+/* Class = "NSTextFieldCell"; title = "Platný:"; ObjectID = "2941"; */
+"2941.title" = "Platný:";
+
+/* Class = "NSTextFieldCell"; title = "..."; ObjectID = "2942"; */
+"2942.title" = "...";
+
+/* Class = "NSTextFieldCell"; title = "Synchronizácia:"; ObjectID = "2943"; */
+"2943.title" = "Synchronizácia:";
+
+/* Class = "NSTextFieldCell"; title = "Veľkosť písma:"; ObjectID = "2944"; */
+"2944.title" = "Veľkosť písma:";
+
+/* Class = "NSTextFieldCell"; title = "Vertik. okraj:"; ObjectID = "2945"; */
+"2945.title" = "Vertik. okraj:";
+
+/* Class = "NSTextFieldCell"; title = "Textový rámik:"; ObjectID = "2946"; */
+"2946.title" = "Textový rámik:";
+
+/* Class = "NSButtonCell"; title = "Menšie"; ObjectID = "2948"; */
+"2948.title" = "Menšie";
+
+/* Class = "NSButtonCell"; title = "Väčšie"; ObjectID = "2949"; */
+"2949.title" = "Väčšie";
+
+/* Class = "NSButtonCell"; title = "Menší"; ObjectID = "2951"; */
+"2951.title" = "Menší";
+
+/* Class = "NSButtonCell"; title = "Väčší"; ObjectID = "2952"; */
+"2952.title" = "Väčší";
+
+/* Class = "NSButtonCell"; title = "Omešk."; ObjectID = "2956"; */
+"2956.title" = "Omešk.";
+
+/* Class = "NSButtonCell"; title = "Predb."; ObjectID = "2957"; */
+"2957.title" = "Predb.";
+
+/* Class = "NSTextFieldCell"; title = "Umiestnenie:"; ObjectID = "2958"; */
+"2958.title" = "Umiestnenie:";
+
+/* Class = "NSTextFieldCell"; title = "..."; ObjectID = "2961"; */
+"2961.title" = "...";
+
+/* Class = "NSSegmentedCell"; 2962.ibShadowedLabels[0] = "*"; ObjectID = "2962"; */
+"2962.ibShadowedLabels[0]" = "*";
+
+/* Class = "NSSegmentedCell"; 2962.ibShadowedLabels[1] = "1"; ObjectID = "2962"; */
+"2962.ibShadowedLabels[1]" = "1";
+
+/* Class = "NSSegmentedCell"; 2962.ibShadowedLabels[2] = "2"; ObjectID = "2962"; */
+"2962.ibShadowedLabels[2]" = "2";
+
+/* Class = "NSSegmentedCell"; 2962.ibShadowedLabels[3] = "3"; ObjectID = "2962"; */
+"2962.ibShadowedLabels[3]" = "3";
+
+/* Class = "NSTextFieldCell"; title = "Rýchlosť:"; ObjectID = "2965"; */
+"2965.title" = "Rýchlosť:";
+
+/* Class = "NSTextFieldCell"; title = "½×"; ObjectID = "2966"; */
+"2966.title" = "½×";
+
+/* Class = "NSTextFieldCell"; title = "1×"; ObjectID = "2967"; */
+"2967.title" = "1×";
+
+/* Class = "NSTextFieldCell"; title = "2×"; ObjectID = "2968"; */
+"2968.title" = "2×";
+
+/* Class = "NSTextFieldCell"; title = "3×"; ObjectID = "2969"; */
+"2969.title" = "3×";
+
+/* Class = "NSTextFieldCell"; title = "Rozsah opak:"; ObjectID = "2970"; */
+"2970.title" = "Rozsah opak:";
+
+/* Class = "NSButtonCell"; title = "Začiatok"; ObjectID = "2972"; */
+"2972.title" = "Začiatok";
+
+/* Class = "NSButtonCell"; title = "Koniec"; ObjectID = "2973"; */
+"2973.title" = "Koniec";
+
+/* Class = "NSTextFieldCell"; title = "--:--:--"; ObjectID = "2974"; */
+"2974.title" = "--:--:--";
+
+/* Class = "NSTextFieldCell"; title = "--:--:--"; ObjectID = "2975"; */
+"2975.title" = "--:--:--";
+
+/* Class = "NSTextFieldCell"; title = "Movie File name"; ObjectID = "2976"; */
+"2976.title" = "Movie File name";
+
+/* Class = "NSTextFieldCell"; title = "Film:"; ObjectID = "2978"; */
+"2978.title" = "Film:";
+
+/* Class = "NSTextFieldCell"; title = "xx.xx / xx.xx"; ObjectID = "2979"; */
+"2979.title" = "xx.xx / xx.xx";
+
+/* Class = "NSTextFieldCell"; title = "FPS:"; ObjectID = "2980"; */
+"2980.title" = "FPS:";
+
+/* Class = "NSTextFieldCell"; title = "xxx.xx MB, xxxx.xx kbps"; ObjectID = "2981"; */
+"2981.title" = "xxx.xx MB, xxxx.xx kbps";
+
+/* Class = "NSTextFieldCell"; title = "Dáta:"; ObjectID = "2982"; */
+"2982.title" = "Dáta:";
+
+/* Class = "NSTextFieldCell"; title = "Ovládač"; ObjectID = "2983"; */
+"2983.title" = "Ovládač";
+
+/* Class = "NSSegmentedCell"; 2985.ibShadowedLabels[0] = "A/V Nastavenie"; ObjectID = "2985"; */
+"2985.ibShadowedLabels[0]" = "A/V Nastavenie";
+
+/* Class = "NSSegmentedCell"; 2985.ibShadowedLabels[1] = "Vlastnosti"; ObjectID = "2985"; */
+"2985.ibShadowedLabels[1]" = "Vlastnosti";

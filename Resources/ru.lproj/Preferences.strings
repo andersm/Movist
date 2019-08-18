@@ -1,0 +1,393 @@
+
+/* Class = "NSWindow"; title = "환경설정"; ObjectID = "5"; */
+"5.title" = "환경설정";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "570"; */
+"570.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "По умолчанию"; ObjectID = "571"; */
+"571.title" = "По умолчанию";
+
+/* Class = "NSMenuItem"; title = "Растягивать"; ObjectID = "572"; */
+"572.title" = "Растягивать";
+
+/* Class = "NSMenuItem"; title = "Обрезать"; ObjectID = "573"; */
+"573.title" = "Обрезать";
+
+/* Class = "NSBox"; title = "Full Screen"; ObjectID = "576"; */
+"576.title" = "Full Screen";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "581"; */
+"581.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Растягивать"; ObjectID = "582"; */
+"582.title" = "Растягивать";
+
+/* Class = "NSMenuItem"; title = "По умолчанию"; ObjectID = "583"; */
+"583.title" = "По умолчанию";
+
+/* Class = "NSMenuItem"; title = "Обрезать"; ObjectID = "584"; */
+"584.title" = "Обрезать";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "602"; */
+"602.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Затухание"; ObjectID = "603"; */
+"603.title" = "Затухание";
+
+/* Class = "NSMenuItem"; title = "Нет"; ObjectID = "604"; */
+"604.title" = "Нет";
+
+/* Class = "NSMenuItem"; title = "Растяжение"; ObjectID = "605"; */
+"605.title" = "Растяжение";
+
+/* Class = "NSBox"; title = "Интервалы поиска по видео"; ObjectID = "631"; */
+"631.title" = "Интервалы поиска по видео";
+
+/* Class = "NSTabViewItem"; label = "Формат файлов"; ObjectID = "848"; */
+"848.label" = "Формат файлов";
+
+/* Class = "NSTabViewItem"; label = "Общие"; ObjectID = "850"; */
+"850.label" = "Общие";
+
+/* Class = "NSTabViewItem"; label = "Назначение кодеков"; ObjectID = "852"; */
+"852.label" = "Назначение кодеков";
+
+/* Class = "NSTabViewItem"; label = "Расширенные"; ObjectID = "854"; */
+"854.label" = "Расширенные";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "858"; */
+"858.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Ежедневно"; ObjectID = "859"; */
+"859.title" = "Ежедневно";
+
+/* Class = "NSMenuItem"; title = "Еженедельно"; ObjectID = "860"; */
+"860.title" = "Еженедельно";
+
+/* Class = "NSMenuItem"; title = "Ежемесячно"; ObjectID = "862"; */
+"862.title" = "Ежемесячно";
+
+/* Class = "NSMenuItem"; title = "Никогда"; ObjectID = "863"; */
+"863.title" = "Никогда";
+
+/* Class = "NSTableColumn"; headerCell.title = "Значение"; ObjectID = "870"; */
+"870.headerCell.title" = "Значение";
+
+/* Class = "NSTableColumn"; headerCell.title = "Настройка"; ObjectID = "871"; */
+"871.headerCell.title" = "Настройка";
+
+/* Class = "NSTableColumn"; headerCell.title = "Описание"; ObjectID = "881"; */
+"881.headerCell.title" = "Описание";
+
+/* Class = "NSTableColumn"; headerCell.title = "Кодек"; ObjectID = "882"; */
+"882.headerCell.title" = "Кодек";
+
+/* Class = "NSTableColumn"; headerCell.title = "Декодер"; ObjectID = "883"; */
+"883.headerCell.title" = "Декодер";
+
+/* Class = "NSTableColumn"; headerCell.title = "Расширение"; ObjectID = "890"; */
+"890.headerCell.title" = "Расширение";
+
+/* Class = "NSTableColumn"; headerCell.title = "Описание"; ObjectID = "891"; */
+"891.headerCell.title" = "Описание";
+
+/* Class = "NSTableColumn"; headerCell.title = "Приложения"; ObjectID = "892"; */
+"892.headerCell.title" = "Приложения";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "2130"; */
+"2130.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Уменьшить размер видеоокна в 2 раза"; ObjectID = "2132"; */
+"2132.title" = "Уменьшить размер видеоокна в 2 раза";
+
+/* Class = "NSMenuItem"; title = "Установить видео как фон рабочего стола"; ObjectID = "2133"; */
+"2133.title" = "Установить видео как фон рабочего стола";
+
+/* Class = "NSMenuItem"; title = "Переключиться в полноэкранный режим"; ObjectID = "2134"; */
+"2134.title" = "Переключиться в полноэкранный режим";
+
+/* Class = "NSMenuItem"; title = "Подогнать видеоокно по размеру экрана"; ObjectID = "2135"; */
+"2135.title" = "Подогнать видеоокно по размеру экрана";
+
+/* Class = "NSMenuItem"; title = "Удвоить размер видеоокна"; ObjectID = "2136"; */
+"2136.title" = "Удвоить размер видеоокна";
+
+/* Class = "NSMenuItem"; title = "Присвоить оригинальный размер видеоокна"; ObjectID = "2137"; */
+"2137.title" = "Присвоить оригинальный размер видеоокна";
+
+/* Class = "NSMenuItem"; title = "Не изменять размер видеоокна"; ObjectID = "2138"; */
+"2138.title" = "Не изменять размер видеоокна";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "2603"; */
+"2603.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Нижний бокс"; ObjectID = "2604"; */
+"2604.title" = "Нижний бокс";
+
+/* Class = "NSMenuItem"; title = "Вверху видео"; ObjectID = "2605"; */
+"2605.title" = "Вверху видео";
+
+/* Class = "NSMenuItem"; title = "Верхний бокс"; ObjectID = "2606"; */
+"2606.title" = "Верхний бокс";
+
+/* Class = "NSMenuItem"; title = "В центре видео"; ObjectID = "2607"; */
+"2607.title" = "В центре видео";
+
+/* Class = "NSMenuItem"; title = "Внизу видео"; ObjectID = "2608"; */
+"2608.title" = "Внизу видео";
+
+/* Class = "NSTabViewItem"; label = "Дорожка 3"; ObjectID = "2612"; */
+"2612.label" = "Дорожка 3";
+
+/* Class = "NSTabViewItem"; label = "Дорожка 2"; ObjectID = "2613"; */
+"2613.label" = "Дорожка 2";
+
+/* Class = "NSTabViewItem"; label = "Дорожка 1"; ObjectID = "2614"; */
+"2614.label" = "Дорожка 1";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "2628"; */
+"2628.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "В 1 строку"; ObjectID = "2629"; */
+"2629.title" = "В 1 строку";
+
+/* Class = "NSMenuItem"; title = "По умолчанию"; ObjectID = "2630"; */
+"2630.title" = "По умолчанию";
+
+/* Class = "NSMenuItem"; title = "В 2 строки"; ObjectID = "2631"; */
+"2631.title" = "В 2 строки";
+
+/* Class = "NSMenuItem"; title = "В 3 строки"; ObjectID = "2632"; */
+"2632.title" = "В 3 строки";
+
+/* Class = "NSMenuItem"; title = "Автоматическая"; ObjectID = "2633"; */
+"2633.title" = "Автоматическая";
+
+/* Class = "NSMenuItem"; title = " "; ObjectID = "2634"; */
+"2634.title" = " ";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "2822"; */
+"2822.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "encoding"; ObjectID = "2823"; */
+"2823.title" = "encoding";
+
+/* Class = "NSButtonCell"; title = "Всегда поверх всех окон"; ObjectID = "3325"; */
+"3325.title" = "Всегда поверх всех окон";
+
+/* Class = "NSButtonCell"; title = "Закрывать приложение при закрытии видеоокна"; ObjectID = "3326"; */
+"3326.title" = "Закрывать приложение при закрытии видеоокна";
+
+/* Class = "NSTextFieldCell"; title = "←/→ :"; ObjectID = "3327"; */
+"3327.title" = "←/→ :";
+
+/* Class = "NSTextFieldCell"; title = "⌥ ←/→ :"; ObjectID = "3328"; */
+"3328.title" = "⌥ ←/→ :";
+
+/* Class = "NSTextFieldCell"; title = "⌥⇧ ←/→ :"; ObjectID = "3329"; */
+"3329.title" = "⌥⇧ ←/→ :";
+
+/* Class = "NSTextFieldCell"; title = "с."; ObjectID = "3331"; */
+"3331.title" = "с.";
+
+/* Class = "NSTextFieldCell"; title = "с."; ObjectID = "3334"; */
+"3334.title" = "с.";
+
+/* Class = "NSTextFieldCell"; title = "с."; ObjectID = "3337"; */
+"3337.title" = "с.";
+
+/* Class = "NSButtonCell"; title = "Поддержка пульта Д/У Apple"; ObjectID = "3339"; */
+"3339.title" = "Поддержка пульта Д/У Apple";
+
+/* Class = "NSButtonCell"; title = "Использовать полноэкранную навигацию"; ObjectID = "3340"; */
+"3340.title" = "Использовать полноэкранную навигацию";
+
+/* Class = "NSButtonCell"; title = "Запоминать последний видеофайл и позицию при закрытии программы"; ObjectID = "3341"; */
+"3341.title" = "Запоминать последний видеофайл и позицию при закрытии программы";
+
+/* Class = "NSButtonCell"; title = "Отключать заставку в не полноэкр. реж."; ObjectID = "3342"; */
+"3342.title" = "Отключать заставку в не полноэкр. реж.";
+
+/* Class = "NSButtonCell"; title = "Автоматически определять серии видео"; ObjectID = "3343"; */
+"3343.title" = "Автоматически определять серии видео";
+
+/* Class = "NSButtonCell"; title = "Проигрывать сразу в полноэкр. режиме"; ObjectID = "3344"; */
+"3344.title" = "Проигрывать сразу в полноэкр. режиме";
+
+/* Class = "NSButtonCell"; title = "Показывать фильмы из iTunes"; ObjectID = "3345"; */
+"3345.title" = "Показывать фильмы из iTunes";
+
+/* Class = "NSButtonCell"; title = "Показывать видеоподкасты из iTunes"; ObjectID = "3346"; */
+"3346.title" = "Показывать видеоподкасты из iTunes";
+
+/* Class = "NSButtonCell"; title = "Показывать ТВ-Шоу из iTunes"; ObjectID = "3347"; */
+"3347.title" = "Показывать ТВ-Шоу из iTunes";
+
+/* Class = "NSButtonCell"; title = "Сразу переключаться в полноэкранную навигацию при запуске"; ObjectID = "3348"; */
+"3348.title" = "Сразу переключаться в полноэкранную навигацию при запуске";
+
+/* Class = "NSTextFieldCell"; title = "Открыть видео и:"; ObjectID = "3349"; */
+"3349.title" = "Открыть видео и:";
+
+/* Class = "NSButtonCell"; title = "Только при проигрывании видео"; ObjectID = "3351"; */
+"3351.title" = "Только при проигрывании видео";
+
+/* Class = "NSButtonCell"; title = "Включить субтитры"; ObjectID = "3352"; */
+"3352.title" = "Включить субтитры";
+
+/* Class = "NSTextFieldCell"; title = "Высота бокса:"; ObjectID = "3353"; */
+"3353.title" = "Высота бокса:";
+
+/* Class = "NSTextFieldCell"; title = "Вертикальный отступ:"; ObjectID = "3355"; */
+"3355.title" = "Вертикальный отступ:";
+
+/* Class = "NSTextFieldCell"; title = "0,0"; ObjectID = "3357"; */
+"3357.title" = "0,0";
+
+/* Class = "NSTextFieldCell"; title = "Кодировка:"; ObjectID = "3358"; */
+"3358.title" = "Кодировка:";
+
+/* Class = "NSButtonCell"; title = "..."; ObjectID = "3360"; */
+"3360.title" = "...";
+
+/* Class = "NSTextFieldCell"; title = "Проверять обновления"; ObjectID = "3361"; */
+"3361.title" = "Проверять обновления";
+
+/* Class = "NSButtonCell"; title = "Проверить!"; ObjectID = "3363"; */
+"3363.title" = "Проверить!";
+
+/* Class = "NSTextFieldCell"; title = "Последняя проверка:"; ObjectID = "3365"; */
+"3365.title" = "Последняя проверка:";
+
+/* Class = "NSButtonCell"; title = "..."; ObjectID = "3366"; */
+"3366.title" = "...";
+
+/* Class = "NSTextFieldCell"; title = "Если выбранный декодер не может открыть файл, будет выбран другой"; ObjectID = "3367"; */
+"3367.title" = "Если выбранный декодер не может открыть файл, будет выбран другой";
+
+/* Class = "NSTextFieldCell"; title = "Настройки, помеченные *, будут применены к следующему видеофайлу"; ObjectID = "3368"; */
+"3368.title" = "Настройки, помеченные *, будут применены к следующему видеофайлу";
+
+/* Class = "NSTextFieldCell"; title = "Размер широкоф. видео:"; ObjectID = "3369"; */
+"3369.title" = "Размер широкоф. видео:";
+
+/* Class = "NSTextFieldCell"; title = "Размер обычного видео:"; ObjectID = "3371"; */
+"3371.title" = "Размер обычного видео:";
+
+/* Class = "NSTextFieldCell"; title = "Under Scan:"; ObjectID = "3373"; */
+"3373.title" = "Under Scan:";
+
+/* Class = "NSTextFieldCell"; title = "Нет"; ObjectID = "3375"; */
+"3375.title" = "Нет";
+
+/* Class = "NSTextFieldCell"; title = "15 %"; ObjectID = "3376"; */
+"3376.title" = "15 %";
+
+/* Class = "NSTextFieldCell"; title = "10 %"; ObjectID = "3377"; */
+"3377.title" = "10 %";
+
+/* Class = "NSTextFieldCell"; title = "Эффект увеличения:"; ObjectID = "3378"; */
+"3378.title" = "Эффект увеличения:";
+
+/* Class = "NSButtonCell"; title = "Затенять остальные мониторы"; ObjectID = "3380"; */
+"3380.title" = "Затенять остальные мониторы";
+
+/* Class = "NSTextFieldCell"; title = "5 %"; ObjectID = "3381"; */
+"3381.title" = "5 %";
+
+/* Class = "NSButtonCell"; title = "Автоопределение источника вывода звука"; ObjectID = "3382"; */
+"3382.title" = "Автоопределение источника вывода звука";
+
+/* Class = "NSTextFieldCell"; title = "Будет применено на следующем видеофайле."; ObjectID = "3383"; */
+"3383.title" = "Будет применено на следующем видеофайле.";
+
+/* Class = "NSButtonCell"; title = "Обновлять системную громкость"; ObjectID = "3384"; */
+"3384.title" = "Обновлять системную громкость";
+
+/* Class = "NSTextFieldCell"; title = "Системную громкость нельзя менять при цифровом выводе звука"; ObjectID = "3385"; */
+"3385.title" = "Системную громкость нельзя менять при цифровом выводе звука";
+
+/* Class = "NSTextFieldCell"; title = "0,0"; ObjectID = "3387"; */
+"3387.title" = "0,0";
+
+/* Class = "NSTextFieldCell"; title = "Высота строк:"; ObjectID = "3389"; */
+"3389.title" = "Высота строк:";
+
+/* Class = "NSTextFieldCell"; title = "Позиция:"; ObjectID = "3390"; */
+"3390.title" = "Позиция:";
+
+/* Class = "NSTextFieldCell"; title = "0,0%"; ObjectID = "3391"; */
+"3391.title" = "0,0%";
+
+/* Class = "NSTextFieldCell"; title = "0,0%"; ObjectID = "3392"; */
+"3392.title" = "0,0%";
+
+/* Class = "NSTextFieldCell"; title = "Верт. отступ:"; ObjectID = "3395"; */
+"3395.title" = "Верт. отступ:";
+
+/* Class = "NSTextFieldCell"; title = "Горизонт. отступ:"; ObjectID = "3396"; */
+"3396.title" = "Горизонт. отступ:";
+
+/* Class = "NSTextFieldCell"; title = "темнота:"; ObjectID = "3397"; */
+"3397.title" = "темнота:";
+
+/* Class = "NSTextFieldCell"; title = "0"; ObjectID = "3398"; */
+"3398.title" = "0";
+
+/* Class = "NSTextFieldCell"; title = "Букв на строку"; ObjectID = "3400"; */
+"3400.title" = "Букв на строку";
+
+/* Class = "NSButtonCell"; title = "Авторазмер"; ObjectID = "3403"; */
+"3403.title" = "Авторазмер";
+
+/* Class = "NSTextFieldCell"; title = "Шрифт:"; ObjectID = "3404"; */
+"3404.title" = "Шрифт:";
+
+/* Class = "NSButtonCell"; title = "Семейство и размер"; ObjectID = "3405"; */
+"3405.title" = "Семейство и размер";
+
+/* Class = "NSTextFieldCell"; title = "видимость:"; ObjectID = "3406"; */
+"3406.title" = "видимость:";
+
+/* Class = "NSTextFieldCell"; title = "0,0"; ObjectID = "3407"; */
+"3407.title" = "0,0";
+
+/* Class = "NSTextFieldCell"; title = "видимость:"; ObjectID = "3409"; */
+"3409.title" = "видимость:";
+
+/* Class = "NSTextFieldCell"; title = "0,0"; ObjectID = "3410"; */
+"3410.title" = "0,0";
+
+/* Class = "NSTextFieldCell"; title = "видимость:"; ObjectID = "3412"; */
+"3412.title" = "видимость:";
+
+/* Class = "NSTextFieldCell"; title = "0,0"; ObjectID = "3413"; */
+"3413.title" = "0,0";
+
+/* Class = "NSTextFieldCell"; title = "отступ:"; ObjectID = "3415"; */
+"3415.title" = "отступ:";
+
+/* Class = "NSTextFieldCell"; title = "размытие:"; ObjectID = "3416"; */
+"3416.title" = "размытие:";
+
+/* Class = "NSTextFieldCell"; title = "ширина:"; ObjectID = "3417"; */
+"3417.title" = "ширина:";
+
+/* Class = "NSTextFieldCell"; title = "0,0"; ObjectID = "3418"; */
+"3418.title" = "0,0";
+
+/* Class = "NSTextFieldCell"; title = "0,0"; ObjectID = "3420"; */
+"3420.title" = "0,0";
+
+/* Class = "NSTextFieldCell"; title = "0,0"; ObjectID = "3422"; */
+"3422.title" = "0,0";
+
+/* Class = "NSTextFieldCell"; title = "Тень:"; ObjectID = "3424"; */
+"3424.title" = "Тень:";
+
+/* Class = "NSTextFieldCell"; title = "Контур:"; ObjectID = "3425"; */
+"3425.title" = "Контур:";
+
+/* Class = "NSTextFieldCell"; title = "Цвет:"; ObjectID = "3426"; */
+"3426.title" = "Цвет:";

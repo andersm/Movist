@@ -1,0 +1,768 @@
+
+/* Class = "NSMenuItem"; title = "Umieść wszystko na wierzchu"; ObjectID = "5"; */
+"5.title" = "Umieść wszystko na wierzchu";
+
+/* Class = "NSMenuItem"; title = "Okno"; ObjectID = "19"; */
+"19.title" = "Okno";
+
+/* Class = "NSMenuItem"; title = "Miniaturka"; ObjectID = "23"; */
+"23.title" = "Miniaturka";
+
+/* Class = "NSMenu"; title = "Okno"; ObjectID = "24"; */
+"24.title" = "Okno";
+
+/* Class = "NSMenu"; title = "MainMenu"; ObjectID = "29"; */
+"29.title" = "MainMenu";
+
+/* Class = "NSMenuItem"; title = "Movist"; ObjectID = "56"; */
+"56.title" = "Movist";
+
+/* Class = "NSMenu"; title = "Movist"; ObjectID = "57"; */
+"57.title" = "Movist";
+
+/* Class = "NSMenuItem"; title = "O Movist"; ObjectID = "58"; */
+"58.title" = "O Movist";
+
+/* Class = "NSMenuItem"; title = "Otwórz plik z filmem..."; ObjectID = "72"; */
+"72.title" = "Otwórz plik z filmem...";
+
+/* Class = "NSMenu"; title = "Plik"; ObjectID = "81"; */
+"81.title" = "Plik";
+
+/* Class = "NSMenuItem"; title = "Plik"; ObjectID = "83"; */
+"83.title" = "Plik";
+
+/* Class = "NSMenuItem"; title = "Pomoc"; ObjectID = "103"; */
+"103.title" = "Pomoc";
+
+/* Class = "NSMenu"; title = "Pomoc"; ObjectID = "106"; */
+"106.title" = "Pomoc";
+
+/* Class = "NSMenuItem"; title = "Pomoc Movist"; ObjectID = "111"; */
+"111.title" = "Pomoc Movist";
+
+/* Class = "NSMenuItem"; title = "Otwórz ostatnie"; ObjectID = "124"; */
+"124.title" = "Otwórz ostatnie";
+
+/* Class = "NSMenu"; title = "Otwórz ostatnie"; ObjectID = "125"; */
+"125.title" = "Otwórz ostatnie";
+
+/* Class = "NSMenuItem"; title = "메뉴 지우기"; ObjectID = "126"; */
+"126.title" = "메뉴 지우기";
+
+/* Class = "NSMenu"; title = "Usługi"; ObjectID = "130"; */
+"130.title" = "Usługi";
+
+/* Class = "NSMenuItem"; title = "Usługi"; ObjectID = "131"; */
+"131.title" = "Usługi";
+
+/* Class = "NSMenuItem"; title = "Ukryj Movist"; ObjectID = "134"; */
+"134.title" = "Ukryj Movist";
+
+/* Class = "NSMenuItem"; title = "Zakończ Movist"; ObjectID = "136"; */
+"136.title" = "Zakończ Movist";
+
+/* Class = "NSMenuItem"; title = "Ukryj pozostałe"; ObjectID = "145"; */
+"145.title" = "Ukryj pozostałe";
+
+/* Class = "NSMenuItem"; title = "Pokaż wszystkie"; ObjectID = "150"; */
+"150.title" = "Pokaż wszystkie";
+
+/* Class = "NSMenuItem"; title = "Wytnij"; ObjectID = "157"; */
+"157.title" = "Wytnij";
+
+/* Class = "NSMenuItem"; title = "Edycja"; ObjectID = "163"; */
+"163.title" = "Edycja";
+
+/* Class = "NSMenu"; title = "Edycja"; ObjectID = "169"; */
+"169.title" = "Edycja";
+
+/* Class = "NSMenuItem"; title = "Zoom"; ObjectID = "197"; */
+"197.title" = "Zoom";
+
+/* Class = "NSMenuItem"; title = "Film"; ObjectID = "218"; */
+"218.title" = "Film";
+
+/* Class = "NSMenu"; title = "Film"; ObjectID = "219"; */
+"219.title" = "Film";
+
+/* Class = "NSMenuItem"; title = "Wielkość rzeczywista"; ObjectID = "220"; */
+"220.title" = "Wielkość rzeczywista";
+
+/* Class = "NSMenuItem"; title = "Połowa wielkości"; ObjectID = "221"; */
+"221.title" = "Połowa wielkości";
+
+/* Class = "NSMenuItem"; title = "Wielkość podwójna"; ObjectID = "222"; */
+"222.title" = "Wielkość podwójna";
+
+/* Class = "NSMenuItem"; title = "Pełny ekran"; ObjectID = "223"; */
+"223.title" = "Pełny ekran";
+
+/* Class = "NSMenuItem"; title = "Dopasuj do ekranu"; ObjectID = "233"; */
+"233.title" = "Dopasuj do ekranu";
+
+/* Class = "NSMenuItem"; title = "Otwórz ponownie z…"; ObjectID = "252"; */
+"252.title" = "Otwórz ponownie z…";
+
+/* Class = "NSWindow"; title = "Movist"; ObjectID = "311"; */
+"311.title" = "Movist";
+
+/* Class = "NSMenuItem"; title = "Kopiuj (... Letter Box)"; ObjectID = "339"; */
+"339.title" = "Kopiuj (... Letter Box)";
+
+/* Class = "NSMenuItem"; title = "Zaznacz wszystko"; ObjectID = "341"; */
+"341.title" = "Zaznacz wszystko";
+
+/* Class = "NSMenuItem"; title = "Napisy"; ObjectID = "350"; */
+"350.title" = "Napisy";
+
+/* Class = "NSMenu"; title = "Napisy"; ObjectID = "351"; */
+"351.title" = "Napisy";
+
+/* Class = "NSWindow"; title = "Play Panel"; ObjectID = "363"; */
+"363.title" = "Play Panel";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Mute"; ObjectID = "399"; */
+"399.ibShadowedToolTip" = "Mute";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Playlist"; ObjectID = "402"; */
+"402.ibShadowedToolTip" = "Playlist";
+
+/* Class = "NSMenuItem"; title = "Proporcje obrazu"; ObjectID = "438"; */
+"438.title" = "Proporcje obrazu";
+
+/* Class = "NSMenu"; title = "Proporcje obrazu"; ObjectID = "439"; */
+"439.title" = "Proporcje obrazu";
+
+/* Class = "NSMenuItem"; title = "Domyślne (DAR)"; ObjectID = "440"; */
+"440.title" = "Domyślne (DAR)";
+
+/* Class = "NSMenuItem"; title = "4 : 3 (TV)"; ObjectID = "441"; */
+"441.title" = "4 : 3 (TV)";
+
+/* Class = "NSMenuItem"; title = "16 : 9 (HDTV)"; ObjectID = "442"; */
+"442.title" = "16 : 9 (HDTV)";
+
+/* Class = "NSMenuItem"; title = "1.85 : 1 (Screen)"; ObjectID = "443"; */
+"443.title" = "1.85 : 1 (Screen)";
+
+/* Class = "NSMenuItem"; title = "2.35 : 1 (Screen)"; ObjectID = "444"; */
+"444.title" = "2.35 : 1 (Screen)";
+
+/* Class = "NSWindow"; title = "Control Panel"; ObjectID = "451"; */
+"451.title" = "Control Panel";
+
+/* Class = "NSMenuItem"; title = "Lista odtwarzania"; ObjectID = "470"; */
+"470.title" = "Lista odtwarzania";
+
+/* Class = "NSMenuItem"; title = "Panel sterowania"; ObjectID = "472"; */
+"472.title" = "Panel sterowania";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Control Panel"; ObjectID = "536"; */
+"536.ibShadowedToolTip" = "Control Panel";
+
+/* Class = "NSMenuItem"; title = "Narzędzia"; ObjectID = "605"; */
+"605.title" = "Narzędzia";
+
+/* Class = "NSMenu"; title = "Narzędzia"; ObjectID = "606"; */
+"606.title" = "Narzędzia";
+
+/* Class = "NSMenuItem"; title = "Odtwarzaj"; ObjectID = "607"; */
+"607.title" = "Odtwarzaj";
+
+/* Class = "NSMenuItem"; title = "Przeskok wstecz 10 sek."; ObjectID = "609"; */
+"609.title" = "Przeskok wstecz 10 sek.";
+
+/* Class = "NSMenuItem"; title = "Koniec"; ObjectID = "610"; */
+"610.title" = "Koniec";
+
+/* Class = "NSMenuItem"; title = "Poprzedni film"; ObjectID = "612"; */
+"612.title" = "Poprzedni film";
+
+/* Class = "NSMenuItem"; title = "Następny film"; ObjectID = "613"; */
+"613.title" = "Następny film";
+
+/* Class = "NSMenuItem"; title = "Nie powtarzaj"; ObjectID = "617"; */
+"617.title" = "Nie powtarzaj";
+
+/* Class = "NSMenuItem"; title = "Powtarzaj wszystko"; ObjectID = "618"; */
+"618.title" = "Powtarzaj wszystko";
+
+/* Class = "NSMenuItem"; title = "Powtarzaj jeden"; ObjectID = "619"; */
+"619.title" = "Powtarzaj jeden";
+
+/* Class = "NSMenuItem"; title = "Zwiększ głośność"; ObjectID = "621"; */
+"621.title" = "Zwiększ głośność";
+
+/* Class = "NSMenuItem"; title = "Zmniejsz głośność"; ObjectID = "622"; */
+"622.title" = "Zmniejsz głośność";
+
+/* Class = "NSMenuItem"; title = "Wycisz"; ObjectID = "623"; */
+"623.title" = "Wycisz";
+
+/* Class = "NSMenuItem"; title = "Następna klatka"; ObjectID = "651"; */
+"651.title" = "Następna klatka";
+
+/* Class = "NSMenuItem"; title = "Początek"; ObjectID = "652"; */
+"652.title" = "Początek";
+
+/* Class = "NSMenuItem"; title = "Poprzednia klatka"; ObjectID = "653"; */
+"653.title" = "Poprzednia klatka";
+
+/* Class = "NSMenuItem"; title = "Przeskok do przodu 10 sek."; ObjectID = "654"; */
+"654.title" = "Przeskok do przodu 10 sek.";
+
+/* Class = "NSMenuItem"; title = "Letter Box Height: Same"; ObjectID = "665"; */
+"665.title" = "Letter Box Height: Same";
+
+/* Class = "NSMenuItem"; title = "0.5 sek. później"; ObjectID = "666"; */
+"666.title" = "0.5 sek. później";
+
+/* Class = "NSMenuItem"; title = "0.5 sek. wcześniej"; ObjectID = "667"; */
+"667.title" = "0.5 sek. wcześniej";
+
+/* Class = "NSMenuItem"; title = "Letter Box Height Default"; ObjectID = "673"; */
+"673.title" = "Letter Box Height Default";
+
+/* Class = "NSMenuItem"; title = "Domyślna synchronizacja"; ObjectID = "674"; */
+"674.title" = "Domyślna synchronizacja";
+
+/* Class = "NSMenuItem"; title = "Przeskok wstecz 60 sek."; ObjectID = "794"; */
+"794.title" = "Przeskok wstecz 60 sek.";
+
+/* Class = "NSMenuItem"; title = "Przeskok do przodu 60 sek."; ObjectID = "795"; */
+"795.title" = "Przeskok do przodu 60 sek.";
+
+/* Class = "NSMenuItem"; title = "Przeskok wstecz 300 sek."; ObjectID = "796"; */
+"796.title" = "Przeskok wstecz 300 sek.";
+
+/* Class = "NSMenuItem"; title = "Przeskok do przodu 300 sek."; ObjectID = "797"; */
+"797.title" = "Przeskok do przodu 300 sek.";
+
+/* Class = "NSMenuItem"; title = "Początek zakresu powtarzania"; ObjectID = "1139"; */
+"1139.title" = "Początek zakresu powtarzania";
+
+/* Class = "NSMenuItem"; title = "Koniec zakresu powtarzania"; ObjectID = "1140"; */
+"1140.title" = "Koniec zakresu powtarzania";
+
+/* Class = "NSMenuItem"; title = "Wyczyść zakres powtarzania"; ObjectID = "1141"; */
+"1141.title" = "Wyczyść zakres powtarzania";
+
+/* Class = "NSMenuItem"; title = "Zwiększ rozmiar czcionki"; ObjectID = "1151"; */
+"1151.title" = "Zwiększ rozmiar czcionki";
+
+/* Class = "NSMenuItem"; title = "Zmniejsz rozmiar czcionki"; ObjectID = "1152"; */
+"1152.title" = "Zmniejsz rozmiar czcionki";
+
+/* Class = "NSMenuItem"; title = "Domyślny rozmiar czcionki"; ObjectID = "1153"; */
+"1153.title" = "Domyślny rozmiar czcionki";
+
+/* Class = "NSMenuItem"; title = "V-Margin Bigger"; ObjectID = "1158"; */
+"1158.title" = "V-Margin Bigger";
+
+/* Class = "NSMenuItem"; title = "V-Margin Smaller"; ObjectID = "1159"; */
+"1159.title" = "V-Margin Smaller";
+
+/* Class = "NSMenuItem"; title = "V-Margin Default"; ObjectID = "1160"; */
+"1160.title" = "V-Margin Default";
+
+/* Class = "NSMenuItem"; title = "Zamknij okno"; ObjectID = "1180"; */
+"1180.title" = "Zamknij okno";
+
+/* Class = "NSMenuItem"; title = "Poprzednie napisy"; ObjectID = "1189"; */
+"1189.title" = "Poprzednie napisy";
+
+/* Class = "NSMenuItem"; title = "Następne napisy"; ObjectID = "1190"; */
+"1190.title" = "Następne napisy";
+
+/* Class = "NSMenuItem"; title = "Zmniejsz prędkość odtwarzania"; ObjectID = "1197"; */
+"1197.title" = "Zmniejsz prędkość odtwarzania";
+
+/* Class = "NSMenuItem"; title = "Zwiększ prędkość odtwarzania"; ObjectID = "1199"; */
+"1199.title" = "Zwiększ prędkość odtwarzania";
+
+/* Class = "NSMenuItem"; title = "Domyślna prędkość odtwarzania"; ObjectID = "1200"; */
+"1200.title" = "Domyślna prędkość odtwarzania";
+
+/* Class = "NSMenuItem"; title = "Ukryj napisy"; ObjectID = "1219"; */
+"1219.title" = "Ukryj napisy";
+
+/* Class = "NSMenuItem"; title = "Brak ścieżki dźwiękowej"; ObjectID = "1223"; */
+"1223.title" = "Brak ścieżki dźwiękowej";
+
+/* Class = "NSMenuItem"; title = "Preferencje..."; ObjectID = "1232"; */
+"1232.title" = "Preferencje...";
+
+/* Class = "NSMenuItem"; title = "Wypełnianie ekranu"; ObjectID = "1271"; */
+"1271.title" = "Wypełnianie ekranu";
+
+/* Class = "NSMenu"; title = "Wypełnianie ekranu"; ObjectID = "1272"; */
+"1272.title" = "Wypełnianie ekranu";
+
+/* Class = "NSMenuItem"; title = "Domyślne"; ObjectID = "1273"; */
+"1273.title" = "Domyślne";
+
+/* Class = "NSMenuItem"; title = "Rozciąganie"; ObjectID = "1274"; */
+"1274.title" = "Rozciąganie";
+
+/* Class = "NSMenuItem"; title = "Kadrowanie"; ObjectID = "1275"; */
+"1275.title" = "Kadrowanie";
+
+/* Class = "NSMenuItem"; title = "Under Scan"; ObjectID = "1276"; */
+"1276.title" = "Under Scan";
+
+/* Class = "NSMenuItem"; title = "Przełączanie"; ObjectID = "1277"; */
+"1277.title" = "Przełączanie";
+
+/* Class = "NSMenuItem"; title = "Pełnoekranowa nawigacja"; ObjectID = "1285"; */
+"1285.title" = "Pełnoekranowa nawigacja";
+
+/* Class = "NSMenuItem"; title = "Wklej"; ObjectID = "1290"; */
+"1290.title" = "Wklej";
+
+/* Class = "NSMenuItem"; title = "Zrzut ekranu"; ObjectID = "1294"; */
+"1294.title" = "Zrzut ekranu";
+
+/* Class = "NSMenuItem"; title = "Zrzut ekranu (... Letter Box)"; ObjectID = "1295"; */
+"1295.title" = "Zrzut ekranu (... Letter Box)";
+
+/* Class = "NSMenuItem"; title = "Letter Box Height: 1 Line"; ObjectID = "1306"; */
+"1306.title" = "Letter Box Height: 1 Line";
+
+/* Class = "NSMenuItem"; title = "Letter Box Height: 2 Lines"; ObjectID = "1307"; */
+"1307.title" = "Letter Box Height: 2 Lines";
+
+/* Class = "NSMenuItem"; title = "Letter Box Height: 3 Lines"; ObjectID = "1308"; */
+"1308.title" = "Letter Box Height: 3 Lines";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Previous Movie"; ObjectID = "1327"; */
+"1327.ibShadowedToolTip" = "Previous Movie";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Next Movie"; ObjectID = "1329"; */
+"1329.ibShadowedToolTip" = "Next Movie";
+
+/* Class = "NSTabViewItem"; label = "A/V Control"; ObjectID = "1340"; */
+"1340.label" = "A/V Control";
+
+/* Class = "NSTabViewItem"; label = "Properties"; ObjectID = "1342"; */
+"1342.label" = "Properties";
+
+/* Class = "NSBox"; title = "Obraz"; ObjectID = "1344"; */
+"1344.title" = "Obraz";
+
+/* Class = "NSBox"; title = "Dźwięk"; ObjectID = "1358"; */
+"1358.title" = "Dźwięk";
+
+/* Class = "NSBox"; title = "Napisy"; ObjectID = "1360"; */
+"1360.title" = "Napisy";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "1375"; */
+"1375.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "2 Lines Height"; ObjectID = "1376"; */
+"1376.title" = "2 Lines Height";
+
+/* Class = "NSMenuItem"; title = "Same Height"; ObjectID = "1378"; */
+"1378.title" = "Same Height";
+
+/* Class = "NSMenuItem"; title = "1 Line Height"; ObjectID = "1379"; */
+"1379.title" = "1 Line Height";
+
+/* Class = "NSMenuItem"; title = "3 Lines Height"; ObjectID = "1380"; */
+"1380.title" = "3 Lines Height";
+
+/* Class = "NSBox"; title = "Odtwarzanie"; ObjectID = "1384"; */
+"1384.title" = "Odtwarzanie";
+
+/* Class = "NSTableColumn"; headerCell.title = "Nazwa"; ObjectID = "1426"; */
+"1426.headerCell.title" = "Nazwa";
+
+/* Class = "NSTableColumn"; headerCell.title = "Format"; ObjectID = "1430"; */
+"1430.headerCell.title" = "Format";
+
+/* Class = "NSTableColumn"; headerCell.title = "Codec"; ObjectID = "1438"; */
+"1438.headerCell.title" = "Codec";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Backward"; ObjectID = "1527"; */
+"1527.ibShadowedToolTip" = "Backward";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Forward"; ObjectID = "1529"; */
+"1529.ibShadowedToolTip" = "Forward";
+
+/* Class = "NSBox"; title = "Title"; ObjectID = "1539"; */
+"1539.title" = "Title";
+
+/* Class = "NSBox"; title = "Title"; ObjectID = "1547"; */
+"1547.title" = "Title";
+
+/* Class = "NSMenuItem"; title = "Source (SAR)"; ObjectID = "1565"; */
+"1565.title" = "Source (SAR)";
+
+/* Class = "NSMenuItem"; title = "Zwiększ głośność systemu"; ObjectID = "1660"; */
+"1660.title" = "Zwiększ głośność systemu";
+
+/* Class = "NSMenuItem"; title = "Zmniejsz głośność systemu"; ObjectID = "1661"; */
+"1661.title" = "Zmniejsz głośność systemu";
+
+/* Class = "NSMenuItem"; title = "Tło pulpitu"; ObjectID = "1766"; */
+"1766.title" = "Tło pulpitu";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "1885"; */
+"1885.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Movie Bottom"; ObjectID = "1886"; */
+"1886.title" = "Movie Bottom";
+
+/* Class = "NSMenuItem"; title = "Movie Top"; ObjectID = "1887"; */
+"1887.title" = "Movie Top";
+
+/* Class = "NSMenuItem"; title = "Upper Letter Box"; ObjectID = "1888"; */
+"1888.title" = "Upper Letter Box";
+
+/* Class = "NSMenuItem"; title = "Movie Center"; ObjectID = "1889"; */
+"1889.title" = "Movie Center";
+
+/* Class = "NSMenuItem"; title = "Lower Letter Box"; ObjectID = "1892"; */
+"1892.title" = "Lower Letter Box";
+
+/* Class = "NSMenuItem"; title = "Otwórz plik z napisami..."; ObjectID = "2131"; */
+"2131.title" = "Otwórz plik z napisami...";
+
+/* Class = "NSMenuItem"; title = "1:"; ObjectID = "2133"; */
+"2133.title" = "1:";
+
+/* Class = "NSMenu"; title = "1:"; ObjectID = "2134"; */
+"2134.title" = "1:";
+
+/* Class = "NSMenuItem"; title = "Domyślna synchronizacja"; ObjectID = "2135"; */
+"2135.title" = "Domyślna synchronizacja";
+
+/* Class = "NSMenuItem"; title = "0.5 sek. wcześniej"; ObjectID = "2136"; */
+"2136.title" = "0.5 sek. wcześniej";
+
+/* Class = "NSMenuItem"; title = "0.5 sek. później"; ObjectID = "2137"; */
+"2137.title" = "0.5 sek. później";
+
+/* Class = "NSMenuItem"; title = "Zmień stronę kodową"; ObjectID = "2140"; */
+"2140.title" = "Zmień stronę kodową";
+
+/* Class = "NSMenuItem"; title = "Position Default"; ObjectID = "2143"; */
+"2143.title" = "Position Default";
+
+/* Class = "NSMenuItem"; title = "Position: Lower Letter Box"; ObjectID = "2144"; */
+"2144.title" = "Position: Lower Letter Box";
+
+/* Class = "NSMenuItem"; title = "Position: Movie Bottom"; ObjectID = "2145"; */
+"2145.title" = "Position: Movie Bottom";
+
+/* Class = "NSMenuItem"; title = "Position: Movie Center"; ObjectID = "2146"; */
+"2146.title" = "Position: Movie Center";
+
+/* Class = "NSMenuItem"; title = "Position: Movie Top"; ObjectID = "2147"; */
+"2147.title" = "Position: Movie Top";
+
+/* Class = "NSMenuItem"; title = "Position: Upper Letter Box"; ObjectID = "2148"; */
+"2148.title" = "Position: Upper Letter Box";
+
+/* Class = "NSMenuItem"; title = "V-Margin Default"; ObjectID = "2149"; */
+"2149.title" = "V-Margin Default";
+
+/* Class = "NSMenuItem"; title = "V-Margin Smaller"; ObjectID = "2150"; */
+"2150.title" = "V-Margin Smaller";
+
+/* Class = "NSMenuItem"; title = "V-Margin Bigger"; ObjectID = "2151"; */
+"2151.title" = "V-Margin Bigger";
+
+/* Class = "NSMenuItem"; title = "Domyślny rozmiar czcionki"; ObjectID = "2152"; */
+"2152.title" = "Domyślny rozmiar czcionki";
+
+/* Class = "NSMenuItem"; title = "Zmniejsz rozmiar czcionki"; ObjectID = "2153"; */
+"2153.title" = "Zmniejsz rozmiar czcionki";
+
+/* Class = "NSMenuItem"; title = "Zwiększ rozmiar czcionki"; ObjectID = "2154"; */
+"2154.title" = "Zwiększ rozmiar czcionki";
+
+/* Class = "NSMenu"; title = "Zmień stronę kodową"; ObjectID = "2155"; */
+"2155.title" = "Zmień stronę kodową";
+
+/* Class = "NSMenuItem"; title = "Item"; ObjectID = "2156"; */
+"2156.title" = "Item";
+
+/* Class = "NSMenuItem"; title = "2:"; ObjectID = "2158"; */
+"2158.title" = "2:";
+
+/* Class = "NSMenu"; title = "2:"; ObjectID = "2159"; */
+"2159.title" = "2:";
+
+/* Class = "NSMenuItem"; title = "Zwiększ rozmiar czcionki"; ObjectID = "2160"; */
+"2160.title" = "Zwiększ rozmiar czcionki";
+
+/* Class = "NSMenuItem"; title = "Zmniejsz rozmiar czcionki"; ObjectID = "2161"; */
+"2161.title" = "Zmniejsz rozmiar czcionki";
+
+/* Class = "NSMenuItem"; title = "Domyślny rozmiar czcionki"; ObjectID = "2162"; */
+"2162.title" = "Domyślny rozmiar czcionki";
+
+/* Class = "NSMenuItem"; title = "V-Margin Bigger"; ObjectID = "2163"; */
+"2163.title" = "V-Margin Bigger";
+
+/* Class = "NSMenuItem"; title = "V-Margin Smaller"; ObjectID = "2164"; */
+"2164.title" = "V-Margin Smaller";
+
+/* Class = "NSMenuItem"; title = "V-Margin Default"; ObjectID = "2165"; */
+"2165.title" = "V-Margin Default";
+
+/* Class = "NSMenuItem"; title = "Position: Upper Letter Box"; ObjectID = "2166"; */
+"2166.title" = "Position: Upper Letter Box";
+
+/* Class = "NSMenuItem"; title = "Position: Movie Top"; ObjectID = "2167"; */
+"2167.title" = "Position: Movie Top";
+
+/* Class = "NSMenuItem"; title = "Position: Movie Center"; ObjectID = "2168"; */
+"2168.title" = "Position: Movie Center";
+
+/* Class = "NSMenuItem"; title = "Position: Movie Bottom"; ObjectID = "2169"; */
+"2169.title" = "Position: Movie Bottom";
+
+/* Class = "NSMenuItem"; title = "Position: Lower Letter Box"; ObjectID = "2170"; */
+"2170.title" = "Position: Lower Letter Box";
+
+/* Class = "NSMenuItem"; title = "Position Default"; ObjectID = "2171"; */
+"2171.title" = "Position Default";
+
+/* Class = "NSMenuItem"; title = "Zmień stronę kodową"; ObjectID = "2174"; */
+"2174.title" = "Zmień stronę kodową";
+
+/* Class = "NSMenuItem"; title = "0.5 sek. później"; ObjectID = "2177"; */
+"2177.title" = "0.5 sek. później";
+
+/* Class = "NSMenuItem"; title = "0.5 sek. wcześniej"; ObjectID = "2178"; */
+"2178.title" = "0.5 sek. wcześniej";
+
+/* Class = "NSMenuItem"; title = "Domyślna synchronizacja"; ObjectID = "2179"; */
+"2179.title" = "Domyślna synchronizacja";
+
+/* Class = "NSMenu"; title = "Zmień stronę kodową"; ObjectID = "2180"; */
+"2180.title" = "Zmień stronę kodową";
+
+/* Class = "NSMenuItem"; title = "Item"; ObjectID = "2181"; */
+"2181.title" = "Item";
+
+/* Class = "NSMenuItem"; title = "3:"; ObjectID = "2182"; */
+"2182.title" = "3:";
+
+/* Class = "NSMenu"; title = "3:"; ObjectID = "2183"; */
+"2183.title" = "3:";
+
+/* Class = "NSMenuItem"; title = "Domyślna synchronizacja"; ObjectID = "2184"; */
+"2184.title" = "Domyślna synchronizacja";
+
+/* Class = "NSMenuItem"; title = "0.5 sek. wcześniej"; ObjectID = "2185"; */
+"2185.title" = "0.5 sek. wcześniej";
+
+/* Class = "NSMenuItem"; title = "0.5 sek. później"; ObjectID = "2186"; */
+"2186.title" = "0.5 sek. później";
+
+/* Class = "NSMenuItem"; title = "Zmień stronę kodową"; ObjectID = "2189"; */
+"2189.title" = "Zmień stronę kodową";
+
+/* Class = "NSMenuItem"; title = "Position Default"; ObjectID = "2192"; */
+"2192.title" = "Position Default";
+
+/* Class = "NSMenuItem"; title = "Position: Lower Letter Box"; ObjectID = "2193"; */
+"2193.title" = "Position: Lower Letter Box";
+
+/* Class = "NSMenuItem"; title = "Position: Movie Bottom"; ObjectID = "2194"; */
+"2194.title" = "Position: Movie Bottom";
+
+/* Class = "NSMenuItem"; title = "Position: Movie Center"; ObjectID = "2195"; */
+"2195.title" = "Position: Movie Center";
+
+/* Class = "NSMenuItem"; title = "Position: Movie Top"; ObjectID = "2196"; */
+"2196.title" = "Position: Movie Top";
+
+/* Class = "NSMenuItem"; title = "Position: Upper Letter Box"; ObjectID = "2197"; */
+"2197.title" = "Position: Upper Letter Box";
+
+/* Class = "NSMenuItem"; title = "V-Margin Default"; ObjectID = "2198"; */
+"2198.title" = "V-Margin Default";
+
+/* Class = "NSMenuItem"; title = "V-Margin Smaller"; ObjectID = "2199"; */
+"2199.title" = "V-Margin Smaller";
+
+/* Class = "NSMenuItem"; title = "V-Margin Bigger"; ObjectID = "2200"; */
+"2200.title" = "V-Margin Bigger";
+
+/* Class = "NSMenuItem"; title = "Domyślny rozmiar czcionki"; ObjectID = "2201"; */
+"2201.title" = "Domyślny rozmiar czcionki";
+
+/* Class = "NSMenuItem"; title = "Zmniejsz rozmiar czcionki"; ObjectID = "2202"; */
+"2202.title" = "Zmniejsz rozmiar czcionki";
+
+/* Class = "NSMenuItem"; title = "Zwiększ rozmiar czcionki"; ObjectID = "2203"; */
+"2203.title" = "Zwiększ rozmiar czcionki";
+
+/* Class = "NSMenu"; title = "Zmień stronę kodową"; ObjectID = "2204"; */
+"2204.title" = "Zmień stronę kodową";
+
+/* Class = "NSMenuItem"; title = "Item"; ObjectID = "2205"; */
+"2205.title" = "Item";
+
+/* Class = "NSMenuItem"; title = "Dodaj plik z napisami…"; ObjectID = "2376"; */
+"2376.title" = "Dodaj plik z napisami…";
+
+/* Class = "NSMenuItem"; title = "Przełącz napisy"; ObjectID = "2676"; */
+"2676.title" = "Przełącz napisy";
+
+/* Class = "NSMenuItem"; title = "Zawsze na wierzchu"; ObjectID = "2687"; */
+"2687.title" = "Zawsze na wierzchu";
+
+/* Class = "NSMenuItem"; title = "Kopiuj"; ObjectID = "2792"; */
+"2792.title" = "Kopiuj";
+
+/* Class = "NSMenuItem"; title = "Position Rotation"; ObjectID = "2898"; */
+"2898.title" = "Position Rotation";
+
+/* Class = "NSTextFieldCell"; title = "--:--:--"; ObjectID = "2908"; */
+"2908.title" = "--:--:--";
+
+/* Class = "NSTextFieldCell"; title = "--:--:--"; ObjectID = "2909"; */
+"2909.title" = "--:--:--";
+
+/* Class = "NSTextFieldCell"; title = "00:00:00"; ObjectID = "2917"; */
+"2917.title" = "00:00:00";
+
+/* Class = "NSTextFieldCell"; title = "Play Panel"; ObjectID = "2918"; */
+"2918.title" = "Play Panel";
+
+/* Class = "NSTextFieldCell"; title = "00:00:00"; ObjectID = "2920"; */
+"2920.title" = "00:00:00";
+
+/* Class = "NSTextFieldCell"; title = "Hue:"; ObjectID = "2928"; */
+"2928.title" = "Hue:";
+
+/* Class = "NSTextFieldCell"; title = "Kontrast:"; ObjectID = "2930"; */
+"2930.title" = "Kontrast:";
+
+/* Class = "NSTextFieldCell"; title = "Jasność:"; ObjectID = "2932"; */
+"2932.title" = "Jasność:";
+
+/* Class = "NSTextFieldCell"; title = "Nasycenie:"; ObjectID = "2935"; */
+"2935.title" = "Nasycenie:";
+
+/* Class = "NSTextFieldCell"; title = "Device:"; ObjectID = "2939"; */
+"2939.title" = "Device:";
+
+/* Class = "NSTextFieldCell"; title = "..."; ObjectID = "2940"; */
+"2940.title" = "...";
+
+/* Class = "NSTextFieldCell"; title = "Current:"; ObjectID = "2941"; */
+"2941.title" = "Current:";
+
+/* Class = "NSTextFieldCell"; title = "..."; ObjectID = "2942"; */
+"2942.title" = "...";
+
+/* Class = "NSTextFieldCell"; title = "Sync.:"; ObjectID = "2943"; */
+"2943.title" = "Sync.:";
+
+/* Class = "NSTextFieldCell"; title = "Rozmiar:"; ObjectID = "2944"; */
+"2944.title" = "Rozmiar:";
+
+/* Class = "NSTextFieldCell"; title = "V-Margin:"; ObjectID = "2945"; */
+"2945.title" = "V-Margin:";
+
+/* Class = "NSTextFieldCell"; title = "Letter Box:"; ObjectID = "2946"; */
+"2946.title" = "Letter Box:";
+
+/* Class = "NSButtonCell"; title = "Mniejsze"; ObjectID = "2948"; */
+"2948.title" = "Mniejsze";
+
+/* Class = "NSButtonCell"; title = "Większe"; ObjectID = "2949"; */
+"2949.title" = "Większe";
+
+/* Class = "NSButtonCell"; title = "Mniejsze"; ObjectID = "2951"; */
+"2951.title" = "Mniejsze";
+
+/* Class = "NSButtonCell"; title = "Większe"; ObjectID = "2952"; */
+"2952.title" = "Większe";
+
+/* Class = "NSButtonCell"; title = "Wcześniej"; ObjectID = "2956"; */
+"2956.title" = "Wcześniej";
+
+/* Class = "NSButtonCell"; title = "Później"; ObjectID = "2957"; */
+"2957.title" = "Później";
+
+/* Class = "NSTextFieldCell"; title = "Pozycja:"; ObjectID = "2958"; */
+"2958.title" = "Pozycja:";
+
+/* Class = "NSTextFieldCell"; title = "..."; ObjectID = "2961"; */
+"2961.title" = "...";
+
+/* Class = "NSSegmentedCell"; 2962.ibShadowedLabels[0] = "*"; ObjectID = "2962"; */
+"2962.ibShadowedLabels[0]" = "*";
+
+/* Class = "NSSegmentedCell"; 2962.ibShadowedLabels[1] = "1"; ObjectID = "2962"; */
+"2962.ibShadowedLabels[1]" = "1";
+
+/* Class = "NSSegmentedCell"; 2962.ibShadowedLabels[2] = "2"; ObjectID = "2962"; */
+"2962.ibShadowedLabels[2]" = "2";
+
+/* Class = "NSSegmentedCell"; 2962.ibShadowedLabels[3] = "3"; ObjectID = "2962"; */
+"2962.ibShadowedLabels[3]" = "3";
+
+/* Class = "NSTextFieldCell"; title = "Play Speed:"; ObjectID = "2965"; */
+"2965.title" = "Play Speed:";
+
+/* Class = "NSTextFieldCell"; title = "½x"; ObjectID = "2966"; */
+"2966.title" = "½x";
+
+/* Class = "NSTextFieldCell"; title = "1x"; ObjectID = "2967"; */
+"2967.title" = "1x";
+
+/* Class = "NSTextFieldCell"; title = "2x"; ObjectID = "2968"; */
+"2968.title" = "2x";
+
+/* Class = "NSTextFieldCell"; title = "3x"; ObjectID = "2969"; */
+"2969.title" = "3x";
+
+/* Class = "NSTextFieldCell"; title = "Range Repeat:"; ObjectID = "2970"; */
+"2970.title" = "Range Repeat:";
+
+/* Class = "NSButtonCell"; title = "Początek"; ObjectID = "2972"; */
+"2972.title" = "Początek";
+
+/* Class = "NSButtonCell"; title = "Koniec"; ObjectID = "2973"; */
+"2973.title" = "Koniec";
+
+/* Class = "NSTextFieldCell"; title = "--:--:--"; ObjectID = "2974"; */
+"2974.title" = "--:--:--";
+
+/* Class = "NSTextFieldCell"; title = "--:--:--"; ObjectID = "2975"; */
+"2975.title" = "--:--:--";
+
+/* Class = "NSTextFieldCell"; title = "Movie File name"; ObjectID = "2976"; */
+"2976.title" = "Movie File name";
+
+/* Class = "NSTextFieldCell"; title = "Film:"; ObjectID = "2978"; */
+"2978.title" = "Film:";
+
+/* Class = "NSTextFieldCell"; title = "xx.xx / xx.xx"; ObjectID = "2979"; */
+"2979.title" = "xx.xx / xx.xx";
+
+/* Class = "NSTextFieldCell"; title = "FPS:"; ObjectID = "2980"; */
+"2980.title" = "FPS:";
+
+/* Class = "NSTextFieldCell"; title = "xxx.xx MB, xxxx.xx kbps"; ObjectID = "2981"; */
+"2981.title" = "xxx.xx MB, xxxx.xx kbps";
+
+/* Class = "NSTextFieldCell"; title = "Data:"; ObjectID = "2982"; */
+"2982.title" = "Data:";
+
+/* Class = "NSTextFieldCell"; title = "Panel sterowania"; ObjectID = "2983"; */
+"2983.title" = "Panel sterowania";
+
+/* Class = "NSSegmentedCell"; 2985.ibShadowedLabels[0] = "A/V Control"; ObjectID = "2985"; */
+"2985.ibShadowedLabels[0]" = "A/V Control";
+
+/* Class = "NSSegmentedCell"; 2985.ibShadowedLabels[1] = "Properties"; ObjectID = "2985"; */
+"2985.ibShadowedLabels[1]" = "Properties";

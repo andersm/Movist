@@ -1,0 +1,12 @@
+
+/* Class = "NSWindow"; title = "Playlist"; ObjectID = "5"; */
+"5.title" = "Playlist";
+
+/* Class = "NSTableColumn"; headerCell.title = "동영상"; ObjectID = "10"; */
+"10.headerCell.title" = "동영상";
+
+/* Class = "NSButtonCell"; title = "Kapat"; ObjectID = "38"; */
+"38.title" = "Kapat";
+
+/* Class = "NSTextFieldCell"; title = "Sistem Yazı Tipi"; ObjectID = "39"; */
+"39.title" = "Sistem Yazı Tipi";

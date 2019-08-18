@@ -1,0 +1,768 @@
+
+/* Class = "NSMenuItem"; title = "將此程式所有視窗移至最前"; ObjectID = "5"; */
+"5.title" = "將此程式所有視窗移至最前";
+
+/* Class = "NSMenuItem"; title = "視窗"; ObjectID = "19"; */
+"19.title" = "視窗";
+
+/* Class = "NSMenuItem"; title = "縮到最小"; ObjectID = "23"; */
+"23.title" = "縮到最小";
+
+/* Class = "NSMenu"; title = "視窗"; ObjectID = "24"; */
+"24.title" = "視窗";
+
+/* Class = "NSMenu"; title = "MainMenu"; ObjectID = "29"; */
+"29.title" = "MainMenu";
+
+/* Class = "NSMenuItem"; title = "Movist"; ObjectID = "56"; */
+"56.title" = "Movist";
+
+/* Class = "NSMenu"; title = "Movist"; ObjectID = "57"; */
+"57.title" = "Movist";
+
+/* Class = "NSMenuItem"; title = "關於 Movist"; ObjectID = "58"; */
+"58.title" = "關於 Movist";
+
+/* Class = "NSMenuItem"; title = "開啓影片檔案…"; ObjectID = "72"; */
+"72.title" = "開啓影片檔案…";
+
+/* Class = "NSMenu"; title = "檔案"; ObjectID = "81"; */
+"81.title" = "檔案";
+
+/* Class = "NSMenuItem"; title = "檔案"; ObjectID = "83"; */
+"83.title" = "檔案";
+
+/* Class = "NSMenuItem"; title = "輔助說明"; ObjectID = "103"; */
+"103.title" = "輔助說明";
+
+/* Class = "NSMenu"; title = "輔助說明"; ObjectID = "106"; */
+"106.title" = "輔助說明";
+
+/* Class = "NSMenuItem"; title = "Movist 輔助說明"; ObjectID = "111"; */
+"111.title" = "Movist 輔助說明";
+
+/* Class = "NSMenuItem"; title = "最近開啓"; ObjectID = "124"; */
+"124.title" = "最近開啓";
+
+/* Class = "NSMenu"; title = "最近開啓"; ObjectID = "125"; */
+"125.title" = "最近開啓";
+
+/* Class = "NSMenuItem"; title = "메뉴 지우기"; ObjectID = "126"; */
+"126.title" = "메뉴 지우기";
+
+/* Class = "NSMenu"; title = "服務"; ObjectID = "130"; */
+"130.title" = "服務";
+
+/* Class = "NSMenuItem"; title = "服務"; ObjectID = "131"; */
+"131.title" = "服務";
+
+/* Class = "NSMenuItem"; title = "隱藏 Movist"; ObjectID = "134"; */
+"134.title" = "隱藏 Movist";
+
+/* Class = "NSMenuItem"; title = "結束 Movist"; ObjectID = "136"; */
+"136.title" = "結束 Movist";
+
+/* Class = "NSMenuItem"; title = "隱藏其他"; ObjectID = "145"; */
+"145.title" = "隱藏其他";
+
+/* Class = "NSMenuItem"; title = "顯示全部"; ObjectID = "150"; */
+"150.title" = "顯示全部";
+
+/* Class = "NSMenuItem"; title = "剪下"; ObjectID = "157"; */
+"157.title" = "剪下";
+
+/* Class = "NSMenuItem"; title = "編輯"; ObjectID = "163"; */
+"163.title" = "編輯";
+
+/* Class = "NSMenu"; title = "編輯"; ObjectID = "169"; */
+"169.title" = "編輯";
+
+/* Class = "NSMenuItem"; title = "縮放"; ObjectID = "197"; */
+"197.title" = "縮放";
+
+/* Class = "NSMenuItem"; title = "影片"; ObjectID = "218"; */
+"218.title" = "影片";
+
+/* Class = "NSMenu"; title = "影片"; ObjectID = "219"; */
+"219.title" = "影片";
+
+/* Class = "NSMenuItem"; title = "一般大小"; ObjectID = "220"; */
+"220.title" = "一般大小";
+
+/* Class = "NSMenuItem"; title = "一半大小"; ObjectID = "221"; */
+"221.title" = "一半大小";
+
+/* Class = "NSMenuItem"; title = "兩倍大小"; ObjectID = "222"; */
+"222.title" = "兩倍大小";
+
+/* Class = "NSMenuItem"; title = "全螢幕"; ObjectID = "223"; */
+"223.title" = "全螢幕";
+
+/* Class = "NSMenuItem"; title = "符合螢幕"; ObjectID = "233"; */
+"233.title" = "符合螢幕";
+
+/* Class = "NSMenuItem"; title = "重新開啓由 …"; ObjectID = "252"; */
+"252.title" = "重新開啓由 …";
+
+/* Class = "NSWindow"; title = "Movist"; ObjectID = "311"; */
+"311.title" = "Movist";
+
+/* Class = "NSMenuItem"; title = "拷貝 (... 螢幕)"; ObjectID = "339"; */
+"339.title" = "拷貝 (... 螢幕)";
+
+/* Class = "NSMenuItem"; title = "全選"; ObjectID = "341"; */
+"341.title" = "全選";
+
+/* Class = "NSMenuItem"; title = "字幕"; ObjectID = "350"; */
+"350.title" = "字幕";
+
+/* Class = "NSMenu"; title = "字幕"; ObjectID = "351"; */
+"351.title" = "字幕";
+
+/* Class = "NSWindow"; title = "播放面板"; ObjectID = "363"; */
+"363.title" = "播放面板";
+
+/* Class = "NSButton"; ibShadowedToolTip = "靜音"; ObjectID = "399"; */
+"399.ibShadowedToolTip" = "靜音";
+
+/* Class = "NSButton"; ibShadowedToolTip = "播放清單"; ObjectID = "402"; */
+"402.ibShadowedToolTip" = "播放清單";
+
+/* Class = "NSMenuItem"; title = "長寬比例"; ObjectID = "438"; */
+"438.title" = "長寬比例";
+
+/* Class = "NSMenu"; title = "長寬比例"; ObjectID = "439"; */
+"439.title" = "長寬比例";
+
+/* Class = "NSMenuItem"; title = "預設 (DAR)"; ObjectID = "440"; */
+"440.title" = "預設 (DAR)";
+
+/* Class = "NSMenuItem"; title = "4 : 3 (TV)"; ObjectID = "441"; */
+"441.title" = "4 : 3 (TV)";
+
+/* Class = "NSMenuItem"; title = "16 : 9 (HDTV)"; ObjectID = "442"; */
+"442.title" = "16 : 9 (HDTV)";
+
+/* Class = "NSMenuItem"; title = "1.85 : 1 (Screen)"; ObjectID = "443"; */
+"443.title" = "1.85 : 1 (Screen)";
+
+/* Class = "NSMenuItem"; title = "2.35 : 1 (Screen)"; ObjectID = "444"; */
+"444.title" = "2.35 : 1 (Screen)";
+
+/* Class = "NSWindow"; title = "控制面板"; ObjectID = "451"; */
+"451.title" = "控制面板";
+
+/* Class = "NSMenuItem"; title = "播放清單"; ObjectID = "470"; */
+"470.title" = "播放清單";
+
+/* Class = "NSMenuItem"; title = "控制面板"; ObjectID = "472"; */
+"472.title" = "控制面板";
+
+/* Class = "NSButton"; ibShadowedToolTip = "控制面板"; ObjectID = "536"; */
+"536.ibShadowedToolTip" = "控制面板";
+
+/* Class = "NSMenuItem"; title = "控制"; ObjectID = "605"; */
+"605.title" = "控制";
+
+/* Class = "NSMenu"; title = "控制"; ObjectID = "606"; */
+"606.title" = "控制";
+
+/* Class = "NSMenuItem"; title = "播放"; ObjectID = "607"; */
+"607.title" = "播放";
+
+/* Class = "NSMenuItem"; title = "往回 10 秒"; ObjectID = "609"; */
+"609.title" = "往回 10 秒";
+
+/* Class = "NSMenuItem"; title = "結束"; ObjectID = "610"; */
+"610.title" = "結束";
+
+/* Class = "NSMenuItem"; title = "上一個影片"; ObjectID = "612"; */
+"612.title" = "上一個影片";
+
+/* Class = "NSMenuItem"; title = "下一個影片"; ObjectID = "613"; */
+"613.title" = "下一個影片";
+
+/* Class = "NSMenuItem"; title = "關閉循環"; ObjectID = "617"; */
+"617.title" = "關閉循環";
+
+/* Class = "NSMenuItem"; title = "全部循環"; ObjectID = "618"; */
+"618.title" = "全部循環";
+
+/* Class = "NSMenuItem"; title = "循環一次"; ObjectID = "619"; */
+"619.title" = "循環一次";
+
+/* Class = "NSMenuItem"; title = "加大音量"; ObjectID = "621"; */
+"621.title" = "加大音量";
+
+/* Class = "NSMenuItem"; title = "降低音量"; ObjectID = "622"; */
+"622.title" = "降低音量";
+
+/* Class = "NSMenuItem"; title = "靜音"; ObjectID = "623"; */
+"623.title" = "靜音";
+
+/* Class = "NSMenuItem"; title = "下一個影格"; ObjectID = "651"; */
+"651.title" = "下一個影格";
+
+/* Class = "NSMenuItem"; title = "開始"; ObjectID = "652"; */
+"652.title" = "開始";
+
+/* Class = "NSMenuItem"; title = "上一個影格"; ObjectID = "653"; */
+"653.title" = "上一個影格";
+
+/* Class = "NSMenuItem"; title = "往前 10 秒"; ObjectID = "654"; */
+"654.title" = "往前 10 秒";
+
+/* Class = "NSMenuItem"; title = "螢幕高度: 相同"; ObjectID = "665"; */
+"665.title" = "螢幕高度: 相同";
+
+/* Class = "NSMenuItem"; title = "延後0.5 秒"; ObjectID = "666"; */
+"666.title" = "延後0.5 秒";
+
+/* Class = "NSMenuItem"; title = "提早0.5 秒"; ObjectID = "667"; */
+"667.title" = "提早0.5 秒";
+
+/* Class = "NSMenuItem"; title = "螢幕預設高度"; ObjectID = "673"; */
+"673.title" = "螢幕預設高度";
+
+/* Class = "NSMenuItem"; title = "預設同步"; ObjectID = "674"; */
+"674.title" = "預設同步";
+
+/* Class = "NSMenuItem"; title = "往回 60 秒"; ObjectID = "794"; */
+"794.title" = "往回 60 秒";
+
+/* Class = "NSMenuItem"; title = "往前 60 秒"; ObjectID = "795"; */
+"795.title" = "往前 60 秒";
+
+/* Class = "NSMenuItem"; title = "往回 300 秒"; ObjectID = "796"; */
+"796.title" = "往回 300 秒";
+
+/* Class = "NSMenuItem"; title = "往前 300 秒"; ObjectID = "797"; */
+"797.title" = "往前 300 秒";
+
+/* Class = "NSMenuItem"; title = "開始循環範圍"; ObjectID = "1139"; */
+"1139.title" = "開始循環範圍";
+
+/* Class = "NSMenuItem"; title = "結束循環範圍"; ObjectID = "1140"; */
+"1140.title" = "結束循環範圍";
+
+/* Class = "NSMenuItem"; title = "清除循環範圍"; ObjectID = "1141"; */
+"1141.title" = "清除循環範圍";
+
+/* Class = "NSMenuItem"; title = "較大的字形大小"; ObjectID = "1151"; */
+"1151.title" = "較大的字形大小";
+
+/* Class = "NSMenuItem"; title = "較小的字形大小"; ObjectID = "1152"; */
+"1152.title" = "較小的字形大小";
+
+/* Class = "NSMenuItem"; title = "預設的字形大小"; ObjectID = "1153"; */
+"1153.title" = "預設的字形大小";
+
+/* Class = "NSMenuItem"; title = "增加垂直邊距"; ObjectID = "1158"; */
+"1158.title" = "增加垂直邊距";
+
+/* Class = "NSMenuItem"; title = "減少垂直邊距"; ObjectID = "1159"; */
+"1159.title" = "減少垂直邊距";
+
+/* Class = "NSMenuItem"; title = "預設垂直邊距"; ObjectID = "1160"; */
+"1160.title" = "預設垂直邊距";
+
+/* Class = "NSMenuItem"; title = "關閉視窗"; ObjectID = "1180"; */
+"1180.title" = "關閉視窗";
+
+/* Class = "NSMenuItem"; title = "上一個字幕"; ObjectID = "1189"; */
+"1189.title" = "上一個字幕";
+
+/* Class = "NSMenuItem"; title = "下一個字幕"; ObjectID = "1190"; */
+"1190.title" = "下一個字幕";
+
+/* Class = "NSMenuItem"; title = "較快的播放速度"; ObjectID = "1197"; */
+"1197.title" = "較快的播放速度";
+
+/* Class = "NSMenuItem"; title = "較慢的播放速度"; ObjectID = "1199"; */
+"1199.title" = "較慢的播放速度";
+
+/* Class = "NSMenuItem"; title = "預設的播放速度"; ObjectID = "1200"; */
+"1200.title" = "預設的播放速度";
+
+/* Class = "NSMenuItem"; title = "隱藏字幕"; ObjectID = "1219"; */
+"1219.title" = "隱藏字幕";
+
+/* Class = "NSMenuItem"; title = "沒有聲音軌道"; ObjectID = "1223"; */
+"1223.title" = "沒有聲音軌道";
+
+/* Class = "NSMenuItem"; title = "偏好設定…"; ObjectID = "1232"; */
+"1232.title" = "偏好設定…";
+
+/* Class = "NSMenuItem"; title = "全螢幕填滿"; ObjectID = "1271"; */
+"1271.title" = "全螢幕填滿";
+
+/* Class = "NSMenu"; title = "全螢幕填滿"; ObjectID = "1272"; */
+"1272.title" = "全螢幕填滿";
+
+/* Class = "NSMenuItem"; title = "預設"; ObjectID = "1273"; */
+"1273.title" = "預設";
+
+/* Class = "NSMenuItem"; title = "展開"; ObjectID = "1274"; */
+"1274.title" = "展開";
+
+/* Class = "NSMenuItem"; title = "裁切"; ObjectID = "1275"; */
+"1275.title" = "裁切";
+
+/* Class = "NSMenuItem"; title = "幕後掃描"; ObjectID = "1276"; */
+"1276.title" = "幕後掃描";
+
+/* Class = "NSMenuItem"; title = "旋轉"; ObjectID = "1277"; */
+"1277.title" = "旋轉";
+
+/* Class = "NSMenuItem"; title = "全螢幕瀏覽"; ObjectID = "1285"; */
+"1285.title" = "全螢幕瀏覽";
+
+/* Class = "NSMenuItem"; title = "貼上"; ObjectID = "1290"; */
+"1290.title" = "貼上";
+
+/* Class = "NSMenuItem"; title = "儲存目前影像"; ObjectID = "1294"; */
+"1294.title" = "儲存目前影像";
+
+/* Class = "NSMenuItem"; title = "儲存目前影像 (... 螢幕)"; ObjectID = "1295"; */
+"1295.title" = "儲存目前影像 (... 螢幕)";
+
+/* Class = "NSMenuItem"; title = "螢幕高度: 1 行"; ObjectID = "1306"; */
+"1306.title" = "螢幕高度: 1 行";
+
+/* Class = "NSMenuItem"; title = "螢幕高度: 2 行"; ObjectID = "1307"; */
+"1307.title" = "螢幕高度: 2 行";
+
+/* Class = "NSMenuItem"; title = "螢幕高度: 3 行"; ObjectID = "1308"; */
+"1308.title" = "螢幕高度: 3 行";
+
+/* Class = "NSButton"; ibShadowedToolTip = "上一個影片"; ObjectID = "1327"; */
+"1327.ibShadowedToolTip" = "上一個影片";
+
+/* Class = "NSButton"; ibShadowedToolTip = "下一個影片"; ObjectID = "1329"; */
+"1329.ibShadowedToolTip" = "下一個影片";
+
+/* Class = "NSTabViewItem"; label = "A/V Control"; ObjectID = "1340"; */
+"1340.label" = "A/V Control";
+
+/* Class = "NSTabViewItem"; label = "Properties"; ObjectID = "1342"; */
+"1342.label" = "Properties";
+
+/* Class = "NSBox"; title = "影片"; ObjectID = "1344"; */
+"1344.title" = "影片";
+
+/* Class = "NSBox"; title = "聲音"; ObjectID = "1358"; */
+"1358.title" = "聲音";
+
+/* Class = "NSBox"; title = "字幕"; ObjectID = "1360"; */
+"1360.title" = "字幕";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "1375"; */
+"1375.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "2 行高度"; ObjectID = "1376"; */
+"1376.title" = "2 行高度";
+
+/* Class = "NSMenuItem"; title = "相同高度"; ObjectID = "1378"; */
+"1378.title" = "相同高度";
+
+/* Class = "NSMenuItem"; title = "1 行高度"; ObjectID = "1379"; */
+"1379.title" = "1 行高度";
+
+/* Class = "NSMenuItem"; title = "3 行高度"; ObjectID = "1380"; */
+"1380.title" = "3 行高度";
+
+/* Class = "NSBox"; title = "播放"; ObjectID = "1384"; */
+"1384.title" = "播放";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "1426"; */
+"1426.headerCell.title" = "Name";
+
+/* Class = "NSTableColumn"; headerCell.title = "Format"; ObjectID = "1430"; */
+"1430.headerCell.title" = "Format";
+
+/* Class = "NSTableColumn"; headerCell.title = "Codec"; ObjectID = "1438"; */
+"1438.headerCell.title" = "Codec";
+
+/* Class = "NSButton"; ibShadowedToolTip = "往後"; ObjectID = "1527"; */
+"1527.ibShadowedToolTip" = "往後";
+
+/* Class = "NSButton"; ibShadowedToolTip = "往前"; ObjectID = "1529"; */
+"1529.ibShadowedToolTip" = "往前";
+
+/* Class = "NSBox"; title = "Title"; ObjectID = "1539"; */
+"1539.title" = "Title";
+
+/* Class = "NSBox"; title = "Title"; ObjectID = "1547"; */
+"1547.title" = "Title";
+
+/* Class = "NSMenuItem"; title = "來源 (SAR)"; ObjectID = "1565"; */
+"1565.title" = "來源 (SAR)";
+
+/* Class = "NSMenuItem"; title = "加大系統音量"; ObjectID = "1660"; */
+"1660.title" = "加大系統音量";
+
+/* Class = "NSMenuItem"; title = "降低系統音量"; ObjectID = "1661"; */
+"1661.title" = "降低系統音量";
+
+/* Class = "NSMenuItem"; title = "桌面背景"; ObjectID = "1766"; */
+"1766.title" = "桌面背景";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "1885"; */
+"1885.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "影片下面"; ObjectID = "1886"; */
+"1886.title" = "影片下面";
+
+/* Class = "NSMenuItem"; title = "影片頂端"; ObjectID = "1887"; */
+"1887.title" = "影片頂端";
+
+/* Class = "NSMenuItem"; title = "高於Letter Box"; ObjectID = "1888"; */
+"1888.title" = "高於Letter Box";
+
+/* Class = "NSMenuItem"; title = "影片中間"; ObjectID = "1889"; */
+"1889.title" = "影片中間";
+
+/* Class = "NSMenuItem"; title = "低於 Letter Box"; ObjectID = "1892"; */
+"1892.title" = "低於 Letter Box";
+
+/* Class = "NSMenuItem"; title = "開啓字幕檔案…"; ObjectID = "2131"; */
+"2131.title" = "開啓字幕檔案…";
+
+/* Class = "NSMenuItem"; title = "1:"; ObjectID = "2133"; */
+"2133.title" = "1:";
+
+/* Class = "NSMenu"; title = "1:"; ObjectID = "2134"; */
+"2134.title" = "1:";
+
+/* Class = "NSMenuItem"; title = "預設同步"; ObjectID = "2135"; */
+"2135.title" = "預設同步";
+
+/* Class = "NSMenuItem"; title = "提早0.5 秒"; ObjectID = "2136"; */
+"2136.title" = "提早0.5 秒";
+
+/* Class = "NSMenuItem"; title = "延後0.5 秒"; ObjectID = "2137"; */
+"2137.title" = "延後0.5 秒";
+
+/* Class = "NSMenuItem"; title = "重新開啓由編碼器"; ObjectID = "2140"; */
+"2140.title" = "重新開啓由編碼器";
+
+/* Class = "NSMenuItem"; title = "預設位置"; ObjectID = "2143"; */
+"2143.title" = "預設位置";
+
+/* Class = "NSMenuItem"; title = "位置: 低於螢幕"; ObjectID = "2144"; */
+"2144.title" = "位置: 低於螢幕";
+
+/* Class = "NSMenuItem"; title = "位置: 影片下面"; ObjectID = "2145"; */
+"2145.title" = "位置: 影片下面";
+
+/* Class = "NSMenuItem"; title = "位置: 影片中間"; ObjectID = "2146"; */
+"2146.title" = "位置: 影片中間";
+
+/* Class = "NSMenuItem"; title = "位置: 影片頂端"; ObjectID = "2147"; */
+"2147.title" = "位置: 影片頂端";
+
+/* Class = "NSMenuItem"; title = "位置: 高於螢幕"; ObjectID = "2148"; */
+"2148.title" = "位置: 高於螢幕";
+
+/* Class = "NSMenuItem"; title = "預設垂直邊距"; ObjectID = "2149"; */
+"2149.title" = "預設垂直邊距";
+
+/* Class = "NSMenuItem"; title = "減少垂直邊距"; ObjectID = "2150"; */
+"2150.title" = "減少垂直邊距";
+
+/* Class = "NSMenuItem"; title = "增加垂直邊距"; ObjectID = "2151"; */
+"2151.title" = "增加垂直邊距";
+
+/* Class = "NSMenuItem"; title = "預設的字形大小"; ObjectID = "2152"; */
+"2152.title" = "預設的字形大小";
+
+/* Class = "NSMenuItem"; title = "較小的字形大小"; ObjectID = "2153"; */
+"2153.title" = "較小的字形大小";
+
+/* Class = "NSMenuItem"; title = "較大的字形大小"; ObjectID = "2154"; */
+"2154.title" = "較大的字形大小";
+
+/* Class = "NSMenu"; title = "重新開啓由編碼器"; ObjectID = "2155"; */
+"2155.title" = "重新開啓由編碼器";
+
+/* Class = "NSMenuItem"; title = "Item"; ObjectID = "2156"; */
+"2156.title" = "Item";
+
+/* Class = "NSMenuItem"; title = "2:"; ObjectID = "2158"; */
+"2158.title" = "2:";
+
+/* Class = "NSMenu"; title = "2:"; ObjectID = "2159"; */
+"2159.title" = "2:";
+
+/* Class = "NSMenuItem"; title = "較大的字形大小"; ObjectID = "2160"; */
+"2160.title" = "較大的字形大小";
+
+/* Class = "NSMenuItem"; title = "較小的字形大小"; ObjectID = "2161"; */
+"2161.title" = "較小的字形大小";
+
+/* Class = "NSMenuItem"; title = "預設的字形大小"; ObjectID = "2162"; */
+"2162.title" = "預設的字形大小";
+
+/* Class = "NSMenuItem"; title = "增加垂直邊距"; ObjectID = "2163"; */
+"2163.title" = "增加垂直邊距";
+
+/* Class = "NSMenuItem"; title = "減少垂直邊距"; ObjectID = "2164"; */
+"2164.title" = "減少垂直邊距";
+
+/* Class = "NSMenuItem"; title = "預設垂直邊距"; ObjectID = "2165"; */
+"2165.title" = "預設垂直邊距";
+
+/* Class = "NSMenuItem"; title = "位置: 高於螢幕"; ObjectID = "2166"; */
+"2166.title" = "位置: 高於螢幕";
+
+/* Class = "NSMenuItem"; title = "位置: 影片頂端"; ObjectID = "2167"; */
+"2167.title" = "位置: 影片頂端";
+
+/* Class = "NSMenuItem"; title = "位置: 影片中間"; ObjectID = "2168"; */
+"2168.title" = "位置: 影片中間";
+
+/* Class = "NSMenuItem"; title = "位置: 影片下面"; ObjectID = "2169"; */
+"2169.title" = "位置: 影片下面";
+
+/* Class = "NSMenuItem"; title = "位置: 低於螢幕"; ObjectID = "2170"; */
+"2170.title" = "位置: 低於螢幕";
+
+/* Class = "NSMenuItem"; title = "預設位置"; ObjectID = "2171"; */
+"2171.title" = "預設位置";
+
+/* Class = "NSMenuItem"; title = "重新開啓由編碼器"; ObjectID = "2174"; */
+"2174.title" = "重新開啓由編碼器";
+
+/* Class = "NSMenuItem"; title = "延後0.5 秒"; ObjectID = "2177"; */
+"2177.title" = "延後0.5 秒";
+
+/* Class = "NSMenuItem"; title = "提早0.5 秒"; ObjectID = "2178"; */
+"2178.title" = "提早0.5 秒";
+
+/* Class = "NSMenuItem"; title = "預設同步"; ObjectID = "2179"; */
+"2179.title" = "預設同步";
+
+/* Class = "NSMenu"; title = "重新開啓由編碼器"; ObjectID = "2180"; */
+"2180.title" = "重新開啓由編碼器";
+
+/* Class = "NSMenuItem"; title = "Item"; ObjectID = "2181"; */
+"2181.title" = "Item";
+
+/* Class = "NSMenuItem"; title = "3:"; ObjectID = "2182"; */
+"2182.title" = "3:";
+
+/* Class = "NSMenu"; title = "3:"; ObjectID = "2183"; */
+"2183.title" = "3:";
+
+/* Class = "NSMenuItem"; title = "預設同步"; ObjectID = "2184"; */
+"2184.title" = "預設同步";
+
+/* Class = "NSMenuItem"; title = "提早0.5 秒"; ObjectID = "2185"; */
+"2185.title" = "提早0.5 秒";
+
+/* Class = "NSMenuItem"; title = "延後0.5 秒"; ObjectID = "2186"; */
+"2186.title" = "延後0.5 秒";
+
+/* Class = "NSMenuItem"; title = "重新開啓由編碼器"; ObjectID = "2189"; */
+"2189.title" = "重新開啓由編碼器";
+
+/* Class = "NSMenuItem"; title = "預設位置"; ObjectID = "2192"; */
+"2192.title" = "預設位置";
+
+/* Class = "NSMenuItem"; title = "位置: 低於螢幕"; ObjectID = "2193"; */
+"2193.title" = "位置: 低於螢幕";
+
+/* Class = "NSMenuItem"; title = "位置: 影片下面"; ObjectID = "2194"; */
+"2194.title" = "位置: 影片下面";
+
+/* Class = "NSMenuItem"; title = "位置: 影片中間"; ObjectID = "2195"; */
+"2195.title" = "位置: 影片中間";
+
+/* Class = "NSMenuItem"; title = "位置: 影片頂端"; ObjectID = "2196"; */
+"2196.title" = "位置: 影片頂端";
+
+/* Class = "NSMenuItem"; title = "位置: 高於螢幕"; ObjectID = "2197"; */
+"2197.title" = "位置: 高於螢幕";
+
+/* Class = "NSMenuItem"; title = "預設垂直邊距"; ObjectID = "2198"; */
+"2198.title" = "預設垂直邊距";
+
+/* Class = "NSMenuItem"; title = "減少垂直邊距"; ObjectID = "2199"; */
+"2199.title" = "減少垂直邊距";
+
+/* Class = "NSMenuItem"; title = "增加垂直邊距"; ObjectID = "2200"; */
+"2200.title" = "增加垂直邊距";
+
+/* Class = "NSMenuItem"; title = "預設的字形大小"; ObjectID = "2201"; */
+"2201.title" = "預設的字形大小";
+
+/* Class = "NSMenuItem"; title = "較小的字形大小"; ObjectID = "2202"; */
+"2202.title" = "較小的字形大小";
+
+/* Class = "NSMenuItem"; title = "較大的字形大小"; ObjectID = "2203"; */
+"2203.title" = "較大的字形大小";
+
+/* Class = "NSMenu"; title = "重新開啓由編碼器"; ObjectID = "2204"; */
+"2204.title" = "重新開啓由編碼器";
+
+/* Class = "NSMenuItem"; title = "Item"; ObjectID = "2205"; */
+"2205.title" = "Item";
+
+/* Class = "NSMenuItem"; title = "新增字幕檔案…"; ObjectID = "2376"; */
+"2376.title" = "新增字幕檔案…";
+
+/* Class = "NSMenuItem"; title = "更改命令"; ObjectID = "2676"; */
+"2676.title" = "更改命令";
+
+/* Class = "NSMenuItem"; title = "總是在最頂層"; ObjectID = "2687"; */
+"2687.title" = "總是在最頂層";
+
+/* Class = "NSMenuItem"; title = "拷貝"; ObjectID = "2792"; */
+"2792.title" = "拷貝";
+
+/* Class = "NSMenuItem"; title = "位置旋轉"; ObjectID = "2898"; */
+"2898.title" = "位置旋轉";
+
+/* Class = "NSTextFieldCell"; title = "--:--:--"; ObjectID = "2908"; */
+"2908.title" = "--:--:--";
+
+/* Class = "NSTextFieldCell"; title = "--:--:--"; ObjectID = "2909"; */
+"2909.title" = "--:--:--";
+
+/* Class = "NSTextFieldCell"; title = "00:00:00"; ObjectID = "2917"; */
+"2917.title" = "00:00:00";
+
+/* Class = "NSTextFieldCell"; title = "播放面板"; ObjectID = "2918"; */
+"2918.title" = "播放面板";
+
+/* Class = "NSTextFieldCell"; title = "00:00:00"; ObjectID = "2920"; */
+"2920.title" = "00:00:00";
+
+/* Class = "NSTextFieldCell"; title = "色相:"; ObjectID = "2928"; */
+"2928.title" = "色相:";
+
+/* Class = "NSTextFieldCell"; title = "對比:"; ObjectID = "2930"; */
+"2930.title" = "對比:";
+
+/* Class = "NSTextFieldCell"; title = "亮度:"; ObjectID = "2932"; */
+"2932.title" = "亮度:";
+
+/* Class = "NSTextFieldCell"; title = "飽和度:"; ObjectID = "2935"; */
+"2935.title" = "飽和度:";
+
+/* Class = "NSTextFieldCell"; title = "設備:"; ObjectID = "2939"; */
+"2939.title" = "設備:";
+
+/* Class = "NSTextFieldCell"; title = "..."; ObjectID = "2940"; */
+"2940.title" = "...";
+
+/* Class = "NSTextFieldCell"; title = "目前:"; ObjectID = "2941"; */
+"2941.title" = "目前:";
+
+/* Class = "NSTextFieldCell"; title = "..."; ObjectID = "2942"; */
+"2942.title" = "...";
+
+/* Class = "NSTextFieldCell"; title = "同步.:"; ObjectID = "2943"; */
+"2943.title" = "同步.:";
+
+/* Class = "NSTextFieldCell"; title = "字體大小:"; ObjectID = "2944"; */
+"2944.title" = "字體大小:";
+
+/* Class = "NSTextFieldCell"; title = "垂直邊距:"; ObjectID = "2945"; */
+"2945.title" = "垂直邊距:";
+
+/* Class = "NSTextFieldCell"; title = "螢幕:"; ObjectID = "2946"; */
+"2946.title" = "螢幕:";
+
+/* Class = "NSButtonCell"; title = "較小"; ObjectID = "2948"; */
+"2948.title" = "較小";
+
+/* Class = "NSButtonCell"; title = "較大"; ObjectID = "2949"; */
+"2949.title" = "較大";
+
+/* Class = "NSButtonCell"; title = "較小"; ObjectID = "2951"; */
+"2951.title" = "較小";
+
+/* Class = "NSButtonCell"; title = "較大"; ObjectID = "2952"; */
+"2952.title" = "較大";
+
+/* Class = "NSButtonCell"; title = "延後"; ObjectID = "2956"; */
+"2956.title" = "延後";
+
+/* Class = "NSButtonCell"; title = "提早"; ObjectID = "2957"; */
+"2957.title" = "提早";
+
+/* Class = "NSTextFieldCell"; title = "位置:"; ObjectID = "2958"; */
+"2958.title" = "位置:";
+
+/* Class = "NSTextFieldCell"; title = "..."; ObjectID = "2961"; */
+"2961.title" = "...";
+
+/* Class = "NSSegmentedCell"; 2962.ibShadowedLabels[0] = "*"; ObjectID = "2962"; */
+"2962.ibShadowedLabels[0]" = "*";
+
+/* Class = "NSSegmentedCell"; 2962.ibShadowedLabels[1] = "1"; ObjectID = "2962"; */
+"2962.ibShadowedLabels[1]" = "1";
+
+/* Class = "NSSegmentedCell"; 2962.ibShadowedLabels[2] = "2"; ObjectID = "2962"; */
+"2962.ibShadowedLabels[2]" = "2";
+
+/* Class = "NSSegmentedCell"; 2962.ibShadowedLabels[3] = "3"; ObjectID = "2962"; */
+"2962.ibShadowedLabels[3]" = "3";
+
+/* Class = "NSTextFieldCell"; title = "播放速度:"; ObjectID = "2965"; */
+"2965.title" = "播放速度:";
+
+/* Class = "NSTextFieldCell"; title = "½x"; ObjectID = "2966"; */
+"2966.title" = "½x";
+
+/* Class = "NSTextFieldCell"; title = "1x"; ObjectID = "2967"; */
+"2967.title" = "1x";
+
+/* Class = "NSTextFieldCell"; title = "2x"; ObjectID = "2968"; */
+"2968.title" = "2x";
+
+/* Class = "NSTextFieldCell"; title = "3x"; ObjectID = "2969"; */
+"2969.title" = "3x";
+
+/* Class = "NSTextFieldCell"; title = "循環範圍:"; ObjectID = "2970"; */
+"2970.title" = "循環範圍:";
+
+/* Class = "NSButtonCell"; title = "開始"; ObjectID = "2972"; */
+"2972.title" = "開始";
+
+/* Class = "NSButtonCell"; title = "結束"; ObjectID = "2973"; */
+"2973.title" = "結束";
+
+/* Class = "NSTextFieldCell"; title = "--:--:--"; ObjectID = "2974"; */
+"2974.title" = "--:--:--";
+
+/* Class = "NSTextFieldCell"; title = "--:--:--"; ObjectID = "2975"; */
+"2975.title" = "--:--:--";
+
+/* Class = "NSTextFieldCell"; title = "Movie File name"; ObjectID = "2976"; */
+"2976.title" = "Movie File name";
+
+/* Class = "NSTextFieldCell"; title = "Movie:"; ObjectID = "2978"; */
+"2978.title" = "Movie:";
+
+/* Class = "NSTextFieldCell"; title = "xx.xx / xx.xx"; ObjectID = "2979"; */
+"2979.title" = "xx.xx / xx.xx";
+
+/* Class = "NSTextFieldCell"; title = "FPS:"; ObjectID = "2980"; */
+"2980.title" = "FPS:";
+
+/* Class = "NSTextFieldCell"; title = "xxx.xx MB, xxxx.xx kbps"; ObjectID = "2981"; */
+"2981.title" = "xxx.xx MB, xxxx.xx kbps";
+
+/* Class = "NSTextFieldCell"; title = "Data:"; ObjectID = "2982"; */
+"2982.title" = "Data:";
+
+/* Class = "NSTextFieldCell"; title = "控制面板"; ObjectID = "2983"; */
+"2983.title" = "控制面板";
+
+/* Class = "NSSegmentedCell"; 2985.ibShadowedLabels[0] = "A/V 控制"; ObjectID = "2985"; */
+"2985.ibShadowedLabels[0]" = "A/V 控制";
+
+/* Class = "NSSegmentedCell"; 2985.ibShadowedLabels[1] = "屬性"; ObjectID = "2985"; */
+"2985.ibShadowedLabels[1]" = "屬性";
