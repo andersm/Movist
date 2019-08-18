@@ -85,14 +85,9 @@
     //TRACE(@"%s %@", __PRETTY_FUNCTION__, window);
     [self updateUI];
 
-    [NSApp beginSheet:[self window] modalForWindow:window modalDelegate:self
-       didEndSelector:@selector(didEndSheet:returnCode:contextInfo:) contextInfo:nil];
-}
-
-- (void)didEndSheet:(NSWindow*)sheet
-         returnCode:(int)returnCode contextInfo:(void*)contextInfo
-{
-    //TRACE(@"%s %@ (ret=%d)", __PRETTY_FUNCTION__, sheet, returnCode);
+    [window beginSheet:self.window completionHandler:^(NSModalResponse returnCode){
+        //TRACE(@"%s (ret=%d)", __PRETTY_FUNCTION__, returnCode);
+    }];
 }
 
 ////////////////////////////////////////////////////////////////////////////////
